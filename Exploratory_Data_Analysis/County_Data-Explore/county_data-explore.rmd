@@ -1,0 +1,111 @@
+## Analyzing US County's by Race, Age, and Gender
+
+## Load Libraries
+```{r}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+```
+
+## Import File
+```{r}
+county_statistics <- read.csv('County_Statistics.csv', 
+                              header = T, 
+                              row.names = 1, 
+                              check.names = F)
+
+names(county_statistics)
+```
+
+## Age By State
+```{r}
+library(dplyr)
+statistics_by_state <- group_by(county_statistics, State)
+age_mp_by_state <- summarise(statistics_by_state, 
+                                    mean_age = mean(Median_Age))
+
+ggplot(data = age_mp_by_state,
+       aes(x = State, y = mean_age)) +
+  geom_bar(stat="identity")
+ggsave('age_by_state.png')
+```
+
+## Gender % By State
+```{r}
+names(statistics_by_state)
+ratio_mp_by_state <- summarise(statistics_by_state, 
+                                    mean_perc_female = mean(Perc_Female))
+
+ggplot(data = ratio_mp_by_state,
+       aes(x = State, y = mean_perc_female)) +
+  geom_bar(stat="identity")
+ggsave('gender_by_state.png')
+```
+
+## Gender And Race
+```{r}
+library(gridExtra)
+
+gender_asian_plot <- ggplot(data = county_statistics, aes(x = Perc_Asian, y = Perc_Female)) +
+  geom_point(alpha = 1/20,
+             color = 'orange') +
+  geom_smooth(method = 'lm', color = 'red')
+
+gender_black_plot <- ggplot(data = county_statistics, aes(x = Perc_Black, y = Perc_Female)) +
+  geom_point(alpha = 1/20,
+             color = 'black') +
+  geom_smooth(method = 'lm', color = 'red')
+
+gender_hispanic_plot <- ggplot(data = county_statistics, aes(x = Perc_Hispanic, y = Perc_Female)) +
+  geom_point(alpha = 1/20,
+             color = 'brown') +
+  geom_smooth(method = 'lm', color = 'red')
+
+gender_white_plot <- ggplot(data = county_statistics, aes(x = Perc_White, y = Perc_Female)) +
+  geom_point(alpha = 1/20,
+             color = 'Purple') +
+  geom_smooth(method = 'lm', color = 'red')
+
+grid.arrange(gender_asian_plot, gender_black_plot, gender_hispanic_plot, gender_white_plot, ncol = 1)
+ggsave('gender_and_race.png')
+```
+
+## Histograms: Median_Age Per County Grouped By Ethnicity
+```{r}
+county_statistics$Perc_Black_Bucket <- cut(county_statistics$Perc_Black,
+                                   c(0,.2, .4, .6, .8, 1))
+ggplot(data = county_statistics,
+       aes(x = Median_Age)) +
+  geom_histogram(alpha = .5,
+                 binwidth = 1,
+    aes(fill = Perc_Black_Bucket)) +
+  scale_fill_brewer(palette = "Spectral")
+
+county_statistics$Perc_White_Bucket <- cut(county_statistics$Perc_White,
+                                   c(0,.2, .4, .6, .8, 1))
+ggplot(data = county_statistics,
+       aes(x = Median_Age)) +
+  geom_histogram(alpha = .5,
+                 binwidth = 1,
+    aes(fill = Perc_White_Bucket)) +
+  scale_fill_brewer(palette = "Spectral")
+
+county_statistics$Perc_Hispanic_Bucket <- cut(county_statistics$Perc_Hispanic,
+                                   c(0,.2, .4, .6, .8, 1))
+ggplot(data = county_statistics,
+       aes(x = Median_Age)) +
+  geom_histogram(alpha = .5,
+                 binwidth = 1,
+    aes(fill = Perc_Hispanic_Bucket)) +
+  scale_fill_brewer(palette = "Spectral")
+
+county_statistics$Perc_Asian_Bucket <- cut(county_statistics$Perc_Asian,
+                                   c(0,.2, .4, .6, .8, 1))
+ggplot(data = county_statistics,
+       aes(x = Median_Age)) +
+  geom_histogram(alpha = .5,
+                 binwidth = 1,
+    aes(fill = Perc_Asian_Bucket)) +
+  scale_fill_brewer(palette = "Spectral")
+
+```

@@ -1,0 +1,32 @@
+## Quiz: Gapminder Data
+```{r}
+age_of_marriage <- read.csv('Age_of_Marriage.csv', header = T, row.names = 1, check.names = F)
+
+library(ggplot2)
+```
+
+## Summary
+```{r}
+summary(age_of_marriage)
+```
+
+## Histogram
+```{r}
+ggplot(data = age_of_marriage, aes(x = Age)) +
+  geom_histogram(binwidth = .5) +
+  scale_x_continuous(limits = c(17, 33), breaks = seq(15, 35, 5)) +
+  xlab('Age of First Marriage') +
+  ylab('Number of Countries')
+ggsave('ageHistogram.png')
+```
+
+## Frequency Plot
+```{r}
+ggplot(data = age_of_marriage, aes(x = Age)) +
+  geom_freqpoly(binwidth = .1) +
+  scale_x_continuous(limits = c(17, 33), breaks = seq(15, 35, 5)) +
+  xlab('Age of First Marriage') +
+  ylab('Number of Countries')
+ggsave('ageFrequency.png')
+```
+

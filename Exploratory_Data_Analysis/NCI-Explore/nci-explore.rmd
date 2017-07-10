@@ -1,0 +1,34 @@
+---
+title: "NCI-Explore"
+author: "Paul Foley"
+date: "7/10/2017"
+output: html_document
+---
+
+## Load Libraries
+```{r}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(GGally)
+library(reshape2)
+```
+
+## Load NCI Table
+```{r}
+nci <- read.table('nci.tsv')
+colnames(nci) <- c(1:64)
+```
+
+## Create a Heat Map!
+```{r}
+nci.long.samp <- melt(as.matrix(nci[1:200, ]))
+names(nci.long.samp) <- c('gene', 'case', 'value')
+head(nci.long.samp)
+
+ggplot(data = nci.long.samp, 
+       aes(y = gene, x = case, fill = value)) +
+  geom_tile() +
+  scale_fill_gradientn(colors = colorRampPalette(c('blue','red'))(100))
+```
+

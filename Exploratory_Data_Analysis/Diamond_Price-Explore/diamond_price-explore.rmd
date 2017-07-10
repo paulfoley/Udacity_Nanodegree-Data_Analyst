@@ -1,0 +1,248 @@
+## Quiz: Diamonds
+```{r}
+library(ggplot2)
+library(dplyr)
+library(gridExtra)
+```
+
+## Load Diamonds Data Set
+```{r}
+data(diamonds)
+summary(diamonds)
+?diamonds
+```
+
+## Quiz: Price Histogram
+```{r}
+ggplot(data = diamonds, aes(x = price)) +
+  geom_histogram(binwidth = 100) +
+  scale_x_continuous(limits = c(0, 20000), breaks = seq(0, 20000, 1000)) +
+  xlab('Price') +
+  ylab('Number of Diamonds')
+```
+
+## Quiz: Price Histogram Summary
+```{r}
+summary(diamonds$price)
+```
+
+# Quiz: Diamond Counts
+```{r}
+summary(diamonds$price < 500)
+summary(diamonds$price < 250)
+summary(diamonds$price >= 15000)
+```
+
+# Quiz: Cheaper Diamonds
+```{r}
+ggplot(data = diamonds, aes(x = price)) +
+  geom_histogram(binwidth = 10) +
+  scale_x_continuous(limits = c(0, 2000), breaks = seq(0, 2000, 200)) +
+  xlab('Price') +
+  ylab('Number of Diamonds')
+```
+
+## Quiz: Price by Cut Histograms
+```{r}
+ggplot(data = diamonds, aes(x = price)) +
+  geom_histogram(binwidth = 100) +
+  scale_x_continuous(limits = c(0, 20000), breaks = seq(0, 20000, 2000)) +
+  facet_wrap(~cut) +
+  xlab('Price') +
+  ylab('Number of Diamonds')
+```
+
+## Quiz: Price by Cut
+```{r}
+by(diamonds$price, diamonds$cut, summary)
+```
+
+## Quiz: Scales and Multiple Histograms
+```{r}
+ggplot(data = diamonds, aes(x = price)) +
+  geom_histogram(binwidth = 100) +
+  scale_x_continuous(limits = c(0, 20000), breaks = seq(0, 20000, 2000)) +
+  facet_wrap(~cut, scales='free_y') +
+  xlab('Price') +
+  ylab('Number of Diamonds')
+```
+
+## Quiz: Price per Carat by Cut
+```{r}
+ggplot(data = diamonds, aes(x = price/carat)) +
+  geom_histogram() +
+  scale_x_log10() +
+  facet_wrap(~cut, scales='free_y') +
+  xlab('Price Per Carat') +
+  ylab('Number of Diamonds')
+
+summary(diamonds$price/diamonds$carat)
+```
+
+## Quiz Price Box Plots
+```{r}
+ggplot(data = diamonds, aes(x = cut, y = price)) +
+  geom_boxplot() +
+  coord_cartesian(ylim = c(0, 10000))
+
+by(diamonds$price, diamonds$cut, summary)
+```
+
+## Quiz: Interquartile Range - IQR
+```{r}
+ggplot(data = diamonds, aes(x = color, y = price)) +
+  geom_boxplot() +
+  coord_cartesian(ylim = c(0, 10000))
+
+by(diamonds$price, diamonds$color, summary)
+```
+
+## Quiz: Price Per Carat Box Plots
+```{r}
+ggplot(data = diamonds, aes(x = color, y = price/carat)) +
+  geom_boxplot() +
+  coord_cartesian(ylim = c(0, 7500))
+```
+
+## Quiz: Carat Frequency Polygon
+```{r}
+ggplot(data = diamonds, aes(x = carat)) +
+  geom_freqpoly(binwidth = .01) +
+  scale_x_continuous(limits = c(0, 3), breaks = seq(0, 3, 1)) +
+  xlab('Weight') +
+  ylab('Number of Diamonds')
+```
+
+## Quiz: price vs. x
+```{r Scatterplot Review}
+ggplot(data = diamonds, aes(x = x, y = price)) +
+  geom_point(alpha = 1/20,
+             color = 'blue')+
+  xlim(3,10)
+```
+
+## Quiz: Correlations
+```{r}
+with(diamonds, cor.test(price, x, method = 'pearson'))
+with(diamonds, cor.test(price, y, method = 'pearson'))
+with(diamonds, cor.test(price, z, method = 'pearson'))
+```
+
+## Quiz: Price Vs. Depth
+```{r}
+ggplot(data = diamonds, aes(x = depth, y = price)) +
+  geom_point(alpha = 1/100,
+             color = 'purple') +
+  scale_x_continuous(breaks = seq(58, 64, 2))
+```
+
+## Quiz: Correlation - Price and Depth
+```{r}
+with(diamonds, cor.test(price, depth, method = 'pearson'))
+```
+
+## Quiz: Price and Carat Relationship
+```{r}
+ggplot(data = diamonds, aes(x = carat, y = price)) +
+  geom_point(alpha = 1/20, color = 'yellow') +
+  xlim(0, quantile(diamonds$carat, 0.99)) +
+  ylim(0, quantile(diamonds$price, 0.99)) +
+  geom_smooth(method = 'lm', color = 'red')
+```
+
+## Quiz: Price Vs. Volume
+```{r}
+diamonds$volume <- diamonds$x * diamonds$y + diamonds$z
+
+ggplot(data = diamonds, aes(x = volume, y = price)) +
+  geom_point(alpha = 1/20, color = 'orange') +
+  xlim(0, quantile(diamonds$volume, 0.99)) +
+  ylim(0, quantile(diamonds$price, 0.99)) +
+  geom_smooth(method = 'lm', color = 'red')
+
+volume_df <- subset(diamonds, volume > 0 & volume < 800)
+cor.test(volume_df$price, volume_df$volume, method = "pearson")
+
+ggplot(data = volume_df, aes(x = volume, y = price)) +
+  geom_point(alpha = 1/20, color = 'pink') +
+  xlim(0, quantile(volume_df$volume, 0.99)) +
+  ylim(0, quantile(volume_df$price, 0.9)) +
+  geom_smooth(method = 'lm', color = 'red')
+```
+
+## Quiz: Mean Price By Clarity
+```{r}
+library(dplyr)
+
+diamondsByClarity <- diamonds %>%
+  group_by(clarity) %>%
+  summarise(mean_price = mean(price),
+            median_price = median(price),
+            min_price = min(price),
+            max_price = max(price),
+            n = n()) %>%
+  arrange(clarity)
+```
+
+## Quiz: Bar Charts of Mean Price
+```{r}
+diamonds_by_clarity <- group_by(diamonds, clarity)
+diamonds_mp_by_clarity <- summarise(diamonds_by_clarity, 
+                                    mean_price = mean(price))
+
+diamonds_by_color <- group_by(diamonds, color)
+diamonds_mp_by_color <- summarise(diamonds_by_color,
+                                 mean_price = mean(price))
+
+diamond_clarity_plot <- ggplot(data = diamonds_mp_by_clarity, 
+                               aes(x = clarity, y = mean_price)) +
+  geom_bar(stat="identity")
+
+diamond_color_plot <- ggplot(data = diamonds_mp_by_color,
+                             aes(x = color, y = mean_price)) +
+  geom_bar(stat="identity")
+
+grid.arrange(diamond_clarity_plot, diamond_color_plot)
+```
+
+
+## Price Histograms with Facet and Color
+```{r}
+ggplot(data = diamonds,
+       aes(x = price)) +
+  geom_histogram(aes(fill = cut)) +
+  facet_wrap(~color) +
+  scale_fill_brewer(palette = "Spectral") +
+  scale_x_log10()
+```
+
+## Price vs. Table Colored by Cut
+```{r}
+ggplot(data = diamonds,
+       aes(x = table, y = price)) +
+  geom_point(aes(color = cut)) +
+  scale_color_brewer(type = 'qual') +
+  xlim(50, 80)
+```
+
+## Price vs. Volume and Diamond Clarity
+```{r}
+diamonds$volume <- diamonds$x * diamonds$y * diamonds$z
+ggplot(data = diamonds,
+       aes(x = volume, y = price)) +
+  geom_point(aes(color = clarity)) +
+  scale_color_brewer(type = 'div') +
+  xlim(0, quantile(diamonds$volume, 0.99))
+  scale_y_log10()
+```
+
+## Price/Carat Binned, Faceted, & Colored
+```{r}
+diamonds$price_per_carat <- diamonds$price / diamonds$carat
+ggplot(data = diamonds,
+       aes(x = cut, y = price_per_carat)) +
+  geom_jitter(alpha = .5,
+              aes(color = color)) +
+  facet_wrap(~clarity)
+  scale_color_brewer(type = 'div')
+```

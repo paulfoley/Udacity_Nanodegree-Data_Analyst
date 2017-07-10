@@ -1,0 +1,54 @@
+## Load Libraries
+```{r}
+library(ggplot2)
+```
+
+## Load Friends Birthdays CSV File
+```{r}
+birthdays <- read.csv('Friends_Birthdays.csv',
+                      header = T, 
+                      row.names = 1, 
+                      check.names = T)
+```
+
+## How many people share your birthday?
+```{r}
+birthdays$Birthdate <- strptime(birthdays$Birthdate,
+                                format = "%m/%d/%y")
+row.names(birthdays)[birthdays$Birthdate == '2018-02-18']
+subset(birthdays, Birthdate == '2018-02-18')
+```
+
+## Which month contains the most number of birthdays?
+```{r}
+birthdays$month <- as.numeric(format(birthdays$Birthdate,"%m"))
+ggplot(data = birthdays, aes(x = month)) +
+  geom_histogram(binwidth = 1) +
+  scale_x_continuous(limits = c(0, 13), breaks = seq(0, 13, 1)) +
+  xlab('Month') +
+  ylab('Number of Friends')
+ggsave('BirthdayMonthHistogram.png')
+```
+
+# Which day of the year has the most number of birthdays?
+```{r}
+birthdays$day <- as.numeric(format(birthdays$Birthdate,"%d"))
+ggplot(data = birthdays, aes(x = day)) +
+  geom_histogram(binwidth = 1) +
+  scale_x_continuous(limits = c(0, 32), breaks = seq(0, 32, 1)) +
+  xlab('Day') +
+  ylab('Number of Friends')
+ggsave('BirthdayDayHistogram.png')
+```
+
+## Do you have at least 365 friends that have birthdays on everyday of the year?
+```{r}
+ggplot(data = birthdays, aes(x = day)) +
+  geom_histogram(binwidth = 1) +
+  scale_x_continuous(limits = c(0, 32), breaks = seq(0, 32, 1)) +
+  facet_wrap(~month) +
+  xlab('Day') +
+  ylab('Number of Friends')
+ggsave('BirthdayDayByMonthHistogram.png')
+```
+
