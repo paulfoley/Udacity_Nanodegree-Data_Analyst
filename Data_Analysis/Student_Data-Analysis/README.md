@@ -2,7 +2,15 @@
 
 In this project we'll look at Udacity student data and derive insights on what makes a student stick with a course verse not completing a course.
 
-## Data Files:
+## Files:
+
+### Student_Data-Analysis.ipynb
+
+iPython Notebook that contins the analysis on the data. 
+
+To open a python notebook navigate to this folder on your Desktop and type "jupyter notebook" to open the notebook. 
+
+Note: You must have jupyter installed for the above to work.
 
 ### enrollments.csv
 
