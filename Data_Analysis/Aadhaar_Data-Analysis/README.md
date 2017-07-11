@@ -8,3 +8,7 @@ In this project we'll use pandas and pandasql to analyze the data set with the f
 * Select State - A function that will allow us to query by state
 * Select District - A function that will allow us to query by district
 * Select Gender - A function that will allow us to query by gender
+
+## Important Files:
+* aadhaar-analysis.py - Main script to run the functions
+* aadhaar_data.csv - CSV file with aadhaar data
