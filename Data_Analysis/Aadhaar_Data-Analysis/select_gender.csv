@@ -1,0 +1,529 @@
+,gender,district,sum(aadhaar_generated)
+0,F,Ahmadnagar,45
+1,F,Ahmed Nagar,0
+2,F,Ahmedabad,1
+3,F,Ajmer,27
+4,F,Akola,5
+5,F,Alirajpur,71
+6,F,Allahabad,15
+7,F,Alwar,14
+8,F,Ambala,7
+9,F,Amravati,0
+10,F,Amritsar,30
+11,F,Anuppur,101
+12,F,Ashok Nagar,1
+13,F,Aurangabad,19
+14,F,Balaghat,287
+15,F,Bangalore,433
+16,F,Bangalore Rural,9
+17,F,Banka,0
+18,F,Banswara,28
+19,F,Baran,5
+20,F,Barwani,34
+21,F,Bathinda,43
+22,F,Beed,25
+23,F,Belgaum,59
+24,F,Bellary,65
+25,F,Betul,41
+26,F,Bhagalpur,0
+27,F,Bhandara,4
+28,F,Bharatpur,94
+29,F,Bhilwara,50
+30,F,Bhind,91
+31,F,Bhiwani,54
+32,F,Bhopal,15
+33,F,Bidar,30
+34,F,Bijapur,1
+35,F,Bikaner,5
+36,F,Bokaro,12
+37,F,Buldhana,95
+38,F,Bundi,2
+39,F,Burhanpur,29
+40,F,Central Delhi,5
+41,F,Chamrajanagar,6
+42,F,Chandigarh,1
+43,F,Chatra,114
+44,F,Chennai,2
+45,F,Chhatarpur,153
+46,F,Chhindwara,126
+47,F,Chickmagalur,1
+48,F,Chikkaballapur,1
+49,F,Chitradurga,68
+50,F,Chittorgarh,5
+51,F,Cuddalore,2
+52,F,Dakshina Kannada,2
+53,F,Damoh,280
+54,F,Datia,18
+55,F,Dausa,3
+56,F,Deoghar,31
+57,F,Dewas,14
+58,F,Dhalai,20
+59,F,Dhanbad,37
+60,F,Dhar,316
+61,F,Dharwad,1
+62,F,Dholpur,9
+63,F,Dhule,41
+64,F,Dindori,22
+65,F,Dumka,23
+66,F,Dungarpur,6
+67,F,East Godavari,1
+68,F,East Singhbhum,45
+69,F,Ernakulam,1
+70,F,Faridabad,4
+71,F,Fatehabad,19
+72,F,Fazilka,11
+73,F,Ferozepur,41
+74,F,Gadchiroli,28
+75,F,Ganganagar,40
+76,F,Garhwa,5
+77,F,Gaya,1
+78,F,Ghaziabad,6
+79,F,Ghazipur,1
+80,F,Giridih,4
+81,F,Godda,145
+82,F,Gonda,1
+83,F,Gondiya,2
+84,F,Gulbarga,1
+85,F,Gumla,18
+86,F,Guna,74
+87,F,Gurdaspur,59
+88,F,Gurgaon,23
+89,F,Gwalior,60
+90,F,Hamirpur,1
+91,F,Hanumangarh,9
+92,F,Harda,1
+93,F,Hassan,23
+94,F,Haveri,51
+95,F,Hazaribagh,10
+96,F,Hingoli,4
+97,F,Hisar,231
+98,F,Hooghly,4
+99,F,Hoshangabad,0
+100,F,Hoshiarpur,119
+101,F,Hyderabad,13
+102,F,Indore,136
+103,F,Jabalpur,11
+104,F,Jaipur,56
+105,F,Jaisalmer,1
+106,F,Jalandhar,9
+107,F,Jalaun,2
+108,F,Jalgaon,83
+109,F,Jalna,35
+110,F,Jamtara,19
+111,F,Jamui,2
+112,F,Jhabua,93
+113,F,Jhajjar,170
+114,F,Jhalawar,3
+115,F,Jhunjhunun,8
+116,F,Jind,58
+117,F,Jodhpur,1
+118,F,K.v. Rangareddy,5
+119,F,Kaithal,4
+120,F,Kancheepuram,1
+121,F,Kangra,0
+122,F,Kanniyakumari,2
+123,F,Kapurthala,10
+124,F,Karaikal,1
+125,F,Karauli,20
+126,F,Karnal,75
+127,F,Katihar,1
+128,F,Katni,22
+129,F,Kaushambi,1
+130,F,Kendujhar,2
+131,F,Khandwa,13
+132,F,Khargone,259
+133,F,Khowai,2
+134,F,Khunti,9
+135,F,Koderma,133
+136,F,Kolar,93
+137,F,Kolhapur,79
+138,F,Kolkata,1
+139,F,Koppal,10
+140,F,Kota,15
+141,F,Krishnagiri,1
+142,F,Kurukshetra,37
+143,F,Latehar,23
+144,F,Latur,22
+145,F,Lohardaga,49
+146,F,Ludhiana,36
+147,F,Madhubani,2
+148,F,Mahendragarh,87
+149,F,Mandla,41
+150,F,Mandsaur,5
+151,F,Mandya,4
+152,F,Mansa,71
+153,F,Moga,29
+154,F,Morena,89
+155,F,Mumbai,62
+156,F,Muzaffarpur,1
+157,F,Nagaur,0
+158,F,Nagpur,6
+159,F,Nalgonda,9
+160,F,Nanded,9
+161,F,Nandurbar,0
+162,F,Narsinghpur,31
+163,F,Nashik,104
+164,F,Nawada,1
+165,F,New Delhi,1
+166,F,North Delhi,2
+167,F,North East Delhi,1
+168,F,North Tripura,4
+169,F,North West Delhi,12
+170,F,Osmanabad,5
+171,F,Others,4
+172,F,Pakur,223
+173,F,Palamu,7
+174,F,Pali,1
+175,F,Panchkula,1
+176,F,Panipat,222
+177,F,Panna,178
+178,F,Parbhani,2
+179,F,Pathankot,13
+180,F,Patna,1
+181,F,Puducherry,0
+182,F,Pune,108
+183,F,Raichur,11
+184,F,Raigarh,13
+185,F,Raisen,59
+186,F,Rajsamand,22
+187,F,Ramanagar,66
+188,F,Ramgarh,10
+189,F,Ranchi,47
+190,F,Ratlam,20
+191,F,Ratnagiri,1
+192,F,Rewa,437
+193,F,Rewari,16
+194,F,Rohtak,67
+195,F,SAS Nagar (Mohali),10
+196,F,Sagar,220
+197,F,Sahebganj,114
+198,F,Salem,1
+199,F,Sangli,398
+200,F,Sangrur,34
+201,F,Satara,121
+202,F,Satna,244
+203,F,Sawai Madhopur,11
+204,F,Sehore,23
+205,F,Seoni,12
+206,F,Seraikela-Kharsawan,45
+207,F,Shahdol,155
+208,F,Shaheed Bhagat Singh Nagar,19
+209,F,Shajapur,5
+210,F,Sheikhpura,1
+211,F,Sheopur,4
+212,F,Shimoga,83
+213,F,Shivpuri,26
+214,F,Sidhi,105
+215,F,Sikar,45
+216,F,Simdega,3
+217,F,Sindhudurg,1
+218,F,Singrauli,93
+219,F,Sirsa,165
+220,F,Solapur,45
+221,F,Sonbhadra,1
+222,F,Sonipat,13
+223,F,South Delhi,6
+224,F,South West Delhi,6
+225,F,Sri Muktsar Sahib,28
+226,F,Sundergarh,1
+227,F,Tarn Taran,106
+228,F,Tehri Garhwal,1
+229,F,Thane,92
+230,F,Tikamgarh,49
+231,F,Tiruvallur,1
+232,F,Tonk,10
+233,F,Tumkur,2
+234,F,Udaipur,3
+235,F,Ujjain,63
+236,F,Umaria,83
+237,F,Unakoti,1
+238,F,Vidisha,43
+239,F,Viluppuram,6
+240,F,Wardha,1
+241,F,Washim,22
+242,F,West Delhi,4
+243,F,West Singhbhum,221
+244,F,West Tripura,15
+245,F,Yadgir,3
+246,F,Yamuna Nagar,130
+247,F,Yavatmal,38
+248,M,Ahmadnagar,63
+249,M,Ahmed Nagar,0
+250,M,Ajmer,60
+251,M,Akola,5
+252,M,Alirajpur,100
+253,M,Allahabad,17
+254,M,Almora,1
+255,M,Alwar,22
+256,M,Ambala,8
+257,M,Ambedkar Nagar,2
+258,M,Amravati,1
+259,M,Amritsar,26
+260,M,Anuppur,167
+261,M,Ashok Nagar,4
+262,M,Auraiya,1
+263,M,Aurangabad,41
+264,M,Bagalkot,1
+265,M,Balaghat,368
+266,M,Ballia,1
+267,M,Balrampur,1
+268,M,Bangalore,510
+269,M,Bangalore Rural,7
+270,M,Banka,3
+271,M,Banswara,113
+272,M,Baran,5
+273,M,Barddhaman,2
+274,M,Bargarh,1
+275,M,Barwani,47
+276,M,Basti,1
+277,M,Bathinda,51
+278,M,Beed,37
+279,M,Belgaum,55
+280,M,Bellary,50
+281,M,Betul,88
+282,M,Bhadrak,1
+283,M,Bhagalpur,1
+284,M,Bhandara,3
+285,M,Bharatpur,115
+286,M,Bharuch,1
+287,M,Bhilwara,192
+288,M,Bhind,181
+289,M,Bhiwani,59
+290,M,Bhojpur,1
+291,M,Bhopal,31
+292,M,Bidar,20
+293,M,Bikaner,5
+294,M,Bokaro,33
+295,M,Bongaigaon,1
+296,M,Budaun,1
+297,M,Buldhana,100
+298,M,Bundi,4
+299,M,Burhanpur,27
+300,M,Central Delhi,3
+301,M,Chamrajanagar,8
+302,M,Chandigarh,4
+303,M,Chatra,170
+304,M,Chennai,1
+305,M,Chhatarpur,416
+306,M,Chhindwara,169
+307,M,Chickmagalur,20
+308,M,Chitradurga,62
+309,M,Chittorgarh,17
+310,M,Churu,1
+311,M,Cuddalore,4
+312,M,Dakshina Kannada,12
+313,M,Damoh,273
+314,M,Darbhanga,2
+315,M,Datia,40
+316,M,Dausa,22
+317,M,Davangere,2
+318,M,Deoghar,15
+319,M,Dewas,11
+320,M,Dhalai,17
+321,M,Dhanbad,68
+322,M,Dhar,342
+323,M,Dharmapuri,1
+324,M,Dharwad,1
+325,M,Dholpur,32
+326,M,Dhule,56
+327,M,Dindori,58
+328,M,Dumka,31
+329,M,Dungarpur,158
+330,M,East Champaran,2
+331,M,East Delhi,1
+332,M,East Godavari,1
+333,M,East Singhbhum,24
+334,M,Faridabad,1
+335,M,Faridkot,3
+336,M,Fatehabad,22
+337,M,Fazilka,6
+338,M,Ferozepur,19
+339,M,Gadchiroli,32
+340,M,Ganganagar,58
+341,M,Garhwa,11
+342,M,Gautam Buddha Nagar,3
+343,M,Ghaziabad,9
+344,M,Giridih,5
+345,M,Godda,162
+346,M,Gomati,1
+347,M,Gopalganj,1
+348,M,Gorakhpur,1
+349,M,Gulbarga,13
+350,M,Gumla,30
+351,M,Guna,193
+352,M,Gurdaspur,75
+353,M,Gurgaon,23
+354,M,Gwalior,76
+355,M,Hamirpur,1
+356,M,Hanumangarh,6
+357,M,Harda,6
+358,M,Hassan,22
+359,M,Haveri,31
+360,M,Hazaribagh,15
+361,M,Hingoli,2
+362,M,Hisar,246
+363,M,Hoshangabad,0
+364,M,Hoshiarpur,136
+365,M,Howrah,1
+366,M,Hyderabad,18
+367,M,Indore,175
+368,M,Jabalpur,29
+369,M,Jaipur,191
+370,M,Jaisalmer,0
+371,M,Jajapur,1
+372,M,Jalandhar,8
+373,M,Jalaun,1
+374,M,Jalgaon,86
+375,M,Jalna,44
+376,M,Jamtara,16
+377,M,Jamui,3
+378,M,Jaunpur,1
+379,M,Jhabua,137
+380,M,Jhajjar,182
+381,M,Jhalawar,32
+382,M,Jhansi,3
+383,M,Jhunjhunun,14
+384,M,Jind,75
+385,M,Jodhpur,5
+386,M,K.v. Rangareddy,8
+387,M,Kaithal,1
+388,M,Kangra,6
+389,M,Kannauj,1
+390,M,Kanniyakumari,1
+391,M,Kanpur Nagar,1
+392,M,Kapurthala,9
+393,M,Karaikal,1
+394,M,Karauli,48
+395,M,Karnal,76
+396,M,Katni,53
+397,M,Kendujhar,1
+398,M,Khandwa,12
+399,M,Khargone,274
+400,M,Khowai,3
+401,M,Khunti,10
+402,M,Koderma,111
+403,M,Kolar,72
+404,M,Kolhapur,69
+405,M,Koppal,14
+406,M,Korba,1
+407,M,Koriya,1
+408,M,Kota,29
+409,M,Kurukshetra,46
+410,M,Latehar,37
+411,M,Latur,46
+412,M,Lohardaga,52
+413,M,Ludhiana,52
+414,M,Madhubani,1
+415,M,Mahabubnagar,0
+416,M,Mahendragarh,93
+417,M,Mahoba,3
+418,M,Mandla,88
+419,M,Mandsaur,5
+420,M,Mandya,4
+421,M,Mansa,64
+422,M,Mau,1
+423,M,Meerut,3
+424,M,Moga,33
+425,M,Morena,157
+426,M,Mumbai,74
+427,M,Muzaffarpur,1
+428,M,Nadia,4
+429,M,Nagaur,25
+430,M,Nagpur,13
+431,M,Nalanda,1
+432,M,Nalgonda,5
+433,M,Namakkal,1
+434,M,Nanded,18
+435,M,Nandurbar,1
+436,M,Narsinghpur,88
+437,M,Nashik,129
+438,M,Nawada,0
+439,M,Neemuch,1
+440,M,North 24 Parganas,2
+441,M,North Delhi,0
+442,M,North East Delhi,2
+443,M,North Tripura,6
+444,M,North West Delhi,12
+445,M,Osmanabad,41
+446,M,Others,2
+447,M,Pakur,164
+448,M,Palamu,21
+449,M,Pali,3
+450,M,Palwal,0
+451,M,Panipat,231
+452,M,Panna,283
+453,M,Parbhani,3
+454,M,Pathankot,28
+455,M,Patna,3
+456,M,Pratapgarh,7
+457,M,Pune,102
+458,M,Puruliya,3
+459,M,Raichur,8
+460,M,Raigarh,34
+461,M,Raisen,74
+462,M,Rajgarh,0
+463,M,Rajsamand,22
+464,M,Ramanagar,80
+465,M,Ramgarh,20
+466,M,Ranchi,80
+467,M,Ratlam,22
+468,M,Ratnagiri,1
+469,M,Rewa,498
+470,M,Rewari,18
+471,M,Rohtak,75
+472,M,SAS Nagar (Mohali),9
+473,M,Sagar,329
+474,M,Saharsa,1
+475,M,Sahebganj,59
+476,M,Samastipur,0
+477,M,Sangli,569
+478,M,Sangrur,45
+479,M,Satara,110
+480,M,Satna,392
+481,M,Sawai Madhopur,26
+482,M,Sehore,53
+483,M,Seoni,19
+484,M,Sepahijala,1
+485,M,Seraikela-Kharsawan,34
+486,M,Shahdol,258
+487,M,Shaheed Bhagat Singh Nagar,20
+488,M,Shajapur,5
+489,M,Sheopur,45
+490,M,Shimoga,147
+491,M,Shivpuri,53
+492,M,Shrawasti,1
+493,M,Siddharthnagar,1
+494,M,Sidhi,216
+495,M,Sikar,57
+496,M,Simdega,8
+497,M,Singrauli,154
+498,M,Sirsa,158
+499,M,Solapur,80
+500,M,Sonbhadra,7
+501,M,Sonipat,14
+502,M,South Delhi,5
+503,M,South Tripura,0
+504,M,South West Delhi,4
+505,M,Sri Muktsar Sahib,21
+506,M,Tarn Taran,125
+507,M,Thane,144
+508,M,Tikamgarh,265
+509,M,Tiruvannamalai,1
+510,M,Tonk,49
+511,M,Tumkur,1
+512,M,Udaipur,16
+513,M,Ujjain,66
+514,M,Umaria,137
+515,M,Una,3
+516,M,Valsad,2
+517,M,Vellore,0
+518,M,Vidisha,84
+519,M,Viluppuram,18
+520,M,Wardha,1
+521,M,Washim,33
+522,M,West Delhi,3
+523,M,West Singhbhum,227
+524,M,West Tripura,24
+525,M,Yadgir,12
+526,M,Yamuna Nagar,149
+527,M,Yavatmal,54
