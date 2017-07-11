@@ -1,4 +1,10 @@
-enrollments.csv:
+# Data Analysis - Udacity Student Data
+
+In this project we'll look at Udacity student data and derive insights on what makes a student stick with a course verse not completing a course.
+
+## Data Files:
+
+### enrollments.csv
 
 Data about a random subset of Data Analyst Nanodegree students who complete
 their first project and a random subset of students who do not.
@@ -27,7 +33,7 @@ Columns:
 
 -------------------------------------------------------------------------------
 
-daily_engagement.csv:
+### daily_engagement.csv:
 
 Data about engagement within Data Analyst Nanodegree courses for each student in
 the enrollment table on each day they were enrolled. Includes a record even if
@@ -57,7 +63,7 @@ Columns:
 
 -------------------------------------------------------------------------------
 
-project_submissions.csv:
+### project_submissions.csv:
 
 Data about submissions for Data Analyst Nanodegree projects for each student in
 the enrollment table.
@@ -86,7 +92,7 @@ Columns:
 
 -------------------------------------------------------------------------------
 
-daily_engagement_full.csv:
+### daily_engagement_full.csv:
 
 Similar to daily_engagement.csv, but with engagement further broken down by
 course and with more columns available. This file is about 500 megabytes, which
