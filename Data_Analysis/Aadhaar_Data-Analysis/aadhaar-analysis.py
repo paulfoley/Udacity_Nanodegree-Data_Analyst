@@ -33,7 +33,6 @@ def select_state(aadhaar_data):
 
 def select_district(aadhaar_data):
     # Select District And Sub-District
-
     # Create Query
     q = """SELECT district, sub_district, sum(aadhaar_generated) 
     		FROM aadhaar_data
@@ -46,7 +45,6 @@ def select_district(aadhaar_data):
 
 def select_gender(aadhaar_data):
     # Select Gender and District
-
     # Create Query
     q = """ SELECT gender, district, sum(aadhaar_generated) 
             FROM aadhaar_data 
