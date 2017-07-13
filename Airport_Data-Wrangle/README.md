@@ -17,7 +17,7 @@ You'll need to install:
 
 * `airport_and_carrier.html` - HTML File of Airports and Carriers
 * `fl-atl.html` - HTML file of flights from Florida to Atlanta
-* `virgin_and_logan_airport.html1 - HTML file of Virgin flights from Logan Airport
+* `virgin_and_logan_airport.html` - HTML file of Virgin flights from Logan Airport
 
 
 ## Running the Scripts
@@ -37,6 +37,7 @@ The following scripts each contain specific functions that will alet
 * `carriers.csv` - A CSV file of Carriers
 * `view_state.txt` - API field needed to query transtats API
 * `event_validation.txt` - API field needed to query transtats API
+* `fights.csv` - A CSV file of flights from one airport to another
 
 
 ## Authors

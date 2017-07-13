@@ -67,7 +67,7 @@ def process_file(file):
 ## Output Flight Data
 flights = process_file("fl-atl.html")
 
-with open('fl-atl.csv', 'w', newline='') as csvfile:
+with open('flights.csv', 'w', newline='') as csvfile:
     fieldnames = ['courier', 'airport', 'year', 'month', 'domestic', 'international']
     writer = csv.DictWriter(csvfile, fieldnames = fieldnames)
     writer.writeheader()
