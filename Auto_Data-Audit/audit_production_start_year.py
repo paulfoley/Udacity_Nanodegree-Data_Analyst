@@ -15,11 +15,12 @@ The script does the following:
   They will take care of dealing with the header.
 """
 
-# Imports
+## Import CSV
 import csv
 
-# Functions
+## Function
 def process_file(input_file, output_good, output_bad):
+    # Takes in a the Autos CSV file and outputs good data and FIXME data
     data_bad = []
     data_good = []
     data_extra = []
@@ -41,20 +42,19 @@ def process_file(input_file, output_good, output_bad):
                 if year == 'NULL':
                     data_bad.append(row)
 
+    # Output Good Data
     with open(output_good, "w") as good:
         writer = csv.DictWriter(good, delimiter=",", fieldnames= header)
         writer.writeheader()
         for data_row in data_good:
             writer.writerow(data_row)
 
+    # Output Bad Data
     with open(output_bad, "w") as bad:
         writer = csv.DictWriter(bad, delimiter=",", fieldnames= header)
         writer.writeheader()
         for data_row in data_bad:
             writer.writerow(data_row)
 
-# Test
-def test():
-    process_file('autos.csv', 'autos-valid.csv', 'FIXME-autos.csv')
-
-test()
+## Run
+process_file('autos.csv', 'autos-valid.csv', 'FIXME-autos.csv')
