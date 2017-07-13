@@ -1,0 +1,3494 @@
+id,key,value,type
+26261196,amenity,post_office,regular
+26261196,name,Valmont Post Office,regular
+26261196,opening_hours,"Mo-Fr 09:00-18:00, Sa 10:00-14:00",regular
+26261196,website,https://tools.usps.com/go/POLocatorDetailsAction!input.action?&locationType=po&locationID=1385692,regular
+55728859,highway,turning_circle,regular
+55731635,highway,turning_circle,regular
+55737777,highway,turning_circle,regular
+55767388,tmp,tmp,regular
+55801060,highway,turning_circle,regular
+88437239,power,tower,regular
+88437239,source,bing,regular
+88453034,highway,turning_circle,regular
+88469142,highway,turning_circle,regular
+88472186,highway,turning_circle,regular
+88477697,highway,turning_circle,regular
+88480197,highway,turning_circle,regular
+88487617,highway,turning_circle,regular
+88487882,highway,turning_circle,regular
+88496851,highway,turning_circle,regular
+88497981,highway,turning_circle,regular
+88498273,highway,traffic_signals,regular
+88511383,highway,turning_circle,regular
+88513946,highway,turning_circle,regular
+88526391,highway,turning_circle,regular
+88527512,highway,turning_circle,regular
+88529930,highway,turning_circle,regular
+88542273,highway,turning_circle,regular
+88544547,highway,turning_circle,regular
+88544987,source,Yahoo,regular
+88544987,highway,turning_circle,regular
+151357093,ele,1971,regular
+151357093,name,Castle Oaks,regular
+151357093,is_in,"Douglas,Colorado,Colo.,CO,USA",regular
+151357093,place,hamlet,regular
+151357093,id,2085588,gnis
+151357093,gnis:Class,Populated Place,regular
+151357093,gnis:County,Douglas,regular
+151357093,gnis:ST_num,08,regular
+151357093,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+151357093,gnis:ST_alpha,CO,regular
+151357093,gnis:County_num,035,regular
+151500657,ele,1952,regular
+151500657,name,Burning Tree Ranch,regular
+151500657,is_in,"Douglas,Colorado,Colo.,CO,USA",regular
+151500657,place,hamlet,regular
+151500657,id,2085620,gnis
+151500657,gnis:Class,Populated Place,regular
+151500657,gnis:County,Douglas,regular
+151500657,gnis:ST_num,08,regular
+151500657,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+151500657,gnis:ST_alpha,CO,regular
+151500657,gnis:County_num,035,regular
+151719147,ele,1583,regular
+151719147,name,North Washington,regular
+151719147,is_in,"Adams,Colorado,Colo.,CO,USA",regular
+151719147,place,hamlet,regular
+151719147,id,1852846,gnis
+151719147,gnis:Class,Populated Place,regular
+151719147,gnis:County,Adams,regular
+151719147,gnis:ST_num,08,regular
+151719147,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+151719147,gnis:ST_alpha,CO,regular
+151719147,gnis:County_num,001,regular
+151927865,ele,1565,regular
+151927865,name,Adams City,regular
+151927865,is_in,"Adams,Colorado,Colo.,CO,USA",regular
+151927865,place,hamlet,regular
+151927865,id,196393,gnis
+151927865,gnis:Class,Populated Place,regular
+151927865,gnis:County,Adams,regular
+151927865,gnis:ST_num,08,regular
+151927865,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+151927865,gnis:ST_alpha,CO,regular
+151927865,gnis:County_num,001,regular
+175862489,source,Yahoo,regular
+175862489,highway,turning_circle,regular
+175863276,highway,turning_circle,regular
+175865974,ref,45,regular
+175865974,highway,motorway_junction,regular
+175901793,highway,turning_circle,regular
+175912597,highway,turning_circle,regular
+175934095,highway,turning_circle,regular
+175973190,highway,turning_circle,regular
+175977839,highway,turning_circle,regular
+175997064,highway,turning_circle,regular
+176003813,highway,turning_circle,regular
+176015552,highway,turning_circle,regular
+176030018,source,Yahoo,regular
+176030018,highway,turning_circle,regular
+176036897,source,Yahoo,regular
+176036897,highway,turning_circle,regular
+176042438,highway,turning_circle,regular
+176044261,source,Yahoo,regular
+176044261,highway,turning_circle,regular
+176045043,highway,turning_circle,regular
+176056022,source,Yahoo,regular
+176056022,highway,turning_circle,regular
+176063908,highway,traffic_signals,regular
+176066968,ref,275C,regular
+176066968,highway,motorway_junction,regular
+176069665,bicycle,yes,regular
+176069665,highway,crossing,regular
+176069665,crossing,uncontrolled,regular
+176072515,highway,turning_circle,regular
+176077796,highway,turning_circle,regular
+176078486,source,Bing,regular
+176078486,railway,level_crossing,regular
+176086896,highway,turning_circle,regular
+176088759,highway,turning_circle,regular
+176095381,highway,turning_circle,regular
+176095921,highway,traffic_signals,regular
+176101905,highway,turning_circle,regular
+176103311,highway,traffic_signals,regular
+176105366,highway,turning_circle,regular
+176112168,source,Yahoo,regular
+176112168,highway,turning_circle,regular
+176127870,highway,turning_circle,regular
+176141582,highway,turning_circle,regular
+176142058,highway,turning_circle,regular
+176144215,source,Yahoo,regular
+176144215,highway,turning_circle,regular
+176144449,highway,turning_circle,regular
+176164893,highway,turning_circle,regular
+176167329,highway,turning_circle,regular
+176179871,source,Yahoo,regular
+176179871,highway,turning_circle,regular
+176180524,highway,turning_circle,regular
+176182218,highway,turning_circle,regular
+176182632,highway,traffic_signals,regular
+176190426,source,Yahoo,regular
+176190426,highway,turning_circle,regular
+176196353,highway,traffic_signals,regular
+176197060,highway,turning_circle,regular
+176203462,highway,turning_circle,regular
+176205594,highway,turning_circle,regular
+176210660,source,Yahoo,regular
+176210660,highway,turning_circle,regular
+176211095,highway,turning_circle,regular
+176217968,ele,1688,regular
+176217968,name,Peoria Hills Park,regular
+176217968,leisure,park,regular
+176217968,created,05/22/2006,gnis
+176217968,state_id,08,gnis
+176217968,county_id,005,gnis
+176217968,feature_id,2088568,gnis
+176223120,source,Yahoo,regular
+176223120,highway,turning_circle,regular
+176225074,highway,turning_circle,regular
+176228909,barrier,gate,regular
+176229505,source,Yahoo,regular
+176229505,highway,turning_circle,regular
+176238521,source,Yahoo,regular
+176238521,highway,turning_circle,regular
+176240002,source,Yahoo,regular
+176240002,highway,turning_circle,regular
+176250822,highway,traffic_signals,regular
+176267860,source,Yahoo,regular
+176267860,highway,turning_circle,regular
+176270760,highway,turning_circle,regular
+176270955,source,Bing,regular
+176270955,junction,roundabout,regular
+176272793,highway,turning_circle,regular
+176273485,highway,turning_circle,regular
+176276068,highway,turning_circle,regular
+176281712,source,Bing,regular
+176281712,highway,turning_circle,regular
+176296606,highway,turning_circle,regular
+176307040,highway,turning_circle,regular
+176323580,highway,turning_circle,regular
+176330633,highway,turning_circle,regular
+176413657,highway,turning_circle,regular
+176414207,highway,turning_circle,regular
+176466796,noref,yes,regular
+176466796,highway,motorway_junction,regular
+176478919,highway,turning_circle,regular
+176484249,highway,turning_circle,regular
+176487678,highway,turning_circle,regular
+176490143,highway,turning_circle,regular
+176530130,highway,turning_circle,regular
+176536353,highway,turning_circle,regular
+176537561,highway,turning_circle,regular
+176538047,highway,traffic_signals,regular
+176554360,highway,turning_circle,regular
+176573742,highway,turning_circle,regular
+176578171,highway,turning_circle,regular
+176588182,highway,turning_loop,regular
+176589910,highway,turning_circle,regular
+176899331,highway,turning_circle,regular
+177233629,highway,traffic_signals,regular
+177235321,highway,traffic_signals,regular
+177244481,highway,turning_circle,regular
+177253659,highway,turning_circle,regular
+177260493,highway,traffic_signals,regular
+177264913,highway,turning_circle,regular
+177267253,highway,turning_circle,regular
+177276893,highway,turning_circle,regular
+177286499,highway,turning_circle,regular
+177292781,highway,turning_circle,regular
+177300787,highway,turning_circle,regular
+177304750,highway,turning_circle,regular
+177309900,highway,traffic_signals,regular
+177315447,highway,turning_circle,regular
+177330451,highway,turning_circle,regular
+177332271,highway,turning_circle,regular
+177332597,highway,turning_circle,regular
+177332872,source,Yahoo,regular
+177332872,highway,turning_circle,regular
+177340318,highway,turning_circle,regular
+177345106,highway,turning_circle,regular
+177348783,noexit,yes,regular
+177348783,source,Bing,regular
+177349416,highway,traffic_signals,regular
+177358480,highway,turning_circle,regular
+177367842,source,Yahoo,regular
+177367842,highway,turning_circle,regular
+177382664,highway,turning_circle,regular
+177387184,source,Yahoo,regular
+177387184,highway,turning_circle,regular
+177387821,highway,traffic_signals,regular
+177389880,highway,turning_circle,regular
+213611849,source,yahoo,regular
+352974166,source,Bing,regular
+352974166,highway,turning_circle,regular
+358912717,ele,1574,regular
+358912717,name,Crystal Lake,regular
+358912717,landuse,reservoir,regular
+358912717,created,10/13/1978,gnis
+358912717,state_id,08,gnis
+358912717,county_id,013,gnis
+358912717,feature_id,178337,gnis
+358913351,ele,1690,regular
+358913351,name,Haystack Mountain,regular
+358913351,natural,peak,regular
+358913351,created,10/13/1978,gnis
+358913351,state_id,08,gnis
+358913351,county_id,013,gnis
+358913351,feature_id,178711,gnis
+358916590,ele,2416,regular
+358916590,name,Green Mountain,regular
+358916590,natural,peak,regular
+358916590,created,10/13/1978,gnis
+358916590,state_id,08,gnis
+358916590,county_id,013,gnis
+358916590,feature_id,181211,gnis
+358917275,ele,1620,regular
+358917275,name,Russell Elementary School,regular
+358917275,amenity,school,regular
+358917275,created,08/31/1992,gnis
+358917275,state_id,08,gnis
+358917275,county_id,059,gnis
+358917275,feature_id,181658,gnis
+358918379,ele,3132,regular
+358918379,name,Mount Judge,regular
+358918379,natural,peak,regular
+358918379,created,10/13/1978,gnis
+358918379,state_id,08,gnis
+358918379,county_id,019,gnis
+358918379,feature_id,182062,gnis
+358919018,ele,1649,regular
+358919018,name,Axford Cottage School (historical),regular
+358919018,amenity,school,regular
+358919018,created,10/13/1978,gnis
+358919018,state_id,08,gnis
+358919018,county_id,059,gnis
+358919018,feature_id,182314,gnis
+358919891,ele,2063,regular
+358919891,name,Crystal Lake,regular
+358919891,landuse,reservoir,regular
+358919891,created,10/13/1978,gnis
+358919891,state_id,08,gnis
+358919891,county_id,059,gnis
+358919891,feature_id,183304,gnis
+358920904,ele,1582,regular
+358920904,name,Swansea Elementary School,regular
+358920904,amenity,school,regular
+358920904,created,08/31/1992,gnis
+358920904,state_id,08,gnis
+358920904,county_id,031,gnis
+358920904,feature_id,184736,gnis
+358921378,ele,1632,regular
+358921378,name,Ashley Elementary School,regular
+358921378,phone,720-424-9748,regular
+358921378,amenity,school,regular
+358921378,website,http://ashley.dpsk12.org/,regular
+358921378,street,Syracuse Street,addr
+358921378,created,08/31/1992,gnis
+358921378,postcode,80220,addr
+358921378,state_id,08,gnis
+358921378,county_id,031,gnis
+358921378,feature_id,184955,gnis
+358921378,housenumber,1914,addr
+358933311,ele,1961,regular
+358933311,name,Kiowa Creek Watershed 3-A-40 Dam,regular
+358933311,waterway,dam,regular
+358933311,created,09/01/1994,gnis
+358933311,state_id,08,gnis
+358933311,county_id,039,gnis
+358933311,feature_id,198382,gnis
+358933948,ele,1676,regular
+358933948,name,Viele Lake Dam,regular
+358933948,waterway,dam,regular
+358933948,created,09/01/1994,gnis
+358933948,state_id,08,gnis
+358933948,county_id,013,gnis
+358933948,feature_id,198652,gnis
+358939196,ele,1481,regular
+358939196,name,Bass Reservoir,regular
+358939196,landuse,reservoir,regular
+358939196,created,09/01/1994,gnis
+358939196,state_id,08,gnis
+358939196,county_id,123,gnis
+358939196,feature_id,200337,gnis
+358940178,ele,1536,regular
+358940178,name,Banner Lake Number 3 Dam,regular
+358940178,waterway,dam,regular
+358940178,created,09/01/1994,gnis
+358940178,state_id,08,gnis
+358940178,county_id,123,gnis
+358940178,feature_id,200764,gnis
+358942040,ele,1613,regular
+358942040,name,Koleski Number 2 Dam,regular
+358942040,waterway,dam,regular
+358942040,created,09/01/1994,gnis
+358942040,state_id,08,gnis
+358942040,county_id,001,gnis
+358942040,feature_id,201502,gnis
+358944983,ele,2225,regular
+358944983,name,KCNC-TV (Denver),regular
+358944983,man_made,tower,regular
+358944983,created,09/01/1994,gnis
+358944983,state_id,08,gnis
+358944983,county_id,059,gnis
+358944983,feature_id,204222,gnis
+358947410,city,Boulder,addr
+358947410,housenumber,6783,addr
+358947410,postcode,80303,addr
+358947410,state,CO,addr
+358947410,street,Baseline Road,addr
+358947410,amenity,place_of_worship,regular
+358947410,denomination,jehovahs_witness,regular
+358947410,ele,1621,regular
+358947410,county_id,013,gnis
+358947410,created,08/31/1992,gnis
+358947410,feature_id,2036553,gnis
+358947410,state_id,08,gnis
+358947410,name,Jehovah's Witnesses,regular
+358947410,religion,christian,regular
+358948308,ele,1659,regular
+358948308,name,Horsemans Park,regular
+358948308,leisure,park,regular
+358948308,created,03/13/2006,gnis
+358948308,state_id,08,gnis
+358948308,county_id,005,gnis
+358948308,feature_id,2084951,gnis
+358948877,ele,1697,regular
+358948877,name,Overland High School,regular
+358948877,amenity,school,regular
+358948877,edited,09/18/2007,gnis
+358948877,created,05/22/2006,gnis
+358948877,state_id,08,gnis
+358948877,county_id,005,gnis
+358948877,feature_id,2088610,gnis
+358949407,ele,1604,regular
+358949407,name,South Denver Station Denver Post Office,regular
+358949407,amenity,post_office,regular
+358949407,operator,US Postal Service,regular
+358949407,created,06/05/2006,gnis
+358949407,state_id,08,gnis
+358949407,county_id,031,gnis
+358949407,feature_id,2089341,gnis
+358949851,ele,1735,regular
+358949851,name,Southeast Church of Christ,regular
+358949851,phone,303-755-7979,regular
+358949851,amenity,place_of_worship,regular
+358949851,website,http://www.southeast-church.org/,regular
+358949851,religion,christian,regular
+358949851,street,East Yale Avenue,addr
+358949851,edited,03/06/2007,gnis
+358949851,denomination,church_of_christ,regular
+358949851,created,03/06/2007,gnis
+358949851,postcode,80014,addr
+358949851,state_id,08,gnis
+358949851,county_id,005,gnis
+358949851,feature_id,2108791,gnis
+358949851,housenumber,14601,addr
+358950305,ele,1614,regular
+358950305,name,Cameron United Methodist Church,regular
+358950305,phone,303-777-7638,regular
+358950305,amenity,place_of_worship,regular
+358950305,website,http://www.cameronchurch.org,regular
+358950305,religion,christian,regular
+358950305,street,South Pearl Street,addr
+358950305,denomination,methodist,regular
+358950305,created,03/27/2007,gnis
+358950305,postcode,80210,addr
+358950305,state_id,08,gnis
+358950305,county_id,031,gnis
+358950305,feature_id,2110976,gnis
+358950305,housenumber,1600,addr
+358951215,ele,1626,regular
+358951215,name,Saint Anne's Catholic Church,regular
+358951215,amenity,place_of_worship,regular
+358951215,religion,christian,regular
+358951215,denomination,catholic,regular
+358951215,created,04/17/2007,gnis
+358951215,state_id,08,gnis
+358951215,county_id,059,gnis
+358951215,feature_id,2118136,gnis
+358951623,ele,1652,regular
+358951623,name,Tabor Lake,regular
+358951623,landuse,reservoir,regular
+358951623,created,05/01/2007,gnis
+358951623,state_id,08,gnis
+358951623,county_id,059,gnis
+358951623,feature_id,2120013,gnis
+358952163,ele,1655,regular
+358952163,name,Altura Station Aurora Post Office,regular
+358952163,amenity,post_office,regular
+358952163,created,05/25/2007,gnis
+358952163,state_id,08,gnis
+358952163,county_id,001,gnis
+358952163,feature_id,2124760,gnis
+358952708,ele,1646,regular
+358952708,name,HealthOne Spalding Rehabilitation Hospital,regular
+358952708,phone,303-367-1166,regular
+358952708,amenity,hospital,regular
+358952708,website,http://www.spaldingrehab.com/,regular
+358952708,alt_name,Spalding Rehabilitation Hospital,regular
+358952708,emergency,no,regular
+358952708,street,Potomac Street,addr
+358952708,created,12/17/2007,gnis
+358952708,postcode,80011,addr
+358952708,state_id,08,gnis
+358952708,county_id,005,gnis
+358952708,feature_id,2369954,gnis
+358952708,housenumber,900,addr
+366394822,ele,1630,regular
+366394822,name,Louisville Fire Department Station 1,regular
+366394822,amenity,fire_station,regular
+366394822,state,CO,addr
+366394822,feature_id,2036576,gnis
+366394822,county_name,Boulder,gnis
+366394822,import_uuid,57871b70-0100-4405-bb30-88b2e001a944,gnis
+366395108,ele,1672,regular
+366395108,name,Bennett Fire Protection District Station 91,regular
+366395108,amenity,fire_station,regular
+366395108,state,CO,addr
+366395108,feature_id,2368675,gnis
+366395108,county_name,Adams,gnis
+366395108,import_uuid,57871b70-0100-4405-bb30-88b2e001a944,gnis
+366395445,ele,1734,regular
+366395445,name,West Metro Fire Rescue Station 5,regular
+366395445,amenity,fire_station,regular
+366395445,state,CO,addr
+366395445,feature_id,2368752,gnis
+366395445,county_name,Jefferson,gnis
+366395445,import_uuid,57871b70-0100-4405-bb30-88b2e001a944,gnis
+366395853,ele,1562,regular
+366395853,name,Adams County Sheriff's Office Patrol Division,regular
+366395853,amenity,police,regular
+366395853,state,CO,addr
+366395853,feature_id,2369885,gnis
+366395853,county_name,Adams,gnis
+366395853,import_uuid,57871b70-0100-4405-bb30-88b2e001a944,gnis
+369162865,ele,2859,regular
+369162865,name,Bird Nest and Village Belle Mine,regular
+369162865,landuse,quarry,regular
+369162865,state,CO,addr
+369162865,created,10/13/1978,gnis
+369162865,feature_id,181066,gnis
+369162865,county_name,Boulder,gnis
+369162865,feature_type,Mine,gnis
+369163205,ele,2639,regular
+369163205,name,O K Mine,regular
+369163205,landuse,quarry,regular
+369163205,state,CO,addr
+369163205,created,10/13/1978,gnis
+369163205,feature_id,181479,gnis
+369163205,county_name,Gilpin,gnis
+369163205,feature_type,Mine,gnis
+369165432,ele,1602,regular
+369165432,name,Capri Heliport,regular
+369165432,aeroway,helipad,regular
+369165432,state,CO,addr
+369165432,source_ref,geonames.usgs.gov,regular
+369165432,created,09/01/1994,gnis
+369165432,feature_id,204349,gnis
+369165432,county_name,Adams,gnis
+369165432,feature_type,Airport,gnis
+369167294,ele,2335,regular
+369167294,name,Mount Pleasant Mine,regular
+369167294,landuse,quarry,regular
+369167294,state,CO,addr
+369167294,created,04/29/1996,gnis
+369167294,feature_id,1683612,gnis
+369167294,county_name,Boulder,gnis
+369167294,feature_type,Mine,gnis
+369167835,ele,2487,regular
+369167835,name,Carl Gardner Mine,regular
+369167835,landuse,quarry,regular
+369167835,state,CO,addr
+369167835,created,04/29/1996,gnis
+369167835,feature_id,1683814,gnis
+369167835,county_name,Boulder,gnis
+369167835,feature_type,Mine,gnis
+369168253,ele,2207,regular
+369168253,name,Power Shaft Mine,regular
+369168253,landuse,quarry,regular
+369168253,state,CO,addr
+369168253,created,04/29/1996,gnis
+369168253,feature_id,1683737,gnis
+369168253,county_name,Boulder,gnis
+369168253,feature_type,Mine,gnis
+369170515,ele,2543,regular
+369170515,name,Diamond Lil Tunnel Mine,regular
+369170515,landuse,quarry,regular
+369170515,state,CO,addr
+369170515,created,04/30/1996,gnis
+369170515,feature_id,1684738,gnis
+369170515,county_name,Clear Creek,gnis
+369170515,feature_type,Mine,gnis
+369170842,ele,2242,regular
+369170842,name,Mountain Lion Mine,regular
+369170842,landuse,quarry,regular
+369170842,state,CO,addr
+369170842,created,04/30/1996,gnis
+369170842,feature_id,1685141,gnis
+369170842,county_name,Boulder,gnis
+369170842,feature_type,Mine,gnis
+369171089,ele,2489,regular
+369171089,name,Early Spring Mine,regular
+369171089,landuse,quarry,regular
+369171089,state,CO,addr
+369171089,created,04/30/1996,gnis
+369171089,feature_id,1685052,gnis
+369171089,county_name,Boulder,gnis
+369171089,feature_type,Mine,gnis
+369171521,ele,2468,regular
+369171521,name,Anamosa Mine,regular
+369171521,landuse,quarry,regular
+369171521,state,CO,addr
+369171521,created,04/30/1996,gnis
+369171521,feature_id,1685271,gnis
+369171521,county_name,Clear Creek,gnis
+369171521,feature_type,Mine,gnis
+369171975,ele,1582,regular
+369171975,name,Spencer Mine,regular
+369171975,landuse,quarry,regular
+369171975,state,CO,addr
+369171975,created,04/30/1996,gnis
+369171975,feature_id,1685241,gnis
+369171975,county_name,Boulder,gnis
+369171975,feature_type,Mine,gnis
+369172458,ele,2582,regular
+369172458,name,Silver Age Mine,regular
+369172458,landuse,quarry,regular
+369172458,state,CO,addr
+369172458,created,05/08/1996,gnis
+369172458,feature_id,1693593,gnis
+369172458,county_name,Clear Creek,gnis
+369172458,feature_type,Mine,gnis
+369172912,ele,1679,regular
+369172912,name,Dog Pound Pit,regular
+369172912,landuse,quarry,regular
+369172912,state,CO,addr
+369172912,created,05/08/1996,gnis
+369172912,feature_id,1693663,gnis
+369172912,county_name,Jefferson,gnis
+369172912,feature_type,Mine,gnis
+369173147,ele,2688,regular
+369173147,name,Franklin Shaft Number Eighty-seven Mine,regular
+369173147,landuse,quarry,regular
+369173147,state,CO,addr
+369173147,created,04/30/1996,gnis
+369173147,feature_id,1685524,gnis
+369173147,county_name,Clear Creek,gnis
+369173147,feature_type,Mine,gnis
+369173522,ele,2885,regular
+369173522,name,Jones Mine,regular
+369173522,landuse,quarry,regular
+369173522,state,CO,addr
+369173522,created,05/08/1996,gnis
+369173522,feature_id,1693462,gnis
+369173522,county_name,Gilpin,gnis
+369173522,feature_type,Mine,gnis
+369173853,ele,2823,regular
+369173853,name,C Tyrol Mine,regular
+369173853,landuse,quarry,regular
+369173853,state,CO,addr
+369173853,created,05/08/1996,gnis
+369173853,feature_id,1694051,gnis
+369173853,county_name,Clear Creek,gnis
+369173853,feature_type,Mine,gnis
+369174179,ele,2513,regular
+369174179,name,Paynes Bar Mine,regular
+369174179,landuse,quarry,regular
+369174179,state,CO,addr
+369174179,created,05/08/1996,gnis
+369174179,feature_id,1694237,gnis
+369174179,county_name,Clear Creek,gnis
+369174179,feature_type,Mine,gnis
+369174339,ele,2639,regular
+369174339,name,Dunbarton Mine,regular
+369174339,landuse,quarry,regular
+369174339,state,CO,addr
+369174339,created,05/08/1996,gnis
+369174339,feature_id,1693829,gnis
+369174339,county_name,Clear Creek,gnis
+369174339,feature_type,Mine,gnis
+369174472,ele,3023,regular
+369174472,name,Anchor Extension Mine,regular
+369174472,landuse,quarry,regular
+369174472,state,CO,addr
+369174472,created,05/08/1996,gnis
+369174472,feature_id,1693959,gnis
+369174472,county_name,Clear Creek,gnis
+369174472,feature_type,Mine,gnis
+369175020,ele,2182,regular
+369175020,name,Capitol Central Mine,regular
+369175020,landuse,quarry,regular
+369175020,state,CO,addr
+369175020,created,05/08/1996,gnis
+369175020,feature_id,1694338,gnis
+369175020,county_name,Jefferson,gnis
+369175020,feature_type,Mine,gnis
+369175260,ele,1772,regular
+369175260,name,Deer Creek South Pit Quarry,regular
+369175260,landuse,quarry,regular
+369175260,state,CO,addr
+369175260,created,12/02/1996,gnis
+369175260,feature_id,1703699,gnis
+369175260,county_name,Jefferson,gnis
+369175260,feature_type,Mine,gnis
+418581679,highway,crossing,regular
+423560169,amenity,fuel,regular
+423560169,operator,Mini Mart,regular
+432176919,ref,196,regular
+432176919,highway,motorway_junction,regular
+432212947,highway,traffic_signals,regular
+433486253,source,Yahoo,regular
+433486253,highway,turning_circle,regular
+434146892,highway,traffic_signals,regular
+442621224,name,The Keg Steakhouse & Bar,regular
+442621224,amenity,restaurant,regular
+442621224,cuisine,steak_house,regular
+442621224,city,Denver,addr
+442621224,street,Wynkoop Street,addr
+442621224,postcode,80202,addr
+442621224,housenumber,1890,addr
+479440273,highway,traffic_signals,regular
+526675215,power,tower,regular
+527432274,name,Walgreens,regular
+527432274,amenity,pharmacy,regular
+527432274,dispensing,yes,regular
+529018629,power,tower,regular
+529018629,source,Bing,regular
+529793681,highway,turning_circle,regular
+530425881,name,Crags Hotel Ruins,regular
+530425881,tourism,viewpoint,regular
+547679408,highway,traffic_signals,regular
+563484826,city,Lakewood,addr
+563484826,housenumber,955,addr
+563484826,postcode,80226,addr
+563484826,street,South Kipling Parkway,addr
+563484826,alt_name,Hilario's Fine Mexican Food,regular
+563484826,amenity,restaurant,regular
+563484826,cuisine,mexican,regular
+563484826,name,Hilario's,regular
+563484826,old_name,Moose Hill Cantina,regular
+563484826,phone,303-480-5435,regular
+563484826,source,Bing,regular
+563484826,website,http://www.hilariosmexicanfood.com/,regular
+563484826,wheelchair,limited,regular
+564958534,highway,traffic_signals,regular
+574186985,crossing,traffic_signals,regular
+574186985,highway,crossing,regular
+574186985,source,Bing,regular
+577484031,highway,crossing,regular
+577484031,crossing,zebra,regular
+582769411,highway,traffic_signals,regular
+585371033,name,N & S Chieftain,regular
+585371033,note,"Record <a href=""http://tin.er.usgs.gov/mineplant/show.php?labno=352"">352</a> of the <a href=""http://tin.er.usgs.gov/mineplant/"">Active mines and mineral plants in the US</a>",regular
+585371033,landuse,quarry,regular
+585371033,man_made,mine,regular
+587610676,highway,traffic_signals,regular
+602893123,highway,turning_circle,regular
+622753490,highway,turning_circle,regular
+624991891,highway,turning_circle,regular
+653992410,highway,turning_circle,regular
+663917651,city,Northglenn,addr
+663917651,street,Community Circle Dr,addr
+663917651,country,US,addr
+663917651,postcode,80233,addr
+663917651,housenumber,49,addr
+668301676,highway,crossing,regular
+668301676,crossing,zebra,regular
+684325743,source,Bing,regular
+684325743,highway,crossing,regular
+684325743,crossing,traffic_signals,regular
+687142386,name,Peaberry Coffe,regular
+687142386,amenity,cafe,regular
+688192888,highway,turning_circle,regular
+689774092,source,Yahoo,regular
+689774092,highway,turning_circle,regular
+694426589,highway,turning_circle,regular
+694643870,highway,turning_circle,regular
+695424062,highway,crossing,regular
+699384228,entrance,yes,regular
+765404454,highway,traffic_signals,regular
+774103583,highway,crossing,regular
+774103583,crossing,zebra,regular
+792030753,power,transformer,regular
+792050688,power,tower,regular
+792050688,source,Yahoo,regular
+792690740,power,pole,regular
+792690740,source,Yahoo,regular
+792698958,power,pole,regular
+792698958,source,Yahoo,regular
+792805347,power,tower,regular
+792911139,power,tower,regular
+792911139,source,Yahoo,regular
+795009371,power,pole,regular
+795082932,power,tower,regular
+795082932,source,Yahoo,regular
+795083402,power,tower,regular
+795083402,source,Yahoo,regular
+796492270,power,tower,regular
+797349183,power,tower,regular
+798711927,power,pole,regular
+798711927,source,Yahoo,regular
+801185550,power,tower,regular
+802966705,ref,383,regular
+802966705,power,tower,regular
+802966705,source,bing,regular
+802966705,material,steel,regular
+805988978,railway,level_crossing,regular
+807159551,power,tower,regular
+807159551,source,Yahoo,regular
+823952763,highway,crossing,regular
+823952763,crossing,uncontrolled,regular
+824054235,highway,crossing,regular
+824054235,crossing,uncontrolled,regular
+824067386,crossing,uncontrolled,regular
+847504555,amenity,parking,regular
+872390844,source,OSMP,regular
+942714309,atm,yes,regular
+942714309,name,Evergreen National Bank,regular
+942714309,amenity,bank,regular
+942714309,street,Colorado Boulevard,addr
+942714309,housenumber,2394,addr
+945536592,street,Virginia Street,addr
+945536592,housenumber,630,addr
+947540358,street,Riverside Drive,addr
+947540358,housenumber,3333,addr
+947573403,sport,american_football,regular
+947585544,city,Idaho Springs,addr
+947585544,street,Colorado Blvd,addr
+947585544,housenumber,1245,addr
+964657010,ele,2756.9160000,regular
+964657010,fee,no,regular
+964657010,access,yes,regular
+964657010,indoor,yes,regular
+964657010,amenity,toilets,regular
+964657010,disposal,pitlatrine,toilets
+971249726,highway,crossing,regular
+984954103,amenity,parking,regular
+998748147,highway,turning_circle,regular
+998841709,highway,turning_circle,regular
+1029062010,highway,turning_circle,regular
+1034152095,highway,turning_circle,regular
+1034611509,traffic_calming,bump,regular
+1034780829,highway,traffic_signals,regular
+1038519923,highway,turning_circle,regular
+1038550604,highway,turning_circle,regular
+1038864578,waterway,weir,regular
+1038981841,ele,2218.0296000,regular
+1038981841,tourism,picnic_site,regular
+1038981841,wpt_symbol,Picnic Area,regular
+1060775420,tourism,picnic_site,regular
+1068535583,name,Casual Male XL,regular
+1068535583,shop,clothes,regular
+1077963714,tmp,tmp,regular
+1077963869,tmp,tmp,regular
+1085143890,name,Dependable Cleaners,regular
+1085143890,shop,dry_cleaning,regular
+1085143890,opening_hours,Mo-Fr 07:00-19:00;Sa 08:00-18:00;Su 10:00-16:00,regular
+1090910991,highway,crossing,regular
+1090910991,crossing,zebra,regular
+1100866187,highway,turning_circle,regular
+1101030659,highway,crossing,regular
+1101030659,crossing,uncontrolled,regular
+1105660880,power,tower,regular
+1105660880,source,bing,regular
+1106703791,power,tower,regular
+1106703791,source,bing,regular
+1106705515,power,tower,regular
+1106705515,source,bing,regular
+1108656400,power,tower,regular
+1108656400,source,bing,regular
+1108656523,ref,68,regular
+1108656523,power,tower,regular
+1108656523,source,bing,regular
+1108657600,ref,26,regular
+1108657600,power,tower,regular
+1108657600,source,bing,regular
+1109709680,city,Boulder,addr
+1109709680,housenumber,4949,addr
+1109709680,state,CO,addr
+1109709680,street,Broadway,addr
+1109709680,name,Boulder Sports Recycler,regular
+1109709680,shop,bicycle,regular
+1109800211,ref,320,regular
+1109800211,power,tower,regular
+1109800211,source,bing,regular
+1119621889,name,King Soopers,regular
+1119621889,amenity,fuel,regular
+1156504025,name,Pete's Greek Town Cafe,regular
+1156504025,amenity,cafe,regular
+1156504025,cuisine,american,regular
+1156504025,website,http://petesrestaurants.com,regular
+1156504025,street,East Colfax Avenue,addr
+1156504025,postcode,80206,addr
+1156504025,housenumber,2910,addr
+1165819135,barrier,arch,regular
+1176324409,name,Good Measure Coffee,regular
+1176324409,amenity,cafe,regular
+1178391619,emergency,fire_hydrant,regular
+1183592785,access,no,regular
+1183592785,barrier,gate,regular
+1184019779,highway,turning_circle,regular
+1184040192,amenity,bench,regular
+1184048115,amenity,bench,regular
+1185574420,name,Buffalo Lock & Key,regular
+1185574420,shop,locksmith,regular
+1185574420,phone,+1 303 4940707,regular
+1185574420,city,Boulder,addr
+1185574420,street,Baseline Road,addr
+1185574420,opening_hours,Mo-Fr 08:00-17:00; Sa 9:00-13:00,regular
+1185574420,housenumber,2510,addr
+1196574862,power,tower,regular
+1197700874,power,tower,regular
+1197701385,power,tower,regular
+1197702412,power,tower,regular
+1197703351,power,tower,regular
+1199355437,power,tower,regular
+1203514013,power,tower,regular
+1203514539,power,tower,regular
+1203515092,power,tower,regular
+1203515765,power,tower,regular
+1203942123,power,tower,regular
+1203942226,power,tower,regular
+1203942446,power,tower,regular
+1203942662,power,tower,regular
+1207019353,power,tower,regular
+1208348716,highway,turning_circle,regular
+1211273381,highway,turning_circle,regular
+1211552681,power,tower,regular
+1211552803,power,tower,regular
+1211552930,power,tower,regular
+1211553058,power,tower,regular
+1211556445,highway,turning_circle,regular
+1212698961,power,tower,regular
+1212699313,power,tower,regular
+1214423676,power,tower,regular
+1214576111,power,tower,regular
+1214577828,power,tower,regular
+1217172850,power,tower,regular
+1217172953,power,tower,regular
+1217173056,power,tower,regular
+1217173056,source,Bing,regular
+1243937499,name,Subway,regular
+1243937499,amenity,fast_food,regular
+1260895769,access,permissive,regular
+1260895769,barrier,gate,regular
+1270009484,name,Rocky Mountain Kids,regular
+1270009484,shop,clothes,regular
+1322373193,highway,crossing,regular
+1325959104,junction,roundabout,regular
+1343313102,natural,tree,regular
+1344083743,amenity,bench,regular
+1344399067,power,tower,regular
+1344511318,source,Bing,regular
+1344511318,highway,crossing,regular
+1344511318,crossing,traffic_signals,regular
+1371411412,highway,turning_circle,regular
+1374352071,highway,turning_circle,regular
+1397459389,highway,crossing,regular
+1397459389,crossing,zebra,regular
+1402637198,name,Gypsy House Cafe,regular
+1402637198,phone,303-830-1112,regular
+1402637198,amenity,cafe,regular
+1402637198,cuisine,coffee_shop,regular
+1402637198,street,Marion Street,addr
+1402637198,postcode,80218,addr
+1402637198,housenumber,1279,addr
+1412803013,name,Panzano,regular
+1412803013,amenity,restaurant,regular
+1412803013,city,Denver,addr
+1412803013,state,CO,addr
+1412803013,street,17th Street,addr
+1412803013,postcode,80202,addr
+1412803013,housenumber,909,addr
+1412827842,power,tower,regular
+1413170482,power,tower,regular
+1418489052,power,tower,regular
+1418520136,power,tower,regular
+1425816472,source,Bing,regular
+1425816472,bicycle,yes,regular
+1425816472,highway,crossing,regular
+1425816472,crossing,uncontrolled,regular
+1428569744,name,Holiday Inn Express Denver Downtown,regular
+1428569744,tourism,hotel,regular
+1428569744,city,Denver,addr
+1428569744,state,CO,addr
+1428569744,street,17th Street,addr
+1428569744,postcode,80202,addr
+1428569744,housenumber,401,addr
+1429584650,power,pole,regular
+1433154880,source,Bing,regular
+1433154880,highway,crossing,regular
+1433154880,crossing,unmarked,regular
+1454515641,highway,stop,regular
+1454650751,amenity,toilets,regular
+1455183571,power,tower,regular
+1459443438,name,Nbound Wadsworth Blvd @ Vassar Ave,regular
+1459443438,source,bing,regular
+1459443438,highway,bus_stop,regular
+1459443438,local_ref,RTD,regular
+1459443438,designation,Route 76,regular
+1463800888,power,pole,regular
+1463807977,power,pole,regular
+1463819912,power,tower,regular
+1475297017,power,tower,regular
+1475325381,power,tower,regular
+1487509374,highway,stop,regular
+1506602492,natural,tree,regular
+1533363336,natural,tree,regular
+1541645777,source,bing,regular
+1541645777,barrier,gate,regular
+1541645777,designation,Xcel Energy,regular
+1543664270,name,Ebound Coal Mine Ave @ Kipling,regular
+1543664270,highway,bus_stop,regular
+1543664270,local_ref,RTD,regular
+1545232402,natural,tree,regular
+1545400340,source,bing,regular
+1545400340,man_made,communications_tower,regular
+1552944057,power,pole,regular
+1552944057,source,bing,regular
+1553237375,name,Buffalo Wild Wings,regular
+1553237375,source,local_knowledge,regular
+1553237375,amenity,restaurant,regular
+1553237375,cuisine,chicken,regular
+1553237375,designation,Buffalo Wild Wings Grill & Bar,regular
+1556391792,natural,tree,regular
+1557562014,natural,tree,regular
+1560865798,natural,tree,regular
+1563915865,atm,yes,regular
+1563915865,name,BBVA Compass Bank,regular
+1563915865,phone,303-398-4470,regular
+1563915865,source,Bing,regular
+1563915865,amenity,bank,regular
+1563915865,website,http://bbvacompass.com,regular
+1563915865,alt_name,Compass Bank,regular
+1563915865,street,East Colfax Avenue,addr
+1563915865,postcode,80220,addr
+1563915865,housenumber,4115,addr
+1564463945,natural,tree,regular
+1568001364,natural,tree,regular
+1568730406,name,Dark Matter Games,regular
+1568730406,shop,toys,regular
+1568730406,source,ground_survey,regular
+1568856382,source,bing,regular
+1568856382,traffic_calming,bump,regular
+1569745945,natural,tree,regular
+1569808701,natural,tree,regular
+1572276351,natural,tree,regular
+1572868760,power,tower,regular
+1579027181,natural,tree,regular
+1580445150,natural,tree,regular
+1581680140,name,Flatirons Community Church,regular
+1581680140,amenity,place_of_worship,regular
+1581680140,religion,christian,regular
+1581700411,natural,tree,regular
+1583891490,natural,tree,regular
+1583891627,natural,tree,regular
+1586396011,natural,tree,regular
+1588629983,natural,tree,regular
+1595623924,natural,tree,regular
+1604053847,name,Dance Dimensions,regular
+1604053847,leisure,dance,regular
+1624307979,natural,tree,regular
+1636022962,natural,tree,regular
+1636720974,natural,tree,regular
+1649767071,amenity,bench,regular
+1656318937,natural,tree,regular
+1697055751,name,Cold Stone Creamery,regular
+1697055751,amenity,restaurant,regular
+1697055751,cuisine,ice_cream,regular
+1700240142,natural,tree,regular
+1703389289,natural,tree,regular
+1705224245,natural,tree,regular
+1709244393,natural,tree,regular
+1712089506,natural,tree,regular
+1713631395,natural,tree,regular
+1718843536,natural,tree,regular
+1722387833,natural,tree,regular
+1742286160,source,bing,regular
+1742286160,natural,tree,regular
+1742286366,source,bing,regular
+1742286366,natural,tree,regular
+1742286587,source,bing,regular
+1742286587,natural,tree,regular
+1747159774,source,bing,regular
+1747159774,amenity,fountain,regular
+1750367223,source,bing,regular
+1750367223,natural,tree,regular
+1750367448,source,bing,regular
+1750367448,natural,tree,regular
+1750367666,source,bing,regular
+1750367666,natural,tree,regular
+1750379153,source,bing,regular
+1750379153,natural,tree,regular
+1750379274,source,bing,regular
+1750379274,natural,tree,regular
+1750380515,source,bing,regular
+1750380515,natural,tree,regular
+1750383373,source,bing,regular
+1750383373,natural,tree,regular
+1750395803,natural,tree,regular
+1750416288,source,bing,regular
+1750416288,natural,tree,regular
+1750416792,source,bing,regular
+1750416792,natural,tree,regular
+1750417253,source,bing,regular
+1750417253,natural,tree,regular
+1750417690,source,bing,regular
+1750417690,natural,tree,regular
+1750444564,source,bing,regular
+1750444564,natural,tree,regular
+1751865930,natural,tree,regular
+1753626091,railway,level_crossing,regular
+1756882795,name,Dairy Queen & Orange Julius,regular
+1756882795,amenity,fast_food,regular
+1756882795,cuisine,ice_cream,regular
+1756882795,city,Foxfield,addr
+1756882795,state,CO,addr
+1756882795,street,E Arapahoe Rd,addr
+1756882795,postcode,80016,addr
+1756882795,housenumber,16270,addr
+1758073109,traffic_calming,bump,regular
+1832746518,tourism,hotel,regular
+1835500218,amenity,toilets,regular
+1849365744,power,tower,regular
+1849365936,power,tower,regular
+1849366121,power,tower,regular
+1906396560,power,tower,regular
+1906396843,highway,traffic_signals,regular
+1906455844,highway,crossing,regular
+1906455844,crossing,zebra,regular
+1932700111,shop,alcohol,regular
+1976886734,sport,swimming,regular
+1976886734,access,private,regular
+1976886734,covered,yes,regular
+1976886734,leisure,swimming_pool,regular
+1976950269,leisure,playground,regular
+1983723994,natural,tree,regular
+2014611584,highway,stop,regular
+2025706456,source,survey,regular
+2025706456,amenity,atm,regular
+2025745429,barrier,gate,regular
+2026110909,name,Menchie's Frozen Yogurt,regular
+2026110909,amenity,fast_food,regular
+2026110909,cuisine,ice_cream,regular
+2026110909,city,Aurora,addr
+2026110909,state,CO,addr
+2026110909,street,East Garden Drive,addr
+2026110909,postcode,80012,addr
+2026110909,housenumber,10601-#101,addr
+2033168802,highway,turning_circle,regular
+2136688352,amenity,bicycle_parking,regular
+2136688352,capacity,16,regular
+2136688352,bicycle_parking,rack,regular
+2138298840,amenity,bicycle_parking,regular
+2138298840,capacity,16,regular
+2138298840,bicycle_parking,rack,regular
+2144234617,tourism,information,regular
+2144234617,information,board,regular
+2152591471,amenity,bicycle_parking,regular
+2152591471,capacity,16,regular
+2152591471,bicycle_parking,rack,regular
+2153277976,highway,crossing,regular
+2153277976,crossing,zebra,regular
+2173827703,entrance,service,regular
+2177778220,highway,turning_circle,regular
+2178417137,noexit,yes,regular
+2178417137,source,Bing,regular
+2200764592,name,Mrs. Fields,regular
+2200764592,shop,confectionery,regular
+2261042732,entrance,yes,regular
+2263317091,amenity,bicycle_parking,regular
+2263317091,capacity,16,regular
+2263317091,bicycle_parking,rack,regular
+2269038102,barrier,gate,regular
+2275791815,name,Holly Berry,regular
+2275791815,shop,florist,regular
+2275791815,source,survey,regular
+2275791815,housenumber,28165,addr
+2276380927,name,Seasonally Yours,regular
+2276380927,shop,gift,regular
+2276380927,source,survey,regular
+2276380927,housenumber,28135,addr
+2276399975,barrier,gate,regular
+2276408998,amenity,fuel,regular
+2276412720,name,About Hair,regular
+2276412720,shop,hairdresser,regular
+2276412720,source,survey,regular
+2277764120,barrier,gate,regular
+2277891321,power,tower,regular
+2278966333,power,tower,regular
+2286390800,source,bing,regular
+2286390800,man_made,tower,regular
+2287613371,amenity,bicycle_parking,regular
+2287613371,capacity,16,regular
+2287613371,bicycle_parking,rack,regular
+2288747753,highway,turning_circle,regular
+2293145744,highway,turning_circle,regular
+2293220277,source,bing,regular
+2293220277,highway,crossing,regular
+2293220277,crossing,unmarked,regular
+2294125629,highway,traffic_signals,regular
+2294141258,power,pole,regular
+2294407782,power,tower,regular
+2294407889,power,pole,regular
+2295355490,source,bing,regular
+2295355490,bicycle,yes,regular
+2295355490,highway,crossing,regular
+2295355490,crossing,traffic_signals,regular
+2295366871,power,pole,regular
+2295380963,power,tower,regular
+2297917150,source,bing,regular
+2297917150,man_made,tower,regular
+2299102734,noexit,yes,regular
+2299102734,source,Bing,regular
+2300177671,name,Centura Health Castle Rock Adventist Hospital,regular
+2300177671,amenity,hospital,regular
+2300177671,city,Castle Rock,addr
+2300177671,emergency,yes,regular
+2300177671,state,CO,addr
+2300177671,street,Meadows Parkway,addr
+2300177671,postcode,80109,addr
+2300177671,housenumber,2350,addr
+2300530152,highway,traffic_signals,regular
+2300558661,power,pole,regular
+2304459129,highway,turning_circle,regular
+2304670309,waterway,weir,regular
+2305580849,emergency,fire_hydrant,regular
+2307131759,power,pole,regular
+2308476070,power,tower,regular
+2310499101,name,Anthropologie,regular
+2310499101,shop,clothes,regular
+2315904811,name,Anderson,regular
+2315904811,source,survey,regular
+2315904811,amenity,restaurant,regular
+2315904811,cuisine,pizza,regular
+2317162702,amenity,parking,regular
+2321009716,amenity,bench,regular
+2323803611,power,pole,regular
+2324955799,power,pole,regular
+2326549840,name,7800 Block E Union Ave,regular
+2326549840,highway,bus_stop,regular
+2326549840,local_ref,RTD 46 73 T,regular
+2328645349,source,bing,regular
+2328645349,amenity,shelter,regular
+2328645349,shelter_type,picnic_shelter,regular
+2359488246,source,Bing,regular
+2359488246,highway,turning_circle,regular
+2362438280,highway,bus_stop,regular
+2362438280,shelter,no,regular
+2392323706,highway,turning_circle,regular
+2393262986,name,Aspen Park Art and Framing,regular
+2393262986,shop,art,regular
+2393262986,source,survey,regular
+2393262986,amenity,shop,regular
+2393262986,unit,D201B,addr
+2395206489,source,Bing,regular
+2395206489,bicycle,yes,regular
+2395206489,highway,crossing,regular
+2395206489,crossing,traffic_signals,regular
+2415423095,highway,turning_circle,regular
+2418057066,amenity,waste_disposal,regular
+2423193269,name,BB mi 7.5,regular
+2423193269,tourism,information,regular
+2423487859,amenity,drinking_water,regular
+2423664277,name,Kriser's All-Natural Pet Shop,regular
+2423664277,shop,greengrocer,regular
+2423664277,street,South University Boulevard,addr
+2423664277,postcode,80113,addr
+2423664277,housename,Kriser's Pet Shop,addr
+2423664277,housenumber,3475-C,addr
+2424895912,source,Bing,regular
+2424895912,bicycle,yes,regular
+2424895912,highway,crossing,regular
+2424895912,crossing,traffic_signals,regular
+2427387131,source,Bing,regular
+2427387131,amenity,bench,regular
+2427550342,highway,turning_loop,regular
+2427697614,source,Bing,regular
+2427697614,bicycle,yes,regular
+2427697614,highway,crossing,regular
+2427697614,crossing,traffic_signals,regular
+2467189676,name,Estilista Gabriela Spa & Hair,regular
+2467189676,shop,beauty,regular
+2467189676,city,Lakewood,addr
+2467189676,state,Colorado,addr
+2467189676,street,West Colfax Avenue,addr
+2467189676,postcode,80214-1801,addr
+2467189676,phone,+1-303-232-3295,contact
+2467189676,opening_hours,Mo-Fr 11:00-20:00; Sa 09:00-20:00; Su 10:00-16:00,regular
+2467189676,housenumber,6467,addr
+2467189977,highway,street_lamp,regular
+2494527675,power,pole,regular
+2525756538,name,Shell,regular
+2525756538,brand,Shell,regular
+2525756538,source,Bing,regular
+2525756538,amenity,fuel,regular
+2525756538,operator,Circle K,regular
+2609042882,waterway,weir,regular
+2612733534,highway,turning_circle,regular
+2623047204,natural,tree,regular
+2624009475,amenity,bicycle_parking,regular
+2625495275,name,E Yale Ave & S Havana St,regular
+2625495275,source,knowledge,regular
+2625495275,highway,bus_stop,regular
+2625495275,alt_name,E Yale Ave @ Babi Yar Park,regular
+2625495275,local_ref,RTD 83D,regular
+2659076422,man_made,flagpole,regular
+2659145561,railway,level_crossing,regular
+2659145561,barrier,no,crossing
+2663418864,name,Kaiser Permanente,regular
+2663418864,amenity,clinic,regular
+2664470668,highway,traffic_signals,regular
+2686092018,name,Quincy Avenue Onramp SB,regular
+2686092018,note,electronic collection,regular
+2686092018,access,no,regular
+2686092018,barrier,toll_booth,regular
+2686092018,website,http://www.expresstoll.com,regular
+2686092018,motor_vehicle,yes,regular
+2687934653,access,private,regular
+2687934653,barrier,gate,regular
+2695677982,power,pole,regular
+2696629112,power,pole,regular
+2696672690,power,pole,regular
+2696681375,power,pole,regular
+2696697082,power,pole,regular
+2696718157,power,pole,regular
+2696780585,railway,level_crossing,regular
+2703448399,amenity,waste_basket,regular
+2703554754,natural,tree,regular
+2703676405,amenity,bicycle_parking,regular
+2703676405,covered,no,regular
+2703676405,capacity,8,regular
+2703676405,bicycle_parking,stands,regular
+2714900681,power,pole,regular
+2755429963,source,Bing,regular
+2755429963,highway,traffic_signals,regular
+2771169839,noexit,yes,regular
+2771169839,source,Bing,regular
+2784760103,name,Cold Stone Creamery,regular
+2784760103,phone,303-759-5454,regular
+2784760103,source,knowledge,regular
+2784760103,amenity,fast_food,regular
+2784760103,cuisine,ice_cream,regular
+2784760103,website,http://www.coldstonecreamery.com,regular
+2784760103,street,East Hampden Avenue,addr
+2784760103,postcode,80222,addr
+2784760103,housenumber,6300,addr
+2793879568,highway,traffic_signals,regular
+2793973683,source,Bing,regular
+2793973683,highway,crossing,regular
+2793973683,crossing,unmarked,regular
+2794063559,source,Bing,regular
+2794063559,tourism,hotel,regular
+2795640395,name,8th Ave & Josephine St,regular
+2795640395,source,Bing,regular
+2795640395,highway,bus_stop,regular
+2795640395,local_ref,RTD 6,regular
+2802939220,source,Bing,regular
+2802939220,barrier,gate,regular
+2807691999,name,E 6th Ave Pkwy & Monaco Pkwy,regular
+2807691999,source,Bing,regular
+2807691999,highway,bus_stop,regular
+2807691999,local_ref,RTD 6,regular
+2807720958,noexit,yes,regular
+2807720958,source,Bing,regular
+2810347263,source,Bing,regular
+2810347263,bicycle,yes,regular
+2810347263,highway,crossing,regular
+2810347263,crossing,traffic_signals,regular
+2812692549,source,Bing,regular
+2812692549,amenity,bench,regular
+2817331166,source,Bing,regular
+2817331166,highway,crossing,regular
+2817331166,crossing,unmarked,regular
+2819628870,barrier,gate,regular
+2819715834,power,tower,regular
+2822233548,name,E 23rd Ave & Jasmine St,regular
+2822233548,source,Bing,regular
+2822233548,highway,bus_stop,regular
+2822233548,local_ref,RTD 20,regular
+2822277606,name,E 23rd Ave & York St,regular
+2822277606,source,Bing,regular
+2822277606,highway,bus_stop,regular
+2822277606,local_ref,RTD 32,regular
+2823894910,name,York St & E Bruce Randolph Ave,regular
+2823894910,source,bing,regular
+2823894910,highway,bus_stop,regular
+2823894910,local_ref,RTD 24,regular
+2828214847,source,Bing,regular
+2828214847,highway,crossing,regular
+2828214847,crossing,traffic_signals,regular
+2832515381,name,Stapleton Tap House,regular
+2832515381,amenity,pub,regular
+2832921703,source,Bing,regular
+2832921703,tourism,picnic_site,regular
+2835066606,source,Bing,regular
+2835066606,highway,crossing,regular
+2835066606,crossing,traffic_signals,regular
+2836919089,source,Bing,regular
+2836919089,barrier,gate,regular
+2837012226,source,Bing,regular
+2837012226,highway,crossing,regular
+2837012226,crossing,unmarked,regular
+2837230633,name,Base Fitness Denver,regular
+2837230633,phone,303-537-4877,regular
+2837230633,sport,athletics,regular
+2837230633,leisure,sports_centre,regular
+2837230633,website,http://basefitnessdenver.com,regular
+2837230633,street,East Academy Boulevard,addr
+2837230633,postcode,80230,addr
+2837230633,housenumber,7565,addr
+2847479620,name,JWU Perk,regular
+2847479620,amenity,cafe,regular
+2847479620,cuisine,coffee_shop,regular
+2849806180,source,Bing,regular
+2849806180,bicycle,dismount,regular
+2849806180,highway,crossing,regular
+2849806180,crossing,uncontrolled,regular
+2849806180,supervised,yes,regular
+2852208908,source,Bing,regular
+2852208908,traffic_calming,bump,regular
+2852216671,source,Bing,regular
+2852216671,highway,crossing,regular
+2852216671,crossing,uncontrolled,regular
+2852231562,source,Bing,regular
+2852231562,highway,crossing,regular
+2852231562,crossing,uncontrolled,regular
+2854425918,noexit,yes,regular
+2854425918,source,Bing,regular
+2857312153,noexit,yes,regular
+2857312153,source,Bing,regular
+2863367769,name,Caribou Coffee,regular
+2863367769,phone,303-806-0900,regular
+2863367769,amenity,cafe,regular
+2863367769,cuisine,coffee_shop,regular
+2863367769,website,http://cariboucoffee.com,regular
+2863367769,street,East Hampden Avenue,addr
+2863367769,postcode,80113,addr
+2863367769,housenumber,1400-#150,addr
+2863678342,name,Broadway & 11th Ave,regular
+2863678342,source,Bing,regular
+2863678342,highway,bus_stop,regular
+2863678342,alt_name,11th and Broadway,regular
+2863678342,local_ref,RTD,regular
+2865713123,source,Bing,regular
+2865713123,highway,crossing,regular
+2865713123,crossing,uncontrolled,regular
+2867874106,source,Bing,regular
+2867874106,highway,crossing,regular
+2867874106,crossing,uncontrolled,regular
+2867979083,name,Safeway,regular
+2867979083,shop,supermarket,regular
+2867979083,phone,303-355-5486,regular
+2867979083,website,http://safeway.com,regular
+2867979083,street,East 1st Avenue,addr
+2867979083,postcode,80206,addr
+2867979083,housenumber,3110,addr
+2873836355,noexit,yes,regular
+2873836355,source,Bing,regular
+2875606093,source,Bing,regular
+2875606093,highway,crossing,regular
+2875606093,crossing,traffic_signals,regular
+2875632049,highway,turning_circle,regular
+2875714951,name,E Hampden Ave & S Sherman St,regular
+2875714951,source,Bing,regular
+2875714951,highway,bus_stop,regular
+2875714951,alt_name,Hampden and Sherman,regular
+2875714951,local_ref,RTD 12 35 ART,regular
+2880911258,source,Bing,regular
+2880911258,highway,crossing,regular
+2880911258,crossing,uncontrolled,regular
+2880986609,source,Bing,regular
+2880986609,barrier,gate,regular
+2881357524,amenity,bicycle_parking,regular
+2881357524,covered,no,regular
+2881357524,capacity,22,regular
+2881357524,bicycle_parking,stands,regular
+2888395023,highway,turning_circle,regular
+2896180841,amenity,recycling,regular
+2896180841,recycling_type,container,regular
+2896180841,batteries,no,recycling
+2896180841,electrical_appliances,no,recycling
+2896611402,source,Bing,regular
+2896611402,bicycle,yes,regular
+2896611402,highway,crossing,regular
+2896611402,crossing,traffic_signals,regular
+2897458381,power,pole,regular
+2901835717,unit,3,addr
+2901835717,date,2014-06-05,survey
+2903626660,name,Peace Mennonite Community Church,regular
+2903626660,phone,303-340-1555,regular
+2903626660,source,Bing,regular
+2903626660,amenity,place_of_worship,regular
+2903626660,website,http://www.peace-mennonite.org/,regular
+2903626660,religion,christian,regular
+2903626660,street,East Alameda Avenue,addr
+2903626660,denomination,mennonite,regular
+2903626660,postcode,80012,addr
+2903626660,housenumber,13601,addr
+2905115026,name,OK Discount Liquor,regular
+2905115026,shop,alcohol,regular
+2905115026,phone,303-338-5298,regular
+2905115026,street,South Parker Road,addr
+2905115026,postcode,80231,addr
+2905115026,housenumber,1422,addr
+2905126832,source,Bing,regular
+2905126832,highway,crossing,regular
+2905126832,crossing,uncontrolled,regular
+2906429479,source,Bing,regular
+2906429479,highway,crossing,regular
+2906429479,crossing,traffic_signals,regular
+2906579920,source,Bing,regular
+2906579920,highway,crossing,regular
+2906579920,crossing,traffic_signals,regular
+2916532371,highway,turning_circle,regular
+2922946155,source,Bing,regular
+2922946155,highway,crossing,regular
+2922946155,crossing,traffic_signals,regular
+2926843592,highway,turning_circle,regular
+2930320360,atm,yes,regular
+2930320360,name,Chase,regular
+2930320360,amenity,bank,regular
+2930320360,website,http://chase.com,regular
+2930320360,alt_name,JP Morgan Chase,regular
+2930320360,street,South Monaco Parkway,addr
+2930320360,postcode,80222,addr
+2930320360,housenumber,2223,addr
+2930532040,name,Security Self Storage,regular
+2930532040,shop,doityourself,regular
+2930532040,phone,720-279-1957,regular
+2930532040,website,http://www.securityself-storage.com/self_storage/Denver_CO/zip_80224/security_self_storage/932,regular
+2930532040,city,Denver,addr
+2930532040,street,South Pontiac Way,addr
+2930532040,postcode,80224,addr
+2930532040,housenumber,2078,addr
+2933665375,source,Bing,regular
+2933665375,bicycle,dismount,regular
+2933665375,highway,crossing,regular
+2933665375,crossing,uncontrolled,regular
+2933665375,supervised,yes,regular
+2935097558,name,E Yale Ave & S Laredo St,regular
+2935097558,source,Bing,regular
+2935097558,highway,bus_stop,regular
+2935097558,alt_name,Yale and Laredo,regular
+2935097558,local_ref,RTD 130 130H,regular
+2936533437,name,E Hampden Ave & E Hampden Cir,regular
+2936533437,source,Bing,regular
+2936533437,highway,bus_stop,regular
+2936533437,local_ref,RTD 133,regular
+2948212731,power,tower,regular
+2948213041,power,tower,regular
+2949978600,power,tower,regular
+2949978600,design,h-frame,regular
+2952400922,source,Bing,regular
+2952400922,highway,crossing,regular
+2952813453,power,tower,regular
+2952813453,design,h-frame,regular
+2952813653,power,tower,regular
+2952813653,design,portal,regular
+2959545329,source,Bing,regular
+2959545329,highway,crossing,regular
+2959545329,crossing,uncontrolled,regular
+2960619694,source,Bing,regular
+2960619694,highway,crossing,regular
+2960619694,crossing,uncontrolled,regular
+2962080378,barrier,gate,regular
+2966014683,crossing,zebra,regular
+2966014683,highway,crossing,regular
+2972386918,source,Bing,regular
+2972386918,highway,crossing,regular
+2972386918,crossing,uncontrolled,regular
+2975764459,highway,crossing,regular
+2975764459,crossing,zebra,regular
+2976870181,name,India Bazaar Asian Grocery,regular
+2976870181,shop,supermarket,regular
+2976870181,phone,303-856-3499,regular
+2976870181,street,East Colfax Avenue,addr
+2976870181,postcode,80010,addr
+2976870181,housenumber,9620,addr
+2982107503,source,Bing,regular
+2982107503,tourism,picnic_site,regular
+2982187260,source,Bing,regular
+2982187260,highway,crossing,regular
+2982187260,crossing,unmarked,regular
+2984503151,highway,turning_circle,regular
+2987138039,name,Beauty Supply Warehouse Salon,regular
+2987138039,shop,hairdresser,regular
+2987138039,phone,303-365-0500,regular
+2987138039,website,http://bswsuperstores.com,regular
+2987138039,street,East 6th Avenue,addr
+2987138039,postcode,80011,addr
+2987138039,housenumber,13870,addr
+2987153984,source,Bing,regular
+2987153984,barrier,gate,regular
+2991607649,source,Bing,regular
+2991607649,highway,crossing,regular
+2991607649,crossing,traffic_signals,regular
+2991659464,source,Bing,regular
+2991659464,tourism,picnic_site,regular
+3003744752,name,Pigtrain Coffee,regular
+3003744752,amenity,cafe,regular
+3003744752,cuisine,coffee_shop,regular
+3003744752,website,http://www.pigtraincoffee.com/,regular
+3003744752,city,Denver,addr
+3003744752,street,Wynkoop Street,addr
+3003744752,postcode,80202,addr
+3003744752,housenumber,1701,addr
+3006470531,name,Blue Sky Cafe,regular
+3006470531,phone,303-719-0317,regular
+3006470531,amenity,restaurant,regular
+3006470531,cuisine,american,regular
+3006470531,website,http://www.georgetown-colorado.org/business/blue-sky-cafe,regular
+3006470531,street,Argentine Street,addr
+3006470531,postcode,80444,addr
+3006470531,housenumber,1510,addr
+3007992595,source,Bing,regular
+3007992595,railway,level_crossing,regular
+3009595719,power,tower,regular
+3011782396,name,S Syracuse Way & S Whiting Way,regular
+3011782396,source,Bing,regular
+3011782396,highway,bus_stop,regular
+3011782396,local_ref,RTD 73,regular
+3015810859,ref,BB,regular
+3015810859,name,BB,regular
+3015810859,source,Bing,regular
+3015810859,highway,street_lamp,regular
+3047472517,highway,crossing,regular
+3047472517,crossing,zebra,regular
+3097846263,source,Bing,regular
+3097846263,barrier,gate,regular
+3099826001,source,Bing,regular
+3099826001,barrier,gate,regular
+3124985120,highway,crossing,regular
+3124985120,crossing,zebra,regular
+3151940403,name,Village Cafe Shop,regular
+3151940403,amenity,restaurant,regular
+3151940403,website,http://www.villagecoffeeshopboulder.com/,regular
+3151940403,alt_name,The Village Cafe,regular
+3151940403,city,Boulder,addr
+3151940403,street,Folsom Street,addr
+3151940403,opening_hours,Mo-Fr 05:30-15:00; Sa 05:30-14:30; Su 07:00-14:30,regular
+3151940403,housenumber,1605,addr
+3196585447,name,Huhot Mongolian Grill,regular
+3196585447,office,yes,regular
+3219564578,name,Meridian Trailhead,regular
+3237887370,highway,crossing,regular
+3237887370,crossing,zebra,regular
+3242145081,source,bing,regular
+3242145081,natural,tree,regular
+3243666037,source,Bing,regular
+3243666037,amenity,restaurant,regular
+3250273866,barrier,gate,regular
+3250320718,source,Bing,regular
+3250320718,barrier,gate,regular
+3251606858,barrier,gate,regular
+3257525765,source,bing,regular
+3257525765,natural,tree,regular
+3257537528,source,Bing,regular
+3257537528,barrier,gate,regular
+3260676315,source,Bing,regular
+3260676315,amenity,bench,regular
+3260677115,source,Bing,regular
+3260677115,highway,crossing,regular
+3260677115,crossing,unmarked,regular
+3260829854,source,bing,regular
+3260829854,natural,tree,regular
+3265642458,access,private,regular
+3265642458,barrier,gate,regular
+3265684530,source,Bing,regular
+3265684530,highway,crossing,regular
+3265684530,crossing,zebra,regular
+3274088019,highway,turning_circle,regular
+3274209575,name,Bistro Barbes,regular
+3274209575,amenity,restaurant,regular
+3274209575,city,Denver,addr
+3274209575,street,East 28th Avenue,addr
+3274209575,postcode,80207,addr
+3274209575,housenumber,5021,addr
+3275549374,barrier,gate,regular
+3283368745,source,Bing,regular
+3283368745,barrier,gate,regular
+3285744884,highway,crossing,regular
+3285744884,crossing,zebra,regular
+3287217873,railway,crossing,regular
+3287753766,highway,crossing,regular
+3287753766,crossing,zebra,regular
+3288816594,highway,crossing,regular
+3288816594,crossing,zebra,regular
+3297701281,source,bing,regular
+3297701281,natural,tree,regular
+3298724561,highway,crossing,regular
+3298724561,crossing,zebra,regular
+3299714125,source,Bing,regular
+3299714125,highway,crossing,regular
+3299714125,crossing,uncontrolled,regular
+3301203171,highway,crossing,regular
+3301203171,crossing,zebra,regular
+3301646930,highway,crossing,regular
+3301691874,highway,crossing,regular
+3301723766,highway,crossing,regular
+3302429849,power,pole,regular
+3302429849,source,Bing,regular
+3302430449,power,pole,regular
+3302430449,source,Bing,regular
+3302510485,power,tower,regular
+3303819737,power,tower,regular
+3304195758,power,tower,regular
+3304195758,source,Bing,regular
+3304388858,highway,crossing,regular
+3306745963,highway,crossing,regular
+3306745963,crossing,zebra,regular
+3308284856,noexit,yes,regular
+3311086937,clothes,sports,regular
+3311086937,name,The Northface,regular
+3311086937,opening_hours,Mo-Sa 10:00-20:00; Su 11:00-18:00,regular
+3311086937,shop,clothes,regular
+3311086937,website,http://stores.thenorthface.com/CO/BOULDER/TNF-17112SBC/,regular
+3320094614,power,pole,regular
+3320202606,source,Bing,regular
+3320202606,bicycle,yes,regular
+3320202606,highway,crossing,regular
+3320202606,crossing,traffic_signals,regular
+3320229632,noexit,yes,regular
+3320229632,source,Bing,regular
+3324638542,power,pole,regular
+3325311495,name,CorePower Yoga,regular
+3325311495,leisure,sports_centre,regular
+3325311495,city,Denver,addr
+3325311495,street,West 32nd Avenue,addr
+3325311495,postcode,80211,addr
+3325311495,housenumber,3390,addr
+3327314098,crossing,zebra,regular
+3327314098,highway,crossing,regular
+3329663025,highway,crossing,regular
+3329663025,crossing,zebra,regular
+3331671174,highway,stop,regular
+3336613924,source,Bing,regular
+3336613924,highway,crossing,regular
+3336613924,crossing,traffic_signals,regular
+3336977853,bicycle,yes,regular
+3336977853,highway,crossing,regular
+3336977853,crossing,traffic_signals,regular
+3337997164,source,Bing,regular
+3337997164,highway,crossing,regular
+3338184167,source,Bing,regular
+3338184167,highway,crossing,regular
+3338531129,railway,crossing,regular
+3338540783,highway,crossing,regular
+3339530580,highway,crossing,regular
+3339530580,crossing,zebra,regular
+3339559924,highway,crossing,regular
+3340930357,source,Bing,regular
+3340930357,highway,crossing,regular
+3351058162,name,C & B Cleaners & Hatters,regular
+3351058162,shop,dry_cleaning,regular
+3351058162,city,Denver,addr
+3351058162,street,Welton Street,addr
+3351058162,postcode,80205,addr
+3351058162,housenumber,2748,addr
+3366234096,highway,stop,regular
+3367359555,power,tower,regular
+3373822118,name,Auto Zone,regular
+3373822118,shop,car_repair,regular
+3373822118,designation,Auto Parts,regular
+3375596075,highway,crossing,regular
+3376098903,amenity,atm,regular
+3376160737,name,Cheddars,regular
+3376160737,amenity,restaurant,regular
+3380605593,name,Exempla Comprehensive Cancer Center,regular
+3380605593,amenity,clinic,regular
+3380605593,city,Denver,addr
+3380605593,street,Marion Street,addr
+3380605593,postcode,80218,addr
+3380605593,housenumber,1825,addr
+3382303357,name,Subway,regular
+3382303357,amenity,fast_food,regular
+3382303357,cuisine,sandwich,regular
+3382303357,city,Denver,addr
+3382303357,street,Sherman Street,addr
+3382303357,postcode,80203,addr
+3382303357,housenumber,1775,addr
+3387442631,name,Independence Institute,regular
+3387442631,office,yes,regular
+3387442631,city,Denver,addr
+3387442631,street,East 16th Avenue,addr
+3387442631,postcode,80203,addr
+3387442631,housenumber,727,addr
+3395021263,highway,crossing,regular
+3395108625,name,Pilates Aligned,regular
+3395108625,leisure,sports_centre,regular
+3395108625,city,Denver,addr
+3395108625,street,West 12th Avenue,addr
+3395108625,postcode,80204,addr
+3395108625,housenumber,475,addr
+3396158532,access,private,regular
+3396158532,barrier,gate,regular
+3403045811,name,The Fainting Goat,regular
+3403045811,amenity,restaurant,regular
+3403045811,city,Denver,addr
+3403045811,street,Broadway,addr
+3403045811,postcode,80203,addr
+3403045811,housenumber,846,addr
+3404172679,highway,crossing,regular
+3404172679,crossing,zebra,regular
+3406336844,highway,crossing,regular
+3406336844,crossing,zebra,regular
+3408224112,noexit,yes,regular
+3408224112,source,Bing,regular
+3408344336,name,Sprocket Design-Build,regular
+3408344336,office,architect,regular
+3408344336,city,Denver,addr
+3408344336,street,Lincoln Street,addr
+3408344336,postcode,80203,addr
+3408344336,housenumber,940,addr
+3411085773,power,pole,regular
+3420017345,name,24 Hour Fitness North Aurora Chambers,regular
+3420017345,source,http://www.24hourfitness.com/health_clubs/locations/finder/,regular
+3420017345,leisure,fitness_centre,regular
+3420017345,building,yes,regular
+3420017345,city,Aurora,addr
+3420017345,street,South Chambers Road,addr
+3420017345,postcode,80017,addr
+3420017345,housenumber,512 ,addr
+3427884778,noexit,yes,regular
+3429264126,highway,turning_circle,regular
+3430538705,name,Dog waste station,regular
+3438481298,name,Curtis Arts and Humanities Center,regular
+3438481298,amenity,arts_centre,regular
+3438481298,city,Greenwood Village,addr
+3438481298,state,CO,addr
+3438481298,street,East Orchard Road,addr
+3438481298,postcode,80112,addr
+3438481298,housenumber,2349,addr
+3442159055,source,Bing,regular
+3442159055,man_made,tower,regular
+3442628523,highway,traffic_signals,regular
+3442682312,highway,crossing,regular
+3443226210,highway,crossing,regular
+3443226210,crossing,zebra,regular
+3444311644,power,pole,regular
+3447560266,power,pole,regular
+3449876050,entrance,yes,regular
+3454104720,source,Yahoo,regular
+3454104720,highway,turning_circle,regular
+3454597592,power,pole,regular
+3456693995,barrier,gate,regular
+3456766055,source,Bing,regular
+3456766055,natural,tree,regular
+3456775729,source,Bing,regular
+3456775729,natural,tree,regular
+3456787259,source,Bing,regular
+3456787259,natural,tree,regular
+3458645657,name,King Soopers,regular
+3458645657,shop,supermarket,regular
+3458645657,city,Denver,addr
+3458645657,street,East 9th Avenue,addr
+3458645657,postcode,80218,addr
+3458645657,housenumber,1155,addr
+3458820247,source,Bing,regular
+3458820247,traffic_calming,hump,regular
+3460812559,noexit,yes,regular
+3460812559,source,Bing,regular
+3460956543,barrier,gate,regular
+3462013133,highway,traffic_signals,regular
+3462494655,source,Bing,regular
+3462494655,barrier,gate,regular
+3462534102,source,Bing,regular
+3462534102,highway,stop,regular
+3462534102,direction,backward,regular
+3472723957,highway,crossing,regular
+3472723957,crossing,zebra,regular
+3474052730,source,Bing,regular
+3474052730,bicycle,yes,regular
+3474052730,highway,crossing,regular
+3474052730,crossing,uncontrolled,regular
+3474227874,highway,crossing,regular
+3474227874,crossing,zebra,regular
+3474465751,source,Bing,regular
+3474465751,traffic_calming,Dip,regular
+3474538395,highway,crossing,regular
+3474538395,crossing,zebra,regular
+3474595891,power,pole,regular
+3474595891,source,Bing,regular
+3477328473,name,Dog Park,regular
+3477328473,entrance,yes,regular
+3485413379,name,Lincoln - Jordan PnR,regular
+3485413379,bench,yes,regular
+3485413379,covered,yes,regular
+3485413379,highway,bus_stop,regular
+3485413379,shelter,yes,regular
+3485413379,stop_id,21816,regular
+3485413379,operator,RTD,regular
+3485752580,name,Dominos Pizza,regular
+3485752580,phone,303-693-7696,regular
+3485752580,amenity,fast_food,regular
+3485752580,cuisine,pizza,regular
+3485752580,website,http://www.dominos.com,regular
+3485752580,city,Aurora,addr
+3485752580,unit,110,addr
+3485752580,state,Colorado,addr
+3485752580,street,East Hampden Avenue,addr
+3485752580,postcode,80013,addr
+3485752580,housename,Seven Hills Plaza,addr
+3485752580,housenumber,18511,addr
+3489111031,name,Colorado Voice Clinic,regular
+3489111031,amenity,clinic,regular
+3489111031,city,Denver,addr
+3489111031,street,West 7th Avenue,addr
+3489111031,postcode,80204,addr
+3489111031,housenumber,930 Unit B,addr
+3493405483,name,Source Four,regular
+3493405483,shop,furniture,regular
+3493405483,city,Denver,addr
+3493405483,street,Kalamath Street,addr
+3493405483,postcode,80204,addr
+3493405483,housenumber,753,addr
+3494249307,source,Bing,regular
+3494249307,natural,tree,regular
+3494249407,source,Bing,regular
+3494249407,natural,tree,regular
+3494307200,source,Bing,regular
+3494307200,natural,tree,regular
+3494311766,source,Bing,regular
+3494311766,natural,tree,regular
+3494637110,name,Big K Real Estate Developers,regular
+3494637110,office,estate_agent,regular
+3494637110,city,Denver,addr
+3494637110,street,Mariposa Street,addr
+3494637110,postcode,80204,addr
+3494637110,housenumber,729,addr
+3496962470,name,Alameda At Home Piano Lessons,regular
+3496962470,shop,music,regular
+3496962470,city,Denver,addr
+3496962470,street,Inca Street,addr
+3496962470,postcode,80204,addr
+3496962470,housenumber,813,addr
+3497046510,name,Sacred Space Bodywork,regular
+3497046510,shop,massage,regular
+3497046510,city,Denver,addr
+3497046510,street,Inca Street,addr
+3497046510,postcode,80204,addr
+3497046510,housenumber,855,addr
+3500181917,name,Danielle M McCarthy PC,regular
+3500181917,office,lawyer,regular
+3500181917,city,Denver,addr
+3500181917,street,Osage Street,addr
+3500181917,postcode,80204,addr
+3500181917,housenumber,1175,addr
+3504261341,source,Bing,regular
+3504261341,natural,tree,regular
+3507159857,name,Mistery Vapor Bar,regular
+3507159857,shop,tobacco,regular
+3507159857,city,Denver,addr
+3507159857,street,Santa Fe Drive,addr
+3507159857,postcode,80204,addr
+3507159857,housenumber,1355,addr
+3513613563,name,Food Team,regular
+3513613563,office,yes,regular
+3513613563,city,Denver,addr
+3513613563,street,Kalamath Street,addr
+3513613563,postcode,80204,addr
+3513613563,housenumber,1280,addr
+3517659367,highway,crossing,regular
+3517659367,crossing,zebra,regular
+3524559403,name,East-West Specialty Sauces,regular
+3524559403,shop,yes,regular
+3524559403,city,Denver,addr
+3524559403,street,Vallejo Street,addr
+3524559403,postcode,80204,addr
+3524559403,housenumber,950,addr
+3527109162,highway,crossing,regular
+3527109162,crossing,traffic_signals,regular
+3527277577,noexit,yes,regular
+3529516784,railway,level_crossing,regular
+3531852241,source,Bing,regular
+3531852241,natural,tree,regular
+3532607207,source,Bing,regular
+3532607207,natural,tree,regular
+3532607907,source,Bing,regular
+3532607907,natural,tree,regular
+3532677396,source,Bing,regular
+3532677396,natural,tree,regular
+3534285942,amenity,atm,regular
+3534285942,city,Denver,addr
+3534285942,street,Federal Boulevard,addr
+3534285942,postcode,80204,addr
+3534285942,housenumber,830,addr
+3540637876,name,Oasis Bar & Grill,regular
+3540637876,source,survey,regular
+3540637876,amenity,bar,regular
+3555293923,source,Bing,regular
+3555293923,highway,crossing,regular
+3555293923,crossing,uncontrolled,regular
+3559629986,source,Bing,regular
+3559629986,bicycle,yes,regular
+3559629986,highway,crossing,regular
+3559629986,crossing,traffic_signals,regular
+3562661151,power,tower,regular
+3564690093,source,Bing,regular
+3564690093,traffic_calming,bump,regular
+3564703694,source,Bing,regular
+3564703694,natural,tree,regular
+3564733752,source,Bing,regular
+3564733752,natural,tree,regular
+3564735952,source,Bing,regular
+3564735952,natural,tree,regular
+3564754023,source,Bing,regular
+3564754023,natural,tree,regular
+3564754123,source,Bing,regular
+3564754123,natural,tree,regular
+3564754223,source,Bing,regular
+3564754223,natural,tree,regular
+3564764051,source,Bing,regular
+3564764051,natural,tree,regular
+3602519837,highway,stop,regular
+3605874234,natural,tree,regular
+3608190940,source,Bing,regular
+3608190940,natural,tree,regular
+3608195275,source,Bing,regular
+3608195275,natural,tree,regular
+3609000189,highway,stop,regular
+3611692832,natural,tree,regular
+3611808417,shop,supermarket,regular
+3611808417,source,Bing,regular
+3615224179,natural,tree,regular
+3618570779,source,Bing,regular
+3618570779,natural,tree,regular
+3618571479,power,pole,regular
+3626241753,source,Bing,regular
+3626241753,highway,crossing,regular
+3626241753,crossing,uncontrolled,regular
+3627818618,natural,tree,regular
+3627964046,name,Food Stop,regular
+3627964046,amenity,fuel,regular
+3627964046,operator,Food Stop,regular
+3628043177,natural,tree,regular
+3628547595,source,Bing,regular
+3628547595,bicycle,yes,regular
+3628547595,highway,crossing,regular
+3628547595,crossing,traffic_signals,regular
+3629261883,hoops,1,regular
+3629261883,sport,basketball,regular
+3629261883,leisure,pitch,regular
+3630721001,source,Bing,regular
+3630721001,tourism,motel,regular
+3630721504,shop,car,regular
+3630721504,source,Bing,regular
+3632429950,name,Payless Shoe Source,regular
+3632429950,shop,clothes,regular
+3632429950,phone,303-232-3793,regular
+3632429950,source,Bing,regular
+3632429950,website,http://www.payless.com,regular
+3632429950,city,Lakewood,addr
+3632429950,unit,103,addr
+3632429950,street,West Colfax Avenue,addr
+3632429950,postcode,80214,addr
+3632429950,housenumber,7475,addr
+3634710505,source,Bing,regular
+3634710505,highway,crossing,regular
+3634710505,crossing,traffic_signals,regular
+3634744875,source,Bing,regular
+3634744875,highway,crossing,regular
+3634744875,crossing,uncontrolled,regular
+3634964925,source,Bing,regular
+3634964925,highway,crossing,regular
+3636342797,source,Bing,regular
+3636342797,bicycle,yes,regular
+3636342797,highway,crossing,regular
+3636342797,crossing,traffic_signals,regular
+3636381537,source,Bing,regular
+3636381537,highway,crossing,regular
+3636381537,crossing,uncontrolled,regular
+3637955825,highway,street_lamp,regular
+3637955825,lamp_type,electric,regular
+3638067000,name,W 38th Ave & Quail Ct,regular
+3638067000,highway,bus_stop,regular
+3638067000,local_ref,RTD 38,regular
+3638086573,source,Bing,regular
+3638086573,highway,crossing,regular
+3638086573,crossing,uncontrolled,regular
+3638086673,source,Bing,regular
+3638086673,natural,tree,regular
+3638088464,source,Bing,regular
+3638088464,natural,tree,regular
+3638088964,source,Bing,regular
+3638088964,natural,tree,regular
+3638118408,name,W 32nd Ave & Dudley St,regular
+3638118408,source,Bing,regular
+3638118408,highway,bus_stop,regular
+3638118408,shelter,yes,regular
+3638118408,local_ref,RTD 32,regular
+3638289766,shop,car,regular
+3638289766,source,Mapbox,regular
+3639490846,city,Aurora,addr
+3639490846,street,South Grand Baker Way,addr
+3639490846,postcode,80016,addr
+3639490846,housenumber,7927,addr
+3639521507,name,table tennis,regular
+3639990793,name,W 44th Ave & Ward Rd,regular
+3639990793,source,Bing,regular
+3639990793,highway,bus_stop,regular
+3639990793,local_ref,RTD 44,regular
+3640325161,source,Bing,regular
+3640325161,natural,tree,regular
+3641704886,source,Bing,regular
+3641704886,amenity,bench,regular
+3641704986,source,Bing,regular
+3641704986,natural,tree,regular
+3641734412,source,Bing,regular
+3641734412,natural,tree,regular
+3641734812,source,Bing,regular
+3641734812,natural,tree,regular
+3641734912,source,Bing,regular
+3641734912,natural,tree,regular
+3641929011,source,Bing,regular
+3641929011,traffic_calming,hump,regular
+3642082823,source,Bing,regular
+3642082823,amenity,car_wash,regular
+3642082823,automated,yes,regular
+3643761182,source,Bing,regular
+3643761182,traffic_calming,hump,regular
+3646980649,source,survey,regular
+3646980649,entrance,yes,regular
+3646992559,source,survey,regular
+3646992559,amenity,bicycle_parking,regular
+3646992559,covered,yes,regular
+3646992559,capacity,6,regular
+3646992559,operator,RTD,regular
+3646992559,bicycle_parking,stands,regular
+3648140235,source,Bing,regular
+3648140235,natural,tree,regular
+3648140335,source,Bing,regular
+3648140335,natural,tree,regular
+3649887245,source,Bing,regular
+3649887245,bicycle,dismount,regular
+3649887245,highway,crossing,regular
+3649887245,crossing,uncontrolled,regular
+3649887245,supervised,yes,regular
+3649900917,source,Bing,regular
+3649900917,tourism,picnic_site,regular
+3649930382,source,Bing,regular
+3649930382,natural,tree,regular
+3649930582,source,Bing,regular
+3649930582,natural,tree,regular
+3649976618,source,Bing,regular
+3649976618,natural,tree,regular
+3649979465,source,Bing,regular
+3649979465,natural,tree,regular
+3651600690,source,Bing,regular
+3651600690,natural,tree,regular
+3651600790,source,Bing,regular
+3651600790,natural,tree,regular
+3651905074,source,Bing,regular
+3651905074,natural,tree,regular
+3651909074,source,Bing,regular
+3651909074,natural,tree,regular
+3653717006,source,Bing,regular
+3653717006,natural,tree,regular
+3653717106,source,Bing,regular
+3653717106,natural,tree,regular
+3653717206,source,Bing,regular
+3653717206,natural,tree,regular
+3654996054,source,Bing,regular
+3654996054,barrier,gate,regular
+3656111469,source,Bing,regular
+3656111469,bicycle,yes,regular
+3656111469,highway,crossing,regular
+3656111469,crossing,uncontrolled,regular
+3656116984,source,Bing,regular
+3656116984,natural,tree,regular
+3657308477,source,Bing,regular
+3657308477,bicycle,yes,regular
+3657308477,highway,crossing,regular
+3657308477,crossing,traffic_signals,regular
+3657327939,source,Bing,regular
+3657327939,natural,tree,regular
+3657328041,source,Bing,regular
+3657328041,natural,tree,regular
+3658002760,name,Chico's,regular
+3658002760,shop,shoes,regular
+3658368477,source,Bing,regular
+3658368477,natural,tree,regular
+3658371415,source,Bing,regular
+3658371415,natural,tree,regular
+3658373915,source,Bing,regular
+3658373915,natural,tree,regular
+3658374115,source,Bing,regular
+3658374115,natural,tree,regular
+3658385591,source,Bing,regular
+3658385591,natural,tree,regular
+3658390165,source,Bing,regular
+3658390165,natural,tree,regular
+3658464487,power,pole,regular
+3658491414,power,pole,regular
+3658548244,noexit,yes,regular
+3658548244,source,Bing,regular
+3658559404,source,Bing,regular
+3658559404,natural,tree,regular
+3658563104,source,Bing,regular
+3658563104,natural,tree,regular
+3658569505,power,pole,regular
+3658586825,source,Bing,regular
+3658586825,natural,tree,regular
+3659108286,highway,crossing,regular
+3659108286,crossing,zebra,regular
+3659599238,source,Bing,regular
+3659599238,natural,tree,regular
+3659599438,source,Bing,regular
+3659599438,natural,tree,regular
+3659599638,source,Bing,regular
+3659599638,natural,tree,regular
+3659604192,source,Bing,regular
+3659604192,bicycle,yes,regular
+3659604192,highway,crossing,regular
+3659604192,crossing,uncontrolled,regular
+3660805988,source,Bing,regular
+3660805988,highway,crossing,regular
+3660805988,crossing,traffic_signals,regular
+3660980509,noexit,yes,regular
+3660980509,source,Bing,regular
+3661096966,source,Bing,regular
+3661096966,natural,tree,regular
+3661097066,source,Bing,regular
+3661097066,natural,tree,regular
+3661112380,source,Bing,regular
+3661112380,barrier,gate,regular
+3661201850,source,Bing,regular
+3661201850,natural,tree,regular
+3661201950,source,Bing,regular
+3661201950,natural,tree,regular
+3662403145,source,Bing,regular
+3662403145,natural,tree,regular
+3662449517,source,Bing,regular
+3662449517,highway,street_lamp,regular
+3662452918,source,Bing,regular
+3662452918,highway,street_lamp,regular
+3663134950,highway,crossing,regular
+3664037419,source,Bing,regular
+3664037419,natural,tree,regular
+3665315375,source,Bing,regular
+3665315375,natural,tree,regular
+3665315475,source,Bing,regular
+3665315475,natural,tree,regular
+3665315675,source,Bing,regular
+3665315675,natural,tree,regular
+3666729795,source,Bing,regular
+3666729795,natural,tree,regular
+3666738158,source,Bing,regular
+3666738158,natural,tree,regular
+3666762086,source,Bing,regular
+3666762086,natural,tree,regular
+3666763686,source,Bing,regular
+3666763686,natural,tree,regular
+3666763886,source,Bing,regular
+3666763886,natural,tree,regular
+3666790588,source,Bing,regular
+3666790588,natural,tree,regular
+3666790688,source,Bing,regular
+3666790688,natural,tree,regular
+3666790888,source,Bing,regular
+3666790888,natural,tree,regular
+3667926493,source,Bing,regular
+3667926493,natural,tree,regular
+3667937599,source,Bing,regular
+3667937599,natural,tree,regular
+3667937899,source,Bing,regular
+3667937899,natural,tree,regular
+3668144203,source,Bing,regular
+3668144203,natural,tree,regular
+3671095023,source,Bing,regular
+3671095023,highway,traffic_signals,regular
+3678213408,highway,crossing,regular
+3678213408,crossing,traffic_signals,regular
+3678213408,crossing_ref,zebra,regular
+3688182585,power,tower,regular
+3692061082,name,Self-Pay Station,regular
+3692061082,source,https://www.auroragov.org/cs/groups/public/documents/document/003902.pdf,regular
+3692061082,tourism,information,regular
+3692061082,information,yes,regular
+3693934133,name,Big Frog Custom T-Shirts & More,regular
+3693934133,shop,yes,regular
+3693934133,city,Aurora,addr
+3693934133,postcode,80015,addr
+3697073289,name,Archer Western Construction,regular
+3697073289,office,company,regular
+3697073289,city,Westminster,addr
+3697073289,state,CO,addr
+3697073289,street,Yates Drive,addr
+3697073289,postcode,80031,addr
+3697073289,housenumber,8703,addr
+3697604929,name,Dry Cleaning Station,regular
+3697604929,shop,dry_cleaning,regular
+3697922455,highway,crossing,regular
+3697922455,crossing,unmarked,regular
+3702305399,source,Bing,regular
+3702305399,highway,crossing,regular
+3702305399,crossing,traffic_signals,regular
+3703112716,highway,crossing,regular
+3703112716,crossing,traffic_signals,regular
+3704238534,power,tower,regular
+3707341795,natural,tree,regular
+3707346880,natural,tree,regular
+3707356426,natural,tree,regular
+3708030249,natural,tree,regular
+3708030555,natural,tree,regular
+3710622891,natural,tree,regular
+3710764867,natural,tree,regular
+3711207949,city,Broomfield,addr
+3711207949,state,CO,addr
+3711207949,street,Laurel Street,addr
+3711207949,postcode,80020,addr
+3711207949,housenumber,220,addr
+3712067442,highway,crossing,regular
+3712067442,crossing,zebra,regular
+3717633940,natural,tree,regular
+3719192185,highway,crossing,regular
+3719192185,crossing,zebra,regular
+3721565286,highway,crossing,regular
+3721565286,crossing,unmarked,regular
+3725503522,source,Bing,regular
+3725503522,leisure,playground,regular
+3743670782,source,Bing,regular
+3743670782,natural,tree,regular
+3743670982,source,Bing,regular
+3743670982,natural,tree,regular
+3743671082,source,Bing,regular
+3743671082,natural,tree,regular
+3743671182,source,Bing,regular
+3743671182,natural,tree,regular
+3743671282,source,Bing,regular
+3743671282,natural,tree,regular
+3743680071,source,Bing,regular
+3743680071,natural,tree,regular
+3743680271,source,Bing,regular
+3743680271,natural,tree,regular
+3743693657,source,Bing,regular
+3743693657,natural,tree,regular
+3744167125,power,pole,regular
+3744222775,power,pole,regular
+3744898041,source,Bing,regular
+3744898041,natural,tree,regular
+3745002805,source,Bing,regular
+3745002805,natural,tree,regular
+3745503489,power,pole,regular
+3745558291,power,pole,regular
+3747655688,power,pole,regular
+3750003617,source,Bing,regular
+3750003617,natural,tree,regular
+3750003717,source,Bing,regular
+3750003717,natural,tree,regular
+3750003818,source,Bing,regular
+3750003818,natural,tree,regular
+3750003918,source,Bing,regular
+3750003918,natural,tree,regular
+3750004018,source,Bing,regular
+3750004018,natural,tree,regular
+3750004118,source,Bing,regular
+3750004118,natural,tree,regular
+3751012092,source,Bing,regular
+3751012092,traffic_calming,bump,regular
+3751124686,source,Bing,regular
+3751124686,natural,tree,regular
+3751130352,source,Bing,regular
+3751130352,highway,street_lamp,regular
+3751140686,source,Bing,regular
+3751140686,natural,tree,regular
+3751152451,source,Bing,regular
+3751152451,highway,street_lamp,regular
+3751152551,source,Bing,regular
+3751152551,natural,tree,regular
+3751152751,source,Bing,regular
+3751152751,natural,tree,regular
+3753673694,source,Bing,regular
+3753673694,natural,tree,regular
+3753673794,source,Bing,regular
+3753673794,natural,tree,regular
+3753673994,source,Bing,regular
+3753673994,natural,tree,regular
+3753674094,source,Bing,regular
+3753674094,natural,tree,regular
+3753674194,source,Bing,regular
+3753674194,natural,tree,regular
+3753674294,source,Bing,regular
+3753674294,natural,tree,regular
+3753674394,source,Bing,regular
+3753674394,natural,tree,regular
+3754403994,crossing,unmarked,regular
+3754403994,highway,crossing,regular
+3754472985,traffic_calming,bump,regular
+3754622220,highway,crossing,regular
+3754622220,crossing,zebra,regular
+3757201341,power,pole,regular
+3762494205,power,pole,regular
+3763679449,highway,crossing,regular
+3763679449,crossing,zebra,regular
+3763887907,highway,crossing,regular
+3763887907,crossing,zebra,regular
+3783388027,natural,tree,regular
+3783394459,natural,tree,regular
+3783679568,amenity,bench,regular
+3783679568,backrest,yes,regular
+3785201637,natural,tree,regular
+3789211478,natural,tree,regular
+3791665073,highway,street_lamp,regular
+3793443243,highway,street_lamp,regular
+3794288032,highway,street_lamp,regular
+3794781214,highway,street_lamp,regular
+3795341323,natural,tree,regular
+3795929712,traffic_calming,bump,regular
+3797002255,natural,tree,regular
+3797264156,natural,tree,regular
+3797266956,natural,tree,regular
+3798186681,highway,crossing,regular
+3798186681,crossing,zebra,regular
+3804927513,name,Starbucks,regular
+3804927513,amenity,cafe,regular
+3804927513,cuisine,coffee_shop,regular
+3804927513,city,Centennial,addr
+3804927513,state,CO,addr
+3804927513,street,East Smoky Hill Road,addr
+3804927513,postcode,80015,addr
+3804927513,housenumber,19751,addr
+3807148127,highway,street_lamp,regular
+3809894470,highway,crossing,regular
+3809894470,crossing,zebra,regular
+3810756455,highway,crossing,regular
+3811199340,natural,tree,regular
+3811422408,highway,street_lamp,regular
+3814000787,natural,tree,regular
+3822974610,natural,tree,regular
+3823184454,natural,tree,regular
+3832091661,natural,tree,regular
+3834860608,natural,tree,regular
+3844052784,highway,street_lamp,regular
+3845397913,name,Wyatt's Wine And Spirits,regular
+3845397913,shop,alcohol,regular
+3890034097,highway,crossing,regular
+3890034097,crossing,zebra,regular
+3914376772,highway,crossing,regular
+3922326871,highway,crossing,regular
+3923086241,highway,crossing,regular
+3925535230,highway,crossing,regular
+3925853699,highway,crossing,regular
+3925853699,crossing,zebra,regular
+3927005748,highway,crossing,regular
+3930374073,power,pole,regular
+3935420027,highway,crossing,regular
+3935980628,highway,crossing,regular
+3956719414,power,pole,regular
+3956861912,power,pole,regular
+3957526831,natural,tree,regular
+3957534047,barrier,bollard,regular
+3975281359,source,Bing,regular
+3975281359,natural,tree,regular
+3977258138,source,Bing,regular
+3977258138,natural,tree,regular
+3977307559,highway,stop,regular
+3977307559,direction,backward,regular
+3977323948,source,Bing,regular
+3977323948,highway,crossing,regular
+3977323948,crossing,uncontrolled,regular
+3990098836,highway,crossing,regular
+3990098836,crossing,zebra,regular
+3995574909,highway,crossing,regular
+3995574909,crossing,zebra,regular
+4006328689,highway,stop,regular
+4038580849,natural,tree,regular
+4051307565,barrier,bollard,regular
+4059404563,bicycle,yes,regular
+4059404563,crossing,uncontrolled,regular
+4059404563,highway,crossing,regular
+4061752548,name,Allstate Insurance - Steve Andrews,regular
+4061752548,office,insurance,regular
+4061752548,city,Parker,addr
+4061752548,state,CO,addr
+4061752548,street,South Parker Road,addr
+4061752548,postcode,80134,addr
+4061752548,housenumber,9825,addr
+4066620774,highway,crossing,regular
+4066620774,crossing,zebra,regular
+4103895694,name,S Havana St & E Yale Ave,regular
+4103895694,source,Bing,regular
+4103895694,highway,bus_stop,regular
+4103895694,shelter,yes,regular
+4103895694,local_ref,RTD 105,regular
+4104064929,source,Bing,regular
+4104064929,natural,tree,regular
+4104065729,source,Bing,regular
+4104065729,natural,tree,regular
+4112415927,natural,tree,regular
+4112539497,natural,tree,regular
+4112539697,natural,tree,regular
+4118832775,power,pole,regular
+4119294533,noexit,yes,regular
+4121388750,power,pole,regular
+4122597892,highway,crossing,regular
+4123692594,power,pole,regular
+4130624949,power,pole,regular
+4131570899,power,tower,regular
+4135961982,name,Super 8 Denver Midtown,regular
+4135961982,tourism,motel,regular
+4139923575,name,M & C Company Tax Service,regular
+4139923575,office,lawyer,regular
+4139923575,city,Denver,addr
+4139923575,street,Federal Boulevard,addr
+4139923575,postcode,80211,addr
+4139923575,housenumber,3155,addr
+4141836542,highway,traffic_signals,regular
+4142122978,name,Community Garden,regular
+4142122978,leisure,garden,regular
+4144151212,highway,crossing,regular
+4144328843,highway,crossing,regular
+4144743991,highway,crossing,regular
+4145733398,natural,tree,regular
+4147324873,name,Winter Wind On The Mesa,regular
+4147324873,tourism,artwork,regular
+4147324873,artist_name,Marie Barbera,regular
+4147324873,artwork_type,sculpture,regular
+4147362585,man_made,tower,regular
+4154094468,highway,crossing,regular
+4160187253,source,Bing,regular
+4160187253,bicycle,yes,regular
+4160187253,highway,crossing,regular
+4160187253,crossing,traffic_signals,regular
+4160249468,source,Bing,regular
+4160249468,natural,tree,regular
+4160281700,source,Bing,regular
+4160281700,natural,tree,regular
+4160281814,source,Bing,regular
+4160281814,natural,tree,regular
+4160332647,natural,tree,regular
+4160482912,source,Bing,regular
+4160482912,natural,tree,regular
+4160484712,source,Bing,regular
+4160484712,natural,tree,regular
+4160501102,source,Bing,regular
+4160501102,natural,tree,regular
+4160557345,source,Bing,regular
+4160557345,natural,tree,regular
+4161526202,natural,tree,regular
+4164270756,source,Bing,regular
+4164270756,natural,tree,regular
+4164272253,source,Bing,regular
+4164272253,natural,tree,regular
+4164529140,source,Bing,regular
+4164529140,bicycle,yes,regular
+4164529140,highway,crossing,regular
+4164529140,crossing,traffic_signals,regular
+4166791594,source,Bing,regular
+4166791594,natural,tree,regular
+4166791694,source,Bing,regular
+4166791694,natural,tree,regular
+4166792094,source,Bing,regular
+4166792094,natural,tree,regular
+4166792194,source,Bing,regular
+4166792194,natural,tree,regular
+4211689419,natural,tree,regular
+4226883777,highway,crossing,regular
+4227005842,highway,crossing,regular
+4227637599,name,boost mobile,regular
+4227637599,shop,mobile_phone,regular
+4227637599,phone,720-277-3146,regular
+4232930097,natural,tree,regular
+4234059820,city,Boulder,addr
+4234059820,unit,O202,addr
+4234059820,floor,2,addr
+4234059820,state,CO,addr
+4234059820,street,Madison Avenue,addr
+4234059820,postcode,80303,addr
+4234059820,housenumber,3161,addr
+4235470541,natural,tree,regular
+4236820997,natural,tree,regular
+4246904504,power,pole,regular
+4247729763,natural,tree,regular
+4253737053,highway,crossing,regular
+4258475351,natural,tree,regular
+4262229893,name,Norcostco Costume Rental,regular
+4262229893,shop,yes,regular
+4262229893,city,Denver,addr
+4262229893,street,Broadway,addr
+4262229893,postcode,80216,addr
+4262229893,housenumber,4395,addr
+4263916425,natural,tree,regular
+4264312812,natural,tree,regular
+4266423646,highway,crossing,regular
+4268162437,natural,tree,regular
+4274831441,highway,crossing,regular
+4277552565,highway,crossing,regular
+4277771126,natural,tree,regular
+4279313261,natural,tree,regular
+4286618592,amenity,atm,regular
+4289507302,amenity,parking_space,regular
+4291041953,note,There is a blue disc lodged in this tree,regular
+4291041953,natural,tree,regular
+4291046111,note,There is a blue disc lodged in this tree,regular
+4291046111,natural,tree,regular
+4291352058,natural,tree,regular
+4291362159,natural,tree,regular
+4291379451,amenity,parking_space,regular
+4291384309,natural,tree,regular
+4291394001,amenity,parking_space,regular
+4293999298,name,Salon Marjan,regular
+4293999298,shop,beauty,regular
+4293999298,street,S Pearl St,addr
+4293999298,housenumber,1601,addr
+4299109702,leisure,picnic_table,regular
+4301250784,natural,tree,regular
+4301252460,natural,tree,regular
+4301268025,natural,tree,regular
+4301269820,natural,tree,regular
+4301279038,natural,tree,regular
+4301293827,natural,tree,regular
+4301294694,natural,tree,regular
+4301325720,natural,tree,regular
+4301337625,natural,tree,regular
+4301339979,natural,tree,regular
+4303317026,natural,tree,regular
+4303393344,natural,tree,regular
+4304993061,natural,tree,regular
+4305346827,natural,tree,regular
+4307775399,tourism,information,regular
+4307775399,information,board,regular
+4309639566,natural,tree,regular
+4309668479,natural,tree,regular
+4309765453,natural,tree,regular
+4309847921,natural,tree,regular
+4309902277,natural,tree,regular
+4309925658,natural,tree,regular
+4309930295,natural,tree,regular
+4309969231,natural,tree,regular
+4309999429,natural,tree,regular
+4310022727,natural,tree,regular
+4310049455,natural,tree,regular
+4311436141,natural,tree,regular
+4313001580,natural,tree,regular
+4313231360,natural,tree,regular
+4313302503,natural,tree,regular
+4313348905,natural,tree,regular
+4313349686,natural,tree,regular
+4313362483,natural,tree,regular
+4313734335,natural,tree,regular
+4314363165,highway,crossing,regular
+4314938665,natural,tree,regular
+4315121474,natural,tree,regular
+4315269420,natural,tree,regular
+4315270524,natural,tree,regular
+4315578041,natural,tree,regular
+4315608709,name,Huckleberry Roasters,regular
+4315608709,amenity,cafe,regular
+4315608709,city,Denver,addr
+4315608709,street,Pecos Street,addr
+4315608709,postcode,80211,addr
+4315608709,opening_hours,7:00AM - 6:00PM,regular
+4315608709,housenumber,4301,addr
+4315884630,natural,tree,regular
+4315983463,natural,tree,regular
+4320105122,natural,tree,regular
+4320193917,natural,tree,regular
+4320194394,natural,tree,regular
+4322038532,natural,tree,regular
+4323690037,natural,tree,regular
+4325308218,name,Esmey's Gift World / Northside Bronco Stop,regular
+4325308218,shop,gift,regular
+4325308218,city,Denver,addr
+4325308218,street,Tejon Street,addr
+4325308218,postcode,80211,addr
+4325308218,housenumber,4100,addr
+4327287369,natural,tree,regular
+4327584950,natural,tree,regular
+4328522316,natural,tree,regular
+4331134674,natural,tree,regular
+4331137197,natural,tree,regular
+4331143385,natural,tree,regular
+4331156634,natural,tree,regular
+4331161336,natural,tree,regular
+4331229491,natural,tree,regular
+4335657454,natural,tree,regular
+4335667431,natural,tree,regular
+4335844117,natural,tree,regular
+4335867713,natural,tree,regular
+4336040298,natural,tree,regular
+4336515444,source,Bing,regular
+4336515444,highway,crossing,regular
+4336515444,crossing,uncontrolled,regular
+4339456342,source,Bing,regular
+4339456342,highway,street_lamp,regular
+4339456542,source,Bing,regular
+4339456542,highway,street_lamp,regular
+4340541195,source,Bing,regular
+4340541195,highway,crossing,regular
+4340541195,crossing,uncontrolled,regular
+4342985521,highway,crossing,regular
+4343007199,highway,crossing,regular
+4343613092,natural,tree,regular
+4343618057,natural,tree,regular
+4343798167,highway,traffic_signals,regular
+4344882108,natural,tree,regular
+4345211065,highway,crossing,regular
+4345570541,highway,street_lamp,regular
+4345570541,source,Bing,regular
+4345570541,type,high_mast,street_lamp
+4345570842,highway,street_lamp,regular
+4345570842,source,Bing,regular
+4345570842,type,high_mast,street_lamp
+4346486227,natural,tree,regular
+4346545317,natural,tree,regular
+4347315790,highway,crossing,regular
+4347315790,crossing,zebra,regular
+4348047854,highway,traffic_signals,regular
+4348082703,source,Bing,regular
+4348082703,traffic_calming,bump,regular
+4349249875,barrier,gate,regular
+4349428097,bicycle,yes,regular
+4349428097,highway,crossing,regular
+4349428097,crossing,unmarked,regular
+4350493376,source,Bing,regular
+4350493376,highway,crossing,regular
+4350493376,crossing,uncontrolled,regular
+4352114816,natural,tree,regular
+4353121631,natural,tree,regular
+4353789935,highway,crossing,regular
+4355066461,fax,303-663-6822,regular
+4355066461,name,Jersey Mike's,regular
+4355066461,phone,303-663-6657,regular
+4355066461,source,knowledge,regular
+4355066461,amenity,restaurant,regular
+4355066461,cuisine,sandwich,regular
+4355066461,website,https://www.jerseymikes.com/22021/Castle-Rock-CO,regular
+4355066461,alt_name,Jersey Mike's Subs,regular
+4355066461,city,Castle Rock,addr
+4355066461,unit,230,addr
+4355066461,state,CO,addr
+4355066461,street,Factory Shops Boulevard,addr
+4355066461,postcode,80108,addr
+4355066461,opening_hours,Su-Sa 1000-2100,regular
+4355066461,housenumber,4989,addr
+4356796298,name,24,regular
+4356796298,tourism,camp_site,regular
+4358242657,highway,crossing,regular
+4367194187,source,Bing,regular
+4367194187,natural,tree,regular
+4367194586,source,Bing,regular
+4367194586,natural,tree,regular
+4367240560,source,Bing,regular
+4367240560,natural,tree,regular
+4368876814,natural,tree,regular
+4370347769,highway,stop,regular
+4370347769,direction,backward,regular
+4379935079,barrier,gate,regular
+4379965900,source,Bing,regular
+4379965900,natural,tree,regular
+4379966001,source,Bing,regular
+4379966001,natural,tree,regular
+4394165242,natural,tree,regular
+4395619645,highway,crossing,regular
+4395632002,highway,crossing,regular
+4401928815,name,7-Eleven,regular
+4401928815,shop,convenience,regular
+4401928815,city,Denver,addr
+4401928815,street,Federal Boulevard,addr
+4401928815,postcode,80211,addr
+4401928815,housenumber,3810,addr
+4403462934,natural,tree,regular
+4403472878,natural,tree,regular
+4404809584,natural,tree,regular
+4404850114,natural,tree,regular
+4408438312,natural,tree,regular
+4408442661,natural,tree,regular
+4408443488,natural,tree,regular
+4417946466,amenity,toilets,regular
+4419315797,natural,tree,regular
+4419327994,natural,tree,regular
+4419338022,natural,tree,regular
+4419349455,natural,tree,regular
+4419412102,natural,tree,regular
+4419422497,natural,tree,regular
+4420651551,name,Ruby Gulch Site 12,regular
+4420651551,tourism,camp_site,regular
+4420727049,natural,tree,regular
+4420736082,natural,tree,regular
+4420968713,natural,tree,regular
+4421030553,natural,tree,regular
+4421068742,natural,tree,regular
+4421099250,natural,tree,regular
+4422287611,natural,tree,regular
+4422297245,natural,tree,regular
+4422343131,natural,tree,regular
+4422348558,natural,tree,regular
+4424263810,natural,tree,regular
+4424272322,natural,tree,regular
+4424298672,natural,tree,regular
+4424313591,natural,tree,regular
+4424321596,natural,tree,regular
+4424326036,natural,tree,regular
+4424329947,natural,tree,regular
+4424331311,natural,tree,regular
+4424336623,natural,tree,regular
+4424337828,natural,tree,regular
+4427272499,natural,tree,regular
+4427273531,natural,tree,regular
+4427276154,natural,tree,regular
+4430886136,crossing,zebra,regular
+4430886136,highway,crossing,regular
+4431259894,natural,tree,regular
+4432069139,natural,tree,regular
+4434850648,natural,tree,regular
+4434862294,natural,tree,regular
+4434894365,natural,tree,regular
+4435368506,natural,tree,regular
+4438403713,highway,traffic_signals,regular
+4440026512,highway,crossing,regular
+4441369558,natural,tree,regular
+4441372406,natural,tree,regular
+4441374784,natural,tree,regular
+4441379705,natural,tree,regular
+4442480042,highway,crossing,regular
+4443106434,highway,crossing,regular
+4443246443,highway,crossing,regular
+4443924917,highway,crossing,regular
+4444025287,highway,crossing,regular
+4446798003,natural,tree,regular
+4446804604,natural,tree,regular
+4446833092,natural,tree,regular
+4448114773,natural,tree,regular
+4448403952,natural,tree,regular
+4448458706,natural,tree,regular
+4448466396,natural,tree,regular
+4448496170,natural,tree,regular
+4451833280,power,pole,regular
+4451992195,natural,tree,regular
+4452572332,natural,tree,regular
+4452576728,natural,tree,regular
+4452579590,natural,tree,regular
+4452590801,natural,tree,regular
+4453588697,natural,tree,regular
+4453753534,natural,tree,regular
+4453841945,natural,tree,regular
+4453851633,natural,tree,regular
+4453863854,natural,tree,regular
+4453878140,natural,tree,regular
+4453887920,natural,tree,regular
+4453892210,natural,tree,regular
+4454084285,natural,tree,regular
+4454085210,natural,tree,regular
+4454089519,natural,tree,regular
+4454127662,natural,tree,regular
+4454129877,natural,tree,regular
+4455278011,natural,tree,regular
+4455410007,natural,tree,regular
+4455608182,natural,tree,regular
+4455957469,natural,tree,regular
+4455958108,natural,tree,regular
+4458118611,natural,tree,regular
+4458165642,natural,tree,regular
+4458193140,natural,tree,regular
+4458316532,natural,tree,regular
+4458645385,natural,tree,regular
+4459771826,name,Boost Mobile,regular
+4459771826,shop,mobile_phone,regular
+4460698034,natural,tree,regular
+4461226983,name,40,regular
+4461226983,tourism,camp_site,regular
+4463974051,natural,tree,regular
+4464947719,natural,tree,regular
+4466895242,natural,tree,regular
+4466907358,natural,tree,regular
+4466936648,natural,tree,regular
+4466964750,natural,tree,regular
+4470714755,natural,tree,regular
+4478230557,power,tower,regular
+4480920865,name,MT6,regular
+4480920865,note,description: Between Mesa and Pump House,regular
+4480920865,emergency,fire_hydrant,regular
+4480920865,type,underground,fire_hydrant
+4480937183,name,2019,regular
+4480937183,note,2019,regular
+4480937183,emergency,fire_hydrant,regular
+4480937183,type,underground,fire_hydrant
+4480937383,name,5006,regular
+4480937383,note,5006,regular
+4480937383,emergency,fire_hydrant,regular
+4480937383,type,underground,fire_hydrant
+4481640594,amenity,bench,regular
+4484574223,name,AT&T,regular
+4484574223,shop,mobile_phone,regular
+4487761327,natural,tree,regular
+4487804689,natural,tree,regular
+4487807749,natural,tree,regular
+4487823119,natural,tree,regular
+4487834672,natural,tree,regular
+4493312425,natural,tree,regular
+4493476895,natural,tree,regular
+4495132821,natural,tree,regular
+4501285496,natural,tree,regular
+4501293762,natural,tree,regular
+4501305777,natural,tree,regular
+4501323484,natural,tree,regular
+4501327266,natural,tree,regular
+4505049938,natural,tree,regular
+4505155358,natural,tree,regular
+4505160681,natural,tree,regular
+4509356185,highway,street_lamp,regular
+4509411167,natural,tree,regular
+4509504534,natural,tree,regular
+4509508961,natural,tree,regular
+4509517792,natural,tree,regular
+4509519919,natural,tree,regular
+4509545106,natural,tree,regular
+4509550948,natural,tree,regular
+4509555341,natural,tree,regular
+4509570960,natural,tree,regular
+4509573944,natural,tree,regular
+4514360089,natural,tree,regular
+4515617439,natural,tree,regular
+4515617739,power,pole,regular
+4515809505,name,Skyline Roof Restoration,regular
+4515809505,craft,roofer,regular
+4515809505,city,Frederick,addr
+4515809505,state,CO,addr
+4515809505,suite,3,addr
+4515809505,source,website,addr
+4515809505,street,West Interstate Highway 25 Frontage Road,addr
+4515809505,postcode,80516,addr
+4515809505,email,bill@skylineroofrestoration.com,contact
+4515809505,phone,+1-303-772-0766,contact
+4515809505,opening_hours,Mo-Fr 08:00-17:00,regular
+4515809505,website,http://www.skylineroofrestoration.com/,contact
+4515809505,housenumber,8245,addr
+4522475706,natural,tree,regular
+4539676063,amenity,post_box,regular
+4548640925,natural,tree,regular
+4548680017,highway,crossing,regular
+4548855203,natural,tree,regular
+4548903267,natural,tree,regular
+4549403749,natural,tree,regular
+4551508220,natural,tree,regular
+4554753869,highway,stop,regular
+4555905504,power,switch,regular
+4555905604,power,transformer,regular
+4565306023,natural,tree,regular
+4566850586,natural,tree,regular
+4569721455,natural,tree,regular
+4569728686,natural,tree,regular
+4569747617,natural,tree,regular
+4569752725,natural,tree,regular
+4569758985,natural,tree,regular
+4569761359,natural,tree,regular
+4569768015,natural,tree,regular
+4569770046,natural,tree,regular
+4569773921,natural,tree,regular
+4581342258,natural,tree,regular
+4581422492,natural,tree,regular
+4581504665,natural,tree,regular
+4582219672,natural,tree,regular
+4582369447,highway,crossing,regular
+4582405393,highway,crossing,regular
+4582628705,natural,tree,regular
+4582677500,natural,tree,regular
+4582718125,natural,tree,regular
+4582757001,natural,tree,regular
+4583076646,natural,tree,regular
+4583080402,natural,tree,regular
+4583496180,natural,tree,regular
+4583976968,natural,tree,regular
+4584960072,natural,tree,regular
+4585483373,natural,tree,regular
+4585483778,natural,tree,regular
+4585577803,natural,tree,regular
+4587052968,power,pole,regular
+4589136215,power,pole,regular
+4590771454,power,pole,regular
+4590811803,power,pole,regular
+4592620246,natural,tree,regular
+4592626963,natural,tree,regular
+4592671373,natural,tree,regular
+4592684674,natural,tree,regular
+4592694967,natural,tree,regular
+4593922571,highway,crossing,regular
+4593964515,highway,crossing,regular
+4594153851,crossing,zebra,regular
+4594153851,highway,crossing,regular
+4598038897,power,pole,regular
+4598866620,natural,tree,regular
+4599736048,power,pole,regular
+4599843238,power,pole,regular
+4600569395,natural,tree,regular
+4600578332,natural,tree,regular
+4603851632,city,Denver,addr
+4603851632,housenumber,4390,addr
+4603851632,postcode,80239,addr
+4603851632,state,CO,addr
+4603851632,street,Peoria Street,addr
+4603851632,amenity,fast_food,regular
+4603851632,cuisine,fried_chicken,regular
+4603851632,drive_through,yes,regular
+4603851632,name,Popeye's,regular
+4603851632,takeaway,yes,regular
+4604158420,natural,tree,regular
+4605102772,natural,tree,regular
+4607337718,natural,tree,regular
+4607442139,natural,tree,regular
+4607456660,natural,tree,regular
+4607540108,natural,tree,regular
+4612307310,power,pole,regular
+4614092369,power,pole,regular
+4614201102,power,pole,regular
+4614293469,power,pole,regular
+4614344126,barrier,gate,regular
+4615629044,barrier,gate,regular
+4616200616,power,pole,regular
+4618381401,power,pole,regular
+4621322865,natural,tree,regular
+4621823433,natural,tree,regular
+4623655584,natural,tree,regular
+4623662550,natural,tree,regular
+4623675848,natural,tree,regular
+4623680844,natural,tree,regular
+4623700581,natural,tree,regular
+4623700781,natural,tree,regular
+4624124298,natural,tree,regular
+4624256881,amenity,bench,regular
+4624256881,backrest,no,regular
+4624256881,material,wood,regular
+4624256881,seats,4,regular
+4624395189,highway,street_lamp,regular
+4624395189,source,Bing,regular
+4624501790,highway,turning_circle,regular
+4624501890,highway,street_lamp,regular
+4624501890,source,Bing,regular
+4624501890,type,high_mast,street_lamp
+4625401136,power,pole,regular
+4625858481,natural,tree,regular
+4625860981,natural,tree,regular
+4627464334,natural,tree,regular
+4628952184,power,pole,regular
+4628985337,natural,tree,regular
+4628989349,natural,tree,regular
+4628997875,natural,tree,regular
+4628999575,natural,tree,regular
+4632079866,power,pole,regular
+4634714917,power,pole,regular
+4634841518,natural,tree,regular
+4635229105,natural,tree,regular
+4635301053,natural,tree,regular
+4636573584,natural,tree,regular
+4637512959,power,pole,regular
+4638924253,natural,tree,regular
+4639015205,natural,tree,regular
+4639035925,natural,tree,regular
+4639069995,natural,tree,regular
+4639585535,natural,tree,regular
+4639588028,natural,tree,regular
+4640056753,natural,tree,regular
+4640096109,natural,tree,regular
+4644323768,natural,tree,regular
+4652746080,power,pole,regular
+4656513202,power,pole,regular
+4656729624,natural,tree,regular
+4657859025,natural,tree,regular
+4659747646,natural,tree,regular
+4660874242,natural,tree,regular
+4664523646,highway,street_lamp,regular
+4664523646,source,Bing,regular
+4668256375,power,pole,regular
+4673371764,natural,tree,regular
+4676707555,natural,tree,regular
+4677235573,natural,tree,regular
+4677313839,natural,tree,regular
+4677356640,natural,tree,regular
+4677541182,natural,tree,regular
+4677558055,natural,tree,regular
+4683448632,power,pole,regular
+4685336523,power,pole,regular
+4690053357,natural,tree,regular
+4694466057,natural,tree,regular
+4697370014,power,pole,regular
+4698034012,natural,tree,regular
+4698076505,natural,tree,regular
+4698420506,natural,tree,regular
+4698426852,natural,tree,regular
+4699187004,power,pole,regular
+4699201543,power,pole,regular
+4699298757,highway,street_lamp,regular
+4699312719,natural,tree,regular
+4701417653,power,pole,regular
+4704414825,natural,tree,regular
+4705221379,natural,tree,regular
+4708316742,natural,tree,regular
+4709068689,natural,tree,regular
+4709073312,natural,tree,regular
+4709189998,natural,tree,regular
+4709916150,power,pole,regular
+4709943066,natural,tree,regular
+4710265828,highway,turning_circle,regular
+4710548637,natural,tree,regular
+4710755382,natural,tree,regular
+4711793801,crossing,zebra,regular
+4711793801,highway,crossing,regular
+4713445149,power,pole,regular
+4713909455,natural,tree,regular
+4714065814,natural,tree,regular
+4714124088,natural,tree,regular
+4714131920,natural,tree,regular
+4715466814,natural,tree,regular
+4715641668,natural,tree,regular
+4715656715,natural,tree,regular
+4715701660,natural,tree,regular
+4715701860,natural,tree,regular
+4715734241,natural,tree,regular
+4715741442,natural,tree,regular
+4715753108,natural,tree,regular
+4716348791,natural,tree,regular
+4717588854,city,Aurora,addr
+4717588854,housenumber,752,addr
+4717588854,postcode,80017,addr
+4717588854,state,CO,addr
+4717588854,street,South Chambers Road,addr
+4719871274,attribution,Regional Transportation District Denver,regular
+4719871274,bus,yes,regular
+4719871274,check_date,2017-03-04,regular
+4719871274,description,Vehicles Travelling North,regular
+4719871274,gtfs_agency_id,RTD,regular
+4719871274,gtfs_agency_name,Regional Transportation District,regular
+4719871274,gtfs_agency_url,http://rtd-denver.com,regular
+4719871274,gtfs_description,Vehicles Travelling North,regular
+4719871274,gtfs_id,16938,regular
+4719871274,gtfs_location_type,0,regular
+4719871274,gtfs_stop_code,16938,regular
+4719871274,highway,bus_stop,regular
+4719871274,license,http://www.rtd-denver.com/Developer-licenseagreement.shtml,regular
+4719871274,name,Vocational Technical Education Center,regular
+4719871274,network,Regional Transportation District,regular
+4719871274,public_transport,platform,regular
+4719871274,ref,16938,regular
+4719871274,source,"RTD Denver, https://transitfeeds.com/p/rtd-denver/188/20170304",regular
+4719871274,wheelchair,yes,regular
+4719871574,attribution,Regional Transportation District Denver,regular
+4719871574,bus,yes,regular
+4719871574,check_date,2017-03-04,regular
+4719871574,description,Vehicles Travelling East,regular
+4719871574,gtfs_agency_id,RTD,regular
+4719871574,gtfs_agency_name,Regional Transportation District,regular
+4719871574,gtfs_agency_url,http://rtd-denver.com,regular
+4719871574,gtfs_description,Vehicles Travelling East,regular
+4719871574,gtfs_id,25889,regular
+4719871574,gtfs_location_type,0,regular
+4719871574,gtfs_stop_code,25889,regular
+4719871574,highway,bus_stop,regular
+4719871574,license,http://www.rtd-denver.com/Developer-licenseagreement.shtml,regular
+4719871574,name,Campus Dr & US 287,regular
+4719871574,network,Regional Transportation District,regular
+4719871574,public_transport,platform,regular
+4719871574,ref,25889,regular
+4719871574,source,"RTD Denver, https://transitfeeds.com/p/rtd-denver/188/20170304",regular
+4719871574,wheelchair,yes,regular
+4719872274,attribution,Regional Transportation District Denver,regular
+4719872274,bus,yes,regular
+4719872274,check_date,2017-03-04,regular
+4719872274,description,Vehicles Travelling North,regular
+4719872274,gtfs_agency_id,RTD,regular
+4719872274,gtfs_agency_name,Regional Transportation District,regular
+4719872274,gtfs_agency_url,http://rtd-denver.com,regular
+4719872274,gtfs_description,Vehicles Travelling North,regular
+4719872274,gtfs_id,25046,regular
+4719872274,gtfs_location_type,0,regular
+4719872274,gtfs_stop_code,25046,regular
+4719872274,highway,bus_stop,regular
+4719872274,license,http://www.rtd-denver.com/Developer-licenseagreement.shtml,regular
+4719872274,name,US 36 & McCaslin Stn Gate G,regular
+4719872274,network,Regional Transportation District,regular
+4719872274,public_transport,platform,regular
+4719872274,ref,25046,regular
+4719872274,source,"RTD Denver, https://transitfeeds.com/p/rtd-denver/188/20170304",regular
+4719872274,wheelchair,yes,regular
+4719873874,attribution,Regional Transportation District Denver,regular
+4719873874,bus,yes,regular
+4719873874,check_date,2017-03-04,regular
+4719873874,description,Vehicles Travelling Northeast,regular
+4719873874,gtfs_agency_id,RTD,regular
+4719873874,gtfs_agency_name,Regional Transportation District,regular
+4719873874,gtfs_agency_url,http://rtd-denver.com,regular
+4719873874,gtfs_description,Vehicles Travelling Northeast,regular
+4719873874,gtfs_id,17121,regular
+4719873874,gtfs_location_type,0,regular
+4719873874,gtfs_stop_code,17121,regular
+4719873874,highway,bus_stop,regular
+4719873874,license,http://www.rtd-denver.com/Developer-licenseagreement.shtml,regular
+4719873874,name,Walnut St & 7th St,regular
+4719873874,network,Regional Transportation District,regular
+4719873874,public_transport,platform,regular
+4719873874,ref,17121,regular
+4719873874,source,"RTD Denver, https://transitfeeds.com/p/rtd-denver/188/20170304",regular
+4719873874,wheelchair,yes,regular
+4719875774,attribution,Regional Transportation District Denver,regular
+4719875774,bus,yes,regular
+4719875774,check_date,2017-03-04,regular
+4719875774,description,Vehicles Travelling West,regular
+4719875774,gtfs_agency_id,RTD,regular
+4719875774,gtfs_agency_name,Regional Transportation District,regular
+4719875774,gtfs_agency_url,http://rtd-denver.com,regular
+4719875774,gtfs_description,Vehicles Travelling West,regular
+4719875774,gtfs_id,12233,regular
+4719875774,gtfs_location_type,0,regular
+4719875774,gtfs_stop_code,12233,regular
+4719875774,highway,bus_stop,regular
+4719875774,license,http://www.rtd-denver.com/Developer-licenseagreement.shtml,regular
+4719875774,name,Arapahoe Ave & Commerce St,regular
+4719875774,network,Regional Transportation District,regular
+4719875774,public_transport,platform,regular
+4719875774,ref,12233,regular
+4719875774,source,"RTD Denver, https://transitfeeds.com/p/rtd-denver/188/20170304",regular
+4719875774,wheelchair,yes,regular
+4719876674,attribution,Regional Transportation District Denver,regular
+4719876674,bus,yes,regular
+4719876674,check_date,2017-03-04,regular
+4719876674,description,Vehicles Travelling South,regular
+4719876674,gtfs_agency_id,RTD,regular
+4719876674,gtfs_agency_name,Regional Transportation District,regular
+4719876674,gtfs_agency_url,http://rtd-denver.com,regular
+4719876674,gtfs_description,Vehicles Travelling South,regular
+4719876674,gtfs_id,19193,regular
+4719876674,gtfs_location_type,0,regular
+4719876674,gtfs_stop_code,19193,regular
+4719876674,highway,bus_stop,regular
+4719876674,license,http://www.rtd-denver.com/Developer-licenseagreement.shtml,regular
+4719876674,name,Broadway & Linden Ave,regular
+4719876674,network,Regional Transportation District,regular
+4719876674,public_transport,platform,regular
+4719876674,ref,19193,regular
+4719876674,source,"RTD Denver, https://transitfeeds.com/p/rtd-denver/188/20170304",regular
+4719876674,wheelchair,yes,regular
+4719878274,attribution,Regional Transportation District Denver,regular
+4719878274,bus,yes,regular
+4719878274,check_date,2017-03-04,regular
+4719878274,description,Vehicles Travelling West,regular
+4719878274,gtfs_agency_id,RTD,regular
+4719878274,gtfs_agency_name,Regional Transportation District,regular
+4719878274,gtfs_agency_url,http://rtd-denver.com,regular
+4719878274,gtfs_description,Vehicles Travelling West,regular
+4719878274,gtfs_id,22858,regular
+4719878274,gtfs_location_type,0,regular
+4719878274,gtfs_stop_code,22858,regular
+4719878274,highway,bus_stop,regular
+4719878274,license,http://www.rtd-denver.com/Developer-licenseagreement.shtml,regular
+4719878274,name,Baseline Rd & Indian Peaks Dr,regular
+4719878274,network,Regional Transportation District,regular
+4719878274,public_transport,platform,regular
+4719878274,ref,22858,regular
+4719878274,source,"RTD Denver, https://transitfeeds.com/p/rtd-denver/188/20170304",regular
+4719878274,wheelchair,yes,regular
+4719880074,attribution,Regional Transportation District Denver,regular
+4719880074,bench,yes,regular
+4719880074,bus,yes,regular
+4719880074,check_date,2017-03-04,regular
+4719880074,description,Vehicles Travelling North,regular
+4719880074,gtfs_agency_id,RTD,regular
+4719880074,gtfs_agency_name,Regional Transportation District,regular
+4719880074,gtfs_agency_url,http://rtd-denver.com,regular
+4719880074,gtfs_description,Vehicles Travelling North,regular
+4719880074,gtfs_id,15475,regular
+4719880074,gtfs_location_type,0,regular
+4719880074,gtfs_stop_code,15475,regular
+4719880074,highway,bus_stop,regular
+4719880074,license,http://www.rtd-denver.com/Developer-licenseagreement.shtml,regular
+4719880074,name,Mohawk Dr & Pawnee Dr,regular
+4719880074,network,Regional Transportation District,regular
+4719880074,public_transport,platform,regular
+4719880074,ref,15475,regular
+4719880074,shelter,yes,regular
+4719880074,source,"RTD Denver, https://transitfeeds.com/p/rtd-denver/188/20170304",regular
+4719880074,tactile_paving,no,regular
+4719880074,wheelchair,yes,regular
+4719880174,attribution,Regional Transportation District Denver,regular
+4719880174,bus,yes,regular
+4719880174,check_date,2017-03-04,regular
+4719880174,description,Vehicles Travelling West,regular
+4719880174,gtfs_agency_id,RTD,regular
+4719880174,gtfs_agency_name,Regional Transportation District,regular
+4719880174,gtfs_agency_url,http://rtd-denver.com,regular
+4719880174,gtfs_description,Vehicles Travelling West,regular
+4719880174,gtfs_id,16919,regular
+4719880174,gtfs_location_type,0,regular
+4719880174,gtfs_stop_code,16919,regular
+4719880174,highway,bus_stop,regular
+4719880174,license,http://www.rtd-denver.com/Developer-licenseagreement.shtml,regular
+4719880174,name,Valmont Rd & 34th St,regular
+4719880174,network,Regional Transportation District,regular
+4719880174,public_transport,platform,regular
+4719880174,ref,16919,regular
+4719880174,source,"RTD Denver, https://transitfeeds.com/p/rtd-denver/188/20170304",regular
+4719880174,wheelchair,yes,regular
+4721177847,natural,tree,regular
+4721218492,natural,tree,regular
+4721246227,city,Westminster,addr
+4721246227,housenumber,7535,addr
+4721246227,postcode,80021,addr
+4721246227,state,CO,addr
+4721246227,street,W 92nd Ave #800,addr
+4721246227,name,Man Cave Detail (Westminster),regular
+4721246227,shop,car_repair,regular
+4721277248,natural,tree,regular
+4721293997,natural,tree,regular
+4722644629,natural,tree,regular
+4723343799,natural,tree,regular
+4724599123,natural,tree,regular
+4724606576,natural,tree,regular
+4724610867,natural,tree,regular
+4724629581,natural,tree,regular
+4724632356,natural,tree,regular
+4724753480,natural,tree,regular
+4724764923,natural,tree,regular
+4724767792,natural,tree,regular
+4724813660,natural,tree,regular
+4726752929,natural,tree,regular
+4726760065,natural,tree,regular
+4726762794,natural,tree,regular
+4732504254,natural,tree,regular
+4732512331,natural,tree,regular
+4732515883,natural,tree,regular
+4733003045,natural,tree,regular
+4733025498,natural,tree,regular
+4733033179,natural,tree,regular
+4733053877,natural,tree,regular
+4733068402,natural,tree,regular
+4733068502,natural,tree,regular
+4734151754,power,pole,regular
+4737918684,amenity,post_box,regular
+4739084062,natural,tree,regular
+4741454565,city,Denver,addr
+4741454565,housenumber,4216,addr
+4741454565,postcode,80212,addr
+4741454565,state,CO,addr
+4741454565,street,Tennyson Street,addr
+4741454565,name,Ooh! Aah! Jewelry,regular
+4741454565,shop,jewelry,regular
+4742448423,natural,tree,regular
+4743244069,natural,tree,regular
+4744191955,highway,crossing,regular
+4744885724,natural,tree,regular
+4746128770,crossing,zebra,regular
+4746128770,highway,crossing,regular
+4746128770,source,Bing,regular
+4746514726,natural,tree,regular
+4746554732,natural,tree,regular
+4751099604,highway,crossing,regular
+4751135464,natural,tree,regular
+4752930142,natural,tree,regular
+4753432717,natural,tree,regular
+4753451487,natural,tree,regular
+4753629212,natural,tree,regular
+4753670336,natural,tree,regular
+4753672652,natural,tree,regular
+4753683267,natural,tree,regular
+4753689215,natural,tree,regular
+4753692364,natural,tree,regular
+4753706110,natural,tree,regular
+4753725463,natural,tree,regular
+4753730817,natural,tree,regular
+4753747244,natural,tree,regular
+4758222081,natural,tree,regular
+4758271587,natural,tree,regular
+4758295948,natural,tree,regular
+4758301116,natural,tree,regular
+4758320902,natural,tree,regular
+4758330380,natural,tree,regular
+4758508077,natural,tree,regular
+4758527283,natural,tree,regular
+4758545397,natural,tree,regular
+4759091772,natural,tree,regular
+4759608498,amenity,post_box,regular
+4762194337,highway,crossing,regular
+4764512059,natural,tree,regular
+4764515579,natural,tree,regular
+4764563008,natural,tree,regular
+4764567827,natural,tree,regular
+4768909152,natural,tree,regular
+4768928841,natural,tree,regular
+4771884317,highway,street_lamp,regular
+4771884317,source,Bing,regular
+4772053613,natural,tree,regular
+4772053613,source,Bing,regular
+4772055313,natural,tree,regular
+4772055313,source,Bing,regular
+4772055414,natural,tree,regular
+4772055414,source,Bing,regular
+4772055514,natural,tree,regular
+4772055514,source,Bing,regular
+4772055614,natural,tree,regular
+4772055614,source,Bing,regular
+4774472314,highway,crossing,regular
+4774980340,crossing,zebra,regular
+4774980340,highway,crossing,regular
+4775151006,natural,tree,regular
+4775167911,natural,tree,regular
+4775176911,natural,tree,regular
+4775755052,natural,tree,regular
+4775828552,natural,tree,regular
+4775866232,crossing,unmarked,regular
+4775866232,highway,crossing,regular
+4775866232,source,Bing,regular
+4776091785,highway,street_lamp,regular
+4776091785,source,Bing,regular
+4776722710,power,pole,regular
+4778151083,highway,street_lamp,regular
+4778151083,source,Bing,regular
+4778153286,highway,street_lamp,regular
+4778153286,source,Bing,regular
+4778153391,highway,street_lamp,regular
+4778153391,source,Bing,regular
+4778163049,highway,street_lamp,regular
+4778163049,source,Bing,regular
+4783458453,barrier,gate,regular
+4783458453,source,Bing,regular
+4785283437,natural,tree,regular
+4785283437,source,Bing,regular
+4786100181,power,pole,regular
+4786154066,power,pole,regular
+4786574002,natural,tree,regular
+4786578987,natural,tree,regular
+4786609248,natural,tree,regular
+4786670360,natural,tree,regular
+4786943785,natural,tree,regular
+4788204964,power,pole,regular
+4788264369,power,pole,regular
+4788644234,natural,tree,regular
+4788654661,highway,street_lamp,regular
+4788683489,natural,tree,regular
+4789099318,highway,street_lamp,regular
+4789099318,source,Bing,regular
+4789401033,natural,tree,regular
+4789401033,source,Bing,regular
+4789401133,natural,tree,regular
+4789401133,source,Bing,regular
+4789880802,power,pole,regular
+4791032522,natural,tree,regular
+4791032522,source,Bing,regular
+4791032622,natural,tree,regular
+4791032622,source,Bing,regular
+4791032722,natural,tree,regular
+4791032722,source,Bing,regular
+4791173851,natural,tree,regular
+4791173851,source,Bing,regular
+4791173951,natural,tree,regular
+4791173951,source,Bing,regular
+4791174051,natural,tree,regular
+4791174051,source,Bing,regular
+4791195603,natural,tree,regular
+4791195603,source,Bing,regular
+4791624307,power,pole,regular
+4792276383,natural,tree,regular
+4792330468,natural,tree,regular
+4792548116,crossing,unmarked,regular
+4792548116,highway,crossing,regular
+4794103166,natural,tree,regular
+4794115303,natural,tree,regular
+4794123377,natural,tree,regular
+4794456249,natural,tree,regular
+4794456249,source,Bing,regular
+4794456549,natural,tree,regular
+4794456549,source,Bing,regular
+4794456649,natural,tree,regular
+4794456649,source,Bing,regular
+4794457918,natural,tree,regular
+4794457918,source,Bing,regular
+4796187115,highway,street_lamp,regular
+4796187115,source,Bing,regular
+4796187215,highway,street_lamp,regular
+4796187215,source,Bing,regular
+4797423107,highway,street_lamp,regular
+4797423107,source,Bing,regular
+4797492113,highway,street_lamp,regular
+4797492113,source,Bing,regular
+4798199840,crossing,traffic_signals,regular
+4798199840,highway,crossing,regular
+4798199840,source,Bing,regular
+4798200440,highway,street_lamp,regular
+4798200440,source,Bing,regular
+4798200840,bench,yes,regular
+4798200840,highway,bus_stop,regular
+4798200840,local_ref,RTD 3,regular
+4798200840,name,W Alameda Pkwy & S Youngfield Ct,regular
+4798200840,source,Bing,regular
+4798200940,highway,street_lamp,regular
+4798200940,source,Bing,regular
+4799570995,name,Camp 29,regular
+4799570995,source,GPS - Kiefer3D,regular
+4799570995,tourism,camp_site,regular
+4799916579,highway,street_lamp,regular
+4799916579,source,Bing,regular
+4799975144,natural,tree,regular
+4799975144,source,Bing,regular
+4801422148,natural,tree,regular
+4802566970,natural,tree,regular
+4802566970,source,Bing,regular
+4802974914,natural,tree,regular
+4802974914,source,Bing,regular
+4802997410,natural,tree,regular
+4802997410,source,Bing,regular
+4802997510,natural,tree,regular
+4802997510,source,Bing,regular
+4802997810,natural,tree,regular
+4802997810,source,Bing,regular
+4805062626,natural,tree,regular
+4805062728,natural,tree,regular
+4805062828,natural,tree,regular
+4805062928,natural,tree,regular
+4805063029,natural,tree,regular
+4805063229,natural,tree,regular
+4805063429,natural,tree,regular
+4805063531,natural,tree,regular
+4805068386,natural,tree,regular
+4806118757,natural,tree,regular
+4806118857,natural,tree,regular
+4806260622,highway,street_lamp,regular
+4807993735,natural,tree,regular
+4808029001,natural,tree,regular
+4808034502,natural,tree,regular
+4808232851,natural,tree,regular
+4809114795,natural,tree,regular
+4809140974,natural,tree,regular
+4809162886,natural,tree,regular
+4809333130,natural,tree,regular
+4810823621,city,Denver,addr
+4810823621,housenumber,8300,addr
+4810823621,postcode,80249,addr
+4810823621,state,CO,addr
+4810823621,street,Peña Blvd,addr
+4810823621,amenity,bar,regular
+4810823621,level,6,regular
+4810823621,name,Sky Lounge,regular
+4810855569,natural,tree,regular
+4810855569,source,Bing,regular
+4814621796,natural,tree,regular
+4814646934,natural,tree,regular
+4814897262,natural,tree,regular
+4814897262,source,Bing,regular
+4814897562,natural,tree,regular
+4814897562,source,Bing,regular
+4814898562,natural,tree,regular
+4814898562,source,Bing,regular
+4814933296,natural,tree,regular
+4814933296,source,Bing,regular
+4816877794,amenity,recycling,regular
+4816877794,recycling_type,container,regular
+4816877794,source,Bing,regular
+4817046448,city,Lakewood,addr
+4817046448,housename,Building 67,addr
+4817046448,state,CO,addr
+4817046448,street,Seventh Street,addr
+4817046448,amenity,restaurant,regular
+4817046448,name,Cafeteria,regular
+4817046448,source,DFC,regular
+4819823960,natural,tree,regular
+4826286678,natural,tree,regular
+4826367849,barrier,height_restriction,regular
+4827940613,natural,tree,regular
+4827940613,source,Bing,regular
+4827955835,highway,street_lamp,regular
+4827955835,source,Bing,regular
+4827956036,natural,tree,regular
+4827956036,source,Bing,regular
+4829002855,natural,tree,regular
+4829009409,natural,tree,regular
+4835767473,natural,tree,regular
