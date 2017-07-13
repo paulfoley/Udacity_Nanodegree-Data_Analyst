@@ -1,19 +1,17 @@
-"""
-Returns a list of airport codes, excluding any combinations like "All".
-"""
+# Returns a list of airport codes, excluding any combinations like "All".
 
-# Import BeautifulSoup
+## Import BeautifulSoup
 from bs4 import BeautifulSoup
 
-# Functions
+## Functions
 def extract_airports(page):
-    # Get a list of Airports
+    ### Get a list of Airports
     airport_values = []
     with open(page, "r") as html:
-        # Setup BeautifulSoup
+        #### Setup BeautifulSoup
         soup = BeautifulSoup(html, "lxml")
 
-        # Get list of Airports
+        #### Get list of Airports
         airport_list = soup.find(id="AirportList")
         airports = airport_list.find_all('option')
         for airport in airports:
@@ -26,7 +24,7 @@ def extract_airports(page):
 
     return data
 
-# Output
+## Output Airports
 airports = extract_airports("airport_and_carrier_list.html")
 print("Number of Airports:")
 print(len(airports)) # 15

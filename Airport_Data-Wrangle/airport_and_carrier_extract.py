@@ -1,10 +1,10 @@
-## Example of Parsing an HTML File using BeautifulSoup
+# Validating Data is being Extracted Properly
 
-# Imports
+## Import requests and BeautifulSoup
 from bs4 import BeautifulSoup
 import requests
 
-# Functions
+## Functions
 def extract_data(page):
     data = {}
     with open(page, "r") as html:
@@ -13,7 +13,6 @@ def extract_data(page):
     	data["eventvalidation"] = eventvalidation['value']
     	viewstate = soup.find(id = '__VIEWSTATE')
     	data['viewstate'] = viewstate['value']
-        pass
 
     return data
 
@@ -35,7 +34,9 @@ def make_request(data):
 
     return request.text
 
-# Get Data
-data = extract_data("page_source.html")
+## Validate Data
+data = extract_data("airport_and_carrier_list.html")
+print("Event Validation:")
 print(data["eventvalidation"]) # != "", starts with: "/wEWjAkCoIj1ng0"
+print("\nView State:")
 print(data["viewstate"]) # start swith: "/wEPDwUKLTI"

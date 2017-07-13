@@ -1,10 +1,13 @@
-## Example of Parsing an HTML File using BeautifulSoup
+# Connects to the Transtats API and pulls in the trips to Logan Airport on Virgin
 
-# Import Beautiful Soup
+## Import requests Beautiful Soup
 from bs4 import BeautifulSoup
 import requests
 
+# Get Request
 request = requests.Session().get("http://www.transtats.bts.gov/Data_Elements.aspx?Data=2")
+
+# Create Soup
 soup = BeautifulSoup(request.text, "lxml")
 
 viewstate_element = soup.find(id='__VIEWSTATE')

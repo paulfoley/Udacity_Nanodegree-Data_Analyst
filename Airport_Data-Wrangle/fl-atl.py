@@ -13,10 +13,10 @@ data = [{"courier": "FL",
 
 """
 
-# Import BeautifulSoup
+## Import BeautifulSoup
 from bs4 import BeautifulSoup
 
-# Function
+## Function
 def process_file(file):
     """
     This function extracts data from the file given as the function argument in a list of dictionaries. 
@@ -64,6 +64,6 @@ def process_file(file):
 
     return data
 
-# Output
+## Output Flight Data
 flight = process_file("fl-atl.html")
 print(flight)
