@@ -1,6 +1,6 @@
 # Data Analysis - Lahman Baseball Data
 
-Analyze the [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/) using and Python libraries NumPy, Pandas, and Matplotlib than communicate interesting findings about the data.
+Analyze the [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/) using Python libraries NumPy, Pandas, and Matplotlib than communicate interesting findings about the data.
 
 ## Getting Started
 
@@ -11,6 +11,7 @@ You'll need to install:
 * [Python (Minimum 3)](https://www.continuum.io/blog/developer-blog/python-3-support-anaconda)
 * [Pandas](https://anaconda.org/anaconda/pandas)
 * [Numpy](https://anaconda.org/anaconda/numpy)
+* [Matplotlib](https://anaconda.org/anaconda/matplotlib)
 
 
 ### Data Files
@@ -22,9 +23,9 @@ You'll need to install:
 
 ## Project Overview
 
-Conduct data analysis and share findings on baseball data. 
+Analysze and share findings on the [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/)
 
-Baseball Data - A data set containing complete batting and pitching statistics from 1871 to 2014, plus fielding statistics, standings, team stats, managerial records, post-season data, and more. This dataset contains many files, but you can choose to analyze only the one(s) you are most interested in.
+[Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/) - A data set containing complete batting and pitching statistics from 1871 to 2014, plus fielding statistics, standings, team stats, managerial records, post-season data, and more. This dataset contains many files, but you can choose to analyze only the one(s) you are most interested in.
 
 ### Intersting Questions to Analyze
 
@@ -39,15 +40,18 @@ Baseball Data - A data set containing complete batting and pitching statistics f
 * `Baseball_Data-Analysis.ipynb` - IPython notebook that contains the analysis
 * `baseball_data-audit.py` - Audits the baseball data for cleanliness
 
+
 ## Authors
 
 * [**Paul Foley**](https://github.com/paulfoley)
 * See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Baseball_Data-Analysis) who participated in this project.
 
+
 ## Acknowledgments
 
 * [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/)
 * [Udacity](https://www.udacity.com/)
+
 
 ## Licenses
 Baseball Databank is a compilation of historical baseball data in a convenient, tidy format, distributed under Open Data terms.
