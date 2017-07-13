@@ -1,3 +1,5 @@
+# Audio Scrobbler API Connect
+
 # Import JSON and Requests
 import json
 import requests
@@ -7,11 +9,17 @@ url = 'http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=277313dd08
 data = requests.get(url).text
 data = json.loads(data)
 
-# Output
+# Output Type of Data
 print(type(data))
+
+# Output Albulm Content
 print(data['album']['wiki']['content'])
+
+# Output First Artist
 artist = data['topartists']['artist'][0]['name']
-print(data)
+print(artist)
+
+# Output Artists
 artists = data['artists']['artist']
 for artist in artists:
 	print(artist['name'] + ": " + artist['playcount'])

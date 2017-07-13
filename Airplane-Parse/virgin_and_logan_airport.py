@@ -1,6 +1,6 @@
 ## Example of Parsing an HTML File using BeautifulSoup
 
-# Imports
+# Import Beautiful Soup
 from bs4 import BeautifulSoup
 import requests
 

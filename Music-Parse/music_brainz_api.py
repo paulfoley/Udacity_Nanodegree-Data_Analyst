@@ -1,10 +1,10 @@
-# Python Code that connects with the MusicBrainz.com and gets a JSON response
+# Connect to the MusicBrainz.com API and gets a JSON response
 
-# Imports
+# Import json and requests
 import json
 import requests
 
-# URL
+# MusicBrainz URL
 URL = "http://musicbrainz.org/ws/2/artist/"
 
 # Query parameters are given to the requests.get function as a dictionary

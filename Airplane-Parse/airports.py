@@ -1,13 +1,8 @@
 """
-Complete the 'extract_airports()' function so that it returns a list of airport
-codes, excluding any combinations like "All".
-
-Refer to the 'options.html' file in the tab above for a stripped down version
-of what is actually on the website. The test() assertions are based on the
-given file.
+Returns a list of airport codes, excluding any combinations like "All".
 """
 
-# Imports
+# Import BeautifulSoup
 from bs4 import BeautifulSoup
 
 # Functions
@@ -31,6 +26,10 @@ def extract_airports(page):
 
     return data
 
-data = extract_airports("options.html")
-print(len(data)) # 15
-print(data) # 'ATL' and 'ABR' should be included
+# Output
+airports = extract_airports("airport_and_carrier_list.html")
+print("Number of Airports:")
+print(len(airports)) # 15
+
+print("Airports:")
+print(airports) # 'ATL' and 'ABR' should be included

@@ -1,10 +1,11 @@
-## Analyze Aadhaar Data
+## Analyze Aadhaar Data, 
+## The India's Government initiative to register their 1 Billion + Citizens
 
 # Import Pandas and PandaSQL
 import pandas
 import pandasql
 
-# Read in our aadhaar_data csv to a pandas dataframe. 
+# Read in the aadhaar_data CSV to a pandas dataframe. 
 aadhaar_data = pandas.read_csv('aadhaar_data.csv')
 aadhaar_data.rename(columns = lambda x: x.replace(' ', '_').lower(), inplace=True)
 
@@ -55,8 +56,11 @@ def select_gender(aadhaar_data):
     aadhaar_solution = pandasql.sqldf(q.lower(), locals())
     aadhaar_solution.to_csv("select_gender.csv")
 
-# Output Results
+# Output Description
+print("Aadhaar Data Description:")
 print(describe(aadhaar_data))
+
+# Output Files
 select_first_50(aadhaar_data)
 select_state(aadhaar_data)
 select_district(aadhaar_data)
