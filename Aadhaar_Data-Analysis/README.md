@@ -2,24 +2,24 @@
 
 The Aadhaar Enrolment program is an initiative by the India Government to better register their citizens. As India has over a billion people, keeping track of citizens is a major problem.
 
+
 ## Getting Started
 
 ### Prerequisites
-
 You'll need to install:
 
-* Python (Minimum 3)
 * [Anaconda](https://www.continuum.io/downloads)
+* [Python (Minimum 3)](https://www.continuum.io/blog/developer-blog/python-3-support-anaconda)
 * [Pandas](https://anaconda.org/anaconda/pandas)
 * [PandaSQL](https://anaconda.org/anaconda/pandasql)
 
-
-## Running the Script
-In this project we'll use pandas and pandasql to analyze the data set. The `aadhaar-analysis.py` script has the following functions:
-
-### Data Files:
+### Data Files
 
 * `aadhaar_data.csv` - Aadhaar Data Set
+
+
+## Running the Scripts
+In this project we'll use pandas and pandasql to analyze the Aadhaar data using SQL queries. The `aadhaar-analysis.py` script has the following functions.
 
 ### Scripts:
 
@@ -33,7 +33,6 @@ In this project we'll use pandas and pandasql to analyze the data set. The `aadh
 ## Authors
 
 * **Paul Foley** - [paulfoley](https://github.com/paulfoley)
-
 * See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Aadhaar_Data-Analysis) who participated in this project.
 
 ## License
