@@ -2,6 +2,7 @@
 
 ## Import BeautifulSoup
 from bs4 import BeautifulSoup
+import csv
 
 ## Functions
 def extract_airports(page):
@@ -25,9 +26,12 @@ def extract_airports(page):
     return data
 
 ## Output Airports
-airports = extract_airports("airport_and_carrier_list.html")
+airports = extract_airports("airport_and_carrier.html")
 print("Number of Airports:")
 print(len(airports)) # 15
 
-print("Airports:")
-print(airports) # 'ATL' and 'ABR' should be included
+with open('airports.csv', 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile, delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    writer.writerow("Airports")
+    for airport in airports:
+        writer.writerow(airport)

@@ -5,6 +5,7 @@ Excludes all of the combination values like "All U.S. Carriers"
 
 ## Import BeautifulSoup
 from bs4 import BeautifulSoup
+import csv
 
 ## Function
 def extract_carriers(page):
@@ -23,9 +24,12 @@ def extract_carriers(page):
   return carrier_values[3:]
 
 ## Output Carriers
-carriers = extract_carriers("airport_and_carrier_list.html")
+carriers = extract_carriers("airport_and_carrier.html")
 print("Number of Carriers:")
 print(len(carriers)) # 16
 
-print("Carriers:")
-print(carriers) # FL and NK should be in data
+with open('carriers.csv', 'w', newline='') as csvfile:
+  writer = csv.writer(csvfile, delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+  writer.writerow("Carriers")
+  for carrier in carriers:
+    writer.writerow(carrier)

@@ -15,6 +15,7 @@ data = [{"courier": "FL",
 
 ## Import BeautifulSoup
 from bs4 import BeautifulSoup
+import csv
 
 ## Function
 def process_file(file):
@@ -38,7 +39,7 @@ def process_file(file):
     data = []
     info = {}
     info["courier"], info["airport"] = file[:6].split("-")
-    flight_dict = {}
+
 
     # Create a new dictionary for each entry in the output data list
     with open(file, "r") as html:
@@ -57,13 +58,19 @@ def process_file(file):
             else:
                 info['year'] = int(td_list[0])
                 info['month'] = int(td_list[1])
-                flight_dict['domestic'] = int(td_list[2].replace(',', ''))
-                flight_dict['international'] = int(td_list[3].replace(',', ''))
-                info['flights'] = flight_dict.copy()
+                info['domestic'] = int(td_list[2].replace(',', ''))
+                info['international'] = int(td_list[3].replace(',', ''))
                 data.append(info.copy())
 
     return data
 
 ## Output Flight Data
-flight = process_file("fl-atl.html")
-print(flight)
+flights = process_file("fl-atl.html")
+
+with open('fl-atl.csv', 'w', newline='') as csvfile:
+    fieldnames = ['courier', 'airport', 'year', 'month', 'domestic', 'international']
+    writer = csv.DictWriter(csvfile, fieldnames = fieldnames)
+    writer.writeheader()
+    for flight in flights:
+        writer.writerow(flight)
+

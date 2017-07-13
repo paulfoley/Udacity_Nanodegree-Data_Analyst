@@ -1,80 +1,48 @@
 # Data Wrangling - Airport Data
 
-Project Description
+In this project we will be using the [United State Bureau of Transportation Statistics](https://www.transtats.bts.gov/) API to receive flight data and then parse the data into usable information.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You'll need to install:
 
-```
-Give examples
-```
+* [Anaconda](https://www.continuum.io/downloads)
+* [Python (Minimum 3)](https://www.continuum.io/blog/developer-blog/python-3-support-anaconda)
+* [BeautifulSoup](https://anaconda.org/anaconda/beautiful-soup)
+* [Requests](https://anaconda.org/anaconda/requests)
 
-### Installing
+### Data Files
 
-A step by step series of examples that tell you have to get a development env running
+* `airport_and_carrier.html` - HTML File of Airports and Carriers
+* `fl-atl.html` - HTML file of flights from Florida to Atlanta
+* `virgin_and_logan_airport.html1 - HTML file of Virgin flights from Logan Airport
 
-Say what the step will be
 
-```
-Give the example
-```
+## Running the Scripts
+The following scripts each contain specific functions that will alet
 
-And repeat
+### Scripts:
 
-```
-until finished
-```
+* `airports.py` - Provides a list of Aiports available
+* `carriers.py` - Provides a list of Airline Carriers available
+* `transtats_api.py` - Makes a request to the transtats.bts API for a specific Ariline Carrier out of a specific Airport, returns an html file of the data
+* `flights.py` - Creates a list of flights from one aiport to another
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+### Output Files:
 
-Explain how to run the automated tests for this system
+* `airports.csv` - A CSV file of Airports
+* `carriers.csv` - A CSV file of Carriers
+* `view_state.txt` - API field needed to query transtats API
+* `event_validation.txt` - API field needed to query transtats API
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Paul Foley** - *Initial work* - [paulfoley](https://github.com/paulfoley)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* [**Paul Foley**](https://github.com/paulfoley)
+* See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Airport_Data-Wrangle) who participated in this project.
 
 ## License
 
@@ -82,6 +50,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* [United State Bureau of Transportation Statistics](https://www.transtats.bts.gov/)
+* [Udacity](https://www.udacity.com/)
