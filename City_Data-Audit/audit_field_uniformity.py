@@ -1,5 +1,3 @@
-## Auditing for Empty, Null, and NaN Fields
-
 # Import
 import csv
 import pprint
@@ -23,6 +21,7 @@ def is_number(s):
 		return False
 
 def audit_float_field(v, counts):
+	## Auditing for Empty, Null, and NaN Fields
 	v = v.strip()
 	if v == "NULL":
 		counts['nulls'] += 1

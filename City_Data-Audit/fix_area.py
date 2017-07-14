@@ -27,7 +27,6 @@ def fix_area(area):
 def process_file(filename):
     # Opens and Reads the CSV File into a Python Dictionary
     data = []
-
     with open(filename, "r") as f:
         reader = csv.DictReader(f)
 

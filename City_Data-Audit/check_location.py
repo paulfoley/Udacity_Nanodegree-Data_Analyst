@@ -45,10 +45,6 @@ def process_file(filename):
 
     return data
 
-# Test
-def test():
-    data = process_file('cities.csv')
-    print(check_loc("33.08 75.28", "33.08", "75.28")) # True
-    print(check_loc("44.57833333333333 -91.21833333333333", "44.5783", "-91.2183")) # False
-
-test()
+data = process_file('cities.csv')
+print(check_loc("33.08 75.28", "33.08", "75.28")) # True
+print(check_loc("44.57833333333333 -91.21833333333333", "44.5783", "-91.2183")) # False

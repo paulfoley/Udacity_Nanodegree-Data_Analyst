@@ -1,6 +1,5 @@
 """
-Work with cities infobox data, audit it, and then clean it up. 
-Audit the datatypes that can be found in some particular fields in the dataset.
+Audit cities infobox data, and then clean up the data. 
 
 The possible types of values can be:
 - NoneType if the value is a string "NULL" or an empty string ""

@@ -1,0 +1,475 @@
+---
+title: "Exploration of What Drives Single Percentage"
+author: "Paul Foley"
+output: html_document
+---
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Load_Libraries}
+library(knitr)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(GGally)
+library(reshape2)
+```
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Load_the_Data}
+population <- read.csv("population_data.csv")
+```
+
+As a nerd, I've always been fascinated by the the data of dating.
+
+In this exploration, we'll explore what features of an area effect single ratios and what that means for dating. Specifically we'll look at two hypothesis's in the dating community.
+
+### Hypothesis 1
+There is a widespread theory that the gender ratio of an area effects single percentage of that gender. This, from a theory, standpoint makes complete sense as human coupling (usually) is 1 to 1. Therefore if there is a gender imbalance of 54 guys for every 46 girls, there will be atleast 8 guys single. In this exploration we'll actually dig into the data and see how the ratio of women to men effect single percentage of that specific gender.
+
+### Hypothesis 2
+Another widespread theory is that age effects single percentage. For example, in areas with younger population, i.e. college towns there's a much higher percentage of single people, because people are less serious about marriage and creating families. We'll also be exploring this hypothers and explore the data in how single percentage changes with age for different genders.
+
+## Data
+The data we'll be using is population data (provided by the kind people at towncharts.com). The data set has 19 variables with 7,440,252 observations. That's a lot of rows! The variables include state, gender ratios, age, ethnicity, and what we want to focus on, single ratios.
+
+## Getting Started
+We'll start by analyzing single variables in the data set to better understand population data. Let's see the distribution of single people in the US:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, single_histogram}
+ggplot(data = population, aes(x = Ratio_Single)) +
+  geom_histogram(binwidth = .01,
+                 fill = I('#099DD9')) +
+  scale_x_continuous(limits = c(0, 1)) +
+  ggtitle('Ratio of Singles per Area')
+```
+
+The data appears to form a normal distribution with a mean around 45% let's calculate the summary statistics real quick:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, summary_single_ratio}
+summary(population$Ratio_Single)
+```
+
+The mean is 44.38% singles for any given area in the US with a lower quantile of 36.88% and an upper quantile of 51.61%.
+
+Next, a variable of interest is "State". Let's create a simple histogram counting the observations from each state:
+
+```{r echo = FALSE, message=FALSE, warning=FALSE, state_histogram}
+ggplot(data = population, aes(x = State)) +
+  geom_histogram(stat = "count",
+                 fill = I('#9932CC')) +
+  ggtitle('Entries Per State') +
+  scale_y_continuous(limits = c(0, 3000)) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  coord_flip()
+```
+
+From our data it looks like the States that have the most rows are IL, MN, and PA. This by itself isn't particularly useful but it's interesting to note which states have the most area observations.
+
+As discussed earlier, there is a theory that gender ratios effect single percentage in an area. To explore this, we'll want to explore the male_ratio and female_ratio variables. Let's make some histogram plots of those two variables:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, histogram_gender_ratio}
+ggplot(data = population, aes(x = Ratio_Male)) +
+  geom_histogram(binwidth = .01,
+                 fill = I('#0000ff')) +
+  scale_x_continuous(limits = c(0, 1))
+  ggtitle('Ratio of Men in Area')
+  
+ggplot(data = population, aes(x = Ratio_Female)) +
+  geom_histogram(binwidth = .01,
+                 fill = I('#FFC0CB')) +
+  scale_x_continuous(limits = c(0, 1)) +
+  ggtitle('Ratio of Female in Area')
+```
+
+This is what we expected as we see with what looks like a very thin normal distribution with the center being around 50% for both plots.
+
+What's interesting though is ratio of males is slightly below 50% and ratio of women is slightly above 50%.
+
+Let's run some summary statistics real quick:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, summary_gender_ratio}
+summary(population$Ratio_Male)
+summary(population$Ratio_Female)
+```
+
+As we can see the the Male ratio is 49.91% and the Female Ratio is 50.09% so there is  slight imbalance of gender ratio in the US.
+
+Next, let's dive into single percentage by gender. To do this we're going to need to create some new variables in our data, Ratio_Men_Single and Ratio_Women_Single:
+
+```{r message=FALSE, warning=FALSE, create_gender_ratios}
+population$Ratio_Men_Single <- population$Men.Single_Base / 
+  population$POP_2015
+population$Ratio_Women_Single <- population$Women.Single_Base /
+  population$POP_2015
+```
+
+As we did with our other variables, let's plot a histogram of the data and see the distribution:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, histogram_male_single_ratio}
+ggplot(data = population, aes(x = Ratio_Men_Single)) +
+  geom_histogram(binwidth = .01,
+                 fill = I('#0000ff')) +
+  scale_x_continuous(limits = c(0, 1)) +
+  ggtitle('Ratio of Single Men in Area')
+```
+
+The distribution of Ratio_Men_Single looks like a normal distribution, but there appears to be a little bit of a right skew. Let's run sum summary statistics real quick:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, summary_men_single_ratio}
+summary(population$Ratio_Men_Single)
+```
+
+We have a mean of 13.40%, I'm a little bit surprised that number is so low!
+
+Now let's look at the ratio of single women:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, histogram_female_single_ratio}
+ggplot(data = population, aes(x = Ratio_Women_Single)) +
+  geom_histogram(binwidth = .01,
+                 fill = I('#FFC0CB')) +
+  scale_x_continuous(limits = c(0, 1)) +
+  ggtitle('Ratio of Single Women in Area')
+```
+
+Just like the Men Single Ratio graph it looks like the distribution is Normal but with a little bit of a right skew.
+
+Let's run some summary statistics:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, summary_women_single_ratio}
+summary(population$Ratio_Women_Single)
+```
+
+The mean is 11.71% which is less then the Male Single Ratio. Curious!
+
+Let's keep those statistics in the back of our mind and explore the next variable we are interested in, age.
+
+A potential hypothesis in the dating community, is that in areas where the population is younger there would be more people single.
+
+To explore this, let's first create a new variable 'ratio_under_30':
+
+```{r message=FALSE, warning=FALSE, variable_ratio_Under_30}
+population$Ratio_Under_30 <- population$X.20 + population$X20s
+```
+
+Now let's check the distribution of our new Ratio_Under_30 variable:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, histogram_under_30}
+ggplot(data = population, aes(x = Ratio_Under_30)) +
+  geom_histogram(binwidth = .01,
+                 fill = I('#099DD9')) +
+  scale_x_continuous(limits = c(0, 1)) +
+  ggtitle('Ratio Under 30')
+```
+
+This looks like a normal distribution, with an average of 37%. Let's run the summary statistics real quick:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, summary_ratio_under_30}
+summary(population$Ratio_Under_30)
+```
+
+As we see the mean is 35.97%, stating that on average in the US 35.97% of the population is under 30.
+
+For the rest of this exploration let's look at the Single Ratio and try to understand if they're are variables in our data set that correlate to a higher single percentage.
+
+First let's see the single ratio for each state in a box plot to see if they're are any states that stand out:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, box_plot_states_single_ratio}
+ggplot(data = population, 
+       aes(x = State, y = Ratio_Single)) +
+  geom_boxplot() +
+  scale_y_continuous(limits = c(0, 1)) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle('Ratio Single By State')
+```
+
+From the chart, it looks like AK, MS, and NM have the highest ratios of single people.
+
+Now let's go one step further and see single ratio by gender by race in a scatter plot.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, box_plot_states_male_ratio}
+ggplot(data = population, 
+       aes(x = State, y = Ratio_Men_Single)) +
+  geom_point(stat = 'summary',
+           fun.y = "mean",
+           colour = 'blue') +
+  scale_y_continuous(limits = c(0, .25)) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle('Single Men Ratio By State')
+```
+
+Interesting it looks like there's some states that definitely have more single men then women. DC is leading the pack with Single Men, but that value might be skewed because DC is technically a District and not a state. As far as states AK is leading the pack.
+
+Now let's look at states with the most single women:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, box_plot_states_female_ratio}
+ggplot(data = population, 
+       aes(x = State, y = Ratio_Women_Single)) +
+  geom_point(stat = 'summary',
+           fun.y = "mean",
+           colour = 'pink') +
+  scale_y_continuous(limits = c(0, .25)) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle('Single Women Ratio By State')
+```
+
+This plot is also interesting, it appears MS is leading thepack with highest ratio of single women. What's also interesting is North Dakota has the lowest ratio of single women. I wonder what drives the differences in these two states...
+
+Let's circle back on our hypothesis that gender ratio effects single ratio of that gender.
+
+To dig into this, we can use scatterplots to see if there is visual evidence of gender_ratio effecting the amount of singles for that gender. 
+
+First we'll look at men, and we're going to subset the data to remove extreme outliers which is Ratio_Men_Single = 0 as I'm not sure how that is possible:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, plot_single_male_ratio}
+ggplot(data = subset(population, Ratio_Men_Single > 0), 
+       aes(x = Ratio_Male, y = Ratio_Men_Single)) +
+  geom_point(alpha = 1/20, 
+             position = position_jitter(h = 0)) +
+  geom_smooth(method = 'lm', color = 'red') +
+  xlim(0, 1) +
+  ylim(0, 1) +
+  ggtitle('Single Men Ratio By Gender Ratio')
+```
+
+Interesting! The smooth plot gives us a line that says as the ratio of males increase in an area the number of single men also increases. From visually looking at the data this seems most pronounced in the tails.
+
+Now we'll look at women, and we're going to subset the data to remove extreme outliers which is Ratio_Women_Single = 0, (as again I'm not sure how that is possible).
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, plot_single_female_ratio}
+ggplot(data = subset(population, Ratio_Women_Single > 0), 
+       aes(x = Ratio_Female, y = Ratio_Women_Single)) +
+  geom_point(alpha = 1/20, 
+             position = position_jitter(h = 0)) +
+  geom_smooth(method = 'lm', color = 'red') +
+  xlim(0, 1) +
+  ylim(0, 1) +
+  ggtitle('Single Women Ratio By Gender Ratio')
+```
+
+This is interesting, as we saw in the single men graph, the smooth line shows that as the gender ratio increase there becomes more singles of that gender. 
+
+Also from an eyeball test this looks most pronounced at the tales of the graph. 
+
+There could be a story here: In areas where there are large gender imbalances there seems to be a higher ratio of singles for that gender. This of course makes sense since human coupling is 1 to 1. So if there are 30 women and 70 men, if all available women couple with 1 other man then there's going to be 40 men without partners, hence a higher ratio male singles.
+
+Let's calculate correlation between gender ratio's and gender single statistics real quick to see what that yields:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, correlation_gender_single_ratio}
+with(subset(population, Ratio_Women_Single > 0), 
+     cor.test(Ratio_Female, Ratio_Women_Single, method = 'pearson'))
+
+with(subset(population, Ratio_Men_Single > 0), 
+     cor.test(Ratio_Male, Ratio_Men_Single, method = 'pearson'))
+```
+
+Interesting the correlation between ratio of males and single males is 0.473843, that's right in between 0 and 1 so it's not super strong but it's not minimial.
+
+The correlation for ratio of females and single women is .4015924, which again is between 0 and 1 so it's not a strong indicator but it's not neglible either.
+
+From looking at the graph, the trends seem to be most pronounced at the tails let's try something real quick!
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, correlation_single_gender_ratio_tails}
+with(subset(population, Ratio_Women_Single > 0 & (Ratio_Female < .375 | Ratio_Female > .625)), 
+     cor.test(Ratio_Female, Ratio_Women_Single, method = 'pearson'))
+
+with(subset(population, Ratio_Men_Single > 0 & (Ratio_Male < .375 | Ratio_Male > .625)), 
+     cor.test(Ratio_Male, Ratio_Men_Single, method = 'pearson'))
+```
+
+This is fascinating! In areas of extreme gender impalances the correlation is much higher. For example if we look at places that Ratio_Male < .375 and Ratio_Male > .625 we find that the correlation of Ratio_Male to Single Men is .7060935 which is much higher then the original correlation of 0.473843. Same holds true for the Female_Ratio compared to Single Women which is now 0.6455695 compared to .4015924
+
+We have quite a few variables that we can use to understand their effect on single ratio. Let's use a ggcor graph to understand the correlation between various variables.
+
+First let's subset our data to include only the variables that we want: "Ratio_Male", "Ratio_Female", "Ratio_Men_Single", "Ratio_Women_Single", "ratio_under_30" as the computation times go way up when we perform multi_variate analysis on the entire population data set:
+
+```{r message=FALSE, warning=FALSE, subset}
+population_subset <- population[, c(5:6,30,61:63)]
+names(population_subset)
+```
+
+Perfecto! We now have the variables that we care about.
+
+Let's now use ggcor to compare:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, ggcor_single_ratio}
+ggcorr(population_subset, label = TRUE) +
+  ggtitle('Correlation Matrix')
+```
+
+Interesting from the ggcors table, it looks like the ratio of age under 30 doesn't effect single ratio very much. This is worth more exploring further.
+
+As is obvious, single ratios of a particular gender correlate to single ratio, and as explored previously gender imbalances somewhat correlate to single ratios of that gender.
+
+This is fun, next we'll look at a bunch of variables and see how those effect single ratios.
+
+So far we've explored comparing two variables against one another. Now it's time to start doing multi-variate comparisons.
+
+In the ggcor plot it appeared that ratio of people under 30 didn't effect single rates but I find this odd. 
+
+Let's play around with the data a little more and make a plot of 3 variables all at once. We'll start with men, and look at Ratio_Male, Ratio_Men_Single, and Ratio_Under_30. 
+
+In order for us to better plot these we're going to need to create a new variable called "Ratio_Under_30_Bucket":
+
+```{r message=FALSE, warning=FALSE, variable_ratio_under_30_bucket}
+population_subset$Ratio_Under_30_Bucket <- cut(population_subset$Ratio_Under_30,
+                                        c(0,.2, .4, .6, .8, 1))
+```
+
+Great now that we have the Ratio_Under_30_Bucket let's create a plot:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, plot_age_single_male_ratio}
+ggplot(data = population_subset,
+       aes(x = Ratio_Male, 
+           y = Ratio_Men_Single,
+           color = Ratio_Under_30_Bucket)) +
+  geom_point(alpha = 0.5,
+             size = 2, 
+             position = 'jitter') +
+  geom_smooth(method ='lm',
+              se = FALSE,
+              size = 1) +
+  scale_color_brewer(type = 'div',
+                     guide = guide_legend(title = 'Percent Under 30',
+                                         reverse = TRUE)) +
+  scale_x_continuous(limits = c(0, .9)) +
+  scale_y_continuous(limits = c(0, .7)) +
+  ggtitle('Single Men Ratio By Gender Ratio With Age')
+```
+
+This is fascinating! From the graph it looks like in areas where the majority of the population is under 30 (80% +) there appears to be a higher ratio of single men. It also looks like that when that ratio is below 80% there doesn't seem to be much difference.
+
+Let's see what the graph says for Women:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, plot_age_single_female_ratio}
+ggplot(data = population_subset,
+       aes(x = Ratio_Female, 
+           y = Ratio_Women_Single,
+           color = Ratio_Under_30_Bucket)) +
+  geom_point(alpha = 0.5,
+             size = 2, 
+             position = 'jitter') +
+  geom_smooth(method ='lm',
+              se = FALSE,
+              size = 1) +
+  scale_color_brewer(type = 'div',
+                     guide = guide_legend(title = 'Percent Under 30',
+                                         reverse = TRUE)) +
+  scale_x_continuous(limits = c(0, .9)) +
+  scale_y_continuous(limits = c(0, .7)) +
+  ggtitle('Single Women Ratio By Gender Ratio With Age')
+```
+
+Interesting! In areas where a large majority of the population is under 30, (ie. 80%+) there appears to be a much higher ratio of singles.
+
+We're going to end this project here, but there are tons of ways to continue the analysis of this project. Let's discuss in the next section.
+
+##########################
+## Final Plots & Summary ##
+###########################
+
+We started this project with a population data set from Towncharts.com.
+
+The variable we determined to be most interesting was single ratio, so we decided to analyze how the other variables correlated to this.
+
+We started making plots comparing single ratio to other variables, the first of which was states:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, box_plot_states_single_ratio_2}
+ggplot(data = population, 
+       aes(x = State, y = Ratio_Single)) +
+  geom_boxplot() +
+  scale_y_continuous(limits = c(0, 1)) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle('Single Ratio By State')
+```
+
+We then hypothesized that single ratios will be influenced by the gender ratio of that area. 
+
+We plotted the data to visually to gage correlation between gender ratio and singles of that gender:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, plot_single_male_ratio_2}
+ggplot(data = subset(population, Ratio_Men_Single > 0), 
+       aes(x = Ratio_Male, y = Ratio_Men_Single)) +
+  geom_point(alpha = 1/20, 
+             position = position_jitter(h = 0)) +
+  geom_smooth(method = 'lm', color = 'red') +
+  xlim(0, 1) +
+  ylim(0, 1) +
+  ggtitle('Single Men Ratio By Gender Ratio')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, plot_single_female_ratio_2}
+ggplot(data = subset(population, Ratio_Women_Single > 0), 
+       aes(x = Ratio_Female, y = Ratio_Women_Single)) +
+  geom_point(alpha = 1/20, 
+             position = position_jitter(h = 0)) +
+  geom_smooth(method = 'lm', color = 'red') +
+  xlim(0, 1) +
+  ylim(0, 1) +
+  ggtitle('Single Women Ratio By Gender Ratio')
+```
+
+There was a clear correlation between gender ratio and singles of that gender.
+
+We decided to do further analysis.
+
+We decided to explore a 3 way plot showing the gender ratio, single percentage of that gender, and age buckets to understand how age correlates into all of this:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, plot_age_single_male_ratio_2}
+ggplot(data = population_subset,
+       aes(x = Ratio_Male, 
+           y = Ratio_Men_Single,
+           color = Ratio_Under_30_Bucket)) +
+  geom_point(alpha = 0.5,
+             size = 2, 
+             position = 'jitter') +
+  geom_smooth(method ='lm',
+              se = FALSE,
+              size = 1) +
+  scale_color_brewer(type = 'div',
+                     guide = guide_legend(title = 'Percent Under 30',
+                                         reverse = TRUE)) +
+  scale_x_continuous(limits = c(0, .9)) +
+  scale_y_continuous(limits = c(0, .7)) +
+  ggtitle('Single Men Ratio By Gender Ratio With Age')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, plot_age_single_female_ratio_2}
+ggplot(data = population_subset,
+       aes(x = Ratio_Female, 
+           y = Ratio_Women_Single,
+           color = Ratio_Under_30_Bucket)) +
+  geom_point(alpha = 0.5,
+             size = 2, 
+             position = 'jitter') +
+  geom_smooth(method ='lm',
+              se = FALSE,
+              size = 1) +
+  scale_color_brewer(type = 'div',
+                     guide = guide_legend(title = 'Percent Under 30',
+                                         reverse = TRUE)) +
+  scale_x_continuous(limits = c(0, .9)) +
+  scale_y_continuous(limits = c(0, .7)) +
+  ggtitle('Single Women Ratio By Gender Ratio With Age')
+```
+
+From the visuals, it looked as if areas that have a higher ratio of population under 30 also had a higher ratio of single percentage.
+
+This left us with follow up questions. 
+
+##########################
+## Further Analysis ##
+###########################
+
+We have quite a few more questions to answer! 
+
+Such as does Age affect the single %age up to a certain number and then looses it's effect after that age?
+
+More analysis can be done to see the correlation of age into single ratio. Also an analysis into why some states have greater single ratios then other states. 
+
+We haven't touched on ethnicity, which could correlate to a higher or lower single percentage.
+
+Further we haven't looked at income/wealth of particular areas and how that can effect single percentage.
+
+That's the fun about Data Exploration the discovery never ends!

@@ -1,7 +1,6 @@
 ---
-title: "NCI-Explore"
+title: "Explore the NCI data set"
 author: "Paul Foley"
-date: "7/10/2017"
 output: html_document
 ---
 
