@@ -31,7 +31,6 @@ names(county_statistics)
 ## Age By State
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Bar_Plot-Age}
-library(dplyr)
 statistics_by_state <- group_by(county_statistics, 
                                 State)
 age_mp_by_state <- summarise(statistics_by_state, 
@@ -49,7 +48,6 @@ ggplot(data = age_mp_by_state,
 ## Gender % By State
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Bar_Plot-Gender_State}
-names(statistics_by_state)
 ratio_mp_by_state <- summarise(statistics_by_state, 
                                     mean_perc_female = mean(Perc_Female))
 
