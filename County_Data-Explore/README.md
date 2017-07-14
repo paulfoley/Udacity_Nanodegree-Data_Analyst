@@ -5,12 +5,11 @@
 
 ## Population Exploration
 
-In this project, we will perform a data exploration on counties across the US, specifically looking at:
+In this project, we will perform a data exploration on counties across the US, specifically looking at the features:
 
-* Age By State
-* Gender % By State
-* Gender And Race
-* Median Age Per County Grouped By Ethnicity
+* Age 
+* Gender
+* Ethnicity
 
 
 ## Getting Started
