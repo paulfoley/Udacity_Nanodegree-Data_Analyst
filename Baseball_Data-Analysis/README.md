@@ -1,6 +1,6 @@
 # Data Analysis - Lahman Baseball Data
 
-Analyze the [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/) using Python libraries NumPy, Pandas, and Matplotlib than communicate interesting findings and questions (see below) about the data.
+Analyze the [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/) using Python libraries NumPy, Pandas, and Matplotlib than communicate interesting findings and analyze questions (see below) about the data.
 
 [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/) - A data set containing complete batting and pitching statistics from 1871 to 2014, plus fielding statistics, standings, team stats, managerial records, post-season data, and more. This dataset contains many files, but you can choose to analyze only the one(s) you are most interested in.
 
@@ -31,7 +31,7 @@ You'll need to install:
 * `baseball_data-audit.py` - Audits the baseball data for cleanliness
 
 ### Opening the Jupyter Notebook
-As mentioned earlier, the project `Baseball_Data-Analysis.ipynb` can be read using a Jupyter Notebook. There's also an HTML version `Baseball_Data-Analysis.html` included.
+The project `Baseball_Data-Analysis.ipynb` can be read using a Jupyter Notebook. There's also an HTML version `Baseball_Data-Analysis.html` included.
 
 * Download the `Baseball_Data-Analysis.ipynb`
 * Open your Command Prompt (PC) or terminal (Mac or Linux).
