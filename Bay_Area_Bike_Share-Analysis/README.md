@@ -4,6 +4,31 @@
 
 In this project, we will perform data wrangling as well as an exploratory analysis on the Bay Area Bike Share data to answer specific questions (see below) about their pricing model.
 
+
+## Questions for Analysis
+Below are the questions we find interesting and want to answer using the [Bay Area Bike Share](https://www.fordgobike.com/) data set. 
+
+### Question 1
+
+Currently, there is an overage fee for rides longer then 30 minutes. Is this optimal though? What does the typical ride time look like? It could benefit Bay Area Bike Share to change their overage fees based on the typical ride of a user.
+
+* Are there any usage trends in the data for length of ride times?
+
+### Question 2
+
+Right now packages are broken out into yearly, 24-hour, as well as 3-day passes. Is this optimal though? In order to improve the bike service pricing package let's look at usage trends to see if there are peak days where the bike share is being used more often.
+
+* Are there any usage trends in the data for specific days of the week where bike share is utilized the most?
+
+### Question 3
+
+It's also important for us to understand how the bike share is being used in various cities. Let's explore the data and see if there are certain cities where the bikes are being used more often. From understanding this we can add more bikes in certain cities as well as change pricing based on demand.
+
+* Are there specific cities where bike share is used more then other cities?
+
+
+## Getting Started
+
 ### Prerequisites
 You'll need to install:
 
@@ -50,36 +75,16 @@ The Jupyter Notebook `Bay_Area_Bike_Share-Analysis.ipynb` has all project inform
 If you try running a code block and get an error message like no module named matplotlib, then your distribution of Anaconda may be missing a package used in the project. That's okay – there's an easy way that you can install these packages. Take a look at Google for easy to use guides on installation!
 
 
-## Questions for Analysis
-Below are the questions we find interesting and want to answer using the data set. 
-
-### Question 1
-
-Currently, there is an overage fee for rides longer then 30 minutes. Is this optimal though? What does the typical ride time look like? It could benefit Bay Area Bike Share to change their overage fees based on the typical ride of a user.
-
-* Are there any usage trends in the data for length of ride times?
-
-### Question 2
-
-Right now packages are broken out into yearly, 24-hour, as well as 3-day passes. Is this optimal though? In order to improve the bike service pricing package let's look at usage trends to see if there are peak days where the bike share is being used more often.
-
-* Are there any usage trends in the data for specific days of the week where bike share is utilized the most?
-
-### Question 3
-
-It's also important for us to understand how the bike share is being used in various cities. Let's explore the data and see if there are certain cities where the bikes are being used more often. From understanding this we can add more bikes in certain cities as well as change pricing based on demand.
-
-* Are there specific cities where bike share is used more then other cities?
-
-
 ## Authors
 
 * [**Paul Foley**](https://github.com/paulfoley)
 * See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Bay_Area_Bike_Share-Analysis) who participated in this project.
 
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 
 ## Acknowledgments
 
