@@ -5,12 +5,12 @@
 
 ## Population Exploration
 
-In this project, we will perform a data exploration on counties across the US. Sepcifically looking at Age, Gender, and Race:
+In this project, we will perform a data exploration on counties across the US, specifically looking at:
 
 * Age By State
 * Gender % By State
 * Gender And Race
-* Median_Age Per County Grouped By Ethnicity
+* Median Age Per County Grouped By Ethnicity
 
 
 ## Getting Started
@@ -30,7 +30,7 @@ You'll need to install:
 
 ### Analysis Files
 
-* `county_data-explore.rmd` - Main project file, an [RStudio](https://www.rstudio.com/products/rstudio/download/) file that contains the analysis for the project. There is also an html version `county_data-explore.html`
+* `county_data-explore.rmd` - Main project file, an [RStudio](https://www.rstudio.com/products/rstudio/download/) file that contains the analysis for the project. There is also an html output `county_data-explore.html` for viewability.
 
 
 ## Authors
