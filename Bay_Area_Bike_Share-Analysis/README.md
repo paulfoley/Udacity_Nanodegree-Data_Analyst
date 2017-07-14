@@ -14,7 +14,7 @@ You'll need to install:
 * [Matplotlib](https://anaconda.org/anaconda/matplotlib)
 
 ### Data Files
-Data is split among twelve other files, organized into three sets of four files
+Data is split among twelve files, organized into three sets of four files
 each. Prefixing each set is one of three datestamps, showing the end month for
 each data collection period (201402, 201408, 201508). Suffixes for each file
 indicate contents:
@@ -33,7 +33,7 @@ city in the bike share program.
 * `babs_datacheck.py`; `babs_visualizations.py` - Additional scripts for checking data wrangling, reporting of basic statistics, and creation of exploratory bar charts and histograms.
 
 ### Opening the Jupyter Notebook
-As mentioned earlier, the project `Bay_Area_Bike_Share-Analysis.ipynb` can be read using a Jupyter Notebook. There's also an HTML version ``Bay_Area_Bike_Share-Analysis.html` included.
+The project `Bay_Area_Bike_Share-Analysis.ipynb` can be read using a Jupyter Notebook. There's also an HTML version `Bay_Area_Bike_Share-Analysis.html` included.
 
 * Download the `Bay_Area_Bike_Share-Analysis.ipynb`
 * Open your Command Prompt (PC) or terminal (Mac or Linux).
