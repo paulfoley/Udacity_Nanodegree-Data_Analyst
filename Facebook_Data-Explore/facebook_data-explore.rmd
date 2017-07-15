@@ -1,19 +1,18 @@
-Exploration of Facebook Data
-===========================================
-```{r echo=FALSE, message=FALSE, warning=FALSE, Load_the_Data}
-getwd()
-list.files()
-facebook <- read.csv("pseudo_facebook.tsv", sep = '\t')
-names(facebook)
-```
+---
+title: "Exploration of Facebook Data"
+author: "Paul Foley"
+output: html_document
+---
+
+Exploration of Facebokk Users using sample FB data.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Load_Libraries}
-library(knitr)
-library(dplyr)
 library(ggplot2)
+library(GGally)
+library(dplyr)
 library(tidyr)
 library(alr3)
-library(GGally)
+library(knitr)
 library(gridExtra)
 library(reshape2)
 ```
@@ -22,170 +21,365 @@ library(reshape2)
 knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
 ```
 
-## Histogram of Users' Birthdays
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Users_Birthdays}
+```{r echo=FALSE, message=FALSE, warning=FALSE, Load_the_Data}
+facebook <- read.csv("pseudo_facebook.tsv", sep = '\t')
 names(facebook)
-qplot(x = dob_day, data = facebook) +
-  geom_histogram(binwidth = 1) +
-  scale_x_continuous(breaks = 1:31)
 ```
 
-##Histogram of Users' Birthdays with Month Wrap
+## Explore Friend Count
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Users_Birthdays_Month}
-ggplot(data = facebook, aes(x = dob_day)) +
-  geom_histogram(binwidth = 1) +
-  scale_x_continuous(breaks = 1:31) +
-  facet_wrap(~dob_month)
-```
+```{r echo=FALSE, message=FALSE, warning=FALSE, Friend-Count}
+plot_1 <- ggplot(data = facebook,
+                 aes(x = friend_count)) +
+  geom_histogram(binwidth = 25,
+                 fill = 'blue') +
+  scale_x_continuous(limits = c(0, 1000),
+                     breaks = seq(0, 1000, 50)) +
+  xlab('Friend Count') +
+  ylab('Number of Users in Sample') +
+  ggtitle('Histogram - Friend Count')
 
-## Friend Count
+plot_2 <- ggplot(data = facebook,
+                 aes(x = log10(friend_count+1))) +
+  geom_histogram(binwidth = .2,
+                 fill = 'blue') +
+  scale_x_continuous(limits = c(0, 4),
+                     breaks = seq(0, 4, 1)) +
+  xlab('Friend Count (log10)') +
+  ylab('Number of Users in Sample') +
+  ggtitle('Histogram - Friend Count (log10)')
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Friend_Count}
-ggplot(data = subset(facebook, !is.na(gender)), aes(x = friend_count)) +
-  geom_histogram(binwidth = 25) +
-  scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50)) +
-  facet_wrap(~gender)
-```
-
-## Statistics by Gender
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Statistics-Gender}
-table(facebook$gender)
-by(facebook$friend_count, facebook$gender, summary)
-```
-
-## Tenure
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Tenure}
-ggplot(data = facebook, aes(x = tenure)) +
-  geom_histogram(binwidth = 30, color = 'black', fill = '#099DD9') +
-  xlab('Number of days using Facebook') +
-  ylab('Number of users in sample')
-
-ggplot(aes(x = tenure/365), data = facebook) + 
-  geom_histogram(binwidth = .25, color = 'black', fill = '#F79420') +
-  scale_x_continuous(limits = c(0, 7), breaks = seq(1, 7, 1)) +
-  xlab('Number of years using Facebook') +
-  ylab('Number of users in sample')
-```
-
-## User Ages
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, User Ages}
-ggplot(aes(x = age), data = facebook) + 
-  geom_histogram(binwidth = 1, color = 'black', fill = '#5760AB') +
-  scale_x_continuous(limits = c(10, 105), breaks = seq(10, 105, 5)) +
-  xlab('Age of Facebook Users') +
-  ylab('Number of users in sample')
-```
-
-## Transforming Data
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Transoform-Data}
-summary(facebook$friend_count)
-summary(log10(facebook$friend_count+1))
-summary(sqrt(facebook$friend_count))
-
-plot_1 <- ggplot(data = facebook, aes(x = friend_count)) +
-  geom_histogram(binwidth = 25) +
-  scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50))
-plot_2 <- ggplot(data = facebook, aes(x = log10(friend_count+1))) +
-  geom_histogram(binwidth = .2) +
-  scale_x_continuous(limits = c(0, 4), breaks = seq(0, 4, 1))
-plot_3 <- ggplot(data = facebook, aes(x = sqrt(friend_count))) +
-  geom_histogram(binwidth = 1) +
-  scale_x_continuous(limits = c(0, 70), breaks = seq(0, 70, 5))
+plot_3 <- ggplot(data = facebook,
+                 aes(x = sqrt(friend_count))) +
+  geom_histogram(binwidth = 1,
+                 fill = 'blue') +
+  scale_x_continuous(limits = c(0, 70),
+                     breaks = seq(0, 70, 5)) +
+  xlab('Friend Count (sqrt)') +
+  ylab('Number of Users in Sample') +
+  ggtitle('Histogram - Friend Count (sqrt)')
 
 grid.arrange(plot_1, plot_2, plot_3, ncol=1)
 ```
 
-## Transforming Data Using Scales
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Transoform-Data-Scales}
-p1 <- ggplot(data = facebook, aes(x = friend_count)) +
-  geom_histogram()
-p2 <- p1 + scale_x_log10()
-p3 <- p1 + scale_x_sqrt()
-
-grid.arrange(p1, p2, p3, ncol = 1)
-```
-
-## Add a Scaling Layer
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Scaling-Layer}
-logScale <- ggplot(data = facebook, aes(x = log10(friend_count+1))) +
-  geom_histogram()
-
-countScale <- ggplot(data = facebook, aes(friend_count)) +
-  geom_histogram() +
-  scale_x_log10()
-
-grid.arrange(logScale, countScale, ncol = 2)
-```
-
-## Frequency Polygons (Different then Histograms)
-```{r echo=FALSE, message=FALSE, warning=FALSE, Frequency_Polygrams}
-ggplot(data = subset(facebook, !is.na(gender)), aes(x = friend_count)) +
-  geom_histogram(binwidth = 25) +
-  scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50)) +
-  facet_wrap(~gender) +
-  xlab('Friend Count') +
-  ylab('Number of users in sample')
-
-ggplot(data = subset(facebook, !is.na(gender)), aes(x = friend_count)) +
-  geom_freqpoly(aes(color = gender), binwidth = 25) +
-  scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50)) +
-  xlab('Friend Count') +
-  ylab('Percentage of Users with Friend Count')
-
-ggplot(data = subset(facebook, !is.na(gender)), aes(x = friend_count, y = ..density../sum(..density..))) +
-  geom_freqpoly(aes(color = gender), binwidth = 25) +
-  scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50)) +
-  facet_wrap(~gender) +
-  xlab('Friend Count') +
-  ylab('Percentage of Users with Friend Count')
-
-ggplot(data = subset(facebook, !is.na(gender)), aes(x = www_likes, y = ..count../sum(..count..))) +
-  geom_freqpoly(aes(color = gender)) + 
+ggplot(data = facebook,
+                     aes(friend_count)) +
+  geom_histogram(binwidth = .1,
+    fill = 'blue') +
   scale_x_log10() +
-  xlab('Number of Likes') +
-  ylab('Number of Users')
+  xlab('Friend Count') +
+  ylab('Number of Users in Sample') +
+  ggtitle('Histogram - Friend Count (log10)')
 ```
 
-## Numerical Functions
+## Birthday Exploration
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Users_Birthdays}
+ggplot(data = facebook,
+       aes(x = dob_day)) +
+  geom_histogram(binwidth = 1,
+                 fill = 'purple') +
+  scale_x_continuous(breaks = 1:31) +
+  xlab('Day of Birth') +
+  ylab('Number of Users in sample') +
+  ggtitle("Histogram - Birthdays")
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Users_Birthdays_Month}
+ggplot(data = facebook, 
+       aes(x = dob_day)) +
+  geom_histogram(binwidth = 1,
+                 fill = 'purple') +
+  scale_x_continuous(breaks = seq(1,31,5)) +
+  facet_wrap(~dob_month) +
+  xlab('Day of Birth') +
+  ylab('Number of Users in sample') +
+  ggtitle('Histogram - Birthdays \n Group By Month')
+```
+
+## Gender Exploration
+
+### Count of Genders
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Count-Gender}
+table(facebook$gender)
+```
+
+### Summary of Genders
+```{r echo=FALSE, message=FALSE, warning=FALSE, Summary-Gender}
+by(facebook$friend_count, facebook$gender, summary)
+```
+
+### Friendship Counts By Gender
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Summary-Gender-Friendship_Count}
+by(facebook$friend_count, facebook$gender, summary)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Gender-Friend_Count}
+ggplot(data = subset(facebook,
+                     !is.na(gender)),
+       aes(x = friend_count)) +
+  geom_histogram(binwidth = 20,
+                 fill = 'blue') +
+  scale_x_continuous(limits = c(0, 1000),
+                     breaks = seq(0, 1000, 200)) +
+  facet_wrap(~gender) +
+  xlab('Friend Count') +
+  ylab('Number of Users in sample') +
+  ggtitle('Histogram - Friend Count \n Group By Gender')
+```
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Freq-Gender-Friend_Count-Overlay}
+ggplot(data = subset(facebook,
+                     !is.na(gender)),
+       aes(x = friend_count)) +
+  geom_freqpoly(aes(color = gender),
+                binwidth = 25) +
+  scale_x_continuous(limits = c(0, 1000),
+                     breaks = seq(0, 1000, 50)) +
+  xlab('Friend Count') +
+  ylab('Users with Friend Count')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Freq-Gender-Friend_Count}
+ggplot(data = subset(facebook,
+                     !is.na(gender)),
+       aes(x = friend_count,
+           y = ..density../sum(..density..))) +
+  geom_freqpoly(aes(color = gender),
+                binwidth = 25) +
+  scale_x_continuous(limits = c(0, 1000),
+                     breaks = seq(0, 1000, 100)) +
+  facet_wrap(~gender) +
+  xlab('Friend Count') +
+  ylab('Percentage of Users with Friend Count')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Boxplot-Gender-Friend_Count}
+ggplot(data = subset(facebook,
+                     !is.na(gender)), 
+       aes(x = gender,
+           y = friend_count)) +
+  geom_boxplot(color = 'blue') +
+  coord_cartesian(ylim = c(0, 1000))
+```
+
+### Friendships Initiated By Gender
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Gender-Friend_Init}
+by(facebook$friendships_initiated, facebook$gender, summary)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Box_Plot-Gender-Friend_Init}
+ggplot(data = subset(facebook,
+                     !is.na(gender)),
+       aes(x = gender,
+           y = friendships_initiated)) +
+  geom_boxplot(fill = 'light blue') +
+  coord_cartesian(ylim = c(0,150))
+```
+
+### Likes by Gender
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Numberical_Features}
 by(facebook$www_likes, facebook$gender, sum)
 ```
 
-## Box Plots and Quartiles
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Box_Plots}
-ggplot(data = subset(facebook, !is.na(gender)), 
-       aes(x = gender, y = friend_count)) +
-  geom_boxplot() +
-  scale_y_continuous(limits = c(0, 1000))
-
-ggplot(data = subset(facebook, !is.na(gender)), 
-       aes(x = gender, y = friend_count)) +
-  geom_boxplot() +
-  coord_cartesian(ylim = c(0, 1000))
-
-by(facebook$friend_count, facebook$gender, summary)
+```{r echo=FALSE, message=FALSE, warning=FALSE, Freq-Gender-Likes}
+ggplot(data = subset(facebook,
+                     !is.na(gender)), 
+       aes(x = www_likes,
+           y = ..count../sum(..count..))) +
+  geom_freqpoly(binwidth = .25,
+                aes(color = gender)) + 
+  scale_x_log10() +
+  xlab('Number of Likes') +
+  ylab('Number of Users')
 ```
 
-## Box Plots Continued
-```{r echo=FALSE, message=FALSE, warning=FALSE, Box_Plots_2}
-ggplot(data = subset(facebook, !is.na(gender)),
-       aes(x = gender, y = friendships_initiated)) +
-  geom_boxplot() +
-  coord_cartesian(ylim = c(0,150))
+## Tenure Exploration
 
-by(facebook$friendships_initiated, facebook$gender, summary)
+```{r echo=FALSE, message=FALSE, warning=FALSE, Tenure-Days}
+ggplot(data = facebook, aes(x = tenure)) +
+  geom_histogram(binwidth = 30, 
+                 color = 'black', 
+                 fill = '#099DD9') +
+  xlab('Number of days using Facebook') +
+  ylab('Number of users in sample') +
+  ggtitle('Histogram - Days Using Facebook')
 ```
 
-## Getting Logical
+```{r echo=FALSE, message=FALSE, warning=FALSE, Tenure-Years}
+ggplot(aes(x = tenure/365), data = facebook) + 
+  geom_histogram(binwidth = .25, color = 'black', fill = '#F79420') +
+  scale_x_continuous(limits = c(0, 7), breaks = seq(1, 7, 1)) +
+  xlab('Number of years using Facebook') +
+  ylab('Number of users in sample') +
+  ggtitle('Histogram - Years Using Facebook')
+```
+
+## Exploration Age
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, User Ages}
+ggplot(data = facebook,
+       aes(x = age)) + 
+  geom_histogram(binwidth = 1,
+                 color = 'black',
+                 fill = '#5760AB') +
+  scale_x_continuous(limits = c(10, 105),
+                     breaks = seq(10, 105, 5)) +
+  xlab('Age (Years) of Facebook Users') +
+  ylab('Number of users in sample') +
+  ggtitle('Histogram - User Age')
+```
+
+### Age and Friend Count
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Conditional_Means-Friend_Count}
+facebook.friend_count_by_age <- facebook %>%
+  group_by(age) %>%
+  summarise(friend_count_mean = mean(friend_count),
+            friend_count_median = median(friend_count),
+            n = n()) %>%
+  arrange(age)
+
+facebook$age_with_months <- facebook$age + (1 - facebook$dob_month / 12)
+```
+
+#### Correlation Age and Friend Count
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Friend_Count-Age}
+with(facebook, cor.test(age, friend_count, method = 'pearson'))
+```
+
+#### Correlation Age and Friend Count < 70
+
+##### Pearson Correlation
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Subset-Pearson}
+with(subset(facebook, age <= 70), cor.test(age, friend_count, method = 'pearson'))
+```
+
+##### Spearman Correlation
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Subset-Spearman}
+with(subset(facebook, age <= 70), cor.test(age, friend_count, method = 'spearman'))
+
+
+```
+
+##### Kendall Correlation
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Subset-Kendall}
+with(subset(facebook, age <= 70), cor.test(age, friend_count, method = 'kendall'))
+```
+
+#### Scatterplots Age and Friend Count
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Friend_Count-Age}
+ggplot(data = facebook,
+       aes(x = age,
+           y = friend_count)) +
+  geom_point(alpha = .1,
+             color = 'blue') +
+  xlim(13, 90) +
+  xlab('User Age') +
+  ylab('Friend Count') +
+  ggtitle('Scatterplot - Friend Count Vs. Age')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Line-Friend_Count-Age}
+ggplot(data = facebook.friend_count_by_age,
+       aes(age, friend_count_mean)) +
+  geom_line(color = 'blue') +
+  xlim(13, 90) +
+  xlab('User Age') +
+  ylab('Friend Count (sqrt)') +
+  ggtitle('Scatterplot - Friend Count (Mean) Vs. Age')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Friend_Count_Sqrt-Age}
+ggplot(data = facebook,
+       aes(x = age,
+           y = friend_count)) +
+  geom_point(alpha = .1,
+             position = position_jitter(h = 0),
+             color = 'blue') +
+  xlim(13, 90) +
+  coord_trans(y = "sqrt") +
+  xlab('User Age') +
+  ylab('Friend Count (sqrt)') +
+  ggtitle('Scatterplot - Friend Count (sqrt) Vs. Age')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Summaries-Friend_Count-Age}
+ggplot(data = facebook,
+       aes(x = age,
+           y = friend_count)) +
+  coord_cartesian(xlim = c(13, 70),
+                  ylim = c(0, 1000)) +
+  geom_point(alpha = 0.05, 
+             position = position_jitter(h = 0),
+             color = 'blue') +
+  geom_line(stat = 'summary',
+            fun.y = mean) +
+  geom_line(stat = 'summary', 
+            fun.y = quantile,
+            fun.args = list(probs = .1),
+            linetype = 2,
+            color = 'orange') +
+  geom_line(stat = 'summary', 
+            fun.y = quantile,
+            fun.args = list(probs = .5),
+            color = 'orange') +
+  geom_line(stat = 'summary', 
+            fun.y = quantile,
+            fun.args = list(probs = .9),
+            linetype = 2,
+            color = 'orange') +
+  xlab('User Age') +
+  ylab('Friend Count') +
+  ggtitle('Scatterplot - Friend Count Vs. Age')
+```
+
+### Age and Friendships Initiated
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Friend_Init-Age}
+ggplot(data = facebook,
+       aes(x = age,
+           y =friendships_initiated)) +
+  geom_jitter(alpha = .1,
+              color = 'light blue') +
+  xlim(13, 90) +
+  xlab('User Age') +
+  ylab('Friendships Initiated') +
+  ggtitle('Scatterplot - Friendships Initiated Vs. Age')
+```
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Friend_Init_Sqrt-Age}
+ggplot(data = facebook,
+       aes(x = age,
+           y = friendships_initiated)) +
+  geom_point(alpha = .1,
+             position = position_jitter(h = 0),
+             color = 'light blue') +
+  xlim(13, 90) +
+  coord_trans(y = "sqrt") +
+  xlab('User Age') +
+  ylab('Friendships Initiated (sqrt)') +
+  ggtitle('Scatterplot - \n Friendships Initiated (sqrt) Vs. Age')
+```
+
+
+
+
+
+## Mobile Likes Explore
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Logic}
 summary(facebook$mobile_likes)
 summary(facebook$mobile_likes > 0)
@@ -198,183 +392,44 @@ summary(facebook$mobile_check_in)
 (sum(facebook$mobile_check_in == 1)/length(facebook$mobile_check_in))*100
 ```
 
-## Scatterplots
+## Likes Recieved Exploration
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot}
-ggplot(data = facebook, aes(x = age, y = friend_count)) +
-  geom_point(alpha = 1/20) +
-  xlim(13, 90)
-```
-
-# Overplotting
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Overplotting}
-ggplot(data = facebook, aes(x = age, y = friend_count)) +
-  geom_jitter(alpha = 1/20) +
-  xlim(13, 90)
-```
-
-## Transformed Cartesian Coordinate System
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Transform-Coordinates}
-ggplot(data = facebook, aes(x = age, y = friend_count)) +
-  geom_point(alpha = 1/20, position = position_jitter(h = 0)) +
-  xlim(13, 90) +
-  coord_trans(y = "sqrt")
-```
-
-# Alpha and Jitter
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Alpha_Jitter}
-ggplot(data = facebook, aes(x = age, y = friendships_initiated)) +
-  geom_point(alpha = 1/10, position = position_jitter(h = 0)) +
-  xlim(13, 90) +
-  coord_trans(y = "sqrt")
-
-ggplot(data = facebook, aes(x = age, y =friendships_initiated)) +
-  geom_jitter(alpha = 1/10) +
-  xlim(13, 90)
-```
-
-## Conditional Means
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Conditional_Means_1}
-age_groups <- group_by(facebook, age)
-facebook.friend_count_by_age <- summarise(age_groups,
-          friend_count_mean = mean(friend_count),
-          friend_count_median = median(as.numeric(friend_count)),
-          n = n())
-facebook.friend_count_by_age <- arrange(facebook.friend_count_by_age)
-
-facebook.friend_count_by_age
-```
-
-## Conditional Means Alternate Code
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Conditional_Means_2}
-facebook.friend_count_by_age_2 <- facebook %>%
-  group_by(age) %>%
-  summarise(friend_count_mean = mean(friend_count),
-            friend_count_median = median(friend_count),
-            n = n()) %>%
-  arrange(age)
-
-facebook.friend_count_by_age_2
-```
-
-## Conditional Mean Plot
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Conditional_Mean_Plot}
-ggplot(data = facebook.friend_count_by_age, aes(age, friend_count_mean)) +
-  geom_line()
-```
-
-## Overlaying Summaries with Raw Data
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Summaries-Raw}
-ggplot(aes(x = age, y = friend_count), data = facebook) +
-  coord_cartesian(xlim = c(13, 70), ylim = c(0, 1000)) +
-  geom_point(alpha = 0.05, 
-             position = position_jitter(h = 0),
-             color = 'orange') +
-  geom_line(stat = 'summary', fun.y = mean) +
-  geom_line(stat = 'summary', 
-            fun.y = quantile,
-            fun.args = list(probs = .1),
-            linetype = 2,
-            color = 'blue') +
-  geom_line(stat = 'summary', 
-            fun.y = quantile,
-            fun.args = list(probs = .5),
-            color = 'blue') +
-  geom_line(stat = 'summary', 
-            fun.y = quantile,
-            fun.args = list(probs = .9),
-            linetype = 2,
-            color = 'blue')
-```
-
-## Correlation
-```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation}
-cor.test(facebook$age, facebook$friend_count, method = 'pearson')
-
-with(facebook, cor.test(age, friend_count, method = 'pearson'))
-```
-
-## Correlation on Subsets
-```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Subset}
-with(subset(facebook, age <= 70), cor.test(age, friend_count, method = 'pearson'))
-```
-
-## Correlation Methods
-```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Method}
-with(subset(facebook, age <= 70), 
-     cor.test(age, friend_count, method = 'spearman'))
-
-with(subset(facebook, age <= 70), 
-     cor.test(age, friend_count, method = 'kendall'))
-```
-
-## Scatterplots
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot_2}
-ggplot(data = facebook, aes(x = www_likes_received, y = likes_received)) +
+```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-likes-www_likes}
+ggplot(data = facebook,
+       aes(x = www_likes_received,
+           y = likes_received)) +
   geom_point(alpha = 0.1, 
-             color = 'blue') +
-  coord_cartesian(xlim = c(0, 12500), ylim = c(0, 25000))
+             color = 'dark blue') +
+  geom_smooth(method = 'lm',
+              color = 'red') +
+  coord_cartesian(xlim = c(0, 12500),
+                  ylim = c(0, 25000)) +
+  xlab('www Likes Received') +
+  ylab('Likes Received') +
+  ggtitle('Scatterplot - Likes Received')
 ```
 
-# Strong Correlations
+### Correlation Likes Received and www Likes Received
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Strong}
-ggplot(data = facebook, aes(x = www_likes_received, y = likes_received)) +
-  geom_point() +
+```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-likes-www_likes}
+cor.test(facebook$www_likes_received, facebook$likes_received, method = 'pearson')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-likes-www_likes-zoom}
+ggplot(data = facebook,
+       aes(x = www_likes_received,
+           y = likes_received)) +
+  geom_point(color = 'dark blue') +
   xlim(0, quantile(facebook$www_likes_received, 0.95)) +
   ylim(0, quantile(facebook$likes_received, 0.95)) +
-  geom_smooth(method = 'lm', color = 'red')
+  geom_smooth(method = 'lm', color = 'red') +
+  xlab('www Likes Received') +
+  ylab('Likes Received') +
+  ggtitle('Scatterplot - Likes Received Zoomed In')
 
-cor.test(facebook$www_likes_received,
-         facebook$likes_received,
-         method = 'pearson')
 ```
 
-## More Caution with Correlation
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Caution}
-data(Mitchell)
-
-ggplot(data = Mitchell, aes(x = Month, y = Temp)) +
-  geom_point() +
-  scale_x_continuous(breaks = seq(0, 203, 12))
-
-cor.test(Mitchell$Month,
-         Mitchell$Temp,
-         method = 'pearson')
-```
-
-## A New Perspective
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Perspective}
-ggplot(data = Mitchell, aes(x = (Month%%12), y = Temp)) +
-  geom_point() +
-  scale_x_continuous(breaks = seq(0, 203, 12))
-
-x <- seq(0, 4*pi, pi/20)
-y <- cos(x)
-qplot(x = x, y = y)
-```
-
-## Understanding Noise: Age to Age Months
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Noise}
-ggplot(data = facebook.friend_count_by_age, 
-       aes(x = age, y = friend_count_mean)) +
-  geom_line()
-
-facebook.friend_count_by_age[17:19,]
-
-facebook$age_with_months <- facebook$age + (1 - facebook$dob_month / 12)
-```
 
 ## Age with Months Means
 
