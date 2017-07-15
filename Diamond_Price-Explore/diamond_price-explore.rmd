@@ -4,16 +4,16 @@ author: "Paul Foley"
 output: html_document
 ---
 
+Explore how a diamonds features affect diamond price.
 
-Explore the diamond data provided by ggplot 2, and specifically to how diamond price is affected by its various features:
-
-* Cut
+## Diamond Features
 * Carat
+* Cut
 * Color
 * Clarity
-* Volume
 * Depth
 * Table
+* x, y, z (Volume)
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Load_Libraries}
 library(ggplot2)
@@ -40,7 +40,7 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
 data(diamonds)
 ```
 
-## Diamond Data Summary
+### Feature Summary
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Summary}
 summary(diamonds)
@@ -87,7 +87,7 @@ ggplot(data = diamonds,
   ggtitle("Diamonds under $2000")
 ```
 
-## Price by Cut Exploration
+### Price by Cut Exploration
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Price-Cut}
 by(diamonds$price, diamonds$cut, summary)
@@ -129,7 +129,7 @@ ggplot(data = diamonds,
   ggtitle('Histograms - Price per Carat Group By Cut')
 ```
 
-## Price By Carat Exploration
+### Price By Carat Exploration
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Frequency-Carat}
 ggplot(data = diamonds,
@@ -269,7 +269,7 @@ ggplot(data = diamonds,
   ggtitle('Scatterplots - Price Per Carat Vs. Cut \n Group By Clarity and Color by Color')
 ```
 
-## Price By Color Exploration
+### Price By Color Exploration
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Price-Color}
 by(diamonds$price, diamonds$color, summary)
@@ -304,7 +304,7 @@ ggplot(data = diamonds,
   ggtitle('Histogram - Price \n Group By Color, Color By Cut')
 ```
 
-## Price By Clarity Exploration
+### Price By Clarity Exploration
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Barchart-Mean-Price}
 diamondsByClarity <- diamonds %>%
@@ -339,7 +339,7 @@ diamond_color_plot <- ggplot(data = diamonds_mp_by_color,
 grid.arrange(diamond_clarity_plot, diamond_color_plot)
 ```
 
-## Price By X, Y, Z Exploration
+### Price By x, y, z (Volume) Exploration
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Correlations-Price}
 with(diamonds, cor.test(price, x, method = 'pearson'))
@@ -356,10 +356,10 @@ ggplot(data = diamonds,
   ylim(0, quantile(diamonds$price, 0.99)) +
   geom_smooth(method = 'lm',
               color = 'red') +
-  ggtitle('Scatterplot - Price Vs. X')
+  ggtitle('Scatterplot - Price Vs. x')
 ```
 
-### Correlation - Price Vs. Volume
+#### Correlation - Price Vs. Volume
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Price-Volume}
 diamonds$volume <- diamonds$x * diamonds$y + diamonds$z
@@ -407,7 +407,7 @@ ggplot(data = diamonds,
   ggtitle('Scatterplot - Price (log10) Vs. Volume \n Color By Clarity')
 ```
 
-## Price By Depth Exploration
+### Price By Depth Exploration
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Price-Depth}
 with(diamonds, cor.test(price, depth, method = 'pearson'))
@@ -423,7 +423,7 @@ ggplot(data = diamonds, aes(x = depth,
   ggtitle('Scatterplot - Price Vs. Depth')
 ```
 
-## Price by Table Exploration
+### Price by Table Exploration
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Table-Price-Cut}
 ggplot(data = diamonds,
@@ -434,6 +434,7 @@ ggplot(data = diamonds,
   xlim(50, 80) + 
   ggtitle('Scatterplot - Price Vs. Table \n Color By Cut')
 ```
+
 
 ## Building the Linear Model for Price
 
@@ -446,4 +447,26 @@ m4 <- update(m3, ~ . + color)
 m5 <- update(m4, ~ . + clarity)
 
 mtable(m1, m2, m3, m4, m5, sdigits = 3)
+```
+
+### Prediction
+Diamond Features:
+
+* Carat = 1.00
+* Cut = "Very Good"
+* Color = "I"
+* Clarity="VS1"
+
+Price Perdiction:
+```{r echo=FALSE, message=FALSE, warning=FALSE, Predictions}
+thisDiamond = data.frame(carat = 1.00,
+                         cut = "Very Good",
+                         color = "I",
+                         clarity="VS1")
+
+modelEstimate = predict(m5,
+                        newdata = thisDiamond,
+                        interval = 'prediction',
+                        level = .95)
+exp(modelEstimate)
 ```

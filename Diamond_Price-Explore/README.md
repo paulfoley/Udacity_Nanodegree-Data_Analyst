@@ -7,13 +7,13 @@
 
 In this project, we will use [ggplot2](http://ggplot2.org/) to explore how a diamonds price is correlated with it's features:
 
-* Cut
 * Carat
+* Cut
 * Color
 * Clarity
-* Volume
 * Depth
 * Table
+* x, y, z (Volume)
 
 
 ## Getting Started
@@ -23,8 +23,20 @@ You'll need to install:
 
 * [RStudio](https://www.rstudio.com/products/rstudio/download/)
 * [ggplot2](http://ggplot2.org/)
+* [GGally](https://ggobi.github.io/ggally/)
 * [dplyr](http://dplyr.tidyverse.org/)
+* [knitr](https://yihui.name/knitr/)
 * [gridExtra](https://cran.r-project.org/web/packages/gridExtra/index.html)
+* [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html)
+* [reshape2](https://cran.r-project.org/web/packages/reshape2/index.html)
+* [scales](https://cran.r-project.org/web/packages/scales/index.html)
+* [bitops](https://cran.r-project.org/web/packages/bitops/index.html)
+* [RCurl](https://cran.r-project.org/web/packages/RCurl/index.html)
+* [lattice](https://cran.r-project.org/web/packages/lattice/index.html)
+* [MASS](https://cran.r-project.org/web/packages/MASS/index.html)
+* [car](https://cran.r-project.org/web/packages/car/index.html)
+* [memisc](https://cran.r-project.org/web/packages/memisc/index.html)
+
 
 ### Data Files
 
