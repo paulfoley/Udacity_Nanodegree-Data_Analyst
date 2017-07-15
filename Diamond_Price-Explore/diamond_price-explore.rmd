@@ -4,6 +4,17 @@ author: "Paul Foley"
 output: html_document
 ---
 
+
+Explore the diamond data provided by ggplot 2, and specifically to how diamond price is affected by its various features:
+
+* Cut
+* Carat
+* Color
+* Clarity
+* Volume
+* Depth
+* Table
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Load_Libraries}
 library(ggplot2)
 library(GGally)
@@ -29,16 +40,6 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
 data(diamonds)
 ```
 
-In this data exploration we will use the diamond data provided by ggplot 2 to explore how Price is effected by it's various features:
-
-* Cut
-* Carat
-* Color
-* Clarity
-* Volume
-* Depth
-* Table
-
 ## Diamond Data Summary
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Summary}
@@ -55,17 +56,17 @@ summary(diamonds$price)
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Price(log10)}
 plot1 <- ggplot(data = diamonds,
                 aes(x = price)) +
-  geom_histogram(binwidth = 100,
+  geom_histogram(binwidth = 500,
                  fill = 'blue') +
   scale_x_continuous(limits = c(0, 20000),
-                     breaks = seq(0, 20000, 1000)) +
+                     breaks = seq(0, 20000, 5000)) +
   xlab('Price') +
   ylab('Number of Diamonds') +
   ggtitle('Histogram - Price')
 
 plot2 <- ggplot(data = diamonds,
                  aes(x = price)) +
-  geom_histogram(binwidth = 0.01,
+  geom_histogram(binwidth = .01,
                  fill = 'orange') +
   ggtitle('Price (log10)') +
   scale_x_log10() +
@@ -104,10 +105,10 @@ ggplot(data = diamonds,
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Price-Cut}
 ggplot(data = diamonds,
        aes(x = price)) +
-  geom_histogram(binwidth = 100,
+  geom_histogram(binwidth = 500,
                  fill = 'blue') +
   scale_x_continuous(limits = c(0, 20000),
-                     breaks = seq(0, 20000, 2000)) +
+                     breaks = seq(0, 20000, 5000)) +
   facet_wrap(~cut,
              scales='free_y') +
   xlab('Price') +
@@ -118,7 +119,8 @@ ggplot(data = diamonds,
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Price-Carat-Cut}
 ggplot(data = diamonds,
        aes(x = price/carat)) +
-  geom_histogram(fill = 'blue') +
+  geom_histogram(binwidth = .05,
+                 fill = 'blue') +
   scale_x_log10() +
   facet_wrap(~cut,
              scales='free_y') +
@@ -294,7 +296,8 @@ ggplot(data = diamonds,
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Facet-Color}
 ggplot(data = diamonds,
        aes(x = price)) +
-  geom_histogram(aes(fill = cut)) +
+  geom_histogram(binwidth = .05,
+                 aes(fill = cut)) +
   facet_wrap(~color) +
   scale_fill_brewer(palette = "Spectral") +
   scale_x_log10() +
@@ -413,7 +416,7 @@ with(diamonds, cor.test(price, depth, method = 'pearson'))
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Price-Depth}
 ggplot(data = diamonds, aes(x = depth,
                             y = price)) +
-  geom_point(alpha = .02,
+  geom_point(alpha = .05,
              color = 'green') +
   scale_x_continuous(limits = c(56, 66),
                      breaks = seq(58, 64, 2)) +
@@ -432,19 +435,8 @@ ggplot(data = diamonds,
   ggtitle('Scatterplot - Price Vs. Table \n Color By Cut')
 ```
 
-## GGpairs - Feature Correlation
-```{r echo=FALSE, message=FALSE, warning=FALSE, ggpairs}
-set.seed(20022012)
-diamond_samp <- diamonds[sample(1:length(diamonds$price),
-                                10000), ]
-ggpairs(diamond_samp,
-        lower = list(continuous = wrap("points",
-                                       shape = I('.'))),
-        upper = list(combo = wrap("box",
-                                  outlier.shape = I('.'))))
-```
-
 ## Building the Linear Model for Price
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Linear_Model}
 m1 <- lm(data = diamonds,
          I(log(price)) ~ I(carat^(1/3)))

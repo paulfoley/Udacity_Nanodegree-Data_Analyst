@@ -1,0 +1,81 @@
+---
+title: "Regression Analysis of Diamond Pricing"
+author: "Paul Foley"
+output: html_document
+---
+
+Make a regression model, using a diamonds features, to predict diamond price. 
+
+## Diamond Features
+
+* Carat
+* Cut
+* Color
+* Clarity
+* Table
+* Depth
+* Cert
+* Measurements
+* x, y, z (Volume)
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Load_Libraries}
+library(ggplot2)
+library(GGally)
+library(scales)
+library(memisc)
+library(lattice)
+library(MASS)
+library(car)
+library(reshape2)
+library(dplyr)
+library(gridExtra)
+library(RColorBrewer)
+library(bitops)
+library(RCurl)
+library(knitr)
+```
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Load_the_Data}
+diamonds_big <- read.csv("diamondsbig.csv")
+```
+
+## Model Table
+```{r echo=FALSE, message=FALSE, warning=FALSE, Linear_Model}
+diamonds_big$logprice = log(diamonds_big$price)
+
+m1 <- lm(data = diamonds_big[diamonds_big$price < 10000 &
+                               diamonds_big$cert == "GIA",],
+         I(logprice ~ I(carat^(1/3))))
+m2 <- update(m1, ~ . + carat)
+m3 <- update(m2, ~ . + cut)
+m4 <- update(m3, ~ . + color)
+m5 <- update(m4, ~ . + clarity)
+
+mtable(m1, m2, m3, m4, m5, sdigits = 3)
+```
+
+## Predictions
+Diamond Features:
+
+* Carat = 1.00
+* Cut = "V.Good"
+* Color = "I"
+* Clarity="VS1"
+
+Price Perdiction:
+```{r echo=FALSE, message=FALSE, warning=FALSE, Predictions}
+thisDiamond = data.frame(carat = 1.00,
+                         cut = "V.Good",
+                         color = "I",
+                         clarity="VS1")
+
+modelEstimate = predict(m5,
+                        newdata = thisDiamond,
+                        interval = 'prediction',
+                        level = .95)
+exp(modelEstimate)
+```

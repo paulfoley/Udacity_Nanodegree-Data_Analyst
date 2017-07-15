@@ -9,7 +9,7 @@ In this project, we will perform a data exploration on counties across the US, s
 
 * Age 
 * Gender
-* Ethnicity
+* Race
 
 
 ## Getting Started
