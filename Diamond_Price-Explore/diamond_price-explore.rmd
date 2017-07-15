@@ -6,8 +6,19 @@ output: html_document
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Load_Libraries}
 library(ggplot2)
+library(GGally)
+library(scales)
+library(memisc)
+library(lattice)
+library(MASS)
+library(car)
+library(reshape2)
 library(dplyr)
 library(gridExtra)
+library(RColorBrewer)
+library(bitops)
+library(RCurl)
+library(knitr)
 ```
 
 ```{r global_options, include=FALSE}
@@ -41,21 +52,33 @@ summary(diamonds)
 summary(diamonds$price)
 ```
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Price}
-ggplot(data = diamonds, 
-       aes(x = price)) +
-  geom_histogram(binwidth = 100) +
+```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Price(log10)}
+plot1 <- ggplot(data = diamonds,
+                aes(x = price)) +
+  geom_histogram(binwidth = 100,
+                 fill = 'blue') +
   scale_x_continuous(limits = c(0, 20000),
                      breaks = seq(0, 20000, 1000)) +
   xlab('Price') +
   ylab('Number of Diamonds') +
-  ggtitle('Price Histogram')
+  ggtitle('Histogram - Price')
+
+plot2 <- ggplot(data = diamonds,
+                 aes(x = price)) +
+  geom_histogram(binwidth = 0.01,
+                 fill = 'orange') +
+  ggtitle('Price (log10)') +
+  scale_x_log10() +
+  ggtitle('Histogram - Price (Log10)')
+
+grid.arrange(plot1,plot2, ncol = 2)
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Price-Cheap}
 ggplot(data = diamonds,
        aes(x = price)) +
-  geom_histogram(binwidth = 10) +
+  geom_histogram(binwidth = 10,
+                 fill = 'blue') +
   scale_x_continuous(limits = c(0, 2000),
                      breaks = seq(0, 2000, 200)) +
   xlab('Price') +
@@ -71,8 +94,9 @@ by(diamonds$price, diamonds$cut, summary)
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Boxplot-Price-Cut}
 ggplot(data = diamonds,
-       aes(x = cut, y = price)) +
-  geom_boxplot() +
+       aes(x = cut,
+           y = price)) +
+  geom_boxplot(fill = 'green') +
   coord_cartesian(ylim = c(0, 10000)) +
   ggtitle("Boxplots - Price Vs. Cut")
 ```
@@ -80,7 +104,8 @@ ggplot(data = diamonds,
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Price-Cut}
 ggplot(data = diamonds,
        aes(x = price)) +
-  geom_histogram(binwidth = 100) +
+  geom_histogram(binwidth = 100,
+                 fill = 'blue') +
   scale_x_continuous(limits = c(0, 20000),
                      breaks = seq(0, 20000, 2000)) +
   facet_wrap(~cut,
@@ -93,7 +118,7 @@ ggplot(data = diamonds,
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Price-Carat-Cut}
 ggplot(data = diamonds,
        aes(x = price/carat)) +
-  geom_histogram() +
+  geom_histogram(fill = 'blue') +
   scale_x_log10() +
   facet_wrap(~cut,
              scales='free_y') +
@@ -103,23 +128,6 @@ ggplot(data = diamonds,
 ```
 
 ## Price By Carat Exploration
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Price-Carat}
-summary(diamonds$price/diamonds$carat)
-```
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Price-Carat}
-ggplot(data = diamonds,
-       aes(x = carat,
-           y = price)) +
-  geom_point(alpha = 1/20,
-             color = 'yellow') +
-  xlim(0, quantile(diamonds$carat, 0.99)) +
-  ylim(0, quantile(diamonds$price, 0.99)) +
-  geom_smooth(method = 'lm',
-              color = 'red') +
-  ggtitle('Scatterplot - Price Vs. Carat')
-```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Frequency-Carat}
 ggplot(data = diamonds,
@@ -132,6 +140,120 @@ ggplot(data = diamonds,
   ggtitle('Frequency Polygon - Carat')
 ```
 
+```{r echo=FALSE, message=FALSE, warning=FALSE, Price-Carat}
+summary(diamonds$price/diamonds$carat)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Price-Carat}
+ggplot(data = diamonds,
+       aes(x = carat,
+           y = price)) +
+  geom_point(alpha = .1,
+             color = 'green') +
+  xlim(0, quantile(diamonds$carat, 0.99)) +
+  ylim(0, quantile(diamonds$price, 0.99)) +
+  geom_smooth(method = 'lm',
+              color = 'red') +
+  ggtitle('Scatterplot - Price Vs. Carat')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Carat_Price-log10}
+ggplot(data = diamonds,
+       aes(carat,
+           price)) +
+  geom_point(alpha = .1,
+             color = 'green') +
+  scale_y_continuous(trans = log10_trans()) +
+  xlim(0, quantile(diamonds$carat, 0.99)) +
+  geom_smooth(method = 'lm',
+              color = 'red') +
+  ggtitle('Scatterplot - Price(log10) Vs. Carat')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Carat_Price_Transform}
+cuberoot_trans = function() trans_new('cuberoot',
+                                      transform = function(x) x^(1/3),
+                                      inverse = function(x) x^3)
+ggplot(data = diamonds,
+       aes(carat, 
+           price)) +
+  geom_point(alpha = .1,
+             color = 'green') +
+  scale_x_continuous(trans = cuberoot_trans(),
+                     limits = c(0.2, 3),
+                     breaks = c(0.2, 0.5, 1, 2, 3)) +
+  scale_y_continuous(trans = log10_trans(),
+                     limits = c(350, 15000),
+                     breaks = c(350, 1000, 5000, 10000, 15000)) +
+  geom_smooth(method = 'lm',
+              color = 'red') +
+  ggtitle('Scatterplot - Price (log10) Vs. Carat(Cube-Root)')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Price_Carat_Clarity}
+ggplot(data = diamonds,
+       aes(x = carat, y = price)) +
+  geom_point(alpha = 0.5,
+             size = 1, 
+             position = 'jitter',
+             aes(color = clarity)) +
+  scale_color_brewer(type = 'div',
+                     guide = guide_legend(title = 'Clarity',
+                                         reverse = TRUE,
+                                         override.aes = list(alpha = 1, 
+                                                             size = 2))) +
+  scale_x_continuous(trans = cuberoot_trans(),
+                     limits = c(0.2, 3),
+                     breaks = c(0.2, 0.5, 1, 2, 3)) +
+  scale_y_continuous(trans = log10_trans(),
+                     limits = c(350, 15000),
+                     breaks = c(350, 1000, 5000, 10000, 15000)) +
+  ggtitle('Price (log10) Vs. Carat (Cube Root) \n Color By Clarity')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Price_Carat_Cut}
+ggplot(data = diamonds, 
+       aes(x = carat,
+           y = price,
+           color = cut)) + 
+  geom_point(alpha = 0.5,
+             size = 1,
+             position = 'jitter') +
+  scale_color_brewer(type = 'div',
+                     guide = guide_legend(title = 'Cut',
+                                          reverse = T,
+                                          override.aes = list(alpha = 1,
+                                                              size = 2))) +  
+  scale_x_continuous(trans = cuberoot_trans(),
+                     limits = c(0.2, 3),
+                     breaks = c(0.2, 0.5, 1, 2, 3)) + 
+  scale_y_continuous(trans = log10_trans(),
+                     limits = c(350, 15000),
+                     breaks = c(350, 1000, 5000, 10000, 15000)) +
+  ggtitle('Price (log10) Vs. Carat (Cube-Root) \n Color By Cut')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Price_Carat_Color}
+ggplot(data = diamonds,
+       aes(x = carat,
+           y = price,
+           color = color)) + 
+  geom_point(alpha = 0.5,
+             size = 1,
+             position = 'jitter') +
+  scale_color_brewer(type = 'div',
+                     guide = guide_legend(title = 'Color',
+                                          override.aes = list(alpha = 1,
+                                                              size = 2))) +  
+  scale_x_continuous(trans = cuberoot_trans(),
+                     limits = c(0.2, 3),
+                     breaks = c(0.2, 0.5, 1, 2, 3)) + 
+  scale_y_continuous(trans = log10_trans(),
+                     limits = c(350, 15000),
+                     breaks = c(350, 1000, 5000, 10000, 15000)) +
+  ggtitle('Price (log10) Vs. Carat (Cube-Root) \n Color By Color')
+```
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Price-Carat-Colored}
 diamonds$price_per_carat <- diamonds$price / diamonds$carat
 
@@ -142,7 +264,7 @@ ggplot(data = diamonds,
               aes(color = color)) +
   facet_wrap(~clarity) +
   scale_color_brewer(type = 'div') +
-  ggtitle('Scatterplots - Price Per Carat Vs. Cut Group By Clarity, Color by Color')
+  ggtitle('Scatterplots - Price Per Carat Vs. Cut \n Group By Clarity and Color by Color')
 ```
 
 ## Price By Color Exploration
@@ -153,8 +275,9 @@ by(diamonds$price, diamonds$color, summary)
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, IQR-Price-Color}
 ggplot(data = diamonds,
-       aes(x = color, y = price)) +
-  geom_boxplot() +
+       aes(x = color,
+           y = price)) +
+  geom_boxplot(fill = 'green') +
   coord_cartesian(ylim = c(0, 10000)) +
   ggtitle('Interquartile Range (IQR) - Price Vs. Color')
 ```
@@ -163,7 +286,7 @@ ggplot(data = diamonds,
 ggplot(data = diamonds,
        aes(x = color,
            y = price/carat)) +
-  geom_boxplot() +
+  geom_boxplot(fill = 'green') +
   coord_cartesian(ylim = c(0, 7500)) +
   ggtitle('Boxplots - Price Per Carat Vs. Color')
 ```
@@ -175,7 +298,7 @@ ggplot(data = diamonds,
   facet_wrap(~color) +
   scale_fill_brewer(palette = "Spectral") +
   scale_x_log10() +
-  ggtitle('Histogram - Price Group By Color, Color By Cut')
+  ggtitle('Histogram - Price \n Group By Color, Color By Cut')
 ```
 
 ## Price By Clarity Exploration
@@ -200,12 +323,14 @@ diamonds_mp_by_color <- summarise(diamonds_by_color,
 
 diamond_clarity_plot <- ggplot(data = diamonds_mp_by_clarity, 
                                aes(x = clarity, y = mean_price)) +
-  geom_bar(stat="identity") +
+  geom_bar(stat="identity",
+           fill = 'green') +
   ggtitle('Bar Chart - Mean Price Vs. Clarity')
 
 diamond_color_plot <- ggplot(data = diamonds_mp_by_color,
                              aes(x = color, y = mean_price)) +
-  geom_bar(stat="identity") +
+  geom_bar(stat="identity",
+           fill = 'green') +
   ggtitle('Bar Chart - Mean Price Vs. Color')
 
 grid.arrange(diamond_clarity_plot, diamond_color_plot)
@@ -222,9 +347,12 @@ with(diamonds, cor.test(price, z, method = 'pearson'))
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Price-X}
 ggplot(data = diamonds,
        aes(x = x, y = price)) +
-  geom_point(alpha = 1/20,
-             color = 'blue')+
-  xlim(3,10) +
+  geom_point(alpha = .1,
+             color = 'green')+
+  xlim(0, quantile(diamonds$x, 0.99)) +
+  ylim(0, quantile(diamonds$price, 0.99)) +
+  geom_smooth(method = 'lm',
+              color = 'red') +
   ggtitle('Scatterplot - Price Vs. X')
 ```
 
@@ -238,13 +366,11 @@ cor.test(volume_df$price, volume_df$volume, method = "pearson")
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Price-Volume}
-
-
 ggplot(data = diamonds,
        aes(x = volume,
            y = price)) +
-  geom_point(alpha = 1/20,
-             color = 'orange') +
+  geom_point(alpha = .1,
+             color = 'green') +
   xlim(0, quantile(diamonds$volume, 0.99)) +
   ylim(0, quantile(diamonds$price, 0.99)) +
   geom_smooth(method = 'lm',
@@ -256,8 +382,8 @@ ggplot(data = diamonds,
 ggplot(data = volume_df,
        aes(x = volume,
            y = price)) +
-  geom_point(alpha = 1/20,
-             color = 'pink') +
+  geom_point(alpha = .1,
+             color = 'green') +
   xlim(0, quantile(volume_df$volume, 0.99)) +
   ylim(0, quantile(volume_df$price, 0.9)) +
   geom_smooth(method = 'lm',
@@ -275,7 +401,7 @@ ggplot(data = diamonds,
   scale_color_brewer(type = 'div') +
   xlim(0, quantile(diamonds$volume, 0.99)) +
   scale_y_log10() +
-  ggtitle('Scatterplot - Price Vs. Volume Color By Clarity')
+  ggtitle('Scatterplot - Price (log10) Vs. Volume \n Color By Clarity')
 ```
 
 ## Price By Depth Exploration
@@ -288,7 +414,7 @@ with(diamonds, cor.test(price, depth, method = 'pearson'))
 ggplot(data = diamonds, aes(x = depth,
                             y = price)) +
   geom_point(alpha = .02,
-             color = 'purple') +
+             color = 'green') +
   scale_x_continuous(limits = c(56, 66),
                      breaks = seq(58, 64, 2)) +
   ggtitle('Scatterplot - Price Vs. Depth')
@@ -303,5 +429,29 @@ ggplot(data = diamonds,
   geom_point(aes(color = cut)) +
   scale_color_brewer(type = 'qual') +
   xlim(50, 80) + 
-  ggtitle('Scatterplot - Price Vs. Table Group By Cut')
+  ggtitle('Scatterplot - Price Vs. Table \n Color By Cut')
+```
+
+## GGpairs - Feature Correlation
+```{r echo=FALSE, message=FALSE, warning=FALSE, ggpairs}
+set.seed(20022012)
+diamond_samp <- diamonds[sample(1:length(diamonds$price),
+                                10000), ]
+ggpairs(diamond_samp,
+        lower = list(continuous = wrap("points",
+                                       shape = I('.'))),
+        upper = list(combo = wrap("box",
+                                  outlier.shape = I('.'))))
+```
+
+## Building the Linear Model for Price
+```{r echo=FALSE, message=FALSE, warning=FALSE, Linear_Model}
+m1 <- lm(data = diamonds,
+         I(log(price)) ~ I(carat^(1/3)))
+m2 <- update(m1, ~ . + carat)
+m3 <- update(m2, ~ . + cut)
+m4 <- update(m3, ~ . + color)
+m5 <- update(m4, ~ . + clarity)
+
+mtable(m1, m2, m3, m4, m5, sdigits = 3)
 ```

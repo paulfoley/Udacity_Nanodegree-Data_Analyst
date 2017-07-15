@@ -8,6 +8,7 @@ output: html_document
 library(ggplot2)
 library(dplyr)
 library(tidyr)
+library(knitr)
 library(gridExtra)
 ```
 

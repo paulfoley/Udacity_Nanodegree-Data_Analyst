@@ -1,6 +1,6 @@
 # Data Explore - Diamond Price
 
-[ggplot2](http://ggplot2.org/) provides a built in `diamonds` data set. We'll use this data set to explore a Diamonds price versus it's features.
+[ggplot2](http://ggplot2.org/) provides a built in `diamonds` data set. We'll use this data set to explore a diamonds price versus it's features.
 
 
 ## Diamond Price Exploration
