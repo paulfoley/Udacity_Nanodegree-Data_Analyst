@@ -4,7 +4,7 @@ author: "Paul Foley"
 output: html_document
 ---
 
-Exploration of Facebokk Users using sample FB data.
+Exploration of Facebook Users using sample FB data.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Load_Libraries}
 library(ggplot2)
@@ -26,7 +26,7 @@ facebook <- read.csv("pseudo_facebook.tsv", sep = '\t')
 names(facebook)
 ```
 
-## Explore Friend Count
+## Explore - Friend Count
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Friend-Count}
 plot_1 <- ggplot(data = facebook,
@@ -73,7 +73,13 @@ ggplot(data = facebook,
   ggtitle('Histogram - Friend Count (log10)')
 ```
 
-## Birthday Exploration
+### Correlation - Friend Count & Friendships Initiated
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Friend_Count-Friendships_Initiated}
+with(facebook, cor.test(friendships_initiated, friend_count, method = 'pearson'))
+```
+
+## Explore - User Birthday
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Users_Birthdays}
 ggplot(data = facebook,
@@ -82,8 +88,8 @@ ggplot(data = facebook,
                  fill = 'purple') +
   scale_x_continuous(breaks = 1:31) +
   xlab('Day of Birth') +
-  ylab('Number of Users in sample') +
-  ggtitle("Histogram - Birthdays")
+  ylab('Number of Users in Sample') +
+  ggtitle("Histogram - User Birthdays")
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Users_Birthdays_Month}
@@ -94,24 +100,67 @@ ggplot(data = facebook,
   scale_x_continuous(breaks = seq(1,31,5)) +
   facet_wrap(~dob_month) +
   xlab('Day of Birth') +
-  ylab('Number of Users in sample') +
-  ggtitle('Histogram - Birthdays \n Group By Month')
+  ylab('Number of Users in Sample') +
+  ggtitle('Histogram - User Birthdays \n Group By Month')
 ```
 
-## Gender Exploration
+## Explore - User Gender
 
-### Count of Genders
+### Count - User Gender
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Count-Gender}
 table(facebook$gender)
 ```
 
-### Summary of Genders
+### Summary - User Gender
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Summary-Gender}
 by(facebook$friend_count, facebook$gender, summary)
 ```
 
-### Friendship Counts By Gender
+### Gender Vs. Age
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Boxplot-Gender-Age}
+ggplot(data = subset(facebook,
+                     !is.na(gender)),
+       aes(x = gender,
+           y = age)) +
+  geom_boxplot(color='purple') +
+  stat_summary(fun.y = mean,
+               geom = "point",
+               shape = 4) +
+  xlab('Gender') +
+  ylab('Age') +
+  ggtitle('Boxplots - Age \n Group By Gender')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Line-Age-Female_to_Male}
+friend_count_by_age_gender <- facebook %>%
+  filter(!is.na(gender)) %>%
+  group_by(age, gender) %>%
+  summarise(mean_friend_count = mean(friend_count),
+            median_friend_count = median(as.numeric(friend_count)),
+            n = n()) %>%
+  ungroup() %>%
+  arrange(age)
+
+friend_count_by_age_gender_wide <- spread(subset(friend_count_by_age_gender, 
+                                                 select = c('gender', 'age', 'median_friend_count')),
+                                          gender,
+                                          median_friend_count)
+
+ggplot(data = friend_count_by_age_gender_wide,
+       aes(x = age, y = female/male)) +
+  geom_line(color = 'purple') +
+  geom_hline(yintercept = 1,
+             alpha = 0.3,
+             linetype = 2) +
+  xlab('Age') +
+  ylab('Female / Male') +
+  ggtitle('Line - Female / Male Vs. Age')
+```
+
+### Gender Vs. Friend Count
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Summary-Gender-Friendship_Count}
 by(facebook$friend_count, facebook$gender, summary)
@@ -127,7 +176,7 @@ ggplot(data = subset(facebook,
                      breaks = seq(0, 1000, 200)) +
   facet_wrap(~gender) +
   xlab('Friend Count') +
-  ylab('Number of Users in sample') +
+  ylab('Number of Users in Sample') +
   ggtitle('Histogram - Friend Count \n Group By Gender')
 ```
 
@@ -139,9 +188,10 @@ ggplot(data = subset(facebook,
   geom_freqpoly(aes(color = gender),
                 binwidth = 25) +
   scale_x_continuous(limits = c(0, 1000),
-                     breaks = seq(0, 1000, 50)) +
+                     breaks = seq(0, 1000, 100)) +
   xlab('Friend Count') +
-  ylab('Users with Friend Count')
+  ylab('Number of Users in Sample') +
+  ggtitle('Lines - Friend Count \n Group By Gender')
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Freq-Gender-Friend_Count}
@@ -152,10 +202,11 @@ ggplot(data = subset(facebook,
   geom_freqpoly(aes(color = gender),
                 binwidth = 25) +
   scale_x_continuous(limits = c(0, 1000),
-                     breaks = seq(0, 1000, 100)) +
+                     breaks = seq(0, 1000, 200)) +
   facet_wrap(~gender) +
   xlab('Friend Count') +
-  ylab('Percentage of Users with Friend Count')
+  ylab('% of Users in Sample') +
+  ggtitle('Lines - Friend Count \n Group By Gender')
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Boxplot-Gender-Friend_Count}
@@ -164,10 +215,26 @@ ggplot(data = subset(facebook,
        aes(x = gender,
            y = friend_count)) +
   geom_boxplot(color = 'blue') +
-  coord_cartesian(ylim = c(0, 1000))
+  coord_cartesian(ylim = c(0, 1000)) +
+  xlab('Gender') +
+  ylab('Friend Count') +
+  ggtitle('Boxplots - Friend Count \n Group By Gender')
 ```
 
-### Friendships Initiated By Gender
+```{r echo=FALSE, message=FALSE, warning=FALSE, Line-Age-Friend_Count}
+ggplot(data = subset(facebook,
+                     !is.na(gender)),
+       aes(x = age,
+           y = friend_count)) +
+  geom_line(aes(color = gender),
+            stat = "summary",
+            fun.y = median) +
+  xlab('Age') +
+  ylab('Median Friend Count') +
+  ggtitle('Lines - Median Friend Count Vs. Age \n Group By Gender')
+```
+
+### Gender Vs. Friendships Initiated
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Gender-Friend_Init}
 by(facebook$friendships_initiated, facebook$gender, summary)
@@ -179,10 +246,13 @@ ggplot(data = subset(facebook,
        aes(x = gender,
            y = friendships_initiated)) +
   geom_boxplot(fill = 'light blue') +
-  coord_cartesian(ylim = c(0,150))
+  coord_cartesian(ylim = c(0,150)) +
+  xlab('Gender') +
+  ylab('Friendships Initiated') +
+  ggtitle('Boxplots - Friendships Initiated \n Group By Gender')
 ```
 
-### Likes by Gender
+### Gender Vs. Likes 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Numberical_Features}
 by(facebook$www_likes, facebook$gender, sum)
@@ -197,18 +267,20 @@ ggplot(data = subset(facebook,
                 aes(color = gender)) + 
   scale_x_log10() +
   xlab('Number of Likes') +
-  ylab('Number of Users')
+  ylab('% of Users in Sample') +
+  ggtitle('Lines - Number of Likes \n Group By Gender')
 ```
 
-## Tenure Exploration
+## Explore - Tenure
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Tenure-Days}
-ggplot(data = facebook, aes(x = tenure)) +
+ggplot(data = facebook,
+       aes(x = tenure)) +
   geom_histogram(binwidth = 30, 
                  color = 'black', 
                  fill = '#099DD9') +
-  xlab('Number of days using Facebook') +
-  ylab('Number of users in sample') +
+  xlab('Number of Days Using Facebook') +
+  ylab('Number of Users in Sample') +
   ggtitle('Histogram - Days Using Facebook')
 ```
 
@@ -216,14 +288,50 @@ ggplot(data = facebook, aes(x = tenure)) +
 ggplot(aes(x = tenure/365), data = facebook) + 
   geom_histogram(binwidth = .25, color = 'black', fill = '#F79420') +
   scale_x_continuous(limits = c(0, 7), breaks = seq(1, 7, 1)) +
-  xlab('Number of years using Facebook') +
-  ylab('Number of users in sample') +
+  xlab('Number of Years Using Facebook') +
+  ylab('Number of Users in Sample') +
   ggtitle('Histogram - Years Using Facebook')
 ```
 
-## Exploration Age
+### Summary - Friend Count Per Year
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, User Ages}
+```{r echo=FALSE, message=FALSE, warning=FALSE, Summary-Friend_Count-Tenure}
+with(subset(facebook, tenure >= 1), summary(friend_count/tenure))
+```
+
+### Proportion - Friendships Initiated and Tenure
+```{r echo=FALSE, message=FALSE, warning=FALSE, Line-Friend_Init-Tenure}
+facebook$prop_initiated <- facebook$friendships_initiated/facebook$friend_count
+facebook$year_joined <- floor(2014 - facebook$tenure/365)
+facebook$year_joined_bucket <- cut(facebook$year_joined,
+                                   c(2004, 2009, 2011, 2012, 2014))
+
+ggplot(data = facebook,
+       aes(x = tenure,
+           y = prop_initiated)) +
+  geom_line(stat = "summary",
+            fun.y = median,
+            aes(color = year_joined_bucket)) +
+  geom_smooth() +
+  xlab('Number of Days Using Facebook') +
+  ylab('Proportion of Frienships Initiated') +
+  ggtitle('Line - Proportion of Frienships Initiated Vs. Days')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Line-Friend_Init-Day-Year_Joined}
+ggplot(data = subset(facebook,
+                     tenure >= 1),
+       aes(x = tenure,
+           y = friendships_initiated/tenure)) +
+  geom_smooth(aes(color = year_joined_bucket)) +
+  xlab('Number of Days Using Facebook') +
+  ylab('Frienships Initiated / Day') +
+  ggtitle('Line - Frienships Initiated / Day \n Group By Year Joined')
+```
+
+## Explore - Age
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Ages}
 ggplot(data = facebook,
        aes(x = age)) + 
   geom_histogram(binwidth = 1,
@@ -247,15 +355,24 @@ facebook.friend_count_by_age <- facebook %>%
   arrange(age)
 
 facebook$age_with_months <- facebook$age + (1 - facebook$dob_month / 12)
+
+facebook.friend_count_by_age_months <- facebook %>%
+  group_by(age_with_months) %>%
+  summarise(friend_count_mean = mean(friend_count),
+            friend_count_median = median(friend_count),
+            n = n()) %>%
+  arrange(age_with_months)
+
+age_with_months_groups <- group_by(facebook, age_with_months)
 ```
 
-#### Correlation Age and Friend Count
+#### Correlation - Age and Friend Count
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Friend_Count-Age}
 with(facebook, cor.test(age, friend_count, method = 'pearson'))
 ```
 
-#### Correlation Age and Friend Count < 70
+#### Correlation - Age and Friend Count < 70
 
 ##### Pearson Correlation
 
@@ -267,8 +384,6 @@ with(subset(facebook, age <= 70), cor.test(age, friend_count, method = 'pearson'
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Subset-Spearman}
 with(subset(facebook, age <= 70), cor.test(age, friend_count, method = 'spearman'))
-
-
 ```
 
 ##### Kendall Correlation
@@ -277,7 +392,7 @@ with(subset(facebook, age <= 70), cor.test(age, friend_count, method = 'spearman
 with(subset(facebook, age <= 70), cor.test(age, friend_count, method = 'kendall'))
 ```
 
-#### Scatterplots Age and Friend Count
+#### Plots - Age and Friend Count
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Friend_Count-Age}
 ggplot(data = facebook,
@@ -298,7 +413,7 @@ ggplot(data = facebook.friend_count_by_age,
   xlim(13, 90) +
   xlab('User Age') +
   ylab('Friend Count (sqrt)') +
-  ggtitle('Scatterplot - Friend Count (Mean) Vs. Age')
+  ggtitle('Line - Friend Count (Mean) Vs. Age')
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Friend_Count_Sqrt-Age}
@@ -310,9 +425,9 @@ ggplot(data = facebook,
              color = 'blue') +
   xlim(13, 90) +
   coord_trans(y = "sqrt") +
-  xlab('User Age') +
+  xlab('User Age (Years)') +
   ylab('Friend Count (sqrt)') +
-  ggtitle('Scatterplot - Friend Count (sqrt) Vs. Age')
+  ggtitle('Scatterplot - Friend Count (sqrt) Vs. Age (Years)')
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Summaries-Friend_Count-Age}
@@ -345,6 +460,47 @@ ggplot(data = facebook,
   ggtitle('Scatterplot - Friend Count Vs. Age')
 ```
 
+```{r echo=FALSE, message=FALSE, warning=FALSE, Line-Friend_Count_Mean-Age}
+ggplot(data = subset(facebook.friend_count_by_age_months,
+                     age_with_months < 71),
+       aes(x = age_with_months,
+           y = friend_count_mean)) +
+  geom_line(color = 'blue') +
+  xlab('User Age (years)') +
+  ylab('Mean Friend Count') +
+  ggtitle('Line - Mean Friend Count Vs. Age')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Line-Median_Friend_Count-Age-Year_Joined}
+ggplot(data = subset(facebook,
+                     !is.na(year_joined_bucket)),
+       aes(x = age,
+           y = friend_count)) + 
+  geom_line(aes(color = year_joined_bucket),
+            stat = 'summary', 
+            fun.y = median) +
+  geom_line(stat = 'summary', 
+            fun.y = median, 
+            linetype = 2) +
+  xlab('User Age (Years)') +
+  ylab('Median Friend Count') +
+  ggtitle('Lines - Median Friend Count Vs. Age \n Group By Year Joined')
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Line-Mean_Friend_Count-Age-Year_Joined}
+ggplot(data = subset(facebook, !is.na(year_joined_bucket)),
+       aes(x = age, y = friend_count)) + 
+  geom_line(stat = 'summary',
+            fun.y = mean,
+            aes(color = year_joined_bucket)) +
+  geom_line(stat = 'summary', 
+            fun.y = mean, 
+            linetype = 2) +
+  xlab('User Age (Years)') +
+  ylab('Mean Friend Count') +
+  ggtitle('Lines - Mean Friend Count Vs. Age \n Group By Year Joined')
+```
+
 ### Age and Friendships Initiated
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Friend_Init-Age}
@@ -354,7 +510,7 @@ ggplot(data = facebook,
   geom_jitter(alpha = .1,
               color = 'light blue') +
   xlim(13, 90) +
-  xlab('User Age') +
+  xlab('User Age (Years)') +
   ylab('Friendships Initiated') +
   ggtitle('Scatterplot - Friendships Initiated Vs. Age')
 ```
@@ -369,21 +525,28 @@ ggplot(data = facebook,
              color = 'light blue') +
   xlim(13, 90) +
   coord_trans(y = "sqrt") +
-  xlab('User Age') +
+  xlab('User Age(Years)') +
   ylab('Friendships Initiated (sqrt)') +
   ggtitle('Scatterplot - \n Friendships Initiated (sqrt) Vs. Age')
 ```
 
+## Explore - Mobile Likes
 
+### Summary - Mobile Likes
 
-
-
-## Mobile Likes Explore
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Logic}
+```{r echo=FALSE, message=FALSE, warning=FALSE, Summary-Mobile_Likes}
 summary(facebook$mobile_likes)
-summary(facebook$mobile_likes > 0)
+```
 
+### Correlation - Age and Mobile Likes
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Mobile_Likes-Age}
+with(facebook, cor.test(age, mobile_likes, method = 'pearson'))
+```
+
+### Summary - Mobile Check-in
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Mobile_Checkins}
 facebook$mobile_check_in <- NA
 facebook$mobile_check_in <- ifelse(facebook$mobile_likes > 0, 1, 0)
 facebook$mobile_check_in <- factor(facebook$mobile_check_in)
@@ -392,7 +555,7 @@ summary(facebook$mobile_check_in)
 (sum(facebook$mobile_check_in == 1)/length(facebook$mobile_check_in))*100
 ```
 
-## Likes Recieved Exploration
+## Explore - Likes Recieved
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-likes-www_likes}
 ggplot(data = facebook,
@@ -406,10 +569,10 @@ ggplot(data = facebook,
                   ylim = c(0, 25000)) +
   xlab('www Likes Received') +
   ylab('Likes Received') +
-  ggtitle('Scatterplot - Likes Received')
+  ggtitle('Scatterplot - Likes Received Vs. www Likes Receieved')
 ```
 
-### Correlation Likes Received and www Likes Received
+### Correlation - Likes Received and www Likes Received
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-likes-www_likes}
 cor.test(facebook$www_likes_received, facebook$likes_received, method = 'pearson')
@@ -429,204 +592,11 @@ ggplot(data = facebook,
 
 ```
 
+## Correlation - Feature Set
 
-
-## Age with Months Means
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, Age-Month}
-facebook.friend_count_by_age_months <- facebook %>%
-  group_by(age_with_months) %>%
-  summarise(friend_count_mean = mean(friend_count),
-            friend_count_median = median(friend_count),
-            n = n()) %>%
-  arrange(age_with_months)
-
-age_with_months_groups <- group_by(facebook, age_with_months)
-facebook.friend_count_by_age_months_2 <- summarise(age_with_months_groups,
-                                                   friend_count_mean =
-                                                     mean(friend_count),
-                                                   friend_count_median =
-                                                     median(friend_count),
-                                                   n = n())
-facebook.friend_count_by_age_months_2 <- 
-  arrange(facebook.friend_count_by_age_months_2, age_with_months)
-
-facebook.friend_count_by_age_months
-facebook.friend_count_by_age_months_2
-```
-
-## Noise in Conditional Means
-```{r echo=FALSE, message=FALSE, warning=FALSE, Conditional_Means_Noise}
-ggplot(data = subset(facebook.friend_count_by_age_months, age_with_months < 71),
-       aes(x = age_with_months, y = friend_count_mean)) +
-  geom_line()
-```
-
-# Smoothing Conditional Means
-```{r echo=FALSE, message=FALSE, warning=FALSE, Conditional_Means_Smoothing}
-plot_1 <- ggplot(data = subset(facebook.friend_count_by_age,
-                     age < 71),
-       aes(x = age, y = friend_count_mean)) +
-  geom_line() +
-  geom_smooth()
-
-plot_2 <- ggplot(data = subset(facebook.friend_count_by_age_months,
-                     age_with_months < 71),
-       aes(x = age_with_months, y = friend_count_mean)) +
-  geom_line() +
-  geom_smooth()
-
-plot_3 <- ggplot(data = subset(facebook, age <71),
-                 aes(x = round(age/5)*5, y = friend_count)) +
-  geom_line(stat = 'summary', fun.y = mean)
-
-
-grid.arrange(plot_2, plot_1, plot_3, ncol = 1)
-```
-
-## Third Qualitative Variable
-```{r}
-ggplot(data = subset(facebook, !is.na(gender)),
-       aes(x = gender, y = age)) +
-  geom_boxplot() +
-  stat_summary(fun.y = mean, geom = "point", shape = 4)
-
-ggplot(data = subset(facebook, !is.na(gender)),
-       aes(x = age, y = friend_count)) +
-  geom_line(aes(color = gender), stat = "summary", fun.y = median)
-
-friend_count_by_age_gender <- facebook %>%
-  filter(!is.na(gender)) %>%
-  group_by(age, gender) %>%
-  summarise(mean_friend_count = mean(friend_count),
-            median_friend_count = median(as.numeric(friend_count)),
-            n = n()) %>%
-  ungroup() %>%
-  arrange(age)
-```
-
-## Plotting Conditional Summaries
-```{r}
-ggplot(data = friend_count_by_age_gender,
-      aes(x = age, y = median_friend_count)) +
-  geom_line(aes(color= gender))
-```
-
-```{r}
-friend_count_by_age_gender_wide <- spread(subset(friend_count_by_age_gender, 
-               select = c('gender', 'age', 'median_friend_count')),
-        gender,
-        median_friend_count)
-
-friend_count_by_age_gender_wide
-```
-
-## Ratio Plot
-```{r}
-ggplot(data = friend_count_by_age_gender_wide,
-       aes(x = age, y = female/male)) +
-  geom_line() +
-  geom_hline(yintercept = 1, alpha = 0.3, linetype = 2)
-```
-
-## Third Quantitative Variable
-```{r}
-facebook$year_joined <- floor(2014 - facebook$tenure/365)
-```
-
-## Cut a Variable
-```{r}
-summary(facebook$year_joined)
-table(facebook$year_joined)
-
-facebook$year_joined_bucket <- cut(facebook$year_joined,
-                                   c(2004, 2009, 2011, 2012, 2014))
-```
-
-## Plotting It All Together
-```{r}
-table(facebook$year_joined_bucket, useNA = 'ifany')
-
-ggplot(data = subset(facebook, !is.na(year_joined_bucket)),
-       aes(x = age, y = friend_count)) + 
-  geom_line(aes(color = year_joined_bucket),
-            stat = 'summary', 
-            fun.y = median)
-```
-
-## Plot the Grand Mean
-```{r}
-ggplot(data = subset(facebook, !is.na(year_joined_bucket)),
-       aes(x = age, y = friend_count)) + 
-  geom_line(stat = 'summary',
-            fun.y = mean,
-            aes(color = year_joined_bucket)) +
-  geom_line(stat = 'summary', 
-            fun.y = mean, 
-            linetype = 2)
-```
-
-## Friending Rate
-```{r}
-with(subset(facebook, tenure >= 1), summary(friend_count/tenure))
-```
-
-## Friendships Initiated
-```{r}
-ggplot(data = subset(facebook, tenure >= 1),
-       aes(x = tenure, y = friendships_initiated / tenure)) +
-  geom_line(stat = 'summary',
-            fun.y = mean,
-            aes(color = year_joined_bucket))
-```
-
-## Bias-Variance Tradeoff Revisited
-```{r}
-ggplot(data = subset(facebook, tenure >= 1),
-       aes(x = tenure, y = friendships_initiated / tenure)) +
-  geom_smooth(aes(color = year_joined_bucket))
-```
-
-## Scatterplot Matrices
-```{r}
+```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Features}
 theme_set(theme_minimal(20))
 set.seed(1836)
 facebook_subset <- facebook[, c(2,6:12)]
-names(facebook_subset)
 ggpairs(facebook_subset[sample.int(nrow(facebook_subset), 1000),])
-
-with(facebook_subset, cor.test(friendships_initiated, friend_count, method = 'pearson'))
-with(facebook_subset, cor.test(age, mobile_likes, method = 'pearson'))
-```
-
-## Proportion of Friendships Initiated
-```{r}
-names(facebook)
-facebook$prop_initiated <- facebook$friendships_initiated/facebook$friend_count
-```
-
-## Proportion Initiated Vs. Tenure
-```{r}
-facebook$year_joined_bucket <- cut(facebook$year_joined,
-                                   c(2004, 2009, 2011, 2012, 2014))
-
-ggplot(data = facebook,
-       aes(x = tenure, y = prop_initiated)) +
-  geom_line(stat = "summary",
-            fun.y = median,
-            aes(color = year_joined_bucket))
-```
-
-
-## Smoothing Proportion Initiated vs. Tenure
-```{r}
-ggplot(data = facebook,
-       aes(x = tenure, y = prop_initiated)) +
-  geom_line(stat = "summary",
-            fun.y = median,
-            aes(color = year_joined_bucket)) + 
-  geom_smooth()
-
-subset_facebook <- subset(facebook, year_joined > 2012)
-summary(subset_facebook$prop_initiated)
 ```
