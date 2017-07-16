@@ -20,14 +20,14 @@ You'll need to install:
 
 ### Data Files
 
-* `age_of_marriage.csv` - Downloaded [[Gapminder](http://www.gapminder.org/data/)
+* `age_of_marriage.csv` - Downloaded [Gapminder](http://www.gapminder.org/data/)
 
 ### Exploratory Files
 
 * `marriage_age-explore.rmd` - Main project file, an [RStudio](https://www.rstudio.com/products/rstudio/download/) file that contains the exploration for the project. 
 * `marriage_age-explore.html` - HTML output for easy viewability in the browser.
 
-Also the exploration is published directly on [RPubs](http://rpubs.com/paulfoley/marriage_age-explore) for easy viewing.
+_**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfoley/marriage_age-explore) for easy viewing.**_
 
 
 ## Authors
