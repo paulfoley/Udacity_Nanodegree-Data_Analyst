@@ -47,7 +47,7 @@ You'll need to install:
 * `diamond_price-explore.rmd` - Main project file, an [RStudio](https://www.rstudio.com/products/rstudio/download/) file that contains the exploration for the project. 
 * `diamond_price-explore.html` - HTML output for easy viewability in browser.
 
-Also the exploration is published directly on [RPubs](http://rpubs.com/paulfoley/diamond_price-explore) for easy viewing.
+_**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfoley/diamond_price-explore) for easy viewing.**_
 
 
 ## Authors

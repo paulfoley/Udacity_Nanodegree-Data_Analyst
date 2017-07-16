@@ -30,10 +30,9 @@ You'll need to install:
 ### Exploration Files
 
 * `county_data-explore.rmd` - Main project file, an [RStudio](https://www.rstudio.com/products/rstudio/download/) file that contains the analysis for the project. 
-
 * `county_data-explore.html` - An html output for easy viewability in the browser. 
 
-Also the exploration is published directly on [RPubs](http://rpubs.com/paulfoley/county_data-explore) for easy viewing.
+_**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfoley/county_data-explore) for easy viewing.**_
 
 
 ## Authors

@@ -40,7 +40,7 @@ You'll need to install:
 * `facebook_data-explore.rmd` - Main project file, an [RStudio](https://www.rstudio.com/products/rstudio/download/) file that contains the exploration for the project. 
 * `facebook_data-explore.html` - HTML output file for easy viewability in the browser.
 
-Also the exploration is published directly on [RPubs](http://rpubs.com/paulfoley/facebook_data-explore) for easy viewing.
+_**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfoley/facebook_data-explore) for easy viewing.**_
 
 
 ## Authors
