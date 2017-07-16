@@ -1,54 +1,86 @@
-## Load Libraries
-```{r}
+---
+title: "Exploration of Friends Birthday Data"
+author: "Paul Foley"
+output: html_document
+---
+
+In this project, we will use [Facebook](https://www.facebook.com/) data to explore my FB friends birthdays!
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Load_Libraries}
 library(ggplot2)
+library(knitr)
 ```
 
-## Load Friends Birthdays CSV File
-```{r}
-birthdays <- read.csv('Friends_Birthdays.csv',
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Load_the_Data}
+birthdays <- read.csv('friends_birthdays.csv',
                       header = T, 
                       row.names = 1, 
                       check.names = T)
-```
-
-## How many people share your birthday?
-```{r}
 birthdays$Birthdate <- strptime(birthdays$Birthdate,
                                 format = "%m/%d/%y")
+```
+
+### How many people share my birthday?
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Share-Birthday}
 row.names(birthdays)[birthdays$Birthdate == '2018-02-18']
-subset(birthdays, Birthdate == '2018-02-18')
 ```
 
-## Which month contains the most number of birthdays?
-```{r}
+### Which month contains the most number of my friends birthdays?
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Birthday_Month}
 birthdays$month <- as.numeric(format(birthdays$Birthdate,"%m"))
-ggplot(data = birthdays, aes(x = month)) +
-  geom_histogram(binwidth = 1) +
-  scale_x_continuous(limits = c(0, 13), breaks = seq(0, 13, 1)) +
+ggplot(data = birthdays,
+       aes(x = month)) +
+  geom_histogram(binwidth = 1,
+                 color = 'black',
+                 fill = 'blue') +
+  scale_x_continuous(limits = c(0, 13),
+                     breaks = seq(0, 12, 1)) +
   xlab('Month') +
-  ylab('Number of Friends')
-ggsave('BirthdayMonthHistogram.png')
+  ylab('Number of Friends') +
+  ggtitle('Histogram - Friends Birthday Months')
+
+ggsave('Histogram-Birthday_Month.png')
 ```
 
-# Which day of the year has the most number of birthdays?
-```{r}
+### Which day of the year has the most number of my friends birthdays?
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Birthday_Day}
 birthdays$day <- as.numeric(format(birthdays$Birthdate,"%d"))
-ggplot(data = birthdays, aes(x = day)) +
-  geom_histogram(binwidth = 1) +
+
+ggplot(data = birthdays,
+       aes(x = day)) +
+  geom_histogram(binwidth = 1,
+                 color = 'black',
+                 fill = 'blue') +
   scale_x_continuous(limits = c(0, 32), breaks = seq(0, 32, 1)) +
-  xlab('Day') +
-  ylab('Number of Friends')
-ggsave('BirthdayDayHistogram.png')
+  xlab('Day of the Month') +
+  ylab('Number of Friends') +
+  ggtitle("Histogram - Friends Birthday's By Day")
+
+ggsave('Histogram-Birthday_Day.png')
 ```
 
-## Do you have at least 365 friends that have birthdays on everyday of the year?
-```{r}
-ggplot(data = birthdays, aes(x = day)) +
-  geom_histogram(binwidth = 1) +
-  scale_x_continuous(limits = c(0, 32), breaks = seq(0, 32, 1)) +
+### Do I have a friend's birthday on all 365 days of the year?
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Histograms-Birthday_Day_By_Month}
+ggplot(data = birthdays,
+       aes(x = day)) +
+  geom_histogram(binwidth = 1,
+                 color = 'black',
+                 fill = 'blue') +
+  scale_x_continuous(limits = c(0, 32),
+                     breaks = seq(0, 32, 1)) +
   facet_wrap(~month) +
-  xlab('Day') +
-  ylab('Number of Friends')
-ggsave('BirthdayDayByMonthHistogram.png')
+  xlab('Day of Month') +
+  ylab('Number of Friends') +
+  ggtitle('Histograms - Birthday Day \n Group By Month')
+
+ggsave('Histograms-Birthday_Day_By_Month.png')
 ```
 
