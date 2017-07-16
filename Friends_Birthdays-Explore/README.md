@@ -1,11 +1,11 @@
 # Data Explore - Friend's Birthday's
 
-From [Facebook](https://www.facebook.com/) I downloaded all of my FB friends birthdays. In this project we'll explore my friends birthdays.
+In this project, we will explore my friends birthday's using data downloaded from [Facebook](https://www.facebook.com/).
 
 
 ## Friend's Birthday Exploration
 
-In this project, we will use birthday data downloaded from [Facebook](https://www.facebook.com/) to explore:
+We'll explore specifically:
 
 * Friends who share my Birthday
 * Friends Birthday by Day

@@ -1,6 +1,6 @@
-# Data Explore - Diamond Price
+# Data Explore - Facebook User Data
 
-[Facebook](https://www.facebook.com/) has provided sample data of their users for analysis. In this project we'll explore the various featuers of a Facebook users.
+[Facebook](https://www.facebook.com/) has provided sample data of their users for exploration.
 
 
 ## Facebook User Exploration
