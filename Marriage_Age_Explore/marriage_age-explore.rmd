@@ -1,32 +1,57 @@
-## Quiz: Gapminder Data
-```{r}
-age_of_marriage <- read.csv('Age_of_Marriage.csv', header = T, row.names = 1, check.names = F)
+---
+title: "Exploration of Marriage Data"
+author: "Paul Foley"
+output: html_document
+---
 
+In this project, we will use Gapminder data to explore marriage trends as it relates to age!
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Load_Libraries}
 library(ggplot2)
+library(knitr)
 ```
 
-## Summary
-```{r}
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Load_the_Data}
+age_of_marriage <- read.csv('age_of_marriage.csv',
+                            header = T,
+                            row.names = 1,
+                            check.names = F)
+```
+
+## Average Age at First Marriage
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Summary-Age_Marriage}
 summary(age_of_marriage)
 ```
 
-## Histogram
-```{r}
+```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Age_Marriage}
 ggplot(data = age_of_marriage, aes(x = Age)) +
-  geom_histogram(binwidth = .5) +
-  scale_x_continuous(limits = c(17, 33), breaks = seq(15, 35, 5)) +
-  xlab('Age of First Marriage') +
-  ylab('Number of Countries')
-ggsave('ageHistogram.png')
+  geom_histogram(binwidth = 1,
+                 color = 'black',
+                 fill = 'blue') +
+  scale_x_continuous(limits = c(15, 35),
+                     breaks = seq(15, 35, 1)) +
+  xlab('Average Age at First Marriage') +
+  ylab('Count of Countries') +
+  ggtitle('Histogram - Average Age at First Marriage \n By Country')
+
+ggsave('Histogram-Age_Marriage.png')
 ```
 
-## Frequency Plot
-```{r}
+```{r echo=FALSE, message=FALSE, warning=FALSE, Line-Age_Marriage}
 ggplot(data = age_of_marriage, aes(x = Age)) +
-  geom_freqpoly(binwidth = .1) +
-  scale_x_continuous(limits = c(17, 33), breaks = seq(15, 35, 5)) +
-  xlab('Age of First Marriage') +
-  ylab('Number of Countries')
-ggsave('ageFrequency.png')
+  geom_freqpoly(binwidth = 1,
+                color = 'blue') +
+  scale_x_continuous(limits = c(15, 35),
+                     breaks = seq(15, 35, 1)) +
+  xlab('Average Age at First Marriage') +
+  ylab('Count of Countries') +
+  ggtitle('Line - Average Age at First Marriage \n By Country')
+
+ggsave('Line-Age_Marriage.png')
 ```
 
