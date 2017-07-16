@@ -4,7 +4,7 @@ author: "Paul Foley"
 output: html_document
 ---
 
-In this exploration we'll look at US county data and explore areas features:
+In this exploration we'll look at US county data, and explore an areas features:
 
 * Age
 * Gender
@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Load_the_Data}
-county_statistics <- read.csv('County_Statistics.csv', 
+county_statistics <- read.csv('county_statistics.csv', 
                               header = T, 
                               row.names = 1, 
                               check.names = F)
@@ -35,13 +35,16 @@ county_statistics <- read.csv('County_Statistics.csv',
 names(county_statistics)
 ```
 
-## Age
+## Explore - Age
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Histogram-Age}
 ggplot(data = county_statistics,
        aes(x = Median_Age)) +
   geom_histogram(binwidth = 1,
+                 color = 'black',
                  fill =  'blue') +
+  xlab('Median Age') +
+  ylab('Count of Counties') +
   ggtitle('Histogram - Median Age')
 ```
 
@@ -58,10 +61,12 @@ ggplot(data = age_mp_by_state,
              fun.y = "mean",
              colour = 'blue') +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  xlab('State') +
+  ylab('Mean Age') +
   ggtitle('Scatterplot - Mean Age By State')
 ```
 
-## Gender %
+## Explore - Gender
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Bar_Plot-Gender_State}
 ratio_mp_by_state <- summarise(statistics_by_state, 
@@ -74,10 +79,12 @@ ggplot(data = ratio_mp_by_state,
              fun.y = "mean",
              colour = 'pink') +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  xlab('State') +
+  ylab('% Female') +
   ggtitle('Scatterplot - Pecent Female By State')
 ```
 
-## Gender and Race
+## Explore - Race
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Gender_Race}
 gender_asian_plot <- ggplot(data = county_statistics,
@@ -87,6 +94,8 @@ gender_asian_plot <- ggplot(data = county_statistics,
              color = 'orange') +
   geom_smooth(method = 'lm',
               color = 'red') +
+  xlab('% of Population Asian') +
+  ylab('% Female') +
   ggtitle("% Asian Vs. % Female")
 
 gender_black_plot <- ggplot(data = county_statistics, 
@@ -96,6 +105,8 @@ gender_black_plot <- ggplot(data = county_statistics,
              color = 'black') +
   geom_smooth(method = 'lm',
               color = 'red') +
+  xlab('% of Population Black') +
+  ylab('% Female') +
   ggtitle("% Black Vs. % Female")
 
 gender_hispanic_plot <- ggplot(data = county_statistics,
@@ -105,6 +116,8 @@ gender_hispanic_plot <- ggplot(data = county_statistics,
              color = 'brown') +
   geom_smooth(method = 'lm',
               color = 'red') +
+  xlab('% of Population Hispanic') +
+  ylab('% Female') +
   ggtitle("% Hispanic Vs. % Female")
 
 gender_white_plot <- ggplot(data = county_statistics,
@@ -114,6 +127,8 @@ gender_white_plot <- ggplot(data = county_statistics,
              color = 'tan') +
   geom_smooth(method = 'lm',
               color = 'red') +
+  xlab('% of Population White') +
+  ylab('% Female') +
   ggtitle("% White Vs. % Female")
 
 grid.arrange(gender_asian_plot, 
