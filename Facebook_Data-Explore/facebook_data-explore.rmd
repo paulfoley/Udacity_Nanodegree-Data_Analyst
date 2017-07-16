@@ -1,5 +1,5 @@
 ---
-title: "Exploration of Facebook Data"
+title: "Exploration of Facebook User Data"
 author: "Paul Foley"
 output: html_document
 ---
