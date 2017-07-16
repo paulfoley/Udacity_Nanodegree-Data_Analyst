@@ -1,0 +1,60 @@
+---
+title: "Caution with Correlation"
+author: "Paul Foley"
+output: html_document
+---
+
+This is a Correlation Caution
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Load_Libraries}
+library(ggplot2)
+library(GGally)
+library(dplyr)
+library(tidyr)
+library(alr3)
+library(knitr)
+library(gridExtra)
+library(reshape2)
+```
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Load_Data}
+data(Mitchell)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Scatterplot-Month-Temp}
+ggplot(data = Mitchell,
+       aes(x = Month,
+           y = Temp)) +
+  geom_point() +
+  scale_x_continuous(breaks = seq(0, 203, 12)) +
+  xlab('Month') +
+  ylab('Temperature') +
+  ggtitle('Scatterplot - Temperature By Month')
+```
+
+## Mitcheel Correlation - Month & Temp
+```{r echo=FALSE, message=FALSE, warning=FALSE, Correlation-Month-Temp}
+cor.test(Mitchell$Month, Mitchell$Temp, method = 'pearson')
+```
+
+## A New Perspective
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, Perspective}
+ggplot(data = Mitchell,
+       aes(x = (Month%%12),
+           y = Temp)) +
+  geom_point() +
+  scale_x_continuous(breaks = seq(0, 203, 12))
+
+x <- seq(0, 4*pi, pi/20)
+y <- cos(x)
+qplot(x = x, y = y)
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
