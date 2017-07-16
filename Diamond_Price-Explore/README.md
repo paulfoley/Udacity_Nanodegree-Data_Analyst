@@ -42,9 +42,12 @@ You'll need to install:
 
 * `diamonds` - Provided by [ggplot2](http://ggplot2.org/)
 
-### Analysis Files
+### Exploration Files
 
-* `diamond_price-explore.rmd` - Main project file, an [RStudio](https://www.rstudio.com/products/rstudio/download/) file that contains the analysis for the project. There is also an html output `diamond_price-explore.html` for viewability.
+* `diamond_price-explore.rmd` - Main project file, an [RStudio](https://www.rstudio.com/products/rstudio/download/) file that contains the exploration for the project. 
+* `diamond_price-explore.html` - HTML output for easy viewability in browser.
+
+Also the exploration is published directly on [RPubs](http://rpubs.com/paulfoley/291415) for easy viewing.
 
 
 ## Authors
