@@ -12,6 +12,7 @@ We'll explore specifically:
 ## Getting Started
 
 ### Prerequisites
+
 You'll need to install:
 
 * [RStudio](https://www.rstudio.com/products/rstudio/download/)
@@ -22,7 +23,8 @@ You'll need to install:
 
 * `age_of_marriage.csv` - Downloaded [Gapminder](http://www.gapminder.org/data/)
 
-### Exploratory Files
+
+## Exploratory Files
 
 * `marriage_age-explore.rmd` - Main project file, an Rmd file that contains the exploration for the project. 
 * `marriage_age-explore.html` - HTML output for easy viewability in the browser.
@@ -32,8 +34,8 @@ _**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfo
 
 ## Authors
 
-* [**Paul Foley**](https://github.com/paulfoley)
-* See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Marriage_Age_Explore) who participated in this project.
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
 
 
 ## License
@@ -44,4 +46,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * [Gapminder](http://www.gapminder.org/data/)
-* [Udacity](https://www.udacity.com/)

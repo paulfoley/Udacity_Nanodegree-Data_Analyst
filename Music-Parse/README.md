@@ -4,6 +4,7 @@ Music is amazing. With the rise of the internet, there are a ton of sites that h
 
 These sites also have API's which allows us to conenct and extract their information. 
 
+
 ## Project Overview
 
 We'll be using the [MusicBrainz](https://musicbrainz.org/) and [AudioScrobbler](http://www.audioscrobbler.net/) API's to get info about our favorite artists and their albulms.
@@ -15,6 +16,7 @@ We'll be using the [MusicBrainz](https://musicbrainz.org/) to pull in data about
 ### AudioScrobbler
 
 We'll be using the [AudioScrobbler](http://www.audioscrobbler.net/) to pull in data about an albulm and output the albulm description to a .txt file.
+
 
 ## Getting Started
 
@@ -39,9 +41,8 @@ You'll need to install:
 
 ## Authors
 
-* **Paul Foley** - [paulfoley](https://github.com/paulfoley)
-
-* Other [contributors](https://github.com/paulfoley/data-analyst/tree/master/Music-Parse) who participated in this project.
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
 
 
 ## License
@@ -53,4 +54,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * [MusicBrainz](https://musicbrainz.org/)
 * [AudioScrobbler](http://www.audioscrobbler.net/)
-* [Udacity](https://www.udacity.com/)

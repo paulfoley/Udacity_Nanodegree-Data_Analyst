@@ -35,14 +35,15 @@ In this project we'll use pandas and pandasql to analyze the Aadhaar data using 
 
 ## Authors
 
-* [**Paul Foley**](https://github.com/paulfoley)
-* See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Aadhaar_Data-Analysis) who participated in this project.
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
+
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+
 ## Acknowledgments
 
 * [Unique Identification Authority of India](https://uidai.gov.in/)
-* [Udacity](https://www.udacity.com/)

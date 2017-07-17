@@ -1,6 +1,6 @@
 # Data Analysis - Udacity Student Data
 
-[Udacity](https://www.udacity.com/), one of the best online education companies in the world, has provided sample student data, in this analysis we're going to derive insights on what makes a student pass one of their Nanodegrees versus not passing a course.
+[Udacity](https://www.udacity.com/), one of the best online education companies in the world, has provided sample student data. In this analysis we're going to derive insights on what makes a student pass one of their Nanodegrees versus not passing a course.
 
 
 ## Questions for Analysis
@@ -28,6 +28,7 @@ Next let's look at a students study habits, are students who do something daily 
 ## Getting Started
 
 ### Prerequisites
+
 You'll need to install:
 
 * [Anaconda](https://www.continuum.io/downloads)
@@ -153,12 +154,13 @@ Columns:
     - has_visited:        1 if the student visited this course for at least 2
                           minutes on this day.
 
-
 ### Analysis Files
+
 * `Student_Data-Analysis.ipynb` - Main project file, an IPython Notbook that contains the analysis for the project
 
 
 ### Opening the Jupyter Notebook
+
 The project `Student_Data-Analysis.ipynb` can be read using a Jupyter Notebook. There's also an HTML version `Bay_Area_Bike_Share-Analysis.html` included.
 
 * Download the `Bay_Area_Bike_Share-Analysis.ipynb`
@@ -173,13 +175,14 @@ The project `Student_Data-Analysis.ipynb` can be read using a Jupyter Notebook. 
 The Jupyter Notebook `Student_Data-Analysis.ipynb` has all project information.
 
 ### Special Note
+
 If you try running a code block and get an error message like no module named matplotlib, then your distribution of Anaconda may be missing a package used in the project. That's okay – there's an easy way that you can install these packages. Take a look at Google for easy to use guides on installation!
 
 
 ## Authors
 
-* [**Paul Foley**](https://github.com/paulfoley)
-* See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Bay_Area_Bike_Share-Analysis) who participated in this project.
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
 
 
 ## License

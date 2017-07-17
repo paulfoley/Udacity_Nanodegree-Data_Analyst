@@ -37,12 +37,12 @@ You'll need to install:
 * [car](https://cran.r-project.org/web/packages/car/index.html)
 * [memisc](https://cran.r-project.org/web/packages/memisc/index.html)
 
-
 ### Data Files
 
 * `diamonds` - Provided by [ggplot2](http://ggplot2.org/)
 
-### Exploration Files
+
+## Exploration Files
 
 * `diamond_price-explore.rmd` - Main project file, an [RStudio](https://www.rstudio.com/products/rstudio/download/) file that contains the exploration for the project. 
 * `diamond_price-explore.html` - HTML output for easy viewability in browser.
@@ -52,8 +52,8 @@ _**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfo
 
 ## Authors
 
-* [**Paul Foley**](https://github.com/paulfoley)
-* See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Diamond_Price-Explore) who participated in this project.
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
 
 
 ## License
@@ -64,4 +64,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * [ggplot2](http://ggplot2.org/)
-* [Udacity](https://www.udacity.com/)

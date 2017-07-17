@@ -80,8 +80,8 @@ If you try running a code block and get an error message like no module named ma
 
 ## Authors
 
-* [**Paul Foley**](https://github.com/paulfoley)
-* See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Bay_Area_Bike_Share-Analysis) who participated in this project.
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
 
 
 ## License
@@ -92,4 +92,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * [Ford GoBike](https://www.fordgobike.com/)
-* [Udacity](https://www.udacity.com/)

@@ -2,6 +2,7 @@
 
 In this project we will be using the [United State Bureau of Transportation Statistics](https://www.transtats.bts.gov/) API to receive flight data, we'll then parse the data and return flights that go from one airport to another.
 
+
 ## Getting Started
 
 ### Prerequisites
@@ -21,6 +22,7 @@ You'll need to install:
 
 
 ## Running the Scripts
+
 The following scripts use the [United State Bureau of Transportation Statistics](https://www.transtats.bts.gov/) API for various purposes, each script is described below.
 
 ### Scripts:
@@ -29,7 +31,6 @@ The following scripts use the [United State Bureau of Transportation Statistics]
 * `carriers.py` - Provides a list of airline carrier codes available through the API
 * `transtats_api.py` - Returns an html file of all flights out an aiport on a specific carrier
 * `flights.py` - Outputs a CSV of flights from one aiport to another
-
 
 ### Output Files:
 
@@ -43,13 +44,14 @@ The following scripts use the [United State Bureau of Transportation Statistics]
 ## Authors
 
 * [**Paul Foley**](https://github.com/paulfoley)
-* See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Airport_Data-Wrangle) who participated in this project.
+* [Udacity](https://www.udacity.com/)
+
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+
 ## Acknowledgments
 
 * [United State Bureau of Transportation Statistics](https://www.transtats.bts.gov/)
-* [Udacity](https://www.udacity.com/)

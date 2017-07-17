@@ -37,8 +37,8 @@ _**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfo
 
 ## Authors
 
-* [**Paul Foley**](https://github.com/paulfoley)
-* See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/County_Data-Explore) who participated in this project.
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
 
 
 ## License
@@ -49,4 +49,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * [TownCharts](http://www.towncharts.com/)
-* [Udacity](https://www.udacity.com/)

@@ -2,9 +2,11 @@
 
 Electric Reliability Council of Texas ([ERCOT](http://www.ercot.com/mktinfo/data_agg)) provides an open source version of their data.
 
+
 ## Project Overview
 
 We'll be using 2013 [ERCOT](http://www.ercot.com/mktinfo/data_agg) hourly load data to find the Maximum, Minimum, and Average loads of energy output in each station around the country.
+
 
 ## Getting Started
 
@@ -37,9 +39,8 @@ You'll need to install:
 
 ## Authors
 
-* **Paul Foley** - [paulfoley](https://github.com/paulfoley)
-
-* Other [contributors](https://github.com/paulfoley/data-analyst/tree/master/ERCOT-Parse) who participated in this project.
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
 
 
 ## License
@@ -50,4 +51,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * [ERCOT](http://www.ercot.com/mktinfo/data_agg)
-* [Udacity](https://www.udacity.com/)

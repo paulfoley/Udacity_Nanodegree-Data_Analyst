@@ -20,6 +20,7 @@ In this project, we will use [Facebook](https://www.facebook.com/) sample user d
 ## Getting Started
 
 ### Prerequisites
+
 You'll need to install:
 
 * [RStudio](https://www.rstudio.com/products/rstudio/download/)
@@ -35,7 +36,8 @@ You'll need to install:
 
 * `pseudo_facebook.tsv` - Provided by [Facebook](https://www.facebook.com/)
 
-### Exploratory Files
+
+## Exploratory Files
 
 * `facebook_data-explore.rmd` - Main project file, an Rmd file that contains the exploration for the project. 
 * `facebook_data-explore.html` - HTML output file for easy viewability in the browser.
@@ -45,8 +47,8 @@ _**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfo
 
 ## Authors
 
-* [**Paul Foley**](https://github.com/paulfoley)
-* See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Facebook_Data-Explore) who participated in this project.
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
 
 
 ## License
@@ -57,4 +59,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * [Facebook](https://www.facebook.com/)
-* [Udacity](https://www.udacity.com/)

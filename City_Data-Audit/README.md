@@ -4,6 +4,7 @@ As a project, to show off data wrangling skills, we'll use the City data provide
 
 In the following scripts we'll take in the `cities.csv` file, and either audit it for accuracy and completeness, or we'll clean the data and re-output the clean data into a csv file for use later.
 
+
 ## Getting Started
 
 ### Prerequisites
@@ -37,7 +38,6 @@ You'll need to install:
 
 * `audit_acres.py` - Script that audits the number of acres for each area. Takes in the number of acres for each area and either outputs a float value containing the number of acres or `None` for empty or "Null" values.
 
-
 ### Outputs:
 
 * `field_types.csv` - List of Field Types for each field in the `cities.csv` file
@@ -48,9 +48,8 @@ You'll need to install:
 
 ## Authors
 
-* **Paul Foley** - [paulfoley](https://github.com/paulfoley)
-
-* Other [contributors](https://github.com/paulfoley/data-analyst/tree/master/City_Data-Audit) who participated in this project.
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
 
 
 ## License
@@ -61,4 +60,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * [DBpedia](http://wiki.dbpedia.org/)
-* [Udacity](https://www.udacity.com/)

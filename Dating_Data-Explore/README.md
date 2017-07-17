@@ -33,7 +33,8 @@ You'll need to install:
 
 * `population_data.csv` - Provided by [Town Charts](hhttp://www.towncharts.com/)
 
-### Exploration Files
+
+## Exploration Files
 
 * `dating_data_explore.rmd` - Main project file, an Rmd file that contains the exploration for the project. 
 * `dating_data_explore.html` - HTML output for easy viewability in browser.
@@ -43,8 +44,8 @@ _**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfo
 
 ## Authors
 
-* [**Paul Foley**](https://github.com/paulfoley)
-* See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Dating_Data-Explore) who participated in this project.
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
 
 
 ## License
@@ -55,4 +56,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * [Town Charts](hhttp://www.towncharts.com/)
-* [Udacity](https://www.udacity.com/)

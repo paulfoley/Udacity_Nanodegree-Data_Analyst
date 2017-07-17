@@ -69,14 +69,13 @@ If you try running a code block in the notebook and get an error message like no
 
 ## Authors
 
-* [**Paul Foley**](https://github.com/paulfoley)
-* See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Baseball_Data-Analysis) who participated in this project.
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
 
 
 ## Acknowledgments
 
 * [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/)
-* [Udacity](https://www.udacity.com/)
 
 
 ## Licenses

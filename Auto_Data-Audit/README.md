@@ -36,9 +36,8 @@ The script `audit_production_start_year.py` will take in the `autos.csv` and out
 
 ## Authors
 
-* **Paul Foley** - [paulfoley](https://github.com/paulfoley)
-
-See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Auto_Data-Audit) who participated in this project.
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
 
 
 ## License
@@ -49,4 +48,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * [DBpedia](http://wiki.dbpedia.org/)
-* [Udacity](https://www.udacity.com/)
