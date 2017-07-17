@@ -1,10 +1,10 @@
 # Data Audit - ERCOT Data
 
-Electric Reliability Council of Texas [ERCOT](http://www.ercot.com/mktinfo/data_agg) provides an open source version of their data.
+Electric Reliability Council of Texas ([ERCOT](http://www.ercot.com/mktinfo/data_agg)) provides an open source version of their data.
 
 ## Project Overview
 
-We'll be using 2013 [ERCOT](http://www.ercot.com/mktinfo/data_agg) hourly load data to find the Maximum, Minimum, and Average loads of energy output in each station they have around the country.
+We'll be using 2013 [ERCOT](http://www.ercot.com/mktinfo/data_agg) hourly load data to find the Maximum, Minimum, and Average loads of energy output in each station around the country.
 
 ## Getting Started
 
@@ -26,7 +26,7 @@ You'll need to install:
 
 ### Functions
 
-* `parse_file(datafile)` - Parses the xls file and finds the minimum, maximum, and average hourly energy loads for each ERCO station.
+* `parse_file(datafile)` - Parses the xls file and finds the minimum, maximum, and average hourly energy loads for each [ERCOT](http://www.ercot.com/mktinfo/data_agg) station.
 
 * `save_file(data, filename)` - Outputs the minimum, maximum, and average hourly energy load values in a CSV.
 
