@@ -1,5 +1,6 @@
 """
-Audit cities infobox data, and then clean up the data. 
+This script gets the field types for the City data
+So we can see what types of data we're working with!
 
 The possible types of values can be:
 - NoneType if the value is a string "NULL" or an empty string ""
@@ -10,7 +11,7 @@ The possible types of values can be:
    as float but int('3.23e+07') will throw a ValueError
 - 'str', for all other values
 
-The audit_file function should return a dictionary containing fieldnames and a 
+The get_field_types function should output a dictionary containing fieldnames and a 
 SET of the types that can be found in the field. e.g.
 
 {"field1": set([type(float()), type(int()), type(str())]),
@@ -22,13 +23,12 @@ The type() function returns a type object describing the argument given to the
 function.
 
 Note that the first three rows (after the header row) in the cities.csv file
-are not actual data points. The contents of these rows should note be included
+are not actual data points. The contents of these rows are not included
 when processing data types.
 """
 
 # Imports
 import csv
-import pprint
 
 # Fields for Auditing
 FIELDS = ["name", "timeZone_label", "utcOffset", "homepage", "governmentType_label",
@@ -37,7 +37,7 @@ FIELDS = ["name", "timeZone_label", "utcOffset", "homepage", "governmentType_lab
           "wgs84_pos#lat", "wgs84_pos#long", "areaLand", "areaMetro", "areaUrban"]
 
 # Function
-def audit_file(filename, fields):
+def get_field_types(filename, fields):
   fieldtypes = {}
   extra_fields = []
 
@@ -69,13 +69,12 @@ def audit_file(filename, fields):
   
   return fieldtypes
 
-# Test
-def test():
-    fieldtypes = audit_file('cities.csv', FIELDS)
+# Output To CSV File
+fieldtypes = get_field_types('cities.csv', FIELDS)
 
-    # Print Output
-    pprint.pprint(fieldtypes)
-    print(fieldtypes["areaLand"])
-    print(fieldtypes['areaMetro'])
+with open('field_types.csv', 'w') as csvfile:
+    fieldnames = FIELDS
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerow(fieldtypes)
     
-test()
