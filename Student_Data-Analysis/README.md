@@ -1,24 +1,50 @@
 # Data Analysis - Udacity Student Data
 
-In this project we'll look at Udacity student data and derive insights on what makes a student stick with a course verse not completing a course.
+[Udacity](https://www.udacity.com/) has provided sample student data, in this analysis we're going to derive insights on what makes a student pass a course versus not passing a course.
 
-## Files:
 
-### Student_Data-Analysis.ipynb
+## Questions for Analysis
+Below are the questions we're going to answer using the [Udacity](https://www.udacity.com/) sample student data. 
 
-iPython Notebook that contins the analysis on the data. 
+### Question 1
 
-To open a python notebook navigate to this folder on your Desktop and type "jupyter notebook" to open the notebook. 
+Effort has been known to have a strong correlation with succes in almost every activity. For our first question, let's look at how much time the student has spent in the classroom and learning the lessons of the students that passed versus the students that did not pass.
 
-Note: You must have jupyter installed for the above to work.
+* Is there a difference in time spent in the classroom for passing students?
 
-### enrollments.csv
+### Question 2
+
+Next let's look at how many lessons each student is taking. The idea of which is, does taking more lessons on Udacity equate to students passing their Nanodegree.
+
+* What's the difference in number of lessons taken by students who pass versus students who don't pass?
+
+### Question 3
+
+Next let's look at a students study habits, 
+
+* Are there specific cities where bike share is used more then other cities?
+
+
+## Getting Started
+
+### Prerequisites
+You'll need to install:
+
+* [Anaconda](https://www.continuum.io/downloads)
+* [Python (Minimum 3)](https://www.continuum.io/blog/developer-blog/python-3-support-anaconda)
+* [Pandas](https://anaconda.org/anaconda/pandas)
+* [Numpy](https://anaconda.org/anaconda/numpy)
+* [Matplotlib](https://anaconda.org/anaconda/matplotlib)
+
+### Data Files:
+
+#### enrollments.csv
 
 Data about a random subset of Data Analyst Nanodegree students who complete
 their first project and a random subset of students who do not.
 
 Columns:
-   - account_key:    A unique identifier for the account of the student who
+    - account_key:    A unique identifier for the account of the student who
                      enrolled.
 
     - status:         The enrollment status of the student at the time the data
@@ -41,7 +67,7 @@ Columns:
 
 -------------------------------------------------------------------------------
 
-### daily_engagement.csv:
+#### daily_engagement.csv:
 
 Data about engagement within Data Analyst Nanodegree courses for each student in
 the enrollment table on each day they were enrolled. Includes a record even if
@@ -71,7 +97,7 @@ Columns:
 
 -------------------------------------------------------------------------------
 
-### project_submissions.csv:
+#### project_submissions.csv:
 
 Data about submissions for Data Analyst Nanodegree projects for each student in
 the enrollment table.
@@ -100,7 +126,7 @@ Columns:
 
 -------------------------------------------------------------------------------
 
-### daily_engagement_full.csv:
+#### daily_engagement_full.csv:
 
 Similar to daily_engagement.csv, but with engagement further broken down by
 course and with more columns available. This file is about 500 megabytes, which
@@ -127,3 +153,40 @@ Columns:
     - has_visited:        1 if the student visited this course for at least 2
                           minutes on this day.
 
+
+### Analysis Files
+* `Student_Data-Analysis.ipynb` - Main project file, an IPython Notbook that contains the analysis for the project
+
+
+### Opening the Jupyter Notebook
+The project `Student_Data-Analysis.ipynb` can be read using a Jupyter Notebook. There's also an HTML version `Bay_Area_Bike_Share-Analysis.html` included.
+
+* Download the `Bay_Area_Bike_Share-Analysis.ipynb`
+* Open your Command Prompt (PC) or terminal (Mac or Linux).
+* On a PC click the Start button and search for "Command Prompt".
+* On a Mac type command + spacebar. Then, type "terminal" in the Spotlight Search. You can also search for "terminal" in finder.
+* Navigate to the directory where you downloaded the Jupyter notebook file.
+* On a PC you might type: cd C:\Users\username\Downloads\, replacing your username. Learn more about basic terminal commands.
+* On Mac or Linux you might type: cd ~/Downloads.
+* Run the command `jupyter notebook Bay_Area_Bike_Share-Analysis.ipynb` in your terminal.
+
+The Jupyter Notebook `Student_Data-Analysis.ipynb` has all project information.
+
+### Special Note
+If you try running a code block and get an error message like no module named matplotlib, then your distribution of Anaconda may be missing a package used in the project. That's okay – there's an easy way that you can install these packages. Take a look at Google for easy to use guides on installation!
+
+
+## Authors
+
+* [**Paul Foley**](https://github.com/paulfoley)
+* See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/Bay_Area_Bike_Share-Analysis) who participated in this project.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+## Acknowledgments
+
+* [Udacity](https://www.udacity.com/)
