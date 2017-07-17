@@ -1,11 +1,11 @@
 # Data Explore - Facebook User Data
 
-[Facebook](https://www.facebook.com/) has provided sample data of their users for exploration.
+[Facebook](https://www.facebook.com/) has provided sample data of their users for exploration. We'll use this sample data to explore how people use one of my favorite websites.
 
 
 ## Facebook User Exploration
 
-In this project, we will use [Facebook](https://www.facebook.com/) sample user data and explore their various features:
+In this project, we will use [Facebook](https://www.facebook.com/) sample user data and explore users various features:
 
 * Friend Count
 * Friendships Initiated
@@ -37,7 +37,7 @@ You'll need to install:
 
 ### Exploratory Files
 
-* `facebook_data-explore.rmd` - Main project file, an [RStudio](https://www.rstudio.com/products/rstudio/download/) file that contains the exploration for the project. 
+* `facebook_data-explore.rmd` - Main project file, an Rmd file that contains the exploration for the project. 
 * `facebook_data-explore.html` - HTML output file for easy viewability in the browser.
 
 _**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfoley/facebook_data-explore) for easy viewing.**_

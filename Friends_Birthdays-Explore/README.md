@@ -1,9 +1,11 @@
 # Data Explore - Friend's Birthday's
 
-In this project, we will explore my friends birthday's using data downloaded from [Facebook](https://www.facebook.com/).
+In this project, we will explore my friends birthday's using data downloaded from [Facebook](https://www.facebook.com/). This is actual data from my Facebook friends.
 
 
 ## Friend's Birthday Exploration
+
+It feels that at least one of my friends is celebrating a birthday every day. So much so, it's hard to keep up with all the activities! In this analysis, I want to see which months are the busiest for friends birthdays, as well as what days in the month are the most likely to have friends birthdays.
 
 We'll explore specifically:
 

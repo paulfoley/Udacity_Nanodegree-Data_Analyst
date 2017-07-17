@@ -1,11 +1,11 @@
 # Data Explore - County Data
 
-[TownCharts](http://www.towncharts.com/) provides population data for us cities, towns, and areas in the US.
+[TownCharts](http://www.towncharts.com/) provides population data for us cities, towns, and areas in the US. We'll use this data to explore various features in counties across the US.
 
 
 ## Population Exploration
 
-In this project, we will perform a data exploration on counties across the US, specifically looking at the features:
+In this project, we will perform a data exploration on counties across the US, specifically looking at the county features:
 
 * Age 
 * Gender
@@ -29,8 +29,8 @@ You'll need to install:
 
 ### Exploration Files
 
-* `county_data-explore.rmd` - Main project file, an [RStudio](https://www.rstudio.com/products/rstudio/download/) file that contains the analysis for the project. 
-* `county_data-explore.html` - An html output for easy viewability in the browser. 
+* `county_data-explore.rmd` - Main project file, an Rmd file that contains the analysis for the project. 
+* `county_data-explore.html` - An HTML output for easy viewability in the browser. 
 
 _**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfoley/county_data-explore) for easy viewing.**_
 

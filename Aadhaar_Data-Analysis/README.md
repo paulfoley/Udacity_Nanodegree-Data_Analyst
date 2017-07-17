@@ -18,8 +18,9 @@ You'll need to install:
 * `aadhaar_data.csv` - Aadhaar Data Set
 
 
-## Running the Script
-In this script we'll use pandas and pandasql to analyze the Aadhaar data using SQL queries.
+## Querying the Aadhaar Data
+
+In this project we'll use pandas and pandasql to analyze the Aadhaar data using SQL queries.
 
 * `aadhaar-analysis.py` - Has functions to easily sort and filter the Aadhaar data
 

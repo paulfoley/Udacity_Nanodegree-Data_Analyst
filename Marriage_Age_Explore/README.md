@@ -1,6 +1,6 @@
 # Data Explore - Marriage Age
 
-In this project, we will explore first of age of marriage data from [Gapminder](http://www.gapminder.org/data/).
+As a 28 year old, it feels as though the majority of my friends my same age or older are married... I'm curious about the statistics on marriage. Not only in the US, but across the world. In this project, we will explore first of age of marriage data from [Gapminder](http://www.gapminder.org/data/).
 
 
 ## Marriage Age Exploration
@@ -24,7 +24,7 @@ You'll need to install:
 
 ### Exploratory Files
 
-* `marriage_age-explore.rmd` - Main project file, an [RStudio](https://www.rstudio.com/products/rstudio/download/) file that contains the exploration for the project. 
+* `marriage_age-explore.rmd` - Main project file, an Rmd file that contains the exploration for the project. 
 * `marriage_age-explore.html` - HTML output for easy viewability in the browser.
 
 _**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfoley/marriage_age-explore) for easy viewing.**_

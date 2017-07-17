@@ -5,7 +5,7 @@
 
 ## Diamond Price Exploration
 
-In this project, we will use [ggplot2](http://ggplot2.org/) to explore how a diamonds price is correlated with it's features:
+Ever wonder what effects diamond price? Ever wonder if you're getting a good deal on the diamon you're about to buy? In this project, we will use [ggplot2](http://ggplot2.org/) to explore how a diamonds price is correlated with it's features:
 
 * Carat
 * Cut

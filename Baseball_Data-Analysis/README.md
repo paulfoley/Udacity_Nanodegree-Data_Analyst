@@ -1,25 +1,25 @@
 # Data Analysis - Lahman Baseball Data
 
-Analyze the [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/) using Python libraries NumPy, Pandas, and Matplotlib than communicate interesting findings and analyze questions (see below) about the data.
+The [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/) contains complete batting and pitching statistics from 1871 to 2014, plus fielding statistics, standings, team stats, managerial records, post-season data, and more.
 
-[Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/) - A data set containing complete batting and pitching statistics from 1871 to 2014, plus fielding statistics, standings, team stats, managerial records, post-season data, and more. This dataset contains many files, but you can choose to analyze only the one(s) you are most interested in.
+We'll use this data to analyze a few questions we have about [Major League Baseball](https://www.mlb.com/) (MLB).
 
 
 ## Questions for Analysis
-Below are the questions we find interesting and want to answer using the [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/) data set. 
+Below are the questions we are going to answer using the [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/): 
 
 ### Question 1
-As a University of Michigan Alumni (Go Blue!) I'm always curious which universities producce top talent. Let's look at which Universities produce the most MLB All-Stars.
+As a University of Michigan Alumni (Go Blue!) I'm always curious which universities produce top talent. Let's look at which Universities produce the most MLB All-Stars.
 
 * Which University did All Stars attend most?
 
 ### Question 2
-Sports have been growing as an industry, and the salaries that MLB players seem to get are, compared to the general population, astronomically high. Let's look at how salaries have changed over time.
+Sports have been growing as an industry, and the salaries that MLB players seem to get, compared to the general population, are astronomically high. Let's look at how salaries have changed over time.
 
 * How has Total Salary Spend changed each Year? 
 
 ### Question 3
-What's also interesting is that it seems the best players get paid disportionately high compared to the rest of the players. Let's look at the salaries of All-Stars versus the average counterparts.
+What's also interesting, is the best players get paid disportionately high compared to the rest of the normal players. Let's look at the salaries of All-Stars versus the average counterparts.
 
 * What is the mean Salary of All Stars VS. the mean salary of all players in 2016?
 
@@ -50,7 +50,7 @@ You'll need to install:
 * `baseball_data-audit.py` - Audits the baseball data for cleanliness
 
 ### Opening the Jupyter Notebook
-The project `Baseball_Data-Analysis.ipynb` can be read using a Jupyter Notebook. There's also an HTML version `Baseball_Data-Analysis.html` included.
+The project `Baseball_Data-Analysis.ipynb` can be read using a Jupyter Notebook. There's also an HTML version `Baseball_Data-Analysis.html` included for easier viewability.
 
 * Download the `Baseball_Data-Analysis.ipynb`
 * Open your Command Prompt (PC) or terminal (Mac or Linux).
@@ -63,8 +63,8 @@ The project `Baseball_Data-Analysis.ipynb` can be read using a Jupyter Notebook.
 
 The Jupyter Notebook `Baseball_Data-Analysis.ipynb` has all analysis information.
 
-### Special Note
-If you try running a code block and get an error message like no module named matplotlib, then your distribution of Anaconda may be missing a package used in the project. That's okay – there's an easy way that you can install these packages. Take a look at Google for easy to use guides on installation!
+#### Special Note
+If you try running a code block in the notebook and get an error message like no module named matplotlib, then your distribution of Anaconda may be missing a package used in the project. That's okay, there's an easy way that you can install these packages. Take a look at Google for easy to use guides on installation!
 
 
 ## Authors
@@ -80,6 +80,7 @@ If you try running a code block and get an error message like no module named ma
 
 
 ## Licenses
+
 Baseball Databank is a compilation of historical baseball data in a convenient, tidy format, distributed under Open Data terms.
 
 This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License. For details see:

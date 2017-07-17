@@ -1,5 +1,5 @@
-## Analyze Aadhaar Data, 
-## The India's Government initiative to register their 1 Billion + Citizens
+## Analyze Aadhaar Data
+## AAdhaar - The India's government initiative to register their 1 Billion + Citizens
 
 # Import Pandas and PandaSQL
 import pandas

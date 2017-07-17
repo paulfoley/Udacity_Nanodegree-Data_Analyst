@@ -1,6 +1,6 @@
 # Data Wrangling - Airport Data
 
-In this project we will be using the [United State Bureau of Transportation Statistics](https://www.transtats.bts.gov/) API to receive flight data and then parse the data into usable information.
+In this project we will be using the [United State Bureau of Transportation Statistics](https://www.transtats.bts.gov/) API to receive flight data, we'll then parse the data and return flights that go from one airport to another.
 
 ## Getting Started
 
@@ -21,14 +21,14 @@ You'll need to install:
 
 
 ## Running the Scripts
-The following scripts each contain specific functions that will alet
+The following scripts use the [United State Bureau of Transportation Statistics](https://www.transtats.bts.gov/) API for various purposes, each script is described below.
 
 ### Scripts:
 
-* `airports.py` - Provides a list of Aiports available
-* `carriers.py` - Provides a list of Airline Carriers available
-* `transtats_api.py` - Makes a request to the transtats.bts API for a specific Ariline Carrier out of a specific Airport, returns an html file of the data
-* `flights.py` - Creates a list of flights from one aiport to another
+* `airports.py` - Provides a list of aiport codes available through the API
+* `carriers.py` - Provides a list of airline carrier codes available through the API
+* `transtats_api.py` - Returns an html file of all flights out an aiport on a specific carrier
+* `flights.py` - Outputs a CSV of flights from one aiport to another
 
 
 ### Output Files:

@@ -1,20 +1,19 @@
 # Data Explore - Dating Data
 
-Dating data is fascinating! In this exploration we'll be using [Town Charts](hhttp://www.towncharts.com/) populaton data to explore what area features relate to an areas single percentage.
+As a nerd, dating data is fascinating! In this exploration we'll be using [Town Charts](hhttp://www.towncharts.com/) populaton data to explore what area features relate to an areas single percentage.
 
 
 ## Dating Data Exploration
 
-The two primary features were most interested in for this exploration are:
+In this exploration, we'll explore what features of an area effect single ratios, and what that means for dating. Specifically we'll look at two hypothesis's in the dating community.
 
-* % Single Men
-* % Single Women
+### Hypothesis 1
 
-The area features we will be exploring how they relate to single percentage are:
+There is a widespread theory that the gender ratio of an area effects single percentage of that gender. This, from a theory, standpoint makes complete sense as human coupling (usually) is 1 to 1. Therefore if there is a gender imbalance of 54 guys for every 46 girls, there will be atleast 8 guys single. In this exploration we'll actually dig into the data and see how the ratio of women to men effect single percentage of that specific gender.
 
-* % Male
-* % Female
-* Age
+### Hypothesis 2
+
+Another widespread theory is that age effects single percentage. For example, in areas with younger population, i.e. college towns there's a much higher percentage of single people, for a list of proposed reasons such as people are less serious about marriage, less serious about creating families, and for those in college life is potentially more of a transitory time with people enrolling and graduating. We'll be exploring this hypothesis, specifically how single percentage changes with age for different genders.
 
 
 ## Getting Started
@@ -36,7 +35,7 @@ You'll need to install:
 
 ### Exploration Files
 
-* `dating_data_explore.rmd` - Main project file, an [RStudio](https://www.rstudio.com/products/rstudio/download/) file that contains the exploration for the project. 
+* `dating_data_explore.rmd` - Main project file, an Rmd file that contains the exploration for the project. 
 * `dating_data_explore.html` - HTML output for easy viewability in browser.
 
 _**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfoley/dating_data-explore) for easy viewing.**_

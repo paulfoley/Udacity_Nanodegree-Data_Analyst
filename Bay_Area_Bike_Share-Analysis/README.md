@@ -2,11 +2,11 @@
 
 [Ford GoBike](https://www.fordgobike.com/) is a company that provides on-demand bike rentals for customers in San Francisco, Redwood City, Palo Alto, Mountain View, and San Jose. Users can unlock bikes from a variety of stations throughout each city, and return them to any station within the same city. Users pay for the service either through a yearly subscription or by purchasing 3-day or 24-hour passes. Users can make an unlimited number of trips, with trips under thirty minutes in length having no additional charge; longer trips will incur overtime fees.
 
-In this project, we will perform data wrangling as well as an exploratory analysis on the Bay Area Bike Share data to answer specific questions (see below) about their pricing model.
+In this project, we will analyze the Bay Area Bike Share data to answer specific questions (see below) about their pricing model.
 
 
 ## Questions for Analysis
-Below are the questions we find interesting and want to answer using the [Ford GoBike](https://www.fordgobike.com/) data set. 
+Below are the questions we are going to answer using the [Ford GoBike](https://www.fordgobike.com/) data set. 
 
 ### Question 1
 
@@ -53,11 +53,13 @@ system.
 city in the bike share program.
 
 ### Analysis Files
-* `Bay_Area_Bike_Share-Analysis.ipynb` - Main project file, an IPython Notbook that contains the analysis for the project
+
+* `Bay_Area_Bike_Share-Analysis.ipynb` - Main project file, an IPython Notbook that contains the analysis for the project.
 
 * `babs_datacheck.py`; `babs_visualizations.py` - Additional scripts for checking data wrangling, reporting of basic statistics, and creation of exploratory bar charts and histograms.
 
 ### Opening the Jupyter Notebook
+
 The project `Bay_Area_Bike_Share-Analysis.ipynb` can be read using a Jupyter Notebook. There's also an HTML version `Bay_Area_Bike_Share-Analysis.html` included.
 
 * Download the `Bay_Area_Bike_Share-Analysis.ipynb`
@@ -71,7 +73,8 @@ The project `Bay_Area_Bike_Share-Analysis.ipynb` can be read using a Jupyter Not
 
 The Jupyter Notebook `Bay_Area_Bike_Share-Analysis.ipynb` has all project information.
 
-### Special Note
+#### Special Note
+
 If you try running a code block and get an error message like no module named matplotlib, then your distribution of Anaconda may be missing a package used in the project. That's okay – there's an easy way that you can install these packages. Take a look at Google for easy to use guides on installation!
 
 
