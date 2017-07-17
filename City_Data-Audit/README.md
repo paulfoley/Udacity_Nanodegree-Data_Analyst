@@ -2,7 +2,7 @@
 
 As a project, to show off data wrangling skills, we'll use the City data provided by [DBpedia](http://wiki.dbpedia.org/) to do some auditing and cleaning.
 
-In the following scripts we'll take in the 'cities.csv' file, and either audit it for accuracy and completeness, or we'll clean the data and re-output the clean data only into a csv file for use later.
+In the following scripts we'll take in the `cities.csv` file, and either audit it for accuracy and completeness, or we'll clean the data and re-output the clean data into a csv file for use later.
 
 ## Getting Started
 
@@ -50,7 +50,7 @@ You'll need to install:
 
 * **Paul Foley** - [paulfoley](https://github.com/paulfoley)
 
-See also the list of [contributors](https://github.com/paulfoley/data-analyst/tree/master/City_Data-Audit) who participated in this project.
+* Other [contributors](https://github.com/paulfoley/data-analyst/tree/master/City_Data-Audit) who participated in this project.
 
 
 ## License
