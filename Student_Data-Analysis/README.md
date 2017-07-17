@@ -1,6 +1,6 @@
 # Data Analysis - Udacity Student Data
 
-[Udacity](https://www.udacity.com/) has provided sample student data, in this analysis we're going to derive insights on what makes a student pass a course versus not passing a course.
+[Udacity](https://www.udacity.com/), one of the best online education companies in the world, has provided sample student data, in this analysis we're going to derive insights on what makes a student pass one of their Nanodegrees versus not passing a course.
 
 
 ## Questions for Analysis
@@ -8,21 +8,21 @@ Below are the questions we're going to answer using the [Udacity](https://www.ud
 
 ### Question 1
 
-Effort has been known to have a strong correlation with succes in almost every activity. For our first question, let's look at how much time the student has spent in the classroom and learning the lessons of the students that passed versus the students that did not pass.
+Effort has been known to have a strong correlation with succes in almost every activity. For our first question, let's look at how much time the student has spent in the classroom and learning for students that passed versus the students that did not pass.
 
 * Is there a difference in time spent in the classroom for passing students?
 
 ### Question 2
 
-Next let's look at how many lessons each student is taking. The idea of which is, does taking more lessons on Udacity equate to students passing their Nanodegree.
+Next let's look at how many lessons each student is taking. The idea of which is, the more lessons the more likely a student is going to pass.
 
 * What's the difference in number of lessons taken by students who pass versus students who don't pass?
 
 ### Question 3
 
-Next let's look at a students study habits, 
+Next let's look at a students study habits, are students who do something daily more likely to pass then student's who don't learn daily.
 
-* Are there specific cities where bike share is used more then other cities?
+* What's the difference in daily study habits of the students who pass versus students who don't pass?
 
 
 ## Getting Started

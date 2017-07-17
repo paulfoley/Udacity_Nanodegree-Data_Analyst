@@ -1,6 +1,6 @@
 # Data Explore - Reddit User Data
 
-[Reddit](https://www.reddit.com/) has provided sample data of their users for exploration.
+[Reddit](https://www.reddit.com/) is an outstanding site! They have been kind enough to donate some sample user data for some data exploration.
 
 
 ## Reddit User Exploration
