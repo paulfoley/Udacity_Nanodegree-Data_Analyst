@@ -76,11 +76,11 @@ Make sure to name each table respectively!
 
 This project Focuses on the below, all written up in the `Project_Summary.docx`:
 
-• Understanding the ‘Elements’ in the OSM File
-• Understanding the ‘Tags’ in the OSM File
-• Exploring and Auditing Street Names
-• Exploring and Auditing Postal Codes
-• Understanding Users
+* Understanding the `Elements` in the OSM File
+* Understanding the `Tags` in the OSM File
+* Exploring and Auditing Street Names
+* Exploring and Auditing Postal Codes
+* Understanding Users
 
 
 ## Authors

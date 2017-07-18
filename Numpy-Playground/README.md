@@ -32,10 +32,8 @@ You'll need to install:
 
 ## Authors
 
-* **[Udacity](https://www.udacity.com/)***
+* **[Udacity](https://www.udacity.com/)**
 * [Paul Foley](https://github.com/paulfoley)
-
-* Other [contributors](https://github.com/paulfoley/data-analyst/tree/master/ERCOT-Parse) who participated in this project.
 
 
 ## License
