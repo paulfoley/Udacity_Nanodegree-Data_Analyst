@@ -57,13 +57,13 @@ city in the bike share program.
 
 ## Python Notebook and Scripts
 
-* `Bay_Area_Bike_Share-Analysis.ipynb` - Main project file, an IPython Notbook that contains the analysis for the project.
+* `Ford_GoBike-Analysis.ipynb` - Main project file, an IPython Notbook that contains the analysis for the project.
 
-* `babs_datacheck.py`; `babs_visualizations.py` - Additional scripts for checking data wrangling, reporting of basic statistics, and creation of exploratory bar charts and histograms.
+* `datacheck.py`; `visualizations.py` - Additional scripts for checking data wrangling, reporting of basic statistics, and creation of exploratory bar charts and histograms.
 
 ### Opening the Jupyter Notebook
 
-The project `Bay_Area_Bike_Share-Analysis.ipynb` can be read using a Jupyter Notebook. There's also an HTML version `Bay_Area_Bike_Share-Analysis.html` included for easier viewability.
+The project `Ford_GoBike-Analysis.ipynb` can be read using a Jupyter Notebook. There's also an HTML version `Ford_GoBike-Analysis.html` included for easier viewability.
 
 * Open your Command Prompt (PC) or terminal (Mac or Linux).
 * On a PC click the Start button and search for "Command Prompt".
@@ -71,7 +71,7 @@ The project `Bay_Area_Bike_Share-Analysis.ipynb` can be read using a Jupyter Not
 * Navigate to the directory where you downloaded the Jupyter notebook file.
 * On a PC you might type: cd C:\Users\username\Downloads\, replacing your username. Learn more about basic terminal commands.
 * On Mac or Linux you might type: cd ~/Downloads.
-* Run the command `jupyter notebook Bay_Area_Bike_Share-Analysis.ipynb` in your terminal.
+* Run the command `jupyter notebook Ford_GoBike-Analysis.ipynb` in your terminal.
 
 #### Special Note
 
