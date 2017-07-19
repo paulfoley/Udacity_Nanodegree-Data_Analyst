@@ -1,9 +1,8 @@
-# Data Analyst Nanodegree
+# Udacity Nanodegree - Data Analyst
 
 The [Udacity Data Analyst Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002) is built with leading technology companies, such as [Facebook](https://www.facebook.com/), [MongoDB](https://www.mongodb.com/), [Tableau](https://www.tableau.com/), and [Google](https://www.google.com/) to ensure mastery of the exact skills necessary to build a career in data science.
 
-## Course Overview
-Projects include organizing data, uncovering patterns, deriving insights, and clearly communicating critical findings.
+## Nanodegree Overview
 
 ### Curriculum
 The following topics are covered in depth:
@@ -20,7 +19,11 @@ The following topics are covered in depth:
 ![Udacity Nanodegree Certificate Programming](Certificate_Nanodegree-Programming.jpg?raw=true "Udacity Nanodegree Certificate Programming")
 
 
-## Project Table of Contents
+## Projects
+
+Projects include organizing data, uncovering patterns, deriving insights, and clearly communicating critical findings.
+
+### Table of Contents
 
 * Aadhaar_Data-Analysis
 * Airport_Data-Wrangle
