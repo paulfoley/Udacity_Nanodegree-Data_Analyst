@@ -7,7 +7,7 @@
 
 To help [DBpedia](http://wiki.dbpedia.org/), we're going to audit one of their data sets for cleanliness.
 
-Specifically, we'll take in the `cities.csv` and audit the data for accuracy and completeness. After fixing the data we'll re-output the clean data into a new CSV file.
+Specifically, we'll look at the `cities.csv` file and audit the data for accuracy and completeness. After fixing the data we'll re-output the clean data into a new CSV file.
 
 
 ## Getting Started
@@ -21,7 +21,7 @@ You'll need to install:
 
 ### Data Files
 
-* `cities.csv` - City data for auditing
+* `cities.csv` - [DBpedia](http://wiki.dbpedia.org/) city data for auditing.
 
 
 ## Scripts
