@@ -2,6 +2,14 @@
 
 [Aadhaar Enrolment](https://uidai.gov.in/enrolment-update/aadhaar-enrolment.html) is an initiative by the India Government to better register their citizens. As India has over a billion people, keeping track of citizens is a major problem.
 
+## Project Overview
+
+In this project we're going to create a python script that can query [Aadhaar Enrolment](https://uidai.gov.in/enrolment-update/aadhaar-enrolment.html) the data set and derive insights, such as:
+
+* Query residents By State
+* Query residents by District
+* Query residents by Gender
+
 
 ## Getting Started
 
@@ -18,11 +26,9 @@ You'll need to install:
 * `aadhaar_data.csv` - Aadhaar Data Set
 
 
-## Querying the Aadhaar Data
+## Script
 
-In this project we'll use pandas and pandasql to analyze the Aadhaar data using SQL queries.
-
-* `aadhaar-analysis.py` - Has functions to easily sort and filter the Aadhaar data
+* `aadhaar-analysis.py` - Python script with functions to easily sort and filter the Aadhaar data.
 
 ### Functions:
 
