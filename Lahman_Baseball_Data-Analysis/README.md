@@ -9,23 +9,17 @@ In this project, we're interested in answering a few questions (see below) about
 
 ### Questions for Analysis
 
-#### Question 1
+#### Analysis 1
 
-As a University of Michigan Alumni (Go Blue!) I'm always curious which universities produce top talent. Let's look at which Universities produce the most MLB All-Stars.
+As a University of Michigan Alumni (Go Blue!) I'm always curious which universities produce top talent. We'll look at which Universities produce the most MLB All-Stars.
 
-* Which University did All Stars attend most?
+#### Analysis 2
 
-#### Question 2
+The salaries that MLB players get, compared to the general population, are astronomically high. Let's look at how [MLB](https://www.mlb.com/) salaries have changed over time.
 
-Sports have been growing as an industry, and the salaries that MLB players seem to get, compared to the general population, are astronomically high. Let's look at how salaries have changed over time.
+#### Analysis 3
 
-* How has Total Salary Spend changed each Year? 
-
-#### Question 3
-
-What's also interesting, is the best players get paid disportionately high compared to the rest of the normal players. Let's look at the salaries of All-Stars versus the average counterparts.
-
-* What is the mean Salary of All Stars VS. the mean salary of all players in 2016?
+What's also interesting, is the best players seem to get paid disportionately high compared to the rest of the normal players. Let's look at the salaries of All-Stars versus their average counterparts.
 
 
 ## Getting Started
@@ -51,8 +45,8 @@ You'll need to install:
 
 ## Python Notebook and Scripts
 
-* `Baseball_Data-Analysis.ipynb` - IPython notebook that contains the analysis
-* `baseball_data-audit.py` - Audits the baseball data for cleanliness
+* `Baseball_Data-Analysis.ipynb` - Main project file, the IPython notebook that contains the analysis.
+* `baseball_data-audit.py` - Audits the baseball data for cleanliness.
 
 ### Opening the Jupyter Notebook
 The project `Baseball_Data-Analysis.ipynb` can be read using a Jupyter Notebook. There's also an HTML version `Baseball_Data-Analysis.html` included for easier viewability.
@@ -65,8 +59,6 @@ The project `Baseball_Data-Analysis.ipynb` can be read using a Jupyter Notebook.
 * On a PC you might type: cd C:\Users\username\Downloads\, replacing your username. Learn more about basic terminal commands.
 * On Mac or Linux you might type: cd ~/Downloads.
 * Run the command `jupyter notebook Baseball_Data-Analysis.ipynb` in your terminal.
-
-The Jupyter Notebook `Baseball_Data-Analysis.ipynb` has all analysis information.
 
 #### Special Note
 If you try running a code block in the notebook and get an error message like no module named matplotlib, then your distribution of Anaconda may be missing a package used in the project. That's okay, there's an easy way that you can install these packages. Take a look at Google for easy to use guides on installation!

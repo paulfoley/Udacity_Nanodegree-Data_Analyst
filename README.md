@@ -13,7 +13,7 @@ The following topics are covered in depth:
 * Exploratory Data Analysis
 * Data Visualization
 
-### Certificates of Completion
+### Certificate of Completion
 
 ![Udacity Nanodegree Certificate Data Analyst](Certificate_Nanodegree-Data_Analyst.jpg?raw=true "Udacity Nanodegree Certificate Data Analyst")
 
