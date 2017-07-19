@@ -1,6 +1,6 @@
 # Data Analyst Nanodegree
 
-This Data Analyst program is built with leading technology companies, such as Facebook, MongoDB, Tableau, and Google to ensure mastery of the exact skills necessary to build a career in data science.
+This [Udacity Data Analyst Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002) is built with leading technology companies, such as Facebook, MongoDB, Tableau, and Google to ensure mastery of the exact skills necessary to build a career in data science.
 
 ## Course Overview
 Projects include organizing data, uncovering patterns, deriving insights, and clearly communicating critical findings.
