@@ -1,6 +1,6 @@
-# Data Audit - ERCOT Data
+# Project - ERCOT Analysis
 
-Electric Reliability Council of Texas ([ERCOT](http://www.ercot.com/mktinfo/data_agg)) provides an open source version of their data.
+Electric Reliability Council of Texas ([ERCOT](http://www.ercot.com/mktinfo/data_agg)) provides an open source version of their energy data.
 
 
 ## Project Overview
