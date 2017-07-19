@@ -1,4 +1,4 @@
-# Data Query - Weather Data
+# Project - Weather Data
 
 Who doesn't want to know the weather? [Weather Underground](https://www.wunderground.com/) provides weather data for areas across the world.
 

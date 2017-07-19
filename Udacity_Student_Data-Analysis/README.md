@@ -1,6 +1,6 @@
 # Project - Udacity Student Data
 
-[Udacity](https://www.udacity.com/), one of the best online education companies in the world, has provided sample student data for exploration. In this analysis we're going to derive insights on what makes a student pass one of their Nanodegrees versus not passing a course.
+[Udacity](https://www.udacity.com/), one of the best online education companies in the world, has provided sample student data for exploration. In this analysis we're going to derive insights on what makes a student pass one of their Nanodegrees versus not passing the Nanodegree.
 
 
 ## Areas of Analysis
