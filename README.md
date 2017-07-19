@@ -6,7 +6,7 @@ The [Udacity Data Analyst Nanodegree](https://www.udacity.com/course/data-analys
 Projects include organizing data, uncovering patterns, deriving insights, and clearly communicating critical findings.
 
 ### Curriculum
-The curriculum is broken up into the following topics are covered in depth:
+The following topics are covered in depth:
 
 * Data Analysis
 * Data Wrangling
