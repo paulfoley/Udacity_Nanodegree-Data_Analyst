@@ -1,6 +1,6 @@
 # Data Analysis - Aadhaar Enrolment
 
-[Aadhaar Enrolment](https://uidai.gov.in/enrolment-update/aadhaar-enrolment.html) is an initiative by the India Government to better register their citizens. As India has over a billion people, keeping track of citizens is a major problem.
+[Aadhaar Enrolment](https://uidai.gov.in/enrolment-update/aadhaar-enrolment.html) is an initiative by the India Government to register their citizens. As India has over a billion people, keeping track of citizens is a major problem.
 
 ## Project Overview
 
