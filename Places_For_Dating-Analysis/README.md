@@ -33,15 +33,6 @@ First, let’s find the states that have the most men:
 		<param name='display_count' value='yes' />
 	</object>
 </div> 
-<script type='text/javascript'>
-	var divElement = document.getElementById('viz1500493124497');
-	var vizElement = divElement.getElementsByTagName('object')[0];
-	vizElement.style.width='100%';
-	vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-	var scriptElement = document.createElement('script');
-	scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-	vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
 
 The chart is clear! Women should move to Alaska, where there is the highest ratio of single men, 19.32% to be exact, that’ll increase their odds!
 
