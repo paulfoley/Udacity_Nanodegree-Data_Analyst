@@ -1,8 +1,0 @@
-name: Publish Document
-title:
-account: rpubs
-server: rpubs.com
-appId: https://api.rpubs.com/api/v1/document/291405/48bf393cc84e4ad5ac12ffd73c7966a4
-bundleId: https://api.rpubs.com/api/v1/document/291405/48bf393cc84e4ad5ac12ffd73c7966a4
-url: http://rpubs.com/paulfoley/291405
-when: 1500236355.26031
