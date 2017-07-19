@@ -1,11 +1,11 @@
-# Data Explore - Diamond Price
+# Price - Diamond Price
 
 [ggplot2](http://ggplot2.org/) provides a built in `diamonds` data set. We'll use this data set to explore a diamonds price versus it's features.
 
 
-## Diamond Price Exploration
+## Project Overview
 
-Ever wonder what effects diamond price? Ever wonder if you're getting a good deal on the diamon you're about to buy? In this project, we will use [ggplot2](http://ggplot2.org/) to explore how a diamonds price is correlated with it's features:
+Ever wonder what effects diamond price? Ever wonder if you're getting a good deal on the diamond you're about to buy? In this project, we will use [ggplot2](http://ggplot2.org/) to explore how a diamonds price is correlated with it's features:
 
 * Carat
 * Cut
