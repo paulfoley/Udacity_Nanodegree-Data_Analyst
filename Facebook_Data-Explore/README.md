@@ -3,7 +3,7 @@
 [Facebook](https://www.facebook.com/) has provided sample data of their users for exploration. We'll use this sample data to explore how people use one of my favorite websites.
 
 
-## Facebook User Exploration
+## Project Overview
 
 In this project, we will use [Facebook](https://www.facebook.com/) sample user data and explore users various features:
 
