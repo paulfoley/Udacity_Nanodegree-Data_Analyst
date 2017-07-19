@@ -7,7 +7,7 @@ A common problem amongst my friends is finding a significant other. I have girlf
 
 As a real-life example, I have a friend, that lives in Manhattan NY; For the analysis we’ll call her by the fake name Alexa (for privacy purposes). She complains that New York is the worst place in the world to date men because there are TOO MANY WOMEN. The competition makes dating hard. 
 
-Then on the other hand I have a friend that lives in San Jose CA; We'll call him by the fake name Alex (again for privacy purposes). He complains that San Jose is the worst place in the world to date women, because the area seems over run with 'tech dudes'. The mass density nerds (because they're so sexy) doesn't leave many eligible bachelorettes.
+Then on the other hand I have a friend that lives in San Jose CA; We'll call him by the fake name Alex (again for privacy purposes). He complains that San Jose is the worst place in the world to date women, because the area seems over run with 'tech dudes'. The mass density of nerds (because they're so sexy) doesn't leave many eligible bachelorettes.
 
 
 ## Analysis
