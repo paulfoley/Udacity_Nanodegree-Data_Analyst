@@ -15,7 +15,7 @@ Let’s start with Alexa. To do this we’re going to focus on areas that have a
 
 First, let’s find the states that have the most men:
 
-CHART
+![States - Most Men](plots/States-Men_Single_Ratio.jpg)
 
 The chart is clear! Women should move to Alaska, where there is the highest ratio of single men, 19.32% to be exact, that’ll increase their odds!
 
@@ -23,7 +23,7 @@ O wait… Alexa is telling me that she’s not moving to Alaska just to find a h
 
 I got an idea! Next let’s plot a bar graph of single men by area. 
 
-[Bar Chart – Men Ratio By Area]
+![Bar Chart – Men Ratio By Area](plots/Bar-Single_Men_Ratio.jpg)
 
 Great news! There are some areas that have 90%+ single men, that’s great odds! I’m going to recommend Alexa move to Little America WY, a small town of 68 people in the middle of nowhere.
 
@@ -35,7 +35,7 @@ Also, from what Alexa tells me, it sounds like age range is important to her, sh
 
 We’re going to need a new metric – percent men single between the ages of 25 and 40.  I created this using Tableau’s Create Field functionality. Now our target areas are cities, and we have a specific age range. Let’s replot! 
 
-[Bar Chart – Top Cities For Single Men]
+![Bar Chart – Cities with Single Men](plots/Bar-Cities_Single_Men.jpg)
  
 Great! So, the choice is clear San Francisco CA, Manhattan NY, and Seattle WA. These are the best places for a girl to be single.
 
@@ -45,13 +45,13 @@ We forgot to add in a crucial data point, gender ratio. There’s been a bunch o
 
 So, to help Alexa out, let’s add in a filter of male ratio that is 50% or greater:
 
-[Bar Chart – Top Cities for Single Men]
+![Bar Chart – Top Cities with Single Men](plots/Bar-Top_Cities_Men.jpg)
 
 AND BOOM! The city of choice for single women to find a mate are San Francisco CA, Seattle WA, and San Jose CA. It looks like a move to the west coast is needed!
 
 Now let’s do the same exact steps with Alex. His criteria is a city as well, dating age range of 18 to 34, and a gender ratio of women 52%+. Here’s the plot we got:
 
-[Bar Chart – Women Single Ratio By City]
+![Bar Chart – Women Single Ratio By City](plots/Bar-Top_Cities_Women.jpg)
 
 It looks like Alex needs to move to Manhattan NY, Baltimore MD, or Bronx NY!
 
