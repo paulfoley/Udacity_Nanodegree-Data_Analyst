@@ -7,7 +7,7 @@ The [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statist
 
 In this project, we're interested in answering a few questions (see below) about [Major League Baseball](https://www.mlb.com/). To answer them, we're going to write some python, and use the [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/)!
 
-### Questions for Analysis
+### Areas for Analysis
 
 #### Analysis 1
 
@@ -49,9 +49,9 @@ You'll need to install:
 * `baseball_data-audit.py` - Audits the baseball data for cleanliness.
 
 ### Opening the Jupyter Notebook
+
 The project `Baseball_Data-Analysis.ipynb` can be read using a Jupyter Notebook. There's also an HTML version `Baseball_Data-Analysis.html` included for easier viewability.
 
-* Download the `Baseball_Data-Analysis.ipynb`
 * Open your Command Prompt (PC) or terminal (Mac or Linux).
 * On a PC click the Start button and search for "Command Prompt".
 * On a Mac type command + spacebar. Then, type "terminal" in the Spotlight Search. You can also search for "terminal" in finder.
@@ -61,7 +61,8 @@ The project `Baseball_Data-Analysis.ipynb` can be read using a Jupyter Notebook.
 * Run the command `jupyter notebook Baseball_Data-Analysis.ipynb` in your terminal.
 
 #### Special Note
-If you try running a code block in the notebook and get an error message like no module named matplotlib, then your distribution of Anaconda may be missing a package used in the project. That's okay, there's an easy way that you can install these packages. Take a look at Google for easy to use guides on installation!
+
+If you try running a code block in the notebook and get an error message like no module named matplotlib, then your distribution of Anaconda may be missing a package used in the project. That's okay, there's an easy way that you can install these packages. Google any missing library for easy to use guides on installation!
 
 
 ## Authors
