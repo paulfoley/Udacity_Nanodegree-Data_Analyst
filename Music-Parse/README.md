@@ -1,13 +1,13 @@
-# Data Extract - Music Data
+# Project - Music Services API's
 
 Music is amazing. With the rise of the internet, there are a ton of sites that have an encyclopedia worth of music data, two of which are [MusicBrainz](https://musicbrainz.org/) and [AudioScrobbler](http://www.audioscrobbler.net/).
 
-These sites also have API's which allows us to conenct and extract their information. 
+These sites also have API's which allows us to connect and extract their music data. 
 
 
 ## Project Overview
 
-We'll be using the [MusicBrainz](https://musicbrainz.org/) and [AudioScrobbler](http://www.audioscrobbler.net/) API's to get info about our favorite artists and their albulms.
+In this project, we'll be using the [MusicBrainz](https://musicbrainz.org/) and [AudioScrobbler](http://www.audioscrobbler.net/) API's to get info about our favorite artists and their albulms.
 
 ### MusicBrainz
 
