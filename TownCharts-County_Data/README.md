@@ -1,9 +1,9 @@
-# Data Explore - County Data
+# Project - TownCharts County Data
 
 [TownCharts](http://www.towncharts.com/) provides population data for us cities, towns, and areas in the US. We'll use this data to explore various features in counties across the US.
 
 
-## Population Exploration
+## Project Overview
 
 In this project, we will perform a data exploration on counties across the US, specifically looking at the county features:
 
@@ -27,7 +27,8 @@ You'll need to install:
 
 * `county_statistics.csv` - [TownCharts](http://www.towncharts.com/) county data
 
-### Exploration Files
+
+## Exploration Files
 
 * `county_data-explore.rmd` - Main project file, an Rmd file that contains the analysis for the project. 
 * `county_data-explore.html` - An HTML output for easy viewability in the browser. 
