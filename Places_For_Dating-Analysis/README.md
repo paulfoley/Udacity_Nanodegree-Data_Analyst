@@ -15,7 +15,7 @@ Let’s start with Alexa. To do this we’re going to focus on areas that have a
 
 First, let’s find the states that have the most men:
 
-![MAP – Men Single Ratio By State](https://public.tableau.com/profile/paul.foley2745#!/vizhome/DataVisualizationProject_12/MenSingleRatioByCity)
+![MAP – Men Single Ratio By State](https://public.tableau.com/shared/TQ24WQNTF?:display_count=yes)
 
 The chart is clear! Women should move to Alaska, where there is the highest ratio of single men, 19.32% to be exact, that’ll increase their odds!
 
