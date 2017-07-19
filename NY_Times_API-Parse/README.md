@@ -1,6 +1,6 @@
-# Data Extract - NY Times Articles
+# Project - NY Times API
 
-The [The New York Times](https://developer.nytimes.com/) is a source of news and information. But now it's a source of data, too. A lot of publishers provide API's to their site to allow developers to extract articles from their database.
+The [The New York Times](https://developer.nytimes.com/) is a source of news and information. But now it's a source of data, too. [The New York Times](https://developer.nytimes.com/), as well as other publishers, provide API's to their site to allow developers to extract articles from their database.
 
 
 ## Project Overview

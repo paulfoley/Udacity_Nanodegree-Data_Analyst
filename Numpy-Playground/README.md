@@ -5,7 +5,7 @@
 Also, [Numpy](http://www.numpy.org/) is battle tested and optimized, so that it runs fast, much faster than if you were working with Python lists directly.
 
 
-## Project Overview
+## Playground Overview
 
 In this project, we'll play with the Numpy library, specifically:
 

@@ -1,4 +1,4 @@
-# Data Wrangling - OpenStreetMap Data
+# Project - OpenStreetMap Data
 
 [OpenStreetMap](https://www.openstreetmap.org) is a map of the world, created by people for free, to use under an open license, and to build amazing projects.
 

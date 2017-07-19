@@ -1,9 +1,9 @@
-# Data Explore - Reddit User Data
+# Project - Reddit User Data
 
-[Reddit](https://www.reddit.com/) is an outstanding site! They have been kind enough to donate some sample user data for some data exploration.
+[Reddit](https://www.reddit.com/) is an outstanding site! They have been kind enough to donate some sample user data for data exploration.
 
 
-## Reddit User Exploration
+## Project Overview
 
 In this project, we will use [Reddit](https://www.reddit.com/) sample user data and explore their various features:
 

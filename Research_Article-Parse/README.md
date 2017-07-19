@@ -1,11 +1,11 @@
-# Data Extract - Research Articles
+# Project - Research Articles
 
 In the academic community, especially the medical community, research is paramount. We'll be using a research article from [BioMed Central](https://www.biomedcentral.com/) to parse relevant data from the paper.
 
 
 ## Project Overview
 
-In this project, we're curious who are the authors of the research article? We'll use code to parse the paper, provided by [BioMed Central](https://www.biomedcentral.com/), and get the authors as well as get their email addresses.
+In this project, we're curious who are the authors of a research article. We'll use code to parse the paper, provided by [BioMed Central](https://www.biomedcentral.com/), and get the authors as well as get their email addresses so we can potentially send them follow up questions.
 
 
 ## Getting Started

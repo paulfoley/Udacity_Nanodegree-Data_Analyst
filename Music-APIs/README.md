@@ -1,4 +1,4 @@
-# Project - Music Services API's
+# Project - Music API's
 
 Music is amazing. With the rise of the internet, there are a ton of sites that have an encyclopedia worth of music data, two of which are [MusicBrainz](https://musicbrainz.org/) and [AudioScrobbler](http://www.audioscrobbler.net/).
 
