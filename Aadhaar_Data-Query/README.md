@@ -1,10 +1,10 @@
-# Data Analysis - Aadhaar Enrolment
+# Project - Aadhaar Enrolment
 
-[Aadhaar Enrolment](https://uidai.gov.in/enrolment-update/aadhaar-enrolment.html) is an initiative by the India Government to register their citizens. As India has over a billion people, keeping track of citizens is a major problem.
+[Aadhaar Enrolment](https://uidai.gov.in/enrolment-update/aadhaar-enrolment.html) is an initiative by the India Government to register their citizens. As India has over a billion people, keeping track of residents is a major problem.
 
 ## Project Overview
 
-In this project we're going to create a python script that can query [Aadhaar Enrolment](https://uidai.gov.in/enrolment-update/aadhaar-enrolment.html) the data set and derive insights, such as:
+In this project we're going to create a python script that can perform queries on the [Aadhaar Enrolment](https://uidai.gov.in/enrolment-update/aadhaar-enrolment.html) data set, such as:
 
 * Query residents By State
 * Query residents by District

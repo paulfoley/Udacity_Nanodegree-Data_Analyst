@@ -1,6 +1,11 @@
-# Data Wrangling - Airport Data
+# Project - Transtats API
 
-In this project we will be using the [United State Bureau of Transportation Statistics](https://www.transtats.bts.gov/) API to receive flight data, we'll then parse the data and return flights that go from one airport to another.
+The [United State Bureau of Transportation Statistics](https://www.transtats.bts.gov/) provides an API that developers can use to query flight data for their projects.
+
+
+## Project Overview
+
+In this project we want get a list of flights going from one airport to another. We'll use the [United State Bureau of Transportation Statistics](https://www.transtats.bts.gov/) API to receive flight data, arse the data, and then get a list of flights that go from one airport to another.
 
 
 ## Getting Started
@@ -21,11 +26,7 @@ You'll need to install:
 * `virgin_and_logan_airport.html` - HTML file of Virgin flights from Logan Airport
 
 
-## Running the Scripts
-
-The following scripts use the [United State Bureau of Transportation Statistics](https://www.transtats.bts.gov/) API for various purposes, each script is described below.
-
-### Scripts:
+## Scripts
 
 * `airports.py` - Provides a list of aiport codes available through the API
 * `carriers.py` - Provides a list of airline carrier codes available through the API
