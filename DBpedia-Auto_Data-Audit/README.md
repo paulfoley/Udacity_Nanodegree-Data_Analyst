@@ -1,12 +1,12 @@
 # Project - DBpedia Auto Data
 
-[DBpedia](http://wiki.dbpedia.org/) is building a public data infrastructure for a large, multilingual, semantic knowledge graph! They have a ton of data, and as with most data sets, it could use some cleaning.
+[DBpedia](http://wiki.dbpedia.org/) is building public data infrastructure for a large, multilingual, semantic knowledge graph! They have a ton of data sets, and as with most data sets, they could use some cleaning.
 
 ## Project Overview
 
 To help [DBpedia](http://wiki.dbpedia.org/), we're going to audit one of their data sets for cleanliness.
 
-Specifically, we'll take in the 'autos.csv' file and output the already clean data into `autos-valid.csv` and then output data that needs fixing into `FIXME-autos.csv`.
+Specifically, we'll take in the `autos.csv` file and output the already clean data into `autos-valid.csv` and then output data that needs fixing into `FIXME-autos.csv`.
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ You'll need to install:
 
 ## Script
 
-* `audit_production_start_year.py` - Takes in the `autos.csv` and outputs already valid data into `autos-valid.csv`, the data that needs to be cleaned will go into 'FIXME-autos.csv'
+* `audit_production_start_year.py` - Takes in the `autos.csv` and outputs already valid data into `autos-valid.csv`, the data that needs to be cleaned will go into `FIXME-autos.csv`
 
 ### Script Function:
 
