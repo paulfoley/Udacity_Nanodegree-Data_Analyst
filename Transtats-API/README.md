@@ -5,7 +5,7 @@ The [United State Bureau of Transportation Statistics](https://www.transtats.bts
 
 ## Project Overview
 
-In this project we want get a list of flights going from one airport to another. We'll use the [United State Bureau of Transportation Statistics](https://www.transtats.bts.gov/) API to receive flight data, arse the data, and then get a list of flights that go from one airport to another.
+In this project we want get a list of flights going from one airport to another. We'll use the [United State Bureau of Transportation Statistics](https://www.transtats.bts.gov/) API to receive flight data, parse the data, and then get a list of flights that go from one airport to another.
 
 
 ## Getting Started
