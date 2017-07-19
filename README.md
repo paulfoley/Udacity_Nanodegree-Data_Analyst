@@ -53,7 +53,17 @@ The following topics are covered in depth:
 * [Pandas](https://anaconda.org/anaconda/pandas)
 * [Numpy](https://anaconda.org/anaconda/numpy)
 
-### Conda Environments
+### Conda Environment
 
-* dand-env-mac.yaml - Instructions how to install
+* [Managing Enironments](https://conda.io/docs/using/envs.html) - Anaconda documentation on how to setup a Pyhton 3 environment.
 
+
+## Authors
+
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
