@@ -1,8 +1,13 @@
-# Data Audit - City Data
+# Project - DBpedia City Data
 
-As a project, to show off data wrangling skills, we'll use the City data provided by [DBpedia](http://wiki.dbpedia.org/) to do some auditing and cleaning.
+[DBpedia](http://wiki.dbpedia.org/) is building public data infrastructure for a large, multilingual, semantic knowledge graph! They have a ton of data sets, and as with most data sets, they could use some cleaning.
 
-In the following scripts we'll take in the `cities.csv` file, and either audit it for accuracy and completeness, or we'll clean the data and re-output the clean data into a csv file for use later.
+
+## Project Overview
+
+To help [DBpedia](http://wiki.dbpedia.org/), we're going to audit one of their data sets for cleanliness.
+
+Specifically, we'll take in the `cities.csv` and audit the data for accuracy and completeness. After fixing the data we'll re-output the clean data into a new CSV file.
 
 
 ## Getting Started
@@ -25,16 +30,16 @@ You'll need to install:
 
 * `get_field_types.py` - Explore the cities.csv data file by getting each fields data types.
 
-### Audit Names
+### Audit City Names
 
 * `audit_name.py` - Script that takes in the name of each area, cleans the name field and outputs a list of all area names.
 
-### Audit Location
+### Audit City Location
 
 * `audit_city_location.py` - Script that goes through the location data and outputs a count of how many cities are missing location data.
 * `verify_city_location.py` - To further audit the city location, this script outputs a CSV file of all locations that either have Null values, or have values that aren't verified by a cross check on latitude and longitude. The output data can be used to clean the location data at later time.
 
-### Audit Number of Acres
+### Audit Number of Acres in Area
 
 * `audit_acres.py` - Script that audits the number of acres for each area. Takes in the number of acres for each area and either outputs a float value containing the number of acres or `None` for empty or "Null" values.
 
