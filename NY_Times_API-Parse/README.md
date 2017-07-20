@@ -10,7 +10,7 @@ We're going to use [The New York Times](https://developer.nytimes.com/) API to g
 Specifially we'll look at:
 
 * Most Viewed Titles
-* Most Viewed URL's
+* Most Viewed URLs
 
 
 ## Getting Started
