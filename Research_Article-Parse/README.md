@@ -5,7 +5,7 @@ In the academic community, especially the medical community, research is paramou
 
 ## Project Overview
 
-In this project, we're curious who are the authors of a research article. We'll use code to parse the paper, provided by [BioMed Central](https://www.biomedcentral.com/), and get the authors as well as get their email addresses so we can potentially send them follow up questions.
+In this project, we're curious as to who are the authors of a research article. We'll use code to parse the paper, provided by [BioMed Central](https://www.biomedcentral.com/), and get the authors as well as get their email addresses so we can potentially send them follow up questions.
 
 
 ## Getting Started
@@ -43,7 +43,7 @@ You'll need to install:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 
 ## Acknowledgments
