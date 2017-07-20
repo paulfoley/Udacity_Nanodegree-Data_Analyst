@@ -7,7 +7,7 @@ We're going to give back to this open source project [OpenStreetMap](https://www
 
 ## Project Overview
 
-We're going to focus on clearning the [OpenStreetMap Denver/Boulder, CO Area](https://mapzen.com/data/metro-extracts/metro/denver-boulder_colorado/). This data set contains, my hometown of Louisville, CO, which I love. It's a budding community in between Boulder and Denver, which are two cities I've thoroughly enjoyed living in as well. 
+We're going to focus on clearning the [OpenStreetMap Denver/Boulder, CO Area](https://mapzen.com/data/metro-extracts/metro/denver-boulder_colorado/). This data set contains, my hometown of Louisville CO, which I love. It's a budding community in between Boulder and Denver, which are two cities I've thoroughly enjoyed living in as well. 
 
 In this project we're going to asses the quality of the data for:
 
@@ -36,7 +36,7 @@ In this project we're going to asses the quality of the data for:
 
 ### OSM Sample File
 
-After initially downloading the [OpenStreetMap Denver/Boulder, CO Area](https://mapzen.com/data/metro-extracts/metro/denver-boulder_colorado/), the OSM file is very large. So the ‘sample_output_osm.py’ script was written to output a sample file of the data that is 1/100th the size. The data output is named `denver_sample.osm`, but to clarify the sample data includes samples from both Boulder, Denver, and the metro areas. The abbreviated file name was chosen for ease of typing.
+After initially downloading the [OpenStreetMap Denver/Boulder, CO Area](https://mapzen.com/data/metro-extracts/metro/denver-boulder_colorado/), the OSM file is very large. So the ‘sample_output_osm.py’ script was written to output a sample file of the data that is 1/100th the size. The data output is named `denver_sample.osm`, but to clarify the sample data includes samples from Boulder, Denver, and the metro areas. The abbreviated file name was chosen for ease of typing.
 
 ### Instructions to get CSV Files into an SQL Database
 
@@ -74,7 +74,7 @@ Make sure to name each table respectively!
 
 ### Explore the OSM Data
 
-This project Focuses on the below, all written up in the `Project_Summary.docx`:
+This project focuses on the below, all written up in the `Project_Summary.docx`:
 
 * Understanding the `Elements` in the OSM File
 * Understanding the `Tags` in the OSM File
