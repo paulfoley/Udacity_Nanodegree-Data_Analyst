@@ -1,6 +1,6 @@
 # Project - Friend's Birthday's Analysis
 
-In this project, we will explore my friends birthday's using data downloaded from [Facebook](https://www.facebook.com/). This is actual data from my Facebook friends.
+In this project, we will explore my friends' birthdays using data downloaded from [Facebook](https://www.facebook.com/). This is actual data from my Facebook friends.
 
 
 ## Project Overview
@@ -12,7 +12,7 @@ We'll explore specifically:
 * Friends who share my Birthday
 * Friends Birthday by Day
 * Friends Birthday by Month
-* 365 Day View of my Friend's Birthday's.
+* 365 Day View of my Friends' Birthdays.
 
 
 ## Getting Started
