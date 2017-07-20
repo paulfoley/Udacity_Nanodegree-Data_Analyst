@@ -13,7 +13,7 @@ There is a widespread theory that the gender ratio of an area affects the single
 
 ### Hypothesis 2
 
-Another widespread theory is that age affects the single percentage. For example, in areas with younger population, i.e. college towns, there's a much higher percentage of single people. Proposed reasons include: such as people are less serious about marriage; less serious about creating families; and for those in college, life is potentially more of a transitory time with people enrolling and graduating. We'll be exploring this hypothesis, specifically how the single percentage changes with age for different genders.
+Another widespread theory is that age affects the single percentage. For example, in areas with younger population, i.e. college towns, there's a much higher percentage of single people. Proposed reasons include: such people are less serious about marriage; less serious about creating families; and for those in college, life is potentially more of a transitory time with people enrolling and graduating. We'll be exploring this hypothesis, specifically how the single percentage changes with age for different genders.
 
 
 ## Getting Started
