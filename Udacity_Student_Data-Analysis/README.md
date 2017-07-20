@@ -9,19 +9,19 @@ Below are the questions we're going to answer using the [Udacity](https://www.ud
 
 ### Question 1
 
-Effort has been known to have a strong correlation with succes in almost every activity. For our first question, let's look at how much time the student has spent in the classroom and learning for students that passed versus the students that did not pass.
+Effort has been known to have a strong correlation with success in almost every activity. For our first question, let's look at how much time the student has spent in the classroom and learning for students that passed versus the students that did not pass.
 
 * Is there a difference in time spent in the classroom for passing students?
 
 ### Question 2
 
-Next let's look at how many lessons each student is taking. The idea of which is, the more lessons the more likely a student is going to pass.
+Next let's look at how many lessons each student is taking. The idea is - the more lessons the more likely a student is going to pass.
 
 * What's the difference in number of lessons taken by students who pass versus students who don't pass?
 
 ### Question 3
 
-Next let's look at a students study habits, are students who do something daily more likely to pass then student's who don't learn daily.
+Next let's look at a student's study habits. Are students who do something daily more likely to pass than students who don't learn daily.
 
 * What's the difference in daily study habits of the students who pass versus students who don't pass?
 
@@ -84,7 +84,7 @@ Columns:
     - utc_date:              The date for which the data was collected.
 
     - num_courses_visited:   The total number of Data Analyst Nanodegree courses
-                             the student visited for at 2 minutes on this day.
+                             the student visited for at least 2 minutes on this day.
                              Nanodegree courses and freely available courses
                              with the same content are counted separately.
 
@@ -174,7 +174,7 @@ The project `Student_Data-Analysis.ipynb` can be read using a Jupyter Notebook. 
 
 ### Special Note
 
-If you try running a code block and get an error message like no module named matplotlib, then your distribution of Anaconda may be missing a package used in the project. That's okay – there's an easy way that you can install these packages. Take a look at Google for easy to use guides on installation!
+If you try running a code block and get an error message like 'no module named matplotlib', then your distribution of Anaconda may be missing a package used in the project. That's okay – there's an easy way that you can install these packages. Take a look at Google for easy to use guides on installation!
 
 
 ## Authors
@@ -185,7 +185,7 @@ If you try running a code block and get an error message like no module named ma
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 
 ## Acknowledgments
