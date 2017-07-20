@@ -5,11 +5,11 @@ Who doesn't want to know the weather? [Weather Underground](https://www.wundergr
 
 ## Project Overview
 
-In this project we'll be using sample weather data for the month of May from [Weather Underground](https://www.wunderground.com/). We are interested querying the data to answer various questions. We'll specifically look at:
+In this project we'll be using sample weather data for the month of May from [Weather Underground](https://www.wunderground.com/). We are interested in querying the data to answer various questions. We'll specifically look at:
 
-* Max Temperature on Foggy and Non-Foggy Days
-* Number of Rainy Days
-* Average Temperature on the weekends
+* Max temperature on foggy and non-foggy days
+* Number of rainy days
+* Average temperature on the weekends
 * Average temperatures on rainy days where the minimum temperature is greater then 55
 
 
@@ -53,7 +53,7 @@ You'll need to install:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 
 ## Acknowledgments
