@@ -11,7 +11,7 @@ In this project, we're interested in answering a few questions (see below) about
 
 #### Analysis 1
 
-As a University of Michigan Alumni (Go Blue!) I'm always curious which universities produce top talent. We'll look at which Universities produce the most MLB All-Stars.
+As a University of Michigan Alumni (Go Blue!) I'm always curious which universities produce top talent. We'll look at which universities produce the most MLB All-Stars.
 
 #### Analysis 2
 
@@ -19,7 +19,7 @@ The salaries that MLB players get, compared to the general population, are astro
 
 #### Analysis 3
 
-What's also interesting, is the best players seem to get paid disportionately high compared to the rest of the normal players. Let's look at the salaries of All-Stars versus their average counterparts.
+What's also interesting, is the best players seem to get paid disproportionately high compared to the rest of the 'normal' players. Let's look at the salaries of All-Stars versus their average counterparts.
 
 
 ## Getting Started
@@ -62,7 +62,7 @@ The project `Baseball_Data-Analysis.ipynb` can be read using a Jupyter Notebook.
 
 #### Special Note
 
-If you try running a code block in the notebook and get an error message like no module named matplotlib, then your distribution of Anaconda may be missing a package used in the project. That's okay, there's an easy way that you can install these packages. Google any missing library for easy to use guides on installation!
+If you try running a code block in the notebook and get an error message like 'no module named matplotlib', then your distribution of Anaconda may be missing a package used in the project. That's okay, there's an easy way that you can install these packages. Google any missing library for easy to use guides on installation!
 
 
 ## Authors
