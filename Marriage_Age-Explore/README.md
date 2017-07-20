@@ -1,13 +1,13 @@
 # Project - Marriage Age
 
-As a 28 year old, it feels as though the majority of my friends that are the same age or older are married... I'm curious about the statistics on marriage. Not only in the US, but across the world. In this project, we will explore first of age of marriage data from [Gapminder](http://www.gapminder.org/data/).
+As a 28 year old, it feels as though the majority of my friends that are the same age or older are married... I'm curious about the statistics on marriage, not only in the US, but across the world. In this project, we will explore age of marriage data from [Gapminder](http://www.gapminder.org/data/).
 
 
 ## Project Overview
 
 In this project, we'll explore specifically:
 
-* The average marriage age across countries
+* The average marriage age across countries.
 
 
 ## Getting Started
