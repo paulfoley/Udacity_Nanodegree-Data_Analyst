@@ -26,7 +26,7 @@ Projects include organizing data, uncovering patterns, deriving insights, and cl
 
 * [Aadhaar_Data-Query](Aadhaar_Data-Query) - Scritps to Query the Aadhaar Enrolment Data
 * [Best_Places_For_Dating-Analysis](Best_Places_For_Dating-Analysis) - Analysis on the best cities in the U.S. to find a spouse
-* [DBpedia-City_Data-Audit](DBPedia-City_Data-Audit) - Auditing DBpedia Auto data to give back to the Open Source Community
+* [DBpedia-City_Data-Audit](DBpedia-City_Data-Audit) - Auditing DBpedia Auto data to give back to the Open Source Community
 * [DBpedia-Auto_Data-Audit](DBpedia-Auto_Data-Audit) - Auditing DBpedia City data to give back to the Open Source Community
 * [Diamond_Price-Analysis](Diamond_Price-Analysis) - Analyze which diamond features effect it's price.
 * [ERCOT-Analysis](ERCOT-Analysis) - Analyze energy data for the maximum, minimum, and average hourly energy loads.
