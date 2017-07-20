@@ -1,11 +1,11 @@
 # Project - TownCharts County Data
 
-[TownCharts](http://www.towncharts.com/) provides population data for us cities, towns, and areas in the US. We'll use this data to explore various features in counties across the US.
+[TownCharts](http://www.towncharts.com/) provides population data for cities, towns, and areas in the U.S. We'll use this data to explore various features in counties across the U.S.
 
 
 ## Project Overview
 
-In this project, we will perform a data exploration on counties across the US, specifically looking at the county features:
+In this project, we will perform a data exploration on counties across the U.S., specifically looking at the county features:
 
 * Age 
 * Gender
@@ -44,7 +44,7 @@ _**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfo
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 
 ## Acknowledgments
