@@ -24,28 +24,30 @@ Projects include organizing data, uncovering patterns, deriving insights, and cl
 
 ### Table of Contents
 
-* Aadhaar_Data-Analysis
-* Airport_Data-Wrangle
-* Auto_Data-Audit
-* Baseball_Data-Analysis
-* Bay_Area_Bike_Share-Analysis
-* City_Data-Audit
-* County_Data-Explore
-* Dating_Data-Explore
-* Diamond_Price-Explore
-* ERCOT-Parse
-* Facebook_Data-Explore
-* Friends_Birthdays-Explore
-* Marriage_Age_Explore
-* Music-Parse
-* NY_Times_API-Parse
-* Numpy-Playground
-* OpenStreetMap_Data-Wrangle
-* Pandas-Playground
-* Reddit_Data-Explore
-* Research_Article-Parse
-* Student_Data-Analysis
-* Weather_Data-Analysis
+* [Aadhaar_Data-Query](Aadhaar_Data-Query) - Scritps to Query the Aadhaar Enrolment Data
+* [Best_Places_For_Dating-Analysis](Best_Places_For_Dating-Analysis) - Analysis on the best cities in the U.S. to find a spouse
+* [DBpedia-City_Data-Audit](DBPedia-City_Data-Audit) - Auditing DBpedia Auto data to give back to the Open Source Community
+* [DBpedia-Auto_Data-Audit](DBpedia-Auto_Data-Audit) - Auditing DBpedia City data to give back to the Open Source Community
+* [Diamond_Price-Analysis](Diamond_Price-Analysis) - Analyze which diamond features effect it's price.
+* [ERCOT-Analysis](ERCOT-Analysis) - Analyze energy data for the maximum, minimum, and average hourly energy loads.
+* [Facebook_Data-Explore](Facebook_Data-Explore) - Explore Facebook User Data to see trends in behavior.
+* [Ford_GoBike-Analysis](Ford_GoBike-Analysis) - Explore the Bike Share data to optimize the pricing model.
+* [Friends_Birthdays-Explore](Friends_Birthdays-Explore) - Explore Friends birthday's to see who shares a birthday with me as well as the busiest months for friends birthdays.
+* [Lahman_Baseball_Data-Analysis](Lahman_Baseball_Data-Analysis) - Analyze baseball data to derive insights about MLB salaries.
+* [Marriage_Age-Explore](Marriage_Age-Explore) - Explore the average age of marriage and how it differs across various countries.
+* [Music-APIs](Music-APIs) - Use internet music services API's to get music data.
+* [NY_Times_API-Parse](NY_Times_API-Parse) - Use the NY Times API to get the most popular articles.
+* [Numpy-Playground](Numpy-Playground) - Play with Numpy Library functionality.
+* [OpenStreetMap_Data-Wrangle](OpenStreetMap_Data-Wrangle) - Contribute the open source project OpenStreetMaps by auditing data for the Boulder/Denver, CO area.
+* [Pandas-Playground](Pandas-Playground) - Play with the Pandas library functionality.
+* [Reddit_Data-Explore](Reddit_Data-Explore) - Explore Reddit User Data to see the demographics of Reddit users.
+* [Research_Article-Parse](Research_Article-Parse) - Parse a Reserch article to find the authors of a Medical paper.
+* [Single_Percentage-Analysis](Single_Percentage-Analysis) - Analyze the area features that correlate to single percentage for counties around the U.S.
+* [TownCharts-County_Data](TownCharts-County_Data) - Explore demographics of counties around the U.S.
+* [Transtats-API](Transtats-API) - Use the United States Transportation Buerau's API to get flight data.
+* Turnstile
+* [Udacity_Student_Data-Analysis](Udacity_Student_Data-Analysis) - Analyze the student behaviors of Udacity students that pass their Nanodegrees versus the students that don't complete the Nanodegree.
+* [Weather_Data-Analysis](Weather_Data-Analysis) - Analyze weather data in May to dervie insights.
 
 
 ## Dependencies
