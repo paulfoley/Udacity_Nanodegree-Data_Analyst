@@ -2,20 +2,20 @@
 
 Music is amazing. With the rise of the internet, there are a ton of sites that have an encyclopedia worth of music data, two of which are [MusicBrainz](https://musicbrainz.org/) and [AudioScrobbler](http://www.audioscrobbler.net/).
 
-These sites also have API's which allows us to connect and extract their music data. 
+These sites also have API's which allow us to connect and extract their music data. 
 
 
 ## Project Overview
 
-In this project, we'll be using the [MusicBrainz](https://musicbrainz.org/) and [AudioScrobbler](http://www.audioscrobbler.net/) API's to get info about our favorite artists and their albulms.
+In this project, we'll be using the [MusicBrainz](https://musicbrainz.org/) and [AudioScrobbler](http://www.audioscrobbler.net/) API's to get info about our favorite artists and their albums.
 
 ### MusicBrainz
 
-We'll be using the [MusicBrainz](https://musicbrainz.org/) to pull in data about an artist and output a .csv file of all their albulm titles.
+We'll be using the [MusicBrainz](https://musicbrainz.org/) to pull in data about an artist and output a .csv file of all their album titles.
 
 ### AudioScrobbler
 
-We'll be using the [AudioScrobbler](http://www.audioscrobbler.net/) to pull in data about an albulm and output the albulm description to a .txt file.
+We'll be using the [AudioScrobbler](http://www.audioscrobbler.net/) to pull in data about an album and output the album description to a .txt file.
 
 
 ## Getting Started
@@ -30,13 +30,13 @@ You'll need to install:
 
 ## Scripts
 
-* `music_brainz_api.py` - Pulls in data about a musical artist from the [MusicBrainz](https://musicbrainz.org/) API and outputs a .csv file of their albulms.
-* `audio_scrobbler_api.py` - Pulls in data from the [AudioScrobbler](http://www.audioscrobbler.net/) about a specific albulm and outputs albulm info in a .txt file.
+* `music_brainz_api.py` - Pulls in data about a musical artist from the [MusicBrainz](https://musicbrainz.org/) API and outputs a .csv file of their albums.
+* `audio_scrobbler_api.py` - Pulls in data from the [AudioScrobbler](http://www.audioscrobbler.net/) about a specific album and outputs album info in a .txt file.
 
 ### Outputs:
 
-* `%_titles.csv` - A .csv file listing all the albulms by a certain artist.
-* `%_%_Info.txt` - A .txt file with the albulm information of a certain artist's albulm.
+* `%_titles.csv` - A .csv file listing all the albums by a certain artist.
+* `%_%_Info.txt` - A .txt file with the album information of a certain artist's album.
 
 
 ## Authors
