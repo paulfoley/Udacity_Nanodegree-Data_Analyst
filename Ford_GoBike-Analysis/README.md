@@ -75,7 +75,7 @@ The project `Ford_GoBike-Analysis.ipynb` can be read using a Jupyter Notebook. T
 
 #### Special Note
 
-If you try running a code block and get an error message like no module named matplotlib, then your distribution of Anaconda may be missing a package used in the project. That's okay – there's an easy way that you can install these packages. It's as simple as Googling the library for easy to use guides on installation!
+If you try running a code block and get an error message like 'no module named matplotlib', then your distribution of Anaconda may be missing a package used in the project. That's okay – there's an easy way that you can install these packages. It's as simple as Googling the library for easy to use guides on installation!
 
 
 ## Authors
