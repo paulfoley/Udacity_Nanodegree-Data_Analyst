@@ -1,4 +1,4 @@
-# Project - Facebook User Data
+# Project - Facebook Users
 
 [Facebook](https://www.facebook.com/) has provided sample data of their users for exploration. We'll use this sample data to explore how people use one of my favorite websites.
 
