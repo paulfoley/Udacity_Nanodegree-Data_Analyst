@@ -59,4 +59,4 @@ _**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfo
 
 ## Acknowledgments
 
-* [Town Charts](hhttp://www.towncharts.com/)
+* [TownCharts](http://www.towncharts.com/)

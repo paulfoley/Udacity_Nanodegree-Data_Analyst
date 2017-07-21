@@ -1,4 +1,4 @@
-# Project - Lahman Baseball Data
+# Project - Major League Baseball Analysis
 
 The [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/) contains complete batting and pitching statistics from 1871 to 2014, plus fielding statistics, standings, team stats, managerial records, post-season data, and more.
 
@@ -88,4 +88,4 @@ If you try running a code block in the notebook and get an error message like 'n
 
 ## Acknowledgments
 
-* [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/)
+* [Sean Lahman](http://www.seanlahman.com/baseball-archive/statistics/)

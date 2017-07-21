@@ -1,4 +1,4 @@
-# Price - Diamond Price
+# Project - Diamond Price
 
 [ggplot2](http://ggplot2.org/) provides a built in `diamonds` data set. We'll use this data set to explore a diamond's price versus its features.
 
@@ -44,7 +44,7 @@ You'll need to install:
 
 ## Exploration Files
 
-* `diamond_price-explore.rmd` - Main project file, an [RStudio](https://www.rstudio.com/products/rstudio/download/) file that contains the exploration for the project. 
+* `diamond_price-explore.rmd` - Main project file, an Rmd file that contains the exploration for the project. 
 * `diamond_price-explore.html` - HTML output for easy viewability in browser.
 
 _**Also the exploration is published directly on [RPubs](http://rpubs.com/paulfoley/diamond_price-explore) for easy viewing.**_

@@ -3,23 +3,25 @@
 [Udacity](https://www.udacity.com/), one of the best online education companies in the world, has provided sample student data for exploration. In this analysis we're going to derive insights on what makes a student pass one of their Nanodegrees versus not passing the Nanodegree.
 
 
-## Areas of Analysis
+## Project Overview
 
 Below are the questions we're going to answer using the [Udacity](https://www.udacity.com/) sample student data. 
 
-### Question 1
+### Questions for Analysis
+
+#### Question 1
 
 Effort has been known to have a strong correlation with success in almost every activity. For our first question, let's look at how much time the student has spent in the classroom and learning for students that passed versus the students that did not pass.
 
 * Is there a difference in time spent in the classroom for passing students?
 
-### Question 2
+#### Question 2
 
 Next let's look at how many lessons each student is taking. The idea is - the more lessons the more likely a student is going to pass.
 
 * What's the difference in number of lessons taken by students who pass versus students who don't pass?
 
-### Question 3
+#### Question 3
 
 Next let's look at a student's study habits. Are students who do something daily more likely to pass than students who don't learn daily.
 
