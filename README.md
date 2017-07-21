@@ -30,7 +30,7 @@ Projects include organizing data, uncovering patterns, deriving insights, and cl
 * [DBpedia-Auto_Data-Audit](DBpedia-Auto_Data-Audit) - Auditing DBpedia City data to give back to the Open Source Community
 * [Diamond_Price-Analysis](Diamond_Price-Analysis) - Analyze which diamond features effect it's price.
 * [ERCOT-Analysis](ERCOT-Analysis) - Analyze energy data for the maximum, minimum, and average hourly energy loads.
-* [Facebook_User_Data-Explore](Facebook_User_Data-Explore) - Explore Facebook User Data to see trends in behavior.
+* [Facebook_Users-Explore](Facebook_Users-Explore) - Explore Facebook User Data to see trends in behavior.
 * [Ford_GoBike-Analysis](Ford_GoBike-Analysis) - Explore the Bike Share data to optimize the pricing model.
 * [Friends_Birthdays-Explore](Friends_Birthdays-Explore) - Explore Friends birthday's to see who shares a birthday with me as well as the busiest months for friends birthdays.
 * [Major_League_Baseball-Analysis](Major_League_Baseball-Analysis) - Analyze baseball data to derive insights about MLB salaries.
