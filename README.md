@@ -30,10 +30,10 @@ Projects include organizing data, uncovering patterns, deriving insights, and cl
 * [DBpedia-Auto_Data-Audit](DBpedia-Auto_Data-Audit) - Auditing DBpedia City data to give back to the Open Source Community
 * [Diamond_Price-Analysis](Diamond_Price-Analysis) - Analyze which diamond features effect it's price.
 * [ERCOT-Analysis](ERCOT-Analysis) - Analyze energy data for the maximum, minimum, and average hourly energy loads.
-* [Facebook_Data-Explore](Facebook_Data-Explore) - Explore Facebook User Data to see trends in behavior.
+* [Facebook_User_Data-Explore](Facebook_User_Data-Explore) - Explore Facebook User Data to see trends in behavior.
 * [Ford_GoBike-Analysis](Ford_GoBike-Analysis) - Explore the Bike Share data to optimize the pricing model.
 * [Friends_Birthdays-Explore](Friends_Birthdays-Explore) - Explore Friends birthday's to see who shares a birthday with me as well as the busiest months for friends birthdays.
-* [Lahman_Baseball_Data-Analysis](Lahman_Baseball_Data-Analysis) - Analyze baseball data to derive insights about MLB salaries.
+* [Major_League_Baseball-Analysis](Major_League_Baseball-Analysis) - Analyze baseball data to derive insights about MLB salaries.
 * [Marriage_Age-Explore](Marriage_Age-Explore) - Explore the average age of marriage and how it differs across various countries.
 * [Music-APIs](Music-APIs) - Use internet music services API's to get music data.
 * [NY_Times_API-Parse](NY_Times_API-Parse) - Use the NY Times API to get the most popular articles.
@@ -70,4 +70,8 @@ Projects include organizing data, uncovering patterns, deriving insights, and cl
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"> Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
+
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+	<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+</a>
