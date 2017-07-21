@@ -1,6 +1,6 @@
 # Playground - Numpy
 
-[Numpy](http://www.numpy.org/) is a library which provides functions that are especially useful when you have to work with large arrays and matrices of numeric data, like doing matrix matrix multiplications and dot products. 
+[Numpy](http://www.numpy.org/) is a library which provides functions that are especially useful when you have to work with large arrays and matrices of numeric data, like doing matrix multiplications and dot products. 
 
 Also, [Numpy](http://www.numpy.org/) is battle tested and optimized, so that it runs fast, much faster than if you were working with Python lists directly.
 
@@ -38,7 +38,11 @@ You'll need to install:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"> Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
+
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+	<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+</a>
 
 
 ## Acknowledgments

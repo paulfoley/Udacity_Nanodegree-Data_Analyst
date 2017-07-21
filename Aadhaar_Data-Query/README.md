@@ -54,7 +54,6 @@ You'll need to install:
 </a>
 
 
-
 ## Acknowledgments
 
 * [Unique Identification Authority of India](https://uidai.gov.in/)

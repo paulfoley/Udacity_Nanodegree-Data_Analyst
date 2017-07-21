@@ -52,6 +52,21 @@ Outstanding! It appears Alex needs to move to Manhattan NY, Baltimore MD, or Bro
 This will end the analysis for this project, as we've solved both Alex and Alexa's dating city dilemmas. Let's give a quick thanks to [Tableau](https://www.tableau.com/) for helping us easily find the best cities for our friends. Thanks [Tableau](https://www.tableau.com/)!
 
 
-## Resources
+## Authors
+
+* **[Paul Foley](https://github.com/paulfoley)**
+* [Udacity](https://www.udacity.com/)
+
+
+## License
+
+* <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"> Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
+
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+	<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+</a>
+
+
+## Acknowledgments
 
 The data for this analysis was donated by the kind people at [TownCharts](http://www.towncharts.com/). They were nice enough to provide a csv file of population data that was already pre-cleaned which let us get right to the analysis. Thank you [TownCharts](http://www.towncharts.com/)!

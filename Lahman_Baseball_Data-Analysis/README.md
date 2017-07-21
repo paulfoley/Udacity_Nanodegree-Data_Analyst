@@ -71,18 +71,21 @@ If you try running a code block in the notebook and get an error message like 'n
 * [Udacity](https://www.udacity.com/)
 
 
+## Licenses
+
+* Baseball Databank is a compilation of historical baseball data in a convenient, tidy format, distributed under Open Data terms.
+
+* Person identification and demographics data are provided by [Chadwick Baseball Bureau](http://www.chadwick-bureau.com), from its Register of baseball personnel.
+
+* Player performance data for 1871 through 2014 is based on the [Lahman Baseball Database](http://www.seanlahman.com/baseball-archive/statistics/), version 2015-01-24, which is Copyright (C) 1996-2015 by Sean Lahman.
+
+* <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"> Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
+
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+	<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+</a>
+
+
 ## Acknowledgments
 
 * [Lahman Baseball Dataset](http://www.seanlahman.com/baseball-archive/statistics/)
-
-
-## Licenses
-
-Baseball Databank is a compilation of historical baseball data in a convenient, tidy format, distributed under Open Data terms.
-
-This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License. For details see:
-* http://creativecommons.org/licenses/by-sa/3.0/
-
-Person identification and demographics data are provided by [Chadwick Baseball Bureau](http://www.chadwick-bureau.com), from its Register of baseball personnel.
-
-Player performance data for 1871 through 2014 is based on the [Lahman Baseball Database](http://www.seanlahman.com/baseball-archive/statistics/), version 2015-01-24, which is Copyright (C) 1996-2015 by Sean Lahman.
