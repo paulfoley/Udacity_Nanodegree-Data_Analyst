@@ -1,1 +1,0 @@
-http://web.mta.info/developers/data/nyct/turnstile/turnstile_110507.txt
