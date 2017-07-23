@@ -36,6 +36,7 @@ Projects include organizing data, uncovering patterns, deriving insights, and cl
 * [Major_League_Baseball-Analysis](Major_League_Baseball-Analysis) - Analyze baseball data to derive insights about MLB salaries.
 * [Marriage_Age-Explore](Marriage_Age-Explore) - Explore the average age of marriage and how it differs across various countries.
 * [Music-APIs](Music-APIs) - Use internet music services API's to get music data.
+* [NYC_Subway_Ridership-Analysis](NYC_Subway_Ridership-Analysis) - Analysis of how weather affects New York city subway ridership.
 * [NY_Times_API-Parse](NY_Times_API-Parse) - Use the NY Times API to get the most popular articles.
 * [Numpy-Playground](Numpy-Playground) - Play with Numpy Library functionality.
 * [OpenStreetMap_Data-Wrangle](OpenStreetMap_Data-Wrangle) - Contribute the open source project OpenStreetMaps by auditing data for the Boulder/Denver, CO area.
@@ -45,7 +46,6 @@ Projects include organizing data, uncovering patterns, deriving insights, and cl
 * [Single_Percentage-Analysis](Single_Percentage-Analysis) - Analyze the area features that correlate to single percentage for counties around the U.S.
 * [TownCharts-County_Data](TownCharts-County_Data) - Explore demographics of counties around the U.S.
 * [Transtats-API](Transtats-API) - Use the United States Transportation Buerau's API to get flight data.
-* Turnstile
 * [Udacity_Student_Data-Analysis](Udacity_Student_Data-Analysis) - Analyze the student behaviors of Udacity students that pass their Nanodegrees versus the students that don't complete the Nanodegree.
 * [Weather_Data-Analysis](Weather_Data-Analysis) - Analyze weather data in May to dervie insights.
 
