@@ -36,7 +36,7 @@ In this project we're going to asses the quality of the data for:
 
 ### OSM Sample File
 
-After initially downloading the [OpenStreetMap Denver/Boulder, CO Area](https://mapzen.com/data/metro-extracts/metro/denver-boulder_colorado/), the OSM file is very large. So the ‘sample_output_osm.py’ script was written to output a sample file of the data that is 1/100th the size. The data output is named `denver_sample.osm`, but to clarify the sample data includes samples from Boulder, Denver, and the metro areas. The abbreviated file name was chosen for ease of typing.
+After initially downloading the [OpenStreetMap Denver/Boulder, CO Area](https://mapzen.com/data/metro-extracts/metro/denver-boulder_colorado/), the OSM file is very large. So the `sample_output_osm.py` script was written to output a sample file of the data that is 1/100th the size. The data output is named `denver_sample.osm`, but to clarify the sample data includes samples from Boulder, Denver, and the metro areas. The abbreviated file name was chosen for ease of typing.
 
 ### Instructions to get CSV Files into an SQL Database
 
