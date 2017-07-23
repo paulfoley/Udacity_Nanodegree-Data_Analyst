@@ -1,9 +1,6 @@
 """
 Script to connect to the NY TImes API
 
-To run this code locally you have to register at the NYTimes developer site 
-and get your own API key.
-
 Returns a tuple of variables containing the following data:
 - labels: list of dictionaries, where the keys are the "section" values and
   values are the "title" values for each of the retrieved articles.
@@ -14,38 +11,19 @@ Returns a tuple of variables containing the following data:
 import json
 import codecs
 import requests
+import csv
 
 ## URL Request
-URL_MAIN = "http://api.nytimes.com/svc/"
-URL_POPULAR = URL_MAIN + "mostpopular/v2/"
-API_KEY = { "popular": "6d0ebec95b0846aeb8ffe8f94eb268bd", "article": "6d0ebec95b0846aeb8ffe8f94eb268bd"}
+PRIMARY_URL = "https://api.nytimes.com/svc/" # NY Times API URL
+API_TYPE = "topstories/v2/" # Top Stories
+SECTION = "technology.json" # Technology
+URL = PRIMARY_URL + API_TYPE + SECTION # Full URL
+API_KEY = "6d0ebec95b0846aeb8ffe8f94eb268bd"
 
 ## Functions
-def get_from_file(kind, period):
-    ### Returns json File
-    filename = "popular-{0}-{1}.json".format(kind, period)
-    with open(filename, "r") as jsonfile:
-        return json.loads(jsonfile.read())
 
-def article_overview(kind, period):
-    ### Returns Titles and Urls of Articles
-    data = get_from_file(kind, period)
-    titles = []
-    urls =[]
-    for row in data:
-        section = row['section']
-        title = row['title']
-        titles.append({section: title})
-        if row['media']:
-            medias = row['media']
-            for media in medias:
-                metas = media["media-metadata"]
-                for meta in metas:
-                    if meta["format"] == "Standard Thumbnail":
-                        urls.append(meta['url'])
-    return (titles, urls)
-
-def query_site(url, target, offset):
+### Get JSON file from NY Times
+def query_site():
     '''
     Query the NY Times API with key and offset
     NYTimes returns 20 articles per request, 
@@ -53,53 +31,72 @@ def query_site(url, target, offset):
 
     Returns Json File of Articles
     '''
-    if API_KEY["popular"] == "" or API_KEY["article"] == "":
-        print("You need to register for NYTimes Developer account to run this program.")
-        print("See Intructor notes for information")
-        return False
-    params = {"api-key": API_KEY[target], "offset": offset}
-    r = requests.get(url, params = params)
+    #### Check for API Key
+    if API_KEY == "":
+        print("You need to register for NYTimes Developer account to run this script")
+        return None
+    
+    #### Set Parameters
+    params = {"api-key": API_KEY}
 
+    #### Make Request
+    r = requests.get(URL, params = params)
+
+    #### Return JSON File
     if r.status_code == requests.codes.ok:
         return r.json()
     else:
         r.raise_for_status()
 
-
-def get_popular(url, kind, days, section="all-sections", offset=0):
-    '''
-    Construct the query according to the requirements of the NY Times site
-    Returns the data, or prints an error message if called incorrectly
-    '''
-    if days not in [1,7,30]:
-        print("Time period can be 1,7, 30 days only")
-        return False
-    if kind not in ["viewed", "shared", "emailed"]:
-        print("kind can be only one of viewed/shared/emailed")
-        return False
-
-    url += "most{0}/{1}/{2}.json".format(kind, section, days)
-    data = query_site(url, "popular", offset)
-
-    return data
-
-
-def save_file(kind, period):
+def get_json_file():
     '''
     Process all results, by calling the API repeatedly with supplied offset value,
     Combine the data and then write all results in a file.
     '''
-    data = get_popular(URL_POPULAR, "viewed", 1)
+    data = query_site()
     num_results = data["num_results"]
-    full_data = []
-    with codecs.open("popular-{0}-{1}.json".format(kind, period), encoding='utf-8', mode='w') as v:
-        for offset in range(0, num_results, 20):        
-            data = get_popular(URL_POPULAR, kind, period, offset=offset)
-            full_data += data["results"]
+    with codecs.open("topstories_technology.json", encoding='utf-8', mode='w') as jsonfile:        
+        jsonfile.write(json.dumps(data, indent=2))
+
+### Get Titles and URLs from JSON File
+def get_from_file():
+    ### Returns json File
+    filename = "topstories_technology.json"
+    with open(filename, "r") as jsonfile:
+        return json.loads(jsonfile.read())
+
+def article_overview():
+    ### Returns Titles and Urls of Articles
+    data = get_from_file()
+    titles = []
+    urls =[]
+    for row in data["results"]:
+        section = row['section']
         
-        v.write(json.dumps(full_data, indent=2))
+        if row['title']:
+            title = row['title']
+            titles.append({section: title})
+        
+        if row['url']:
+            urls.append(row['url'])
+    return (titles, urls)
 
+## Outputs
 
-titles, urls = article_overview("viewed", 1)
-print(titles)
-print(urls)
+### Output JSON File
+get_json_file()
+
+### Output Titles and Article URLS
+titles, urls = article_overview()
+
+with open('article_titles.csv', 'w') as csvfile:
+    fieldnames = ['Technology', 'Business Day', 'Style', 'Theater','Arts','U.S.', 'Health', 'Science', 'Obituaries', 'N.Y. / Region', 'Magazine']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    for title in titles:
+        writer.writerow(title)
+
+with open('article_urls.csv', 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile, delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    for url in urls:
+        writer.writerow([url])

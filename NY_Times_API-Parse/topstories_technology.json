@@ -1,0 +1,2545 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2017 The New York Times Company. All Rights Reserved.",
+  "section": "technology",
+  "last_updated": "2017-07-23T11:47:26-04:00",
+  "num_results": 37,
+  "results": [
+    {
+      "section": "Business Day",
+      "subsection": "DealBook",
+      "title": "2 Leading Online Black Markets Are Shut Down by Authorities",
+      "abstract": "The authorities took control of one large site, Hansa Market, and covertly operated it to catch refugees fleeing the closing of the largest market, AlphaBay.",
+      "url": "https://www.nytimes.com/2017/07/20/business/dealbook/alphabay-dark-web-opioids.html",
+      "byline": "By NATHANIEL POPPER and REBECCA R. RUIZ",
+      "item_type": "Article",
+      "updated_date": "2017-07-20T16:16:21-04:00",
+      "created_date": "2017-07-20T11:21:03-04:00",
+      "published_date": "2017-07-20T11:21:03-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Black Markets",
+        "Shutdowns (Institutional)",
+        "Drug Abuse and Traffic"
+      ],
+      "org_facet": [
+        "AlphaBay Market",
+        "Hansa Market",
+        "Silk Road (Web Site)"
+      ],
+      "per_facet": [
+        "Cazes, Alexandre"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21db-darkweb3/21db-darkweb3-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Attorney General Jeff Sessions announced the seizure of the online black market AlphaBay at a news conference in Washington on Thursday.",
+          "copyright": "Aaron P. Bernstein/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21db-darkweb3/21db-darkweb3-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Attorney General Jeff Sessions announced the seizure of the online black market AlphaBay at a news conference in Washington on Thursday.",
+          "copyright": "Aaron P. Bernstein/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21db-darkweb3/21db-darkweb3-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Attorney General Jeff Sessions announced the seizure of the online black market AlphaBay at a news conference in Washington on Thursday.",
+          "copyright": "Aaron P. Bernstein/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21db-darkweb3/21db-darkweb3-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Attorney General Jeff Sessions announced the seizure of the online black market AlphaBay at a news conference in Washington on Thursday.",
+          "copyright": "Aaron P. Bernstein/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21db-darkweb3/21db-darkweb3-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Attorney General Jeff Sessions announced the seizure of the online black market AlphaBay at a news conference in Washington on Thursday.",
+          "copyright": "Aaron P. Bernstein/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2ttUH3n"
+    },
+    {
+      "section": "Technology",
+      "subsection": "Personal Tech",
+      "title": "A Gamer Channel\u2019s Mission: Send the Trolls Packing",
+      "abstract": "Misscliks, a channel on the video game streaming platform Twitch, aims to be a safe space for underrepresented gamers, with no tolerance for sexism or bullying.",
+      "url": "https://www.nytimes.com/2017/07/19/technology/personaltech/a-gamer-channels-mission-send-the-trolls-packing.html",
+      "byline": "By LAURA PARKER",
+      "item_type": "Article",
+      "updated_date": "2017-07-19T11:52:45-04:00",
+      "created_date": "2017-07-19T11:52:47-04:00",
+      "published_date": "2017-07-19T11:52:47-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Computer and Video Games",
+        "Women and Girls",
+        "Discrimination",
+        "Bullies",
+        "Misscliks"
+      ],
+      "org_facet": [
+        "Twitch Interactive Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20VIDGAME2/20VIDGAME2-thumbStandard-v2.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Anna Prosser Robinson, a Twitch employee and the host and programming manager for Misscliks, a channel on the live-streaming platform. Misscliks was founded in 2013 by Ms. Prosser Robinson and three other women in the video game and e-sports industries.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20VIDGAME2/20VIDGAME2-thumbLarge-v2.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Anna Prosser Robinson, a Twitch employee and the host and programming manager for Misscliks, a channel on the live-streaming platform. Misscliks was founded in 2013 by Ms. Prosser Robinson and three other women in the video game and e-sports industries.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20VIDGAME2/20VIDGAME2-articleInline-v2.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Anna Prosser Robinson, a Twitch employee and the host and programming manager for Misscliks, a channel on the live-streaming platform. Misscliks was founded in 2013 by Ms. Prosser Robinson and three other women in the video game and e-sports industries.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20VIDGAME2/20VIDGAME2-mediumThreeByTwo210-v2.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Anna Prosser Robinson, a Twitch employee and the host and programming manager for Misscliks, a channel on the live-streaming platform. Misscliks was founded in 2013 by Ms. Prosser Robinson and three other women in the video game and e-sports industries.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20VIDGAME2/20VIDGAME2-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Anna Prosser Robinson, a Twitch employee and the host and programming manager for Misscliks, a channel on the live-streaming platform. Misscliks was founded in 2013 by Ms. Prosser Robinson and three other women in the video game and e-sports industries.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2uzGL7Z"
+    },
+    {
+      "section": "Business Day",
+      "subsection": "",
+      "title": "Beijing Wants A.I. to Be Made in China by 2030",
+      "abstract": "A new plan from the top of the Chinese government calls for the country to become a powerhouse in artificial intelligence in just over a decade.",
+      "url": "https://www.nytimes.com/2017/07/20/business/china-artificial-intelligence.html",
+      "byline": "By PAUL MOZUR",
+      "item_type": "Article",
+      "updated_date": "2017-07-20T11:34:05-04:00",
+      "created_date": "2017-07-20T11:34:09-04:00",
+      "published_date": "2017-07-20T11:34:09-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Artificial Intelligence",
+        "Politics and Government",
+        "Defense and Military Forces",
+        "Research",
+        "Computers and the Internet"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "China"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21CHINAAI3/21CHINAAI3-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Google artificial intelligence program AlphaGo defeated the world\u2019s top Go player, Ke Jie of China, in May.",
+          "copyright": "Wu Hong/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21CHINAAI3/21CHINAAI3-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Google artificial intelligence program AlphaGo defeated the world\u2019s top Go player, Ke Jie of China, in May.",
+          "copyright": "Wu Hong/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21CHINAAI3/21CHINAAI3-articleInline.jpg",
+          "format": "Normal",
+          "height": 125,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Google artificial intelligence program AlphaGo defeated the world\u2019s top Go player, Ke Jie of China, in May.",
+          "copyright": "Wu Hong/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21CHINAAI3/21CHINAAI3-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Google artificial intelligence program AlphaGo defeated the world\u2019s top Go player, Ke Jie of China, in May.",
+          "copyright": "Wu Hong/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21CHINAAI3/21CHINAAI3-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1347,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Google artificial intelligence program AlphaGo defeated the world\u2019s top Go player, Ke Jie of China, in May.",
+          "copyright": "Wu Hong/European Pressphoto Agency"
+        }
+      ],
+      "short_url": "https://nyti.ms/2tj5lpv"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Facebook, Seeking to Satisfy Publishers, May Let Them Charge for Articles",
+      "abstract": "The social giant is working with media companies on a new tool that would push Facebook users to buy subscriptions to news outlets.",
+      "url": "https://www.nytimes.com/2017/07/19/technology/facebook-subscription-instant-articles.html",
+      "byline": "By MIKE ISAAC and SYDNEY EMBER",
+      "item_type": "Article",
+      "updated_date": "2017-07-19T21:12:47-04:00",
+      "created_date": "2017-07-19T20:02:37-04:00",
+      "published_date": "2017-07-19T20:02:37-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "News and News Media",
+        "Social Media"
+      ],
+      "org_facet": [
+        "Facebook Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/business/20FACEBOOK1/20FACEBOOK1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Facebook\u2019s Instant Articles product allows publishers to post news articles that can be read within Facebook rather than on the publisher\u2019s website.",
+          "copyright": "Sam Hodgson for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/business/20FACEBOOK1/20FACEBOOK1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Facebook\u2019s Instant Articles product allows publishers to post news articles that can be read within Facebook rather than on the publisher\u2019s website.",
+          "copyright": "Sam Hodgson for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/business/20FACEBOOK1/20FACEBOOK1-articleInline.jpg",
+          "format": "Normal",
+          "height": 118,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Facebook\u2019s Instant Articles product allows publishers to post news articles that can be read within Facebook rather than on the publisher\u2019s website.",
+          "copyright": "Sam Hodgson for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/business/20FACEBOOK1/20FACEBOOK1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Facebook\u2019s Instant Articles product allows publishers to post news articles that can be read within Facebook rather than on the publisher\u2019s website.",
+          "copyright": "Sam Hodgson for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/business/20FACEBOOK1/20FACEBOOK1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1270,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Facebook\u2019s Instant Articles product allows publishers to post news articles that can be read within Facebook rather than on the publisher\u2019s website.",
+          "copyright": "Sam Hodgson for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2vE3XyN"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Farhad and Mike\u2019s Week in Tech: Meal Kits, Lyft and \u2018Despacito\u2019",
+      "abstract": "Should every company create its own self-driving program? Mike and Farhad debate.",
+      "url": "https://www.nytimes.com/2017/07/22/technology/farhad-and-mikes-week-in-tech-meal-kits-lyft-and-despacito.html",
+      "byline": "By FARHAD MANJOO and MIKE ISAAC",
+      "item_type": "Article",
+      "updated_date": "2017-07-22T09:00:01-04:00",
+      "created_date": "2017-07-22T09:00:04-04:00",
+      "published_date": "2017-07-22T09:00:04-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Driverless and Semiautonomous Vehicles"
+      ],
+      "org_facet": [
+        "Amazon.com Inc",
+        "Google Fiber",
+        "Blue Apron",
+        "Twitter",
+        "Lyft Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23technewsletter/23technewsletter-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Blue Apron meal kit. Amazon edged a toe into the trendy meal kit delivery space this week, and soon after Blue Apron\u2019s recently public stock price began to sink.",
+          "copyright": "Scott Eisen/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23technewsletter/23technewsletter-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Blue Apron meal kit. Amazon edged a toe into the trendy meal kit delivery space this week, and soon after Blue Apron\u2019s recently public stock price began to sink.",
+          "copyright": "Scott Eisen/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23technewsletter/23technewsletter-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Blue Apron meal kit. Amazon edged a toe into the trendy meal kit delivery space this week, and soon after Blue Apron\u2019s recently public stock price began to sink.",
+          "copyright": "Scott Eisen/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23technewsletter/23technewsletter-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Blue Apron meal kit. Amazon edged a toe into the trendy meal kit delivery space this week, and soon after Blue Apron\u2019s recently public stock price began to sink.",
+          "copyright": "Scott Eisen/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23technewsletter/23technewsletter-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Blue Apron meal kit. Amazon edged a toe into the trendy meal kit delivery space this week, and soon after Blue Apron\u2019s recently public stock price began to sink.",
+          "copyright": "Scott Eisen/Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/2tQ46NY"
+    },
+    {
+      "section": "Style",
+      "subsection": "",
+      "title": "Is This the Woman Who Will Save Uber?",
+      "abstract": "Bozoma Saint John, the marketing star who\u2019s worked with Beyonc\u00e9, Apple and more, brings humanism, Instagram savvy and Chanel to the beleaguered brand.",
+      "url": "https://www.nytimes.com/2017/07/22/style/uber-bozoma-saint-john.html",
+      "byline": "By SHEILA MARIKAR",
+      "item_type": "Article",
+      "updated_date": "2017-07-22T06:00:25-04:00",
+      "created_date": "2017-07-22T06:00:28-04:00",
+      "published_date": "2017-07-22T06:00:28-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [
+        "Uber Technologies Inc"
+      ],
+      "per_facet": [
+        "Saint John, Bozoma"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/fashion/23BOZOMA/23BOZOMA-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Bozoma Saint John, the chief brand officer of Uber, this month at the company\u2019s offices in San Francisco.",
+          "copyright": "Justin Kaneps for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/fashion/23BOZOMA/23BOZOMA-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Bozoma Saint John, the chief brand officer of Uber, this month at the company\u2019s offices in San Francisco.",
+          "copyright": "Justin Kaneps for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/fashion/23BOZOMA/23BOZOMA-articleInline.jpg",
+          "format": "Normal",
+          "height": 240,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Bozoma Saint John, the chief brand officer of Uber, this month at the company\u2019s offices in San Francisco.",
+          "copyright": "Justin Kaneps for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/fashion/23BOZOMA/23BOZOMA-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Bozoma Saint John, the chief brand officer of Uber, this month at the company\u2019s offices in San Francisco.",
+          "copyright": "Justin Kaneps for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/fashion/23BOZOMA/23BOZOMA-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 2048,
+          "width": 1624,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Bozoma Saint John, the chief brand officer of Uber, this month at the company\u2019s offices in San Francisco.",
+          "copyright": "Justin Kaneps for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2tPp53t"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "One Family, Many Revolutions: From Black Panthers, to Silicon Valley, to Trump",
+      "abstract": "Ben Horowitz is helping define the modern tech age. His father shaped the \u201960s radical left \u2014 before taking a hard right turn. Family chats get interesting.",
+      "url": "https://www.nytimes.com/2017/07/22/technology/one-family-many-revolutions-from-black-panthers-to-silicon-valley-to-trump.html",
+      "byline": "By DAVID STREITFELD",
+      "item_type": "Article",
+      "updated_date": "2017-07-22T05:00:26-04:00",
+      "created_date": "2017-07-22T05:00:25-04:00",
+      "published_date": "2017-07-22T05:00:25-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23HOROWITZ/23HOROWITZ-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "David Horowitz at his house in Camarillo, Calif. He moved from a leftist ideologist to a supporter of the Trump administration.",
+          "copyright": "Jake Michaels for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23HOROWITZ/23HOROWITZ-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "David Horowitz at his house in Camarillo, Calif. He moved from a leftist ideologist to a supporter of the Trump administration.",
+          "copyright": "Jake Michaels for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23HOROWITZ/23HOROWITZ-articleInline.jpg",
+          "format": "Normal",
+          "height": 238,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "David Horowitz at his house in Camarillo, Calif. He moved from a leftist ideologist to a supporter of the Trump administration.",
+          "copyright": "Jake Michaels for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23HOROWITZ/23HOROWITZ-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "David Horowitz at his house in Camarillo, Calif. He moved from a leftist ideologist to a supporter of the Trump administration.",
+          "copyright": "Jake Michaels for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23HOROWITZ/23HOROWITZ-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 2048,
+          "width": 1639,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "David Horowitz at his house in Camarillo, Calif. He moved from a leftist ideologist to a supporter of the Trump administration.",
+          "copyright": "Jake Michaels for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2tP9dhG"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "In China, Silicon Valley Giants Confront New Walls",
+      "abstract": "The recent struggles of Apple, LinkedIn and Facebook show why the number of tech companies willing to have a try in China is dwindling.",
+      "url": "https://www.nytimes.com/2017/07/22/technology/in-china-silicon-valley-giants-confront-new-walls.html",
+      "byline": "By PAUL MOZUR and CAROLYN ZHANG",
+      "item_type": "Article",
+      "updated_date": "2017-07-22T05:00:14-04:00",
+      "created_date": "2017-07-22T05:00:14-04:00",
+      "published_date": "2017-07-22T05:00:14-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [
+        "Apple Inc",
+        "LinkedIn Corporation"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "China"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23ChinaTechJP/23ChinaTechJP-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Jiaming Center in Beijing, where LinkedIn has its Chinese offices.",
+          "copyright": "Gilles Sabri&eacute; for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23ChinaTechJP/23ChinaTechJP-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Jiaming Center in Beijing, where LinkedIn has its Chinese offices.",
+          "copyright": "Gilles Sabri&eacute; for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23ChinaTechJP/23ChinaTechJP-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Jiaming Center in Beijing, where LinkedIn has its Chinese offices.",
+          "copyright": "Gilles Sabri&eacute; for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23ChinaTechJP/23ChinaTechJP-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Jiaming Center in Beijing, where LinkedIn has its Chinese offices.",
+          "copyright": "Gilles Sabri&eacute; for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/business/23ChinaTechJP/23ChinaTechJP-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1367,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Jiaming Center in Beijing, where LinkedIn has its Chinese offices.",
+          "copyright": "Gilles Sabri&eacute; for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2tywSaI"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Abuses Hide in the Silence of Nondisparagement Agreements",
+      "abstract": "Often used at tech companies, nondisparagement agreements are increasingly included in employment contracts and legal settlements.",
+      "url": "https://www.nytimes.com/2017/07/21/technology/silicon-valley-sexual-harassment-non-disparagement-agreements.html",
+      "byline": "By KATIE BENNER",
+      "item_type": "Article",
+      "updated_date": "2017-07-21T18:51:21-04:00",
+      "created_date": "2017-07-21T18:51:23-04:00",
+      "published_date": "2017-07-21T18:51:23-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Labor and Jobs",
+        "Sexual Harassment"
+      ],
+      "org_facet": [
+        "AngelList",
+        "Binary Capital"
+      ],
+      "per_facet": [
+        "Nivi, Babak",
+        "Ruvolo, Julie",
+        "Caldbeck, Justin"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/silence-a/00SilenceArt-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "illustration",
+          "caption": "",
+          "copyright": "Edel Rodriguez"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/silence-a/00SilenceArt-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "illustration",
+          "caption": "",
+          "copyright": "Edel Rodriguez"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/silence-a/00SilenceArt-articleInline.jpg",
+          "format": "Normal",
+          "height": 216,
+          "width": 190,
+          "type": "image",
+          "subtype": "illustration",
+          "caption": "",
+          "copyright": "Edel Rodriguez"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/silence-a/00SilenceArt-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "illustration",
+          "caption": "",
+          "copyright": "Edel Rodriguez"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/silence-a/00SilenceArt-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 2048,
+          "width": 1805,
+          "type": "image",
+          "subtype": "illustration",
+          "caption": "",
+          "copyright": "Edel Rodriguez"
+        }
+      ],
+      "short_url": "https://nyti.ms/2txX5WY"
+    },
+    {
+      "section": "Business Day",
+      "subsection": "DealBook",
+      "title": "Blackstone and CVC Bid for British Payments Processor Paysafe",
+      "abstract": "As more people shop online, large businesses and financial companies are looking at buying the companies that process payments.",
+      "url": "https://www.nytimes.com/2017/07/21/business/dealbook/blackstone-cvc-paysafe-payments.html",
+      "byline": "By AMIE TSANG",
+      "item_type": "Article",
+      "updated_date": "2017-07-21T12:54:58-04:00",
+      "created_date": "2017-07-21T12:55:00-04:00",
+      "published_date": "2017-07-21T12:55:00-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Mergers, Acquisitions and Divestitures",
+        "Computers and the Internet"
+      ],
+      "org_facet": [
+        "CVC Capital Partners",
+        "The Blackstone Group",
+        "Paysafe Group Plc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [],
+      "short_url": "https://nyti.ms/2tx2jSI"
+    },
+    {
+      "section": "Technology",
+      "subsection": "Personal Tech",
+      "title": "Preparing for the Jump to a New Operating System",
+      "abstract": "If you have decided to switch from PC to Mac (or vice versa), Apple, Microsoft and other software makers can make the transfer process easier than you might think.",
+      "url": "https://www.nytimes.com/2017/07/21/technology/personaltech/preparing-for-the-jump-to-a-new-operating-system.html",
+      "byline": "By J. D. BIERSDORFER",
+      "item_type": "Article",
+      "updated_date": "2017-07-21T11:22:01-04:00",
+      "created_date": "2017-07-21T11:22:02-04:00",
+      "published_date": "2017-07-21T11:22:02-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Software",
+        "Computers and the Internet",
+        "Windows (Operating System)",
+        "Chrome (Operating System)"
+      ],
+      "org_facet": [
+        "Apple Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/22/technology/personaltech/22techtipwebART/22techtipwebART-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "The free Migration Assistant program for Windows can be downloaded from Apple\u2019s site and guides one through transferring data from a PC to a Mac.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/22/technology/personaltech/22techtipwebART/22techtipwebART-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "The free Migration Assistant program for Windows can be downloaded from Apple\u2019s site and guides one through transferring data from a PC to a Mac.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/22/technology/personaltech/22techtipwebART/22techtipwebART-articleInline.jpg",
+          "format": "Normal",
+          "height": 120,
+          "width": 190,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "The free Migration Assistant program for Windows can be downloaded from Apple\u2019s site and guides one through transferring data from a PC to a Mac.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/22/technology/personaltech/22techtipwebART/22techtipwebART-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "The free Migration Assistant program for Windows can be downloaded from Apple\u2019s site and guides one through transferring data from a PC to a Mac.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/22/technology/personaltech/22techtipwebART/22techtipwebART-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 364,
+          "width": 578,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "The free Migration Assistant program for Windows can be downloaded from Apple\u2019s site and guides one through transferring data from a PC to a Mac.",
+          "copyright": "The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2tmSFhm"
+    },
+    {
+      "section": "Theater",
+      "subsection": "",
+      "title": "This Podcast Is a Love Story, for Your Ears Only",
+      "abstract": "The new podcast \u201c36 Questions\u201d sets a standard for the future of musical theater.",
+      "url": "https://www.nytimes.com/2017/07/21/theater/36-questions-podcast-is-a-love-story-for-your-ears-only.html",
+      "byline": "By ALEXIS SOLOSKI",
+      "item_type": "Article",
+      "updated_date": "2017-07-21T11:16:23-04:00",
+      "created_date": "2017-07-21T11:16:26-04:00",
+      "published_date": "2017-07-21T11:16:26-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Theater",
+        "Podcasts",
+        "36 Questions (Radio Program)"
+      ],
+      "org_facet": [
+        "Two-Up Productions"
+      ],
+      "per_facet": [
+        "Littler, Chris",
+        "Winter, Ellen"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/22/arts/-22musicalpodcast2/-22musicalpodcast2-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left, Jessie Shelton and Jonathan Groff, who play the \u201c36 Questions\u201d podcast\u2019s characters, and the composers Ellen Winter and Chris Littler.",
+          "copyright": "Alison Grasso for Two-Up"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/22/arts/-22musicalpodcast2/-22musicalpodcast2-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left, Jessie Shelton and Jonathan Groff, who play the \u201c36 Questions\u201d podcast\u2019s characters, and the composers Ellen Winter and Chris Littler.",
+          "copyright": "Alison Grasso for Two-Up"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/22/arts/-22musicalpodcast2/-22musicalpodcast2-articleInline.jpg",
+          "format": "Normal",
+          "height": 136,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left, Jessie Shelton and Jonathan Groff, who play the \u201c36 Questions\u201d podcast\u2019s characters, and the composers Ellen Winter and Chris Littler.",
+          "copyright": "Alison Grasso for Two-Up"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/22/arts/-22musicalpodcast2/-22musicalpodcast2-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left, Jessie Shelton and Jonathan Groff, who play the \u201c36 Questions\u201d podcast\u2019s characters, and the composers Ellen Winter and Chris Littler.",
+          "copyright": "Alison Grasso for Two-Up"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/22/arts/-22musicalpodcast2/-22musicalpodcast2-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1462,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left, Jessie Shelton and Jonathan Groff, who play the \u201c36 Questions\u201d podcast\u2019s characters, and the composers Ellen Winter and Chris Littler.",
+          "copyright": "Alison Grasso for Two-Up"
+        }
+      ],
+      "short_url": "https://nyti.ms/2tmW2ou"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Lyft to Develop Self-Driving Car Technology in New Silicon Valley Facility",
+      "abstract": "The ride-hailing company is opening a research center in Palo Alto, Calif., and plans to collaborate with automakers and tech companies.",
+      "url": "https://www.nytimes.com/2017/07/21/technology/lyft-self-driving-car-technology.html",
+      "byline": "By MIKE ISAAC",
+      "item_type": "Article",
+      "updated_date": "2017-07-21T11:00:01-04:00",
+      "created_date": "2017-07-21T11:00:04-04:00",
+      "published_date": "2017-07-21T11:00:04-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Driverless and Semiautonomous Vehicles",
+        "Car Services and Livery Cabs",
+        "Automobiles"
+      ],
+      "org_facet": [
+        "Lyft Inc",
+        "Uber Technologies Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21LYFT-sub/21LYFT-sub-thumbStandard-v2.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waymo is among the companies that are becoming partners in Lyft\u2019s Open Platform Initiative on technology for self-driving cars.",
+          "copyright": "Jim Wilson/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21LYFT-sub/21LYFT-sub-thumbLarge-v2.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waymo is among the companies that are becoming partners in Lyft\u2019s Open Platform Initiative on technology for self-driving cars.",
+          "copyright": "Jim Wilson/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21LYFT-sub/21LYFT-sub-articleInline-v2.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waymo is among the companies that are becoming partners in Lyft\u2019s Open Platform Initiative on technology for self-driving cars.",
+          "copyright": "Jim Wilson/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21LYFT-sub/21LYFT-sub-mediumThreeByTwo210-v2.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waymo is among the companies that are becoming partners in Lyft\u2019s Open Platform Initiative on technology for self-driving cars.",
+          "copyright": "Jim Wilson/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21LYFT-sub/21LYFT-sub-superJumbo-v2.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waymo is among the companies that are becoming partners in Lyft\u2019s Open Platform Initiative on technology for self-driving cars.",
+          "copyright": "Jim Wilson/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2tmIdGD"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "As Self-Driving Cars Near, Washington Plays Catch-Up",
+      "abstract": "Congress is taking its first steps to regulate autonomous vehicles, as the technology moves closer to fruition.",
+      "url": "https://www.nytimes.com/2017/07/21/technology/self-driving-cars-washington-congress.html",
+      "byline": "By KEVIN ROOSE",
+      "item_type": "Article",
+      "updated_date": "2017-07-21T10:02:08-04:00",
+      "created_date": "2017-07-21T10:02:11-04:00",
+      "published_date": "2017-07-21T10:02:11-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Driverless and Semiautonomous Vehicles",
+        "Traffic Accidents and Safety",
+        "Law and Legislation",
+        "United States Politics and Government",
+        "Regulation and Deregulation of Industry"
+      ],
+      "org_facet": [
+        "House of Representatives",
+        "Senate"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21ROOSE1/21ROOSE1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Uber Ford Fusion mapping the streets of Pittsburgh in September. A House subcommittee voted Wednesday to advance a bill that would speed up the development of self-driving cars and create a federal framework for their regulation.",
+          "copyright": "Jeff Swensen for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21ROOSE1/21ROOSE1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Uber Ford Fusion mapping the streets of Pittsburgh in September. A House subcommittee voted Wednesday to advance a bill that would speed up the development of self-driving cars and create a federal framework for their regulation.",
+          "copyright": "Jeff Swensen for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21ROOSE1/21ROOSE1-articleInline.jpg",
+          "format": "Normal",
+          "height": 109,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Uber Ford Fusion mapping the streets of Pittsburgh in September. A House subcommittee voted Wednesday to advance a bill that would speed up the development of self-driving cars and create a federal framework for their regulation.",
+          "copyright": "Jeff Swensen for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21ROOSE1/21ROOSE1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Uber Ford Fusion mapping the streets of Pittsburgh in September. A House subcommittee voted Wednesday to advance a bill that would speed up the development of self-driving cars and create a federal framework for their regulation.",
+          "copyright": "Jeff Swensen for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21ROOSE1/21ROOSE1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1178,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Uber Ford Fusion mapping the streets of Pittsburgh in September. A House subcommittee voted Wednesday to advance a bill that would speed up the development of self-driving cars and create a federal framework for their regulation.",
+          "copyright": "Jeff Swensen for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2twBUVk"
+    },
+    {
+      "section": "Style",
+      "subsection": "",
+      "title": "Thanks to Venmo, We Now All Know How Cheap Our Friends Are",
+      "abstract": "The app \u201cchanges friendships and makes them more transactional,\u201d one user said. \u201cIt\u2019s nickel-and-diming everything, literally.\u201d",
+      "url": "https://www.nytimes.com/2017/07/21/style/venmo-cheap-friends-transaction-history.html",
+      "byline": "By TEDDY WAYNE",
+      "item_type": "Article",
+      "updated_date": "2017-07-21T00:00:02-04:00",
+      "created_date": "2017-07-21T00:00:06-04:00",
+      "published_date": "2017-07-21T00:00:06-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Mobile Applications",
+        "Friendship"
+      ],
+      "org_facet": [
+        "Venmo"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/fashion/23futuretense/23futuretense-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Anna Godeassi"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/fashion/23futuretense/23futuretense-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Anna Godeassi"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/fashion/23futuretense/23futuretense-articleInline.jpg",
+          "format": "Normal",
+          "height": 124,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Anna Godeassi"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/fashion/23futuretense/23futuretense-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Anna Godeassi"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/fashion/23futuretense/23futuretense-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 975,
+          "width": 1500,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Anna Godeassi"
+        }
+      ],
+      "short_url": "https://nyti.ms/2tl2Lzh"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Microsoft Is Rewarded for Turning to the Cloud",
+      "abstract": "Exhibit A for investors bullish on the company\u2019s future helped profitability last quarter more than double from a year ago.",
+      "url": "https://www.nytimes.com/2017/07/20/technology/microsoft-azure-cloud.html",
+      "byline": "By NICK WINGFIELD",
+      "item_type": "Article",
+      "updated_date": "2017-07-20T20:07:42-04:00",
+      "created_date": "2017-07-20T20:07:43-04:00",
+      "published_date": "2017-07-20T20:07:43-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Cloud Computing",
+        "Software",
+        "Computers and the Internet",
+        "Windows (Operating System)"
+      ],
+      "org_facet": [
+        "Microsoft Corp"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [],
+      "short_url": "https://nyti.ms/2tuK3tp"
+    },
+    {
+      "section": "Arts",
+      "subsection": "Art & Design",
+      "title": "Copyright Case Over Richard Prince Instagram Show to Go Forward",
+      "abstract": "A photographer has sued Mr. Prince over the use of an Instagram photo in a gallery show. A New York federal judge has declined to dismiss the case.",
+      "url": "https://www.nytimes.com/2017/07/20/arts/design/richard-prince-instagram-copyright-lawsuit.html",
+      "byline": "By ANDREW R. CHOW",
+      "item_type": "Article",
+      "updated_date": "2017-07-20T14:57:10-04:00",
+      "created_date": "2017-07-20T14:57:12-04:00",
+      "published_date": "2017-07-20T14:57:12-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Art",
+        "Suits and Litigation (Civil)",
+        "Photography",
+        "Social Media"
+      ],
+      "org_facet": [
+        "Gagosian Gallery",
+        "Instagram Inc"
+      ],
+      "per_facet": [
+        "Prince, Richard",
+        "Graham, Donald (Photographer)"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/arts/21prince1/21prince1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The artist Richard Prince in 2014. His show at the Gagosian Gallery that year, \u201cNew Portraits,\u201d has led to several lawsuits.",
+          "copyright": "Gian Ehrenzeller/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/arts/21prince1/21prince1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The artist Richard Prince in 2014. His show at the Gagosian Gallery that year, \u201cNew Portraits,\u201d has led to several lawsuits.",
+          "copyright": "Gian Ehrenzeller/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/arts/21prince1/21prince1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The artist Richard Prince in 2014. His show at the Gagosian Gallery that year, \u201cNew Portraits,\u201d has led to several lawsuits.",
+          "copyright": "Gian Ehrenzeller/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/arts/21prince1/21prince1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The artist Richard Prince in 2014. His show at the Gagosian Gallery that year, \u201cNew Portraits,\u201d has led to several lawsuits.",
+          "copyright": "Gian Ehrenzeller/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/arts/21prince1/21prince1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The artist Richard Prince in 2014. His show at the Gagosian Gallery that year, \u201cNew Portraits,\u201d has led to several lawsuits.",
+          "copyright": "Gian Ehrenzeller/European Pressphoto Agency"
+        }
+      ],
+      "short_url": "https://nyti.ms/2tuimAW"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "Politics",
+      "title": "Burundi Robotics Team Vanishes After U.S. Competition",
+      "abstract": "The police say foul play is not suspected in the disappearance of six students from the violence-plagued country. Two were reported seen in Canada.",
+      "url": "https://www.nytimes.com/2017/07/20/us/politics/burundi-robotics-teenagers-missing.html",
+      "byline": "By EMILY COCHRANE",
+      "item_type": "Article",
+      "updated_date": "2017-07-20T14:48:05-04:00",
+      "created_date": "2017-07-20T14:48:07-04:00",
+      "published_date": "2017-07-20T14:48:07-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Missing Persons",
+        "Robots and Robotics"
+      ],
+      "org_facet": [
+        "First Global"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "Washington (DC)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/us/21dc-robotics-2/21dc-robotics-2-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left then clockwise: Audrey Mwamikazi; Don Ingabire; Nice Munezero; Aristide Irambona; Richard Irakoze; Kevin Sabumukiza.",
+          "copyright": "Metropolitan Police Department"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/us/21dc-robotics-2/21dc-robotics-2-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left then clockwise: Audrey Mwamikazi; Don Ingabire; Nice Munezero; Aristide Irambona; Richard Irakoze; Kevin Sabumukiza.",
+          "copyright": "Metropolitan Police Department"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/us/21dc-robotics-2/21dc-robotics-2-articleInline.jpg",
+          "format": "Normal",
+          "height": 107,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left then clockwise: Audrey Mwamikazi; Don Ingabire; Nice Munezero; Aristide Irambona; Richard Irakoze; Kevin Sabumukiza.",
+          "copyright": "Metropolitan Police Department"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/us/21dc-robotics-2/21dc-robotics-2-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left then clockwise: Audrey Mwamikazi; Don Ingabire; Nice Munezero; Aristide Irambona; Richard Irakoze; Kevin Sabumukiza.",
+          "copyright": "Metropolitan Police Department"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/us/21dc-robotics-2/21dc-robotics-2-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 900,
+          "width": 1600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left then clockwise: Audrey Mwamikazi; Don Ingabire; Nice Munezero; Aristide Irambona; Richard Irakoze; Kevin Sabumukiza.",
+          "copyright": "Metropolitan Police Department"
+        }
+      ],
+      "short_url": "https://nyti.ms/2tuebF1"
+    },
+    {
+      "section": "Business Day",
+      "subsection": "",
+      "title": "Laptop Ban on Planes Is Lifted, U.S. Officials Confirm",
+      "abstract": "The Homeland Security Department said the prohibition, imposed in March, was no longer needed because airlines had complied with new security rules.",
+      "url": "https://www.nytimes.com/2017/07/20/business/laptop-ban-air-travel.html",
+      "byline": "By MICAH MAIDENBERG",
+      "item_type": "Article",
+      "updated_date": "2017-07-20T13:10:08-04:00",
+      "created_date": "2017-07-20T13:10:09-04:00",
+      "published_date": "2017-07-20T13:10:09-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Airport Security",
+        "Laptop Computers",
+        "Bombs and Explosives",
+        "Airlines and Airplanes"
+      ],
+      "org_facet": [
+        "Homeland Security Department"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21LAPTOP/21LAPTOP-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Passengers waiting to board an Emirates Airlines flight in Dubai.",
+          "copyright": "Kamran Jebreili/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21LAPTOP/21LAPTOP-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Passengers waiting to board an Emirates Airlines flight in Dubai.",
+          "copyright": "Kamran Jebreili/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21LAPTOP/21LAPTOP-articleInline.jpg",
+          "format": "Normal",
+          "height": 121,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Passengers waiting to board an Emirates Airlines flight in Dubai.",
+          "copyright": "Kamran Jebreili/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21LAPTOP/21LAPTOP-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Passengers waiting to board an Emirates Airlines flight in Dubai.",
+          "copyright": "Kamran Jebreili/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/business/21LAPTOP/21LAPTOP-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1367,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Passengers waiting to board an Emirates Airlines flight in Dubai.",
+          "copyright": "Kamran Jebreili/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/2ttINXq"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "",
+      "title": "On Reddit, Intimate Glimpses of Addicts in Thrall to Opioids",
+      "abstract": "Dispatches left on a now-banned forum show the role one of the world\u2019s largest online communities played in facilitating access to drugs tied to a mounting toll.",
+      "url": "https://www.nytimes.com/2017/07/20/us/opioid-reddit.html",
+      "byline": "By ELLEN GABLER and RICH HARRIS",
+      "item_type": "Article",
+      "updated_date": "2017-07-21T18:36:22-04:00",
+      "created_date": "2017-07-20T13:01:41-04:00",
+      "published_date": "2017-07-20T13:01:41-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Drug Abuse and Traffic",
+        "Pain-Relieving Drugs",
+        "Heroin",
+        "Naloxone (Drug)",
+        "Opioids"
+      ],
+      "org_facet": [
+        "Reddit Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/us/00Reddit1/00Reddit1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A needle and bloodstain at a heroin encampment in the Kensington neighborhood of Philadelphia.",
+          "copyright": "Dominick Reuter/Agence France-Presse \u2014 Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/us/00Reddit1/00Reddit1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A needle and bloodstain at a heroin encampment in the Kensington neighborhood of Philadelphia.",
+          "copyright": "Dominick Reuter/Agence France-Presse \u2014 Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/us/00Reddit1/00Reddit1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A needle and bloodstain at a heroin encampment in the Kensington neighborhood of Philadelphia.",
+          "copyright": "Dominick Reuter/Agence France-Presse \u2014 Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/us/00Reddit1/00Reddit1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A needle and bloodstain at a heroin encampment in the Kensington neighborhood of Philadelphia.",
+          "copyright": "Dominick Reuter/Agence France-Presse \u2014 Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/us/00Reddit1/00Reddit1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A needle and bloodstain at a heroin encampment in the Kensington neighborhood of Philadelphia.",
+          "copyright": "Dominick Reuter/Agence France-Presse \u2014 Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/2tucaZv"
+    },
+    {
+      "section": "Arts",
+      "subsection": "",
+      "title": "Jake Paul, a Reality Villain for the YouTube Generation",
+      "abstract": "Mr. Paul, a YouTube star and actor on the Disney channel show \u201cBizaardvark,\u201d has taken a heel turn in recent months, capped off by a viral news clip of him annoying his neighbors.",
+      "url": "https://www.nytimes.com/2017/07/20/arts/who-is-jake-paul.html",
+      "byline": "By JONAH ENGEL BROMWICH",
+      "item_type": "Article",
+      "updated_date": "2017-07-20T14:35:21-04:00",
+      "created_date": "2017-07-20T12:41:52-04:00",
+      "published_date": "2017-07-20T12:41:52-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Social Media"
+      ],
+      "org_facet": [
+        "YouTube.com"
+      ],
+      "per_facet": [
+        "Paul, Jake (1997- )"
+      ],
+      "geo_facet": [
+        "West Hollywood (Calif)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/us/21jakepaul3_xp/21jakepaul3_xp-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Jake Paul in the live television interview.",
+          "copyright": "KTLA"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/us/21jakepaul3_xp/21jakepaul3_xp-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Jake Paul in the live television interview.",
+          "copyright": "KTLA"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/us/21jakepaul3_xp/21jakepaul3_xp-articleInline.jpg",
+          "format": "Normal",
+          "height": 106,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Jake Paul in the live television interview.",
+          "copyright": "KTLA"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/us/21jakepaul3_xp/21jakepaul3_xp-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Jake Paul in the live television interview.",
+          "copyright": "KTLA"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/us/21jakepaul3_xp/21jakepaul3_xp-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 597,
+          "width": 1068,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Jake Paul in the live television interview.",
+          "copyright": "KTLA"
+        }
+      ],
+      "short_url": "https://nyti.ms/2ttq3rb"
+    },
+    {
+      "section": "Health",
+      "subsection": "",
+      "title": "A Sensor on Your Skin That Looks and Feels Like a Temporary Tattoo",
+      "abstract": "Researchers have developed a new breathable, wearable sensor that can monitor vital signals without irritating skin.",
+      "url": "https://www.nytimes.com/2017/07/20/health/breathable-wearable-sensor-temporary-tattoo.html",
+      "byline": "By ANERI PATTANI",
+      "item_type": "Article",
+      "updated_date": "2017-07-20T11:39:22-04:00",
+      "created_date": "2017-07-20T11:39:25-04:00",
+      "published_date": "2017-07-20T11:39:25-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Sensors",
+        "Skin",
+        "Tattoos",
+        "Nanotechnology"
+      ],
+      "org_facet": [
+        "Nature Nanotechnology (Journal)"
+      ],
+      "per_facet": [
+        "Someya, Takao"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/science/21tb-tattoo01/21tb-tattoo01-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A wearable sensor developed by researchers in Japan is made from nanoscale meshes containing a water-soluble polymer and a layer of gold.",
+          "copyright": "Takao Someya/University of Tokyo"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/science/21tb-tattoo01/21tb-tattoo01-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A wearable sensor developed by researchers in Japan is made from nanoscale meshes containing a water-soluble polymer and a layer of gold.",
+          "copyright": "Takao Someya/University of Tokyo"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/science/21tb-tattoo01/21tb-tattoo01-articleInline.jpg",
+          "format": "Normal",
+          "height": 307,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A wearable sensor developed by researchers in Japan is made from nanoscale meshes containing a water-soluble polymer and a layer of gold.",
+          "copyright": "Takao Someya/University of Tokyo"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/science/21tb-tattoo01/21tb-tattoo01-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A wearable sensor developed by researchers in Japan is made from nanoscale meshes containing a water-soluble polymer and a layer of gold.",
+          "copyright": "Takao Someya/University of Tokyo"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/science/21tb-tattoo01/21tb-tattoo01-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 2048,
+          "width": 1268,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A wearable sensor developed by researchers in Japan is made from nanoscale meshes containing a water-soluble polymer and a layer of gold.",
+          "copyright": "Takao Someya/University of Tokyo"
+        }
+      ],
+      "short_url": "https://nyti.ms/2tj89TJ"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Daily Report: Can Facebook Woo Back Publishers?",
+      "abstract": "The Instant Articles feature disappointed many publications that tried to work with the social media giant, but it is developing a tool that might drive subscriptions.",
+      "url": "https://www.nytimes.com/2017/07/20/technology/daily-report-can-facebook-woo-back-publishers.html",
+      "byline": "By JIM KERSTETTER",
+      "item_type": "Article",
+      "updated_date": "2017-07-20T11:28:33-04:00",
+      "created_date": "2017-07-20T11:28:34-04:00",
+      "published_date": "2017-07-20T11:28:34-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "News and News Media"
+      ],
+      "org_facet": [
+        "Facebook Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [],
+      "short_url": "https://nyti.ms/2tiNVcD"
+    },
+    {
+      "section": "Technology",
+      "subsection": "Personal Tech",
+      "title": "Finding the Date on a Map Image",
+      "abstract": "The Street View feature of Google Maps stitches together 360-degree photos of a location, and there is a way to see when an image was created.",
+      "url": "https://www.nytimes.com/2017/07/20/technology/personaltech/finding-the-date-on-a-map-image.html",
+      "byline": "By J. D. BIERSDORFER",
+      "item_type": "Article",
+      "updated_date": "2017-07-20T11:09:51-04:00",
+      "created_date": "2017-07-20T11:09:52-04:00",
+      "published_date": "2017-07-20T11:09:52-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Maps",
+        "Photography",
+        "Geography"
+      ],
+      "org_facet": [
+        "Google Street View"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/technology/personaltech/21techtipwebART/21techtipwebART-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "As circled at the bottom of the screen, the desktop version of Google Street View openly displays the month and year that an image was captured. As shown in the upper-left corner, some Street View locations have a timeline history of past photographs you can explore.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/technology/personaltech/21techtipwebART/21techtipwebART-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "As circled at the bottom of the screen, the desktop version of Google Street View openly displays the month and year that an image was captured. As shown in the upper-left corner, some Street View locations have a timeline history of past photographs you can explore.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/technology/personaltech/21techtipwebART/21techtipwebART-articleInline.jpg",
+          "format": "Normal",
+          "height": 176,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "As circled at the bottom of the screen, the desktop version of Google Street View openly displays the month and year that an image was captured. As shown in the upper-left corner, some Street View locations have a timeline history of past photographs you can explore.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/technology/personaltech/21techtipwebART/21techtipwebART-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "As circled at the bottom of the screen, the desktop version of Google Street View openly displays the month and year that an image was captured. As shown in the upper-left corner, some Street View locations have a timeline history of past photographs you can explore.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/21/technology/personaltech/21techtipwebART/21techtipwebART-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1548,
+          "width": 1670,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "As circled at the bottom of the screen, the desktop version of Google Street View openly displays the month and year that an image was captured. As shown in the upper-left corner, some Street View locations have a timeline history of past photographs you can explore.",
+          "copyright": "The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2ttpOw1"
+    },
+    {
+      "section": "Science",
+      "subsection": "",
+      "title": "An Experiment in Zurich Brings Us Nearer to a Black Hole\u2019s Mysteries",
+      "abstract": "IBM researchers used an exotic material known as a Weyl semimetal to confirm the existence of a gravitational anomaly predicted in equations that describe the universe.",
+      "url": "https://www.nytimes.com/2017/07/19/science/mixed-axial-gravitational-anomaly-weyl-semimetals-ibm.html",
+      "byline": "By KENNETH CHANG",
+      "item_type": "Article",
+      "updated_date": "2017-07-19T13:45:59-04:00",
+      "created_date": "2017-07-19T13:46:01-04:00",
+      "published_date": "2017-07-19T13:46:01-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Physics",
+        "Black Holes (Space)",
+        "Gravitation and Gravity",
+        "Computers and the Internet"
+      ],
+      "org_facet": [
+        "Nature (Journal)",
+        "International Business Machines Corporation"
+      ],
+      "per_facet": [
+        "Gooth, Johannes",
+        "Landsteiner, Karl",
+        "Gotsmann, Bernd"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/science/20anomaly/20anomaly-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A chalkboard illustration of the string theory calculation that shows how the axial gravitational anomaly produces current.",
+          "copyright": "Karl Landsteiner"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/science/20anomaly/20anomaly-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A chalkboard illustration of the string theory calculation that shows how the axial gravitational anomaly produces current.",
+          "copyright": "Karl Landsteiner"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/science/20anomaly/20anomaly-articleInline.jpg",
+          "format": "Normal",
+          "height": 90,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A chalkboard illustration of the string theory calculation that shows how the axial gravitational anomaly produces current.",
+          "copyright": "Karl Landsteiner"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/science/20anomaly/20anomaly-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A chalkboard illustration of the string theory calculation that shows how the axial gravitational anomaly produces current.",
+          "copyright": "Karl Landsteiner"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/science/20anomaly/20anomaly-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 323,
+          "width": 684,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A chalkboard illustration of the string theory calculation that shows how the axial gravitational anomaly produces current.",
+          "copyright": "Karl Landsteiner"
+        }
+      ],
+      "short_url": "https://nyti.ms/2vCMCGi"
+    },
+    {
+      "section": "Technology",
+      "subsection": "Personal Tech",
+      "title": "Going Low-Tech to Solve Everyday High-Tech Problems",
+      "abstract": "What technology does our personal tech columnist use to solve readers\u2019 everyday frustrations with gadgets, gear and apps?",
+      "url": "https://www.nytimes.com/2017/07/19/technology/personaltech/going-low-tech-to-solve-everyday-high-tech-problems.html",
+      "byline": "By BRIAN X. CHEN",
+      "item_type": "Article",
+      "updated_date": "2017-07-19T12:11:20-04:00",
+      "created_date": "2017-07-19T12:11:21-04:00",
+      "published_date": "2017-07-19T12:11:21-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Product Tests",
+        "Computers and the Internet"
+      ],
+      "org_facet": [
+        "New York Times"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20TECHUSING1/20TECHUSING1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Brian X. Chen, The Times\u2019s personal technology writer, taking the Nintendo Switch for a ride.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20TECHUSING1/20TECHUSING1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Brian X. Chen, The Times\u2019s personal technology writer, taking the Nintendo Switch for a ride.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20TECHUSING1/20TECHUSING1-articleInline.jpg",
+          "format": "Normal",
+          "height": 125,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Brian X. Chen, The Times\u2019s personal technology writer, taking the Nintendo Switch for a ride.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20TECHUSING1/20TECHUSING1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Brian X. Chen, The Times\u2019s personal technology writer, taking the Nintendo Switch for a ride.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20TECHUSING1/20TECHUSING1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Brian X. Chen, The Times\u2019s personal technology writer, taking the Nintendo Switch for a ride.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2vCo4NI"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Daily Report: Why the Y2K Conversion Still Matters",
+      "abstract": "If you think it\u2019s been a long time since the United States tackled a nebulous problem like climate change, you\u2019ve forgotten the scramble to fix our old computers.",
+      "url": "https://www.nytimes.com/2017/07/19/technology/daily-report-why-the-y2k-conversion-still-matters.html",
+      "byline": "By JIM KERSTETTER",
+      "item_type": "Article",
+      "updated_date": "2017-07-19T11:37:26-04:00",
+      "created_date": "2017-07-19T11:37:28-04:00",
+      "published_date": "2017-07-19T11:37:28-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Computers and the Internet",
+        "Global Warming"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": []
+    },
+    {
+      "section": "Technology",
+      "subsection": "Personal Tech",
+      "title": "Shopping for New Software",
+      "abstract": "Online app stores can be a safer and more convenient way to add programs to your computer and devices, but you may not find everything you want.",
+      "url": "https://www.nytimes.com/2017/07/19/technology/personaltech/shopping-for-new-software.html",
+      "byline": "By J. D. BIERSDORFER",
+      "item_type": "Article",
+      "updated_date": "2017-07-19T11:20:28-04:00",
+      "created_date": "2017-07-19T11:20:30-04:00",
+      "published_date": "2017-07-19T11:20:30-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Computers and the Internet",
+        "Mobile Applications",
+        "Software",
+        "E-Commerce",
+        "Desktop Computers"
+      ],
+      "org_facet": [
+        "Apple Inc",
+        "Google Inc",
+        "Microsoft Corp"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [],
+      "short_url": "https://nyti.ms/2uzxTit"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "How Y2K Offers a Lesson for Fighting Climate Change",
+      "abstract": "Some remember the computing scare as a bad joke. But the collective, worldwide effort to prevent calamity could be a model for handling global warming.",
+      "url": "https://www.nytimes.com/2017/07/19/technology/y2k-lesson-climate-change.html",
+      "byline": "By FARHAD MANJOO",
+      "item_type": "Article",
+      "updated_date": "2017-07-19T05:00:27-04:00",
+      "created_date": "2017-07-19T05:00:36-04:00",
+      "published_date": "2017-07-19T05:00:36-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Computers and the Internet",
+        "Global Warming",
+        "Y2K"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20STATE/20STATE-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Testing the grid at the Niagara Mohawk Power Company plant in Buffalo on Dec. 28, 1999, as part of Y2K preparations.",
+          "copyright": "Joe Traver/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20STATE/20STATE-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Testing the grid at the Niagara Mohawk Power Company plant in Buffalo on Dec. 28, 1999, as part of Y2K preparations.",
+          "copyright": "Joe Traver/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20STATE/20STATE-articleInline.jpg",
+          "format": "Normal",
+          "height": 100,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Testing the grid at the Niagara Mohawk Power Company plant in Buffalo on Dec. 28, 1999, as part of Y2K preparations.",
+          "copyright": "Joe Traver/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20STATE/20STATE-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Testing the grid at the Niagara Mohawk Power Company plant in Buffalo on Dec. 28, 1999, as part of Y2K preparations.",
+          "copyright": "Joe Traver/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/20STATE/20STATE-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1074,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Testing the grid at the Niagara Mohawk Power Company plant in Buffalo on Dec. 28, 1999, as part of Y2K preparations.",
+          "copyright": "Joe Traver/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2uyEWYQ"
+    },
+    {
+      "section": "Business Day",
+      "subsection": "",
+      "title": "Apple Names New China Head as Sales Fall",
+      "abstract": "Apple has established a position overseeing operations in China in a bid to restore sales momentum and navigate new regulations in the country.",
+      "url": "https://www.nytimes.com/2017/07/19/business/apple-china-vp-isabel-ge-mahe.html",
+      "byline": "By PAUL MOZUR",
+      "item_type": "Article",
+      "updated_date": "2017-07-19T01:38:33-04:00",
+      "created_date": "2017-07-19T01:38:35-04:00",
+      "published_date": "2017-07-19T01:38:35-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Hiring and Promotion",
+        "Science and Technology"
+      ],
+      "org_facet": [
+        "Apple Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "China"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/world/20applechina-1/20applechina-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Isabel Ge Mahe, a longtime manager at Apple, will lead the company\u2019s operations in China.",
+          "copyright": "Apple"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/world/20applechina-1/20applechina-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Isabel Ge Mahe, a longtime manager at Apple, will lead the company\u2019s operations in China.",
+          "copyright": "Apple"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/world/20applechina-1/20applechina-1-articleInline.jpg",
+          "format": "Normal",
+          "height": 135,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Isabel Ge Mahe, a longtime manager at Apple, will lead the company\u2019s operations in China.",
+          "copyright": "Apple"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/world/20applechina-1/20applechina-1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Isabel Ge Mahe, a longtime manager at Apple, will lead the company\u2019s operations in China.",
+          "copyright": "Apple"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/20/world/20applechina-1/20applechina-1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1452,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Isabel Ge Mahe, a longtime manager at Apple, will lead the company\u2019s operations in China.",
+          "copyright": "Apple"
+        }
+      ]
+    },
+    {
+      "section": "Obituaries",
+      "subsection": "",
+      "title": "The House That Did the Housework",
+      "abstract": "After inventing her remarkable self-cleaning house, Frances Gabe, who has died at 101, was granted a patent by the federal government. Here are some of her submitted designs.",
+      "url": "https://www.nytimes.com/2017/07/18/obituaries/the-house-that-did-the-housework.html",
+      "byline": "By AMISHA PADNANI",
+      "item_type": "Article",
+      "updated_date": "2017-07-18T16:07:39-04:00",
+      "created_date": "2017-07-18T16:07:40-04:00",
+      "published_date": "2017-07-18T16:07:40-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Inventions and Patents"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Gabe, Frances (1915-2016)"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/obituaries/19gabe-patent-span/19gabe-patent-span-thumbStandard-v3.png",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The floor plan.",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/obituaries/19gabe-patent-span/19gabe-patent-span-thumbLarge-v3.png",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The floor plan.",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/obituaries/19gabe-patent-span/19gabe-patent-span-articleInline.png",
+          "format": "Normal",
+          "height": 122,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The floor plan.",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/obituaries/19gabe-patent-span/19gabe-patent-span-mediumThreeByTwo210-v3.png",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The floor plan.",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/obituaries/19gabe-patent-span/19gabe-patent-span-superJumbo.png",
+          "format": "superJumbo",
+          "height": 616,
+          "width": 958,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The floor plan.",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/2uwRO1I"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Security Company Is Replacing a Mall Robot That Fell Into a Fountain to the Internet\u2019s Delight",
+      "abstract": "The K5 has a passing resemblance to R2-D2 \u2014 and a dash of Paul Blart, mall cop. Its creators took the online mockery in stride.",
+      "url": "https://www.nytimes.com/2017/07/18/technology/robot-cop-fountain.html",
+      "byline": "By CHRISTOPHER MELE",
+      "item_type": "Article",
+      "updated_date": "2017-07-19T11:16:57-04:00",
+      "created_date": "2017-07-18T12:44:33-04:00",
+      "published_date": "2017-07-18T12:44:33-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Robots and Robotics",
+        "Security and Warning Systems",
+        "K5 Autonomous Data Machine"
+      ],
+      "org_facet": [
+        "Knightscope Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "Georgetown (Washington, DC)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/18/us/19xp-robot/19xp-robot-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A mobile robot, known as the K5 Autonomous Data Machine, gained attention on Twitter on Monday after it fell into a fountain.",
+          "copyright": "Knightscope"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/18/us/19xp-robot/19xp-robot-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A mobile robot, known as the K5 Autonomous Data Machine, gained attention on Twitter on Monday after it fell into a fountain.",
+          "copyright": "Knightscope"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/18/us/19xp-robot/19xp-robot-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A mobile robot, known as the K5 Autonomous Data Machine, gained attention on Twitter on Monday after it fell into a fountain.",
+          "copyright": "Knightscope"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/18/us/19xp-robot/19xp-robot-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A mobile robot, known as the K5 Autonomous Data Machine, gained attention on Twitter on Monday after it fell into a fountain.",
+          "copyright": "Knightscope"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/18/us/19xp-robot/19xp-robot-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1200,
+          "width": 1800,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A mobile robot, known as the K5 Autonomous Data Machine, gained attention on Twitter on Monday after it fell into a fountain.",
+          "copyright": "Knightscope"
+        }
+      ],
+      "short_url": "https://nyti.ms/2vysepN"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Daily Report: Reinventing Food Isn\u2019t Easy",
+      "abstract": "Most of Hampton Creek\u2019s board resigned last month, another setback in Silicon Valley\u2019s push to innovate beyond the high-tech industry.",
+      "url": "https://www.nytimes.com/2017/07/18/technology/daily-report-reinventing-food-isnt-easy.html",
+      "byline": "By JIM KERSTETTER",
+      "item_type": "Article",
+      "updated_date": "2017-07-18T11:44:11-04:00",
+      "created_date": "2017-07-18T11:44:13-04:00",
+      "published_date": "2017-07-18T11:44:13-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Delivery Services",
+        "Computers and the Internet",
+        "Boards of Directors",
+        "Food",
+        "Health Foods"
+      ],
+      "org_facet": [
+        "Hampton Creek Foods",
+        "Amazon.com Inc",
+        "Whole Foods Market Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [],
+      "short_url": "https://nyti.ms/2uvODqU"
+    },
+    {
+      "section": "Technology",
+      "subsection": "Personal Tech",
+      "title": "Switching to the Sound of Silence for Facebook Videos",
+      "abstract": "Facebook\u2019s mobile app can automatically play news feed videos with the sound turned on, but you can turn it all off.",
+      "url": "https://www.nytimes.com/2017/07/18/technology/personaltech/facebook-videos-sound.html",
+      "byline": "By J. D. BIERSDORFER",
+      "item_type": "Article",
+      "updated_date": "2017-07-18T11:24:35-04:00",
+      "created_date": "2017-07-18T11:24:36-04:00",
+      "published_date": "2017-07-18T11:24:36-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Mobile Applications",
+        "Computers and the Internet",
+        "Video Recordings, Downloads and Streaming"
+      ],
+      "org_facet": [
+        "Facebook Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [],
+      "short_url": "https://nyti.ms/2uvy12s"
+    },
+    {
+      "section": "N.Y. / Region",
+      "subsection": "",
+      "title": "Uber Discriminates Against Riders With Disabilities, Suit Says",
+      "abstract": "A coalition of advocacy groups says only a tiny fraction of the 58,000 cars dispatched by the ride-hailing service across New York City are wheelchair accessible.",
+      "url": "https://www.nytimes.com/2017/07/18/nyregion/uber-disabilities-lawsuit-new-york-city.html",
+      "byline": "By WINNIE HU",
+      "item_type": "Article",
+      "updated_date": "2017-07-18T19:37:26-04:00",
+      "created_date": "2017-07-18T11:11:33-04:00",
+      "published_date": "2017-07-18T11:11:33-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Disabilities",
+        "Discrimination",
+        "Car Services and Livery Cabs",
+        "Suits and Litigation (Civil)"
+      ],
+      "org_facet": [
+        "Uber Technologies Inc",
+        "Disabled in Action",
+        "Disability Rights Advocates",
+        "Brooklyn Center for Independence of the Disabled",
+        "Taxis for All Campaign"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/nyregion/19ubersuit/19ubersuit-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Uber driver awaiting a client in Manhattan in June. A lawsuit against the ride-hailing company says it has violated New York City\u2019s human rights laws by providing too few vehicles that can accommodate wheelchairs.",
+          "copyright": "Spencer Platt/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/nyregion/19ubersuit/19ubersuit-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Uber driver awaiting a client in Manhattan in June. A lawsuit against the ride-hailing company says it has violated New York City\u2019s human rights laws by providing too few vehicles that can accommodate wheelchairs.",
+          "copyright": "Spencer Platt/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/nyregion/19ubersuit/19ubersuit-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Uber driver awaiting a client in Manhattan in June. A lawsuit against the ride-hailing company says it has violated New York City\u2019s human rights laws by providing too few vehicles that can accommodate wheelchairs.",
+          "copyright": "Spencer Platt/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/nyregion/19ubersuit/19ubersuit-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Uber driver awaiting a client in Manhattan in June. A lawsuit against the ride-hailing company says it has violated New York City\u2019s human rights laws by providing too few vehicles that can accommodate wheelchairs.",
+          "copyright": "Spencer Platt/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/nyregion/19ubersuit/19ubersuit-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1368,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Uber driver awaiting a client in Manhattan in June. A lawsuit against the ride-hailing company says it has violated New York City\u2019s human rights laws by providing too few vehicles that can accommodate wheelchairs.",
+          "copyright": "Spencer Platt/Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/2uvD6YL"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "China Disrupts WhatsApp Service in Online Clampdown",
+      "abstract": "Facebook\u2019s last major consumer product in China was partly blocked as Beijing increases its grip on the internet.",
+      "url": "https://www.nytimes.com/2017/07/18/technology/whatsapp-facebook-china-internet.html",
+      "byline": "By PAUL MOZUR",
+      "item_type": "Article",
+      "updated_date": "2017-07-18T12:02:26-04:00",
+      "created_date": "2017-07-18T08:26:29-04:00",
+      "published_date": "2017-07-18T08:26:29-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Censorship",
+        "Instant Messaging"
+      ],
+      "org_facet": [
+        "WhatsApp Inc",
+        "Facebook Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "China"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/19WHATSAPP2/19WHATSAPP2-thumbStandard-v2.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The filters placed on WhatsApp left many unable to send videos and photos and some unable to send text-based messages.",
+          "copyright": "Damir Sagolj/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/19WHATSAPP2/19WHATSAPP2-thumbLarge-v2.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The filters placed on WhatsApp left many unable to send videos and photos and some unable to send text-based messages.",
+          "copyright": "Damir Sagolj/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/19WHATSAPP2/19WHATSAPP2-articleInline-v2.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The filters placed on WhatsApp left many unable to send videos and photos and some unable to send text-based messages.",
+          "copyright": "Damir Sagolj/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/19WHATSAPP2/19WHATSAPP2-mediumThreeByTwo210-v2.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The filters placed on WhatsApp left many unable to send videos and photos and some unable to send text-based messages.",
+          "copyright": "Damir Sagolj/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/19/business/19WHATSAPP2/19WHATSAPP2-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1319,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The filters placed on WhatsApp left many unable to send videos and photos and some unable to send text-based messages.",
+          "copyright": "Damir Sagolj/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2vxn659"
+    },
+    {
+      "section": "Magazine",
+      "subsection": "",
+      "title": "What Will Service Work Look Like Under Amazon?",
+      "abstract": "The company\u2019s acquisition of Whole Foods sets up a clash between two vastly different visions for the future of labor.",
+      "url": "https://www.nytimes.com/2017/07/18/magazine/what-will-service-work-look-like-under-amazon.html",
+      "byline": "By JOHN HERRMAN",
+      "item_type": "Article",
+      "updated_date": "2017-07-18T05:00:01-04:00",
+      "created_date": "2017-07-18T05:00:05-04:00",
+      "published_date": "2017-07-18T05:00:05-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Computers and the Internet",
+        "Supermarkets and Grocery Stores",
+        "Labor and Jobs",
+        "Shopping and Retail",
+        "Service Industries"
+      ],
+      "org_facet": [
+        "Amazon.com Inc",
+        "Whole Foods Market Inc"
+      ],
+      "per_facet": [
+        "Mackey, John P"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/magazine/23onmoney1/23onmoney1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Tim Enthoven"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/magazine/23onmoney1/23onmoney1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Tim Enthoven"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/magazine/23onmoney1/23onmoney1-articleInline.jpg",
+          "format": "Normal",
+          "height": 194,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Tim Enthoven"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/magazine/23onmoney1/23onmoney1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Tim Enthoven"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/07/23/magazine/23onmoney1/23onmoney1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1287,
+          "width": 1261,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Tim Enthoven"
+        }
+      ],
+      "short_url": "https://nyti.ms/2uuyWAj"
+    }
+  ]
+}

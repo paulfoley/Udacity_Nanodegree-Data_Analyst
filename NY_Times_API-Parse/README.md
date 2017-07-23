@@ -5,12 +5,12 @@ The [The New York Times](https://developer.nytimes.com/) is a source of news and
 
 ## Project Overview
 
-We're going to use [The New York Times](https://developer.nytimes.com/) API to get the most popular articles that are being read by their visitors.
+We're going to use [The New York Times](https://developer.nytimes.com/) API to get the top technology stories.
 
-Specifially we'll look at:
+Specifially we'll focus on getting:
 
-* Most Viewed Titles
-* Most Viewed URLs
+* The ritles of the top technology stories organized by section
+* The url's of the top technology stories in list form
 
 
 ## Getting Started
@@ -21,15 +21,18 @@ You'll need to install:
 
 * [Anaconda](https://www.continuum.io/downloads)
 * [Python (Minimum 3)](https://www.continuum.io/blog/developer-blog/python-3-support-anaconda)
+* [requests](https://anaconda.org/anaconda/requests)
 
 
 ## Scripts
 
-* `ny_times_api.py` - Pulls in data about articles from the [The New York Times](https://developer.nytimes.com/), outputs most popular titles and urls.
+* `ny_times_api.py` - Pulls in data about top technology stories from the [The New York Times](https://developer.nytimes.com/), outputs the story titles and urls.
 
 ### Outputs:
 
-* `TBD` 
+* `topstories_technology.json` - JSON file of the top technology stories on [The New York Times](https://developer.nytimes.com/).
+* `article_titles.csv` - CSV file of the top technology story titles organized by section.
+* `article_urls.csv` - CSV file of the top technology story url's.
 
 
 ## Authors
