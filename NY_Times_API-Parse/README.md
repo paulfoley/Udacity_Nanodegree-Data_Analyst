@@ -9,7 +9,7 @@ We're going to use [The New York Times](https://developer.nytimes.com/) API to g
 
 Specifially we'll focus on getting:
 
-* The ritles of the top technology stories organized by section
+* The titles of the top technology stories organized by section
 * The url's of the top technology stories in list form
 
 
