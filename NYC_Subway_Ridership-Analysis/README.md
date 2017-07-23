@@ -1,6 +1,6 @@
 # Project - New York City Subway Ridership Analysis
 
-The [Metropolitan Transportation Authority](http://web.mta.info/developers/) provides transportation data, free, to the public so they can build better transportataion applications.
+The Metropolitan Transportation Authority [MTA](http://web.mta.info/developers/) provides transportation data, free, to the public so they can build better transportation applications.
 
 
 ## Project Overview
@@ -20,8 +20,8 @@ You'll need to install:
 
 ### Data Files
 
-* `turnstile.txt` - [Metropolitan Transportation Authority](http://web.mta.info/developers/) New York city subway ridership data.
-* `turnstile_updated.txt` - [Metropolitan Transportation Authority](http://web.mta.info/developers/) New York city subway ridership data has been cleaned to contain all data in one row for easier analysis.
+* `turnstile.txt` - [MTA](http://web.mta.info/developers/) New York city subway ridership data.
+* `turnstile_updated.txt` - [MTA](http://web.mta.info/developers/) New York city subway ridership data has been cleaned to contain all data in one row for easier analysis.
 * `turnstile_data_master_with_weather.csv` - Turnstile data that has been combined with weather data, this is the master file that will allow us to derive insights into how weather effects ridership.
 
 #### Turnstile and Weather Variables
@@ -63,7 +63,7 @@ You'll need to install:
 
 #### Output:
 
-* `turnstile_updated.txt` - [Metropolitan Transportation Authority](http://web.mta.info/developers/) New York city subway ridership data has been cleaned to contain all data in one row for easier analysis.
+* `turnstile_updated.txt` - [MTA](http://web.mta.info/developers/) New York city subway ridership data has been cleaned to contain all data in one row for easier analysis.
 
 ### Explore Data
 
